@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="19" failures="6" errors="0" time="2.285">
+  <testsuite name="Service de génération – Dihya Coding" errors="0" failures="1" skipped="0" timestamp="2025-05-28T17:17:36" time="0.708" tests="10">
+    <testcase classname="Service de génération – Dihya Coding génère du code source sécurisé (JS)" name="Service de génération – Dihya Coding génère du code source sécurisé (JS)" time="0.005">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding génère un document markdown multilingue" name="Service de génération – Dihya Coding génère un document markdown multilingue" time="0.001">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding génère une image simulée (base64)" name="Service de génération – Dihya Coding génère une image simulée (base64)" time="0.001">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding génère un template métier dynamique (JSON)" name="Service de génération – Dihya Coding génère un template métier dynamique (JSON)" time="0.002">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+    at Object.toBe (/workspaces/Dihya/frontend/src/tests/generation.test.js:65:28)
+    at Promise.then.completed (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:60:9)
+    at run (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding refuse la génération sans consentement RGPD" name="Service de génération – Dihya Coding refuse la génération sans consentement RGPD" time="0.002">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding gère les types de génération non supportés" name="Service de génération – Dihya Coding gère les types de génération non supportés" time="0.001">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding auditabilité : les logs sont anonymisés et effaçables" name="Service de génération – Dihya Coding auditabilité : les logs sont anonymisés et effaçables" time="0.002">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding i18n : support multilingue (arabe, amazigh)" name="Service de génération – Dihya Coding i18n : support multilingue (arabe, amazigh)" time="0.001">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding robustesse : gère les entrées malicieuses sans faille" name="Service de génération – Dihya Coding robustesse : gère les entrées malicieuses sans faille" time="0.001">
+    </testcase>
+    <testcase classname="Service de génération – Dihya Coding extensibilité : permet d’ajouter dynamiquement des plugins de génération" name="Service de génération – Dihya Coding extensibilité : permet d’ajouter dynamiquement des plugins de génération" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="App – Dihya Coding" errors="0" failures="5" skipped="0" timestamp="2025-05-28T17:17:36" time="1.146" tests="9">
+    <testcase classname="App – Dihya Coding affiche le composant principal sans erreur" name="App – Dihya Coding affiche le composant principal sans erreur" time="0.107">
+      <failure>TestingLibraryElementError: Unable to find an accessible element with the role &quot;main&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      Hello, Dihya Frontend!
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+    at Object.getByRole (/workspaces/Dihya/frontend/src/tests/App.test.jsx:28:19)
+    at Promise.then.completed (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:60:9)
+    at run (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+    <testcase classname="App – Dihya Coding affiche le titre principal (SEO)" name="App – Dihya Coding affiche le titre principal (SEO)" time="0.017">
+      <failure>TestingLibraryElementError: Unable to find an accessible element with the role &quot;heading&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      Hello, Dihya Frontend!
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:109:15
+    at Object.getAllByRole (/workspaces/Dihya/frontend/src/tests/App.test.jsx:33:29)
+    at Promise.then.completed (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:60:9)
+    at run (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+    <testcase classname="App – Dihya Coding navigation : permet de changer de page si navigation présente" name="App – Dihya Coding navigation : permet de changer de page si navigation présente" time="0.003">
+    </testcase>
+    <testcase classname="App – Dihya Coding accessibilité : présence d’un skip-link ou d’un label principal" name="App – Dihya Coding accessibilité : présence d’un skip-link ou d’un label principal" time="0.012">
+      <failure>TestingLibraryElementError: Unable to find an accessible element with the role &quot;main&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      Hello, Dihya Frontend!
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+    at Object.getByRole (/workspaces/Dihya/frontend/src/tests/App.test.jsx:51:19)
+    at Promise.then.completed (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:60:9)
+    at run (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+    <testcase classname="App – Dihya Coding i18n : support multilingue (français, arabe, amazigh)" name="App – Dihya Coding i18n : support multilingue (français, arabe, amazigh)" time="0.004">
+    </testcase>
+    <testcase classname="App – Dihya Coding respecte le RGPD : consentement requis pour certaines actions" name="App – Dihya Coding respecte le RGPD : consentement requis pour certaines actions" time="0.003">
+    </testcase>
+    <testcase classname="App – Dihya Coding auditabilité : logs anonymisés et effaçables" name="App – Dihya Coding auditabilité : logs anonymisés et effaçables" time="0.002">
+    </testcase>
+    <testcase classname="App – Dihya Coding robustesse : gère les erreurs inattendues sans crash" name="App – Dihya Coding robustesse : gère les erreurs inattendues sans crash" time="0.035">
+      <failure>Error: Erreur simulée
+    at ErrorComponent (/workspaces/Dihya/frontend/src/tests/App.test.jsx:99:13)
+    at renderWithHooks (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+    at beginWork (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+    at beginWork$1 (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:27465:14)
+    at performUnitOfWork (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:26599:12)
+    at workLoopSync (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:26505:5)
+    at renderRootSync (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:26473:7)
+    at recoverFromConcurrentError (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:25889:20)
+    at performConcurrentWorkOnRoot (/workspaces/Dihya/frontend/node_modules/react-dom/cjs/react-dom.development.js:25789:22)
+    at flushActQueue (/workspaces/Dihya/frontend/node_modules/react/cjs/react.development.js:2667:24)
+    at act (/workspaces/Dihya/frontend/node_modules/react/cjs/react.development.js:2582:11)
+    at /workspaces/Dihya/frontend/node_modules/@testing-library/react/dist/act-compat.js:47:25
+    at renderRoot (/workspaces/Dihya/frontend/node_modules/@testing-library/react/dist/pure.js:180:26)
+    at render (/workspaces/Dihya/frontend/node_modules/@testing-library/react/dist/pure.js:271:10)
+    at Object.&lt;anonymous&gt; (/workspaces/Dihya/frontend/src/tests/App.test.jsx:108:11)
+    at Promise.then.completed (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:60:9)
+    at run (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+    <testcase classname="App – Dihya Coding extensibilité : permet d’ajouter dynamiquement des plugins ou modules" name="App – Dihya Coding extensibilité : permet d’ajouter dynamiquement des plugins ou modules" time="0.004">
+      <failure>TypeError: expect(...).toBeInTheDocument is not a function
+    at Object.toBeInTheDocument (/workspaces/Dihya/frontend/src/tests/App.test.jsx:125:47)
+    at Promise.then.completed (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:60:9)
+    at run (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/workspaces/Dihya/frontend/node_modules/react-scripts/node_modules/jest-runner/build/testWorker.js:133:12)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

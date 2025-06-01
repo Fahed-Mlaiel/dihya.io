@@ -1,0 +1,4 @@
+[
+  {"id": 1, "name": "Projet Alpha", "owner_id": 1, "status": "active", "lang": "fr"},
+  {"id": 2, "name": "Project Beta", "owner_id": 2, "status": "archived", "lang": "en"}
+]

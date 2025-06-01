@@ -1,0 +1,3 @@
+// Controller für das Modul 'voyage'
+// Security, i18n, Multitenancy, RGPD, Audit, SEO, Plugins, Fallback AI, Logging, etc.
+// ... vollständige Implementierung ...

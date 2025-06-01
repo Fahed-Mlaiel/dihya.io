@@ -1,0 +1,4 @@
+# robots.txt – BTP-Modul (Dihya Coding)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/btp/sitemap.xml

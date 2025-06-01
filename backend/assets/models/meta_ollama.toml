@@ -1,0 +1,19 @@
+# Dihya Backend Assets – Modèle IA : Métadonnées TOML (exemple, multilingue, RGPD, production-ready)
+model_name = "ollama"
+version = "1.0.0"
+type = "binaire"
+hash_sha256 = "..."
+license = "open source"
+
+[description]
+fr = "Modèle IA open source Ollama, optimisé pour la génération de texte multilingue."
+en = "Open source AI model Ollama, optimized for multilingual text generation."
+ar = "نموذج ذكاء اصطناعي مفتوح المصدر Ollama، مُحسَّن لتوليد النصوص متعددة اللغات."
+kab = "Amuddir IA Ollama, yellan d open source, yebnan i usenfel n uḍris amaynut."
+
+[rgpd]
+personal_data = false
+anonymization = true
+
+author = "Equipe Dihya"
+last_update = "2025-05-22T10:00:00Z"

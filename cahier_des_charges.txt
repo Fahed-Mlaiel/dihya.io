@@ -1,0 +1,62 @@
+Cahier des charges
+===================
+
+1. Objectifs
+- Offrir une plateforme modulaire pour générer, personnaliser et déployer des applications (web, mobile, backend, scripts IA, DevOps, blockchain) sans expertise technique préalable.
+- Garantir la souveraineté numérique, la sécurité, la conformité et la performance.
+- Proposer une expérience utilisateur multilingue (français, anglais, arabe, amazigh) et accessible à tous.
+
+2. Fonctionnalités principales
+- Génération automatique de code et de documentation pour chaque stack (React, Flask, Node, Django, Flutter, Solidity, etc.).
+- Système de templates métiers extensible (santé, finance, RH, industrie, etc.) avec import/export et marketplace.
+- Authentification avancée (JWT, OAuth, gestion des rôles, MFA).
+- Sécurité renforcée (CSP, CORS, rate limiting, audit logging, monitoring, backup, conformité RGPD).
+- CI/CD automatisé (GitHub Actions, Codespaces, déploiement cloud, fallback open source).
+- UI/UX responsive, personnalisable, inspirée de la culture amazigh, avec thèmes dynamiques.
+- SEO, accessibilité, performance (Lighthouse, balises, sitemap, robots.txt).
+- Système de plugins (analytics, paiement, CMS, IA, traduction, etc.).
+- Documentation exhaustive, guides multilingues, onboarding pour débutants et experts.
+- Tests automatisés (unitaires, intégration, e2e) et scripts robustes pour la portabilité.
+
+3. Contraintes et exigences
+- 100% open source, licence AGPL, documentation claire sur l’origine du code.
+- Déploiement automatique, compatibilité multi-cloud, hébergement décentralisé optionnel.
+- Protection contre la censure, la perte de service, et la dépendance à une seule API.
+- Structure de projet modulaire, extensible, conforme aux standards DevOps et sécurité.
+- Prise en charge des assets, configurations, scripts, tests, et guides pour chaque module.
+
+4. Livrables
+- Code source complet, documenté, testé, prêt à l’emploi.
+- Documentation utilisateur et technique multilingue.
+- Templates métiers prêts à l’emploi et personnalisables.
+- Scripts d’automatisation, guides de déploiement, fichiers de configuration optimisés.
+- Interface web de génération, preview live, et outils de contribution.
+
+---
+
+# Cahier des charges Dihya (extrait)
+
+## Objectif
+Fournir une plateforme modulaire, sécurisée, multilingue et conforme RGPD pour la gestion de processus métiers variés (industrie, santé, finance, etc.).
+
+## Modules principaux
+- Authentification et gestion des utilisateurs (RBAC, JWT)
+- Modules métiers (voir `/backend/flask/app/routes/`)
+- API RESTful et documentation Swagger/OpenAPI
+- Sécurité avancée (audit, logs, RGPD, monitoring)
+- Frontend moderne (React/Next.js ou équivalent)
+- CI/CD, tests automatisés, monitoring
+
+## Contraintes
+- Code maintenable, modulaire, documenté
+- Couverture de test > 90% sur le cœur métier
+- Déploiement Dockerisé et scalable
+- Accessibilité et internationalisation
+
+## Exemples d’usage
+- Gestion d’utilisateurs, rôles, permissions
+- Automatisation de tâches métiers
+- Reporting, audit, conformité
+
+---
+Pour le détail complet, voir le fichier source ou contacter l’équipe projet.

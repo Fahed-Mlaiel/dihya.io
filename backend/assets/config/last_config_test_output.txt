@@ -1,0 +1,8 @@
+[OK] /workspaces/Dihya/Dihya/backend/assets/config/audit.toml : TOML valide et champs critiques présents
+[OK] /workspaces/Dihya/Dihya/backend/assets/config/demo.json : JSON valide et champs critiques présents
+[OK] /workspaces/Dihya/Dihya/backend/assets/config/validation_config_report.json : JSON valide et champs critiques présents
+[OK] /workspaces/Dihya/Dihya/backend/assets/config/rgpd_strict.toml : TOML valide et champs critiques présents
+[OK] /workspaces/Dihya/Dihya/backend/assets/config/default.json : JSON valide et champs critiques présents
+[OK] /workspaces/Dihya/Dihya/backend/assets/config/prod.yaml : YAML valide et champs critiques présents
+[OK] /workspaces/Dihya/Dihya/backend/assets/config/readonly.toml : TOML valide et champs critiques présents
+[ERREUR] /workspaces/Dihya/Dihya/backend/assets/config/package.json : champ app manquant

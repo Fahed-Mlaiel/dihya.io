@@ -1,0 +1,3 @@
+// Tests unitaires pour le dossier contexts
+// Vérifie sécurité, i18n, RGPD, plugins, audit, etc.
+// ...tests complets à implémenter...

@@ -1,0 +1,50 @@
+{
+  "reservations": [
+    {
+      "id": 1,
+      "user": 1,
+      "voyage": "Paris-Marseille",
+      "date": "2025-06-01T10:00:00Z",
+      "status": "confirmée",
+      "lang": "fr"
+    },
+    {
+      "id": 2,
+      "user": 2,
+      "voyage": "London-Edinburgh",
+      "date": "2025-06-02T11:00:00Z",
+      "status": "confirmed",
+      "lang": "en"
+    },
+    {
+      "id": 3,
+      "user": 3,
+      "voyage": "القاهرة-الإسكندرية",
+      "date": "2025-06-03T12:00:00Z",
+      "status": "مؤكدة",
+      "lang": "ar"
+    },
+    {
+      "id": 4,
+      "user": 4,
+      "voyage": "ⴰⵎⴰⵣⵉⵖ-ⴰⵙⴳⴳⴰⴷ",
+      "date": "2025-06-04T13:00:00Z",
+      "status": "ⴰⵎⴰⵣⵉⵖ",
+      "lang": "amazigh"
+    }
+  ],
+  "itineraires": [
+    {
+      "id": 1,
+      "depart": "Paris",
+      "arrivee": "Marseille",
+      "distance_km": 775
+    },
+    {
+      "id": 2,
+      "depart": "London",
+      "arrivee": "Edinburgh",
+      "distance_km": 650
+    }
+  ]
+}

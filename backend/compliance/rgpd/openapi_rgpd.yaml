@@ -1,0 +1,193 @@
+openapi: 3.1.0
+info:
+  title: Dihya RGPD API
+  description: |
+    API RGPD avancée : export, anonymisation, suppression, consentement, multilingue (13 langues), audit, plugins, sécurité, auditabilité, REST/GraphQL, extensible.
+    - Authentification JWT, CORS, WAF, anti-DDOS, auditabilité, anonymisation, plugins, fallback IA.
+    - Internationalisation dynamique (fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es)
+    - Documentation interactive générée automatiquement (Swagger UI, Redoc, GraphQL Playground).
+  version: "1.0.0"
+servers:
+  - url: /api/rgpd
+    description: API REST RGPD
+paths:
+  /export:
+    post:
+      summary: Export RGPD conforme
+      description: |
+        Exporte les données d’un utilisateur selon la politique RGPD, anonymisation, plugins, audit, multilingue, sécurité maximale.
+      tags:
+        - RGPD
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RGPDExportRequest'
+      responses:
+        '200':
+          description: Export RGPD réussi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RGPDExportResponse'
+        '403':
+          description: Export non autorisé
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+        '422':
+          description: Erreur de validation
+  /delete:
+    post:
+      summary: Suppression RGPD conforme
+      description: |
+        Supprime les données d’un utilisateur selon la politique RGPD, plugins, audit, multilingue, sécurité maximale.
+      tags:
+        - RGPD
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RGPDDeleteRequest'
+      responses:
+        '200':
+          description: Suppression RGPD réussie
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RGPDDeleteResponse'
+        '403':
+          description: Suppression non autorisée
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+        '422':
+          description: Erreur de validation
+  /consent:
+    post:
+      summary: Mise à jour du consentement utilisateur
+      description: |
+        Met à jour le consentement utilisateur (opt-in/out), plugins, audit, multilingue, sécurité maximale.
+      tags:
+        - RGPD
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RGPDConsentRequest'
+      responses:
+        '200':
+          description: Consentement mis à jour
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RGPDConsentResponse'
+        '403':
+          description: Action non autorisée
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+        '422':
+          description: Erreur de validation
+components:
+  schemas:
+    RGPDExportRequest:
+      type: object
+      properties:
+        user_id:
+          type: string
+        tenant_id:
+          type: string
+        role:
+          type: string
+          enum: [admin, user, guest]
+        format:
+          type: string
+          enum: [json, csv, xml]
+        lang:
+          type: string
+        filters:
+          type: object
+          additionalProperties: true
+      required: [user_id, tenant_id, role, format]
+    RGPDExportResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        export_url:
+          type: string
+        audit_id:
+          type: string
+      required: [status, message]
+    RGPDDeleteRequest:
+      type: object
+      properties:
+        user_id:
+          type: string
+        tenant_id:
+          type: string
+        role:
+          type: string
+          enum: [admin, user, guest]
+        lang:
+          type: string
+      required: [user_id, tenant_id, role]
+    RGPDDeleteResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        audit_id:
+          type: string
+      required: [status, message]
+    RGPDConsentRequest:
+      type: object
+      properties:
+        user_id:
+          type: string
+        tenant_id:
+          type: string
+        consent:
+          type: boolean
+        lang:
+          type: string
+      required: [user_id, tenant_id, consent]
+    RGPDConsentResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        consent:
+          type: boolean
+        audit_id:
+          type: string
+      required: [status, message, consent]
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []

@@ -1,0 +1,71 @@
+{
+  "app": {
+    "title": "Dihya Coding",
+    "description": "A modern, secure, extensible project and code generation platform, RGPD-compliant, auditable and robust.",
+    "seo_keywords": "generation, code, security, RGPD, projects, modern, platform, programming"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "admin": "Admin"
+  },
+  "user": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "consent": "Consent to data processing",
+    "audit_log": "Audit Log",
+    "security": "Security",
+    "accessibility": "Accessibility"
+  },
+  "forms": {
+    "email": "Email",
+    "password": "Password",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "required": "This field is required",
+    "invalid_email": "Invalid email address"
+  },
+  "messages": {
+    "welcome": "Welcome to Dihya Coding!",
+    "logout_success": "Successfully logged out.",
+    "login_success": "Successfully logged in.",
+    "error_occurred": "An error occurred. Please try again.",
+    "consent_required": "You must consent to data processing to continue."
+  },
+  "security": {
+    "rate_limit": "Request limit exceeded. Please wait.",
+    "forbidden": "You are not authorized to access this page.",
+    "session_expired": "Session expired. Please log in again."
+  },
+  "audit": {
+    "log_title": "Operation Log",
+    "clear_logs": "Clear Logs",
+    "no_logs": "No logs available."
+  },
+  "accessibility": {
+    "increase_font": "Increase font size",
+    "decrease_font": "Decrease font size",
+    "contrast": "Toggle contrast"
+  },
+  "generation": {
+    "start": "Start Generation",
+    "project_name": "Project Name",
+    "select_modules": "Select Modules",
+    "generation_success": "Project generated successfully!"
+  },
+  "rgpd": {
+    "privacy_policy": "Privacy Policy",
+    "data_rights": "Your Data Rights",
+    "delete_account": "Delete Account",
+    "consent_withdraw": "Withdraw Consent"
+  },
+  "docs": {
+    "documentation": "Documentation",
+    "user_guide": "User Guide",
+    "api_reference": "API Reference"
+  }
+}

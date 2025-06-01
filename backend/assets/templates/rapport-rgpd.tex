@@ -1,0 +1,33 @@
+% Dihya Backend Assets – Rapport RGPD (PDF LaTeX template, multilingue, production-ready)
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french,english,arabic]{babel}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{hyperref}
+\title{Rapport RGPD – Dihya}
+\author{Dihya – Souveraineté numérique}
+\date{\today}
+\begin{document}
+\maketitle
+\section*{Résumé / Summary}
+Ce rapport atteste de la conformité RGPD de votre projet Dihya.
+
+\section*{Données exportées}
+\begin{itemize}
+  \item Utilisateur: {{ user_name }}
+  \item Email: {{ user_email }}
+  \item Date d’export: {{ export_date }}
+\end{itemize}
+
+\section*{Actions réalisées}
+\begin{itemize}
+  \item Export des données personnelles
+  \item Anonymisation des logs
+  \item Suppression sur demande
+\end{itemize}
+
+\section*{Contact}
+Pour toute question RGPD, contactez: \href{mailto:rgpd@dihya.ai}{rgpd@dihya.ai}
+
+\end{document}

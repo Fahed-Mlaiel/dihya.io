@@ -1,0 +1,10 @@
+- consent_type: iv7JpoCHJ9
+  date: 2025-05-01 10:00:00+00:00
+  id: 1
+  status: given
+  user_id: 1
+- consent_type: marketing
+  date: 2025-05-02 11:00:00+00:00
+  id: 2
+  status: refused
+  user_id: 2

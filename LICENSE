@@ -1,0 +1,70 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (C) 2025 Dihya Core Team
+
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+---
+
+## Summary (français) :
+
+Ce projet est sous licence AGPL-3.0.
+- Vous pouvez utiliser, modifier, distribuer, héberger, et contribuer au code, même à distance (SaaS, cloud, API, etc.).
+- Toute modification ou utilisation en service doit être publiée sous la même licence AGPL-3.0.
+- Les contributions restent la propriété de leurs auteurs, mais doivent être compatibles AGPL-3.0.
+- Respectez la souveraineté numérique, la conformité RGPD, l’accessibilité, et la sécurité.
+
+---
+
+## ملخص (العربية):
+
+هذا المشروع مرخص بموجب AGPL-3.0.
+- يمكنك استخدامه وتعديله وتوزيعه وتشغيله كخدمة (SaaS، سحابة، API).
+- يجب نشر أي تعديل أو استخدام كخدمة بنفس الرخصة AGPL-3.0.
+- تظل المساهمات ملكًا لمؤلفيها، ويجب أن تكون متوافقة مع AGPL-3.0.
+- يجب احترام السيادة الرقمية، والامتثال للائحة العامة لحماية البيانات، وإمكانية الوصول، والأمان.
+
+---
+
+## ⴰⵙⵉⵏⴰⵡⴰⵙ (amazigh):
+
+Agan amezwaru d AGPL-3.0.
+- Tzemreḍ ad tesqedceḍ, ad tbedleḍ, ad tesqedceḍ s tikkelt-nniḍen, ad tkemmeḍ s uselkim (SaaS, cloud, API).
+- Yella ad tkemmeḍ kra n usnifel d AGPL-3.0.
+- Imeslayen d imellalen n usnifel, yella ad ilin d AGPL-3.0.
+- Sefk tawuri n tmedyazt, RGPD, tazwart, tɣellist.
+
+---
+
+## English summary:
+
+This project is licensed under AGPL-3.0.
+- You may use, modify, distribute, host, and contribute to the code, including SaaS/cloud/API.
+- Any modification or network use must be published under AGPL-3.0.
+- Contributions remain property of their authors, but must be AGPL-3.0 compatible.
+- Digital sovereignty, GDPR, accessibility, and security must be respected.
+
+---
+
+## Full License Text
+
+<https://www.gnu.org/licenses/agpl-3.0.html>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+> Pour toute question légale ou contribution, contactez : dpo@dihya.eu ou ouvrez une issue GitHub.

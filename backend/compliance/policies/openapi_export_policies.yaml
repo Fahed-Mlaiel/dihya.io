@@ -1,0 +1,88 @@
+openapi: 3.1.0
+info:
+  title: Dihya Export Policies API
+  description: |
+    API d’export conforme RGPD, sécurité, audit, plugins, multitenant, multilingue, extensible.
+    - Authentification JWT, CORS, WAF, anti-DDOS, auditabilité, anonymisation, plugins, fallback IA.
+    - Internationalisation dynamique (fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es)
+    - REST/GraphQL, multitenant, gestion des rôles, conformité RGPD, auditabilité, logs structurés.
+    - Documentation interactive générée automatiquement (Swagger UI, Redoc, GraphQL Playground).
+  version: "1.0.0"
+servers:
+  - url: /api/compliance/policies
+    description: API REST export policies
+paths:
+  /export:
+    post:
+      summary: Export de données conforme RGPD
+      description: |
+        Exporte des données selon la politique RGPD, multitenant, plugins, audit, anonymisation, sécurité maximale.
+      tags:
+        - Export
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ExportRequest'
+      responses:
+        '200':
+          description: Export réussi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExportResponse'
+        '403':
+          description: Export non autorisé
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+        '422':
+          description: Erreur de validation
+components:
+  schemas:
+    ExportRequest:
+      type: object
+      properties:
+        tenant_id:
+          type: string
+          description: ID du tenant
+        user_id:
+          type: string
+          description: ID de l’utilisateur
+        role:
+          type: string
+          enum: [admin, user, guest]
+        format:
+          type: string
+          enum: [json, csv, xml]
+        filters:
+          type: object
+          additionalProperties: true
+        lang:
+          type: string
+          description: Code langue (fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es)
+      required: [tenant_id, user_id, role, format]
+    ExportResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        export_url:
+          type: string
+        audit_id:
+          type: string
+      required: [status, message]
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []

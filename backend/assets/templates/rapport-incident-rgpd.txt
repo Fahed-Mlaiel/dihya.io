@@ -1,0 +1,32 @@
+# Dihya Backend Assets – Rapport d’incident RGPD (multilingue, production-ready)
+
+[FR]
+Rapport d’incident RGPD
+- Utilisateur : {{ user_name }}
+- Incident : {{ incident }}
+- Date : {{ date }}
+- Statut : {{ status_fr }}
+
+[EN]
+GDPR Incident Report
+- User: {{ user_name }}
+- Incident: {{ incident }}
+- Date: {{ date }}
+- Status: {{ status_en }}
+
+[AR]
+تقرير حادثة RGPD
+- المستخدم: {{ user_name }}
+- الحادثة: {{ incident }}
+- التاريخ: {{ date }}
+- الحالة: {{ status_ar }}
+
+[KAB]
+Aneqqis n usuter RGPD
+- Amiḍan: {{ user_name }}
+- Asuter: {{ incident }}
+- Azemz: {{ date }}
+- Addad: {{ status_kab }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

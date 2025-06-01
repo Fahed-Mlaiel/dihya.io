@@ -1,0 +1,26 @@
+# Déploiement Kubernetes ultra avancé Dihya (sécurité, multilingue, RGPD, audit, plugins, fallback local)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dihya-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dihya-backend
+  template:
+    metadata:
+      labels:
+        app: dihya-backend
+    spec:
+      containers:
+      - name: dihya-backend
+        image: dihya:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DJANGO_SETTINGS_MODULE
+          value: "Dihya.settings"
+        - name: LANG
+          value: "fr_FR.UTF-8"
+# Sécurité, audit, RGPD, multilingue, plugins, fallback local ready

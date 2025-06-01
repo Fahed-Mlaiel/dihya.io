@@ -1,0 +1,42 @@
+{
+  "dz": {
+    "name": "Dziriya (Algérien)",
+    "description": "Dialecte algérien moderne, utilisé pour une expérience utilisateur locale et authentique.",
+    "seo_keywords": "algérien, dz, dialecte, moderne, plateforme, génération, sécurité"
+  },
+  "ma": {
+    "name": "Darija (Marocain)",
+    "description": "Dialecte marocain populaire, adapté à la génération de projets et d’interfaces locales.",
+    "seo_keywords": "marocain, darija, dialecte, moderne, plateforme, sécurité, génération"
+  },
+  "tn": {
+    "name": "Tounsi (Tunisien)",
+    "description": "Dialecte tunisien, pour une expérience utilisateur personnalisée et conforme aux attentes locales.",
+    "seo_keywords": "tunisien, tounsi, dialecte, moderne, plateforme, sécurité, génération"
+  },
+  "kab": {
+    "name": "Kabyle",
+    "description": "Langue berbère kabyle, prise en charge pour l’accessibilité, la diversité et la conformité RGPD.",
+    "seo_keywords": "kabyle, berbère, diversité, accessibilité, rgpd, génération, sécurité"
+  },
+  "chaoui": {
+    "name": "Chaoui",
+    "description": "Dialecte berbère chaoui, pour une meilleure inclusion régionale et culturelle.",
+    "seo_keywords": "chaoui, berbère, inclusion, régional, génération, sécurité"
+  },
+  "mzab": {
+    "name": "Mozabite",
+    "description": "Dialecte mozabite, supporté pour la diversité linguistique et la conformité RGPD.",
+    "seo_keywords": "mozabite, diversité, linguistique, rgpd, génération, sécurité"
+  },
+  "rif": {
+    "name": "Rifain",
+    "description": "Dialecte rifain, pour une expérience adaptée aux utilisateurs du Rif.",
+    "seo_keywords": "rifain, rif, dialecte, régional, génération, sécurité"
+  },
+  "souss": {
+    "name": "Soussi",
+    "description": "Dialecte soussi, pour une meilleure accessibilité et personnalisation régionale.",
+    "seo_keywords": "soussi, amazigh, accessibilité, régional, génération, sécurité"
+  }
+}

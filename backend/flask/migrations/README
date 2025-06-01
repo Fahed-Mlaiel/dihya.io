@@ -1,0 +1,32 @@
+Migrations Dihya Coding (Flask/SQLAlchemy)
+==========================================
+
+Ce dossier contient les fichiers de migration de la base de données pour le backend Flask de Dihya Coding.
+Les migrations sont gérées avec Flask-Migrate (Alembic) et permettent de versionner, appliquer et annuler les modifications du schéma de la base de données.
+
+Bonnes pratiques :
+- Toujours générer une migration après modification d'un modèle SQLAlchemy.
+- Relire et valider le script généré avant de l'appliquer en production.
+- Utiliser des noms explicites pour chaque migration.
+- Ne jamais modifier une migration déjà appliquée en production.
+- Documenter chaque migration si elle a un impact métier ou sécurité.
+
+Commandes utiles :
+------------------
+- Initialiser les migrations (à faire une seule fois) :
+    flask db init
+
+- Générer une nouvelle migration :
+    flask db migrate -m "Message explicite sur la modification"
+
+- Appliquer les migrations :
+    flask db upgrade
+
+- Annuler la dernière migration :
+    flask db downgrade
+
+Pour plus d'informations, voir la documentation Flask-Migrate :
+https://flask-migrate.readthedocs.io/
+
+---
+Equipe Dihya Coding

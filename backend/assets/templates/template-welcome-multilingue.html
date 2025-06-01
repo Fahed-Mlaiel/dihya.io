@@ -1,0 +1,47 @@
+<!-- Dihya Backend Assets – Email de bienvenue multilingue, accessible, RGPD, production-ready -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenue sur Dihya</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #222; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
+    .footer { font-size: 0.9em; color: #888; margin-top: 32px; }
+    .btn { display: inline-block; background: #0057b8; color: #fff; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Contenu principal">
+    <!-- FR -->
+    <section lang="fr" aria-label="Bienvenue en français">
+      <h1>Bienvenue sur Dihya, {{ user_name }} !</h1>
+      <p>Merci de rejoindre la communauté Dihya. Votre compte est maintenant actif.</p>
+      <p><a href="{{ dashboard_link }}" class="btn" aria-label="Accéder à votre espace">Accéder à votre espace</a></p>
+    </section>
+    <!-- EN -->
+    <section lang="en" aria-label="Welcome in English">
+      <h1>Welcome to Dihya, {{ user_name }}!</h1>
+      <p>Thank you for joining the Dihya community. Your account is now active.</p>
+      <p><a href="{{ dashboard_link }}" class="btn" aria-label="Go to your dashboard">Go to your dashboard</a></p>
+    </section>
+    <!-- AR -->
+    <section lang="ar" dir="rtl" aria-label="مرحبا بالعربية">
+      <h1>مرحبًا بك في ديهيا، {{ user_name }}!</h1>
+      <p>شكرًا لانضمامك إلى مجتمع ديهيا. حسابك الآن نشط.</p>
+      <p><a href="{{ dashboard_link }}" class="btn" aria-label="الذهاب إلى صفحتك">الذهاب إلى صفحتك</a></p>
+    </section>
+    <!-- KAB -->
+    <section lang="kab" aria-label="Azul s Taqbaylit">
+      <h1>Azul ɣer Dihya, {{ user_name }}!</h1>
+      <p>Tanmirt i wenniḍen ɣer taddart n Dihya. Amiḍan-ik yella-d yexdem.</p>
+      <p><a href="{{ dashboard_link }}" class="btn" aria-label="Ddu ɣer usebter-ik">Ddu ɣer usebter-ik</a></p>
+    </section>
+    <div class="footer">
+      <p>Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.</p>
+      <p>Need help? <a href="mailto:support@dihya.ai">Contact support</a></p>
+    </div>
+  </div>
+</body>
+</html>

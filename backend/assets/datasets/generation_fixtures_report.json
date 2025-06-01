@@ -1,0 +1,68 @@
+{
+  "date": "2025-05-22T12:47:57.546751Z",
+  "fixtures": [
+    {
+      "dataset": "audit_events_sample.json",
+      "status": "ok",
+      "files": [
+        "audit_events_sample_fixture.py",
+        "audit_events_sample_fixture.js",
+        "audit_events_sample_fixture.yaml"
+      ]
+    },
+    {
+      "dataset": "users_sample.json",
+      "status": "ok",
+      "files": [
+        "users_sample_fixture.py",
+        "users_sample_fixture.js",
+        "users_sample_fixture.yaml"
+      ]
+    },
+    {
+      "dataset": "validation_datasets_report.json",
+      "status": "ok",
+      "files": [
+        "validation_datasets_report_fixture.py",
+        "validation_datasets_report_fixture.js",
+        "validation_datasets_report_fixture.yaml"
+      ]
+    },
+    {
+      "dataset": "users_sample_full.json",
+      "status": "ok",
+      "files": [
+        "users_sample_full_fixture.py",
+        "users_sample_full_fixture.js",
+        "users_sample_full_fixture.yaml"
+      ]
+    },
+    {
+      "dataset": "audit_events_sample_full.json",
+      "status": "ok",
+      "files": [
+        "audit_events_sample_full_fixture.py",
+        "audit_events_sample_full_fixture.js",
+        "audit_events_sample_full_fixture.yaml"
+      ]
+    },
+    {
+      "dataset": "transactions_sample.json",
+      "status": "ok",
+      "files": [
+        "transactions_sample_fixture.py",
+        "transactions_sample_fixture.js",
+        "transactions_sample_fixture.yaml"
+      ]
+    },
+    {
+      "dataset": "transactions_sample_full.json",
+      "status": "ok",
+      "files": [
+        "transactions_sample_full_fixture.py",
+        "transactions_sample_full_fixture.js",
+        "transactions_sample_full_fixture.yaml"
+      ]
+    }
+  ]
+}

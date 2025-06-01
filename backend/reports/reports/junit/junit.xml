@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="23" failures="13" errors="0" time="3.301">
+  <testsuite name="AutomobileForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:57" time="0.595" tests="1">
+    <testcase classname="AutomobileForm rendert ohne Fehler" name="AutomobileForm rendert ohne Fehler" time="0.003">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/automobile/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="BanqueFinanceForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:58" time="0.131" tests="1">
+    <testcase classname="BanqueFinanceForm rendert ohne Fehler" name="BanqueFinanceForm rendert ohne Fehler" time="0.002">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/banque_finance/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="HotellerieForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:58" time="0.291" tests="1">
+    <testcase classname="HotellerieForm rendert ohne Fehler" name="HotellerieForm rendert ohne Fehler" time="0.012">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/hotellerie/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="CultureForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:58" time="0.374" tests="1">
+    <testcase classname="CultureForm rendert ohne Fehler" name="CultureForm rendert ohne Fehler" time="0.002">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/culture/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="BlockchainForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:59" time="0.178" tests="1">
+    <testcase classname="BlockchainForm rendert ohne Fehler" name="BlockchainForm rendert ohne Fehler" time="0.002">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/blockchain/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="BtpForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:59" time="0.087" tests="1">
+    <testcase classname="BtpForm rendert ohne Fehler" name="BtpForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/btp/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="BeauteForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:59" time="0.08" tests="1">
+    <testcase classname="BeauteForm rendert ohne Fehler" name="BeauteForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/beaute/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="AssuranceForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:59" time="0.079" tests="1">
+    <testcase classname="AssuranceForm rendert ohne Fehler" name="AssuranceForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/assurance/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="EcommerceForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:59" time="0.076" tests="1">
+    <testcase classname="EcommerceForm rendert ohne Fehler" name="EcommerceForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/ecommerce/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="ConstructionForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:59" time="0.071" tests="1">
+    <testcase classname="ConstructionForm rendert ohne Fehler" name="ConstructionForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/construction/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="EnergieForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:07:59" time="0.069" tests="1">
+    <testcase classname="EnergieForm rendert ohne Fehler" name="EnergieForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/energie/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="EducationForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:08:00" time="0.071" tests="1">
+    <testcase classname="EducationForm rendert ohne Fehler" name="EducationForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/education/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="CryptoForm" errors="0" failures="1" skipped="0" timestamp="2025-05-28T08:08:00" time="0.066" tests="1">
+    <testcase classname="CryptoForm rendert ohne Fehler" name="CryptoForm rendert ohne Fehler" time="0.001">
+      <failure>ReferenceError: React is not defined
+    at Object.React (/workspaces/Dihya/src/components/metiers/crypto/index.test.js:6:39)
+    at Promise.then.completed (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/workspaces/Dihya/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:316:40)
+    at _runTest (/workspaces/Dihya/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/workspaces/Dihya/node_modules/jest-circus/build/run.js:121:9)
+    at run (/workspaces/Dihya/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/workspaces/Dihya/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/workspaces/Dihya/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Fixtures Générées - Intégration" errors="0" failures="0" skipped="0" timestamp="2025-05-28T08:08:00" time="0.043" tests="3">
+    <testcase classname="Fixtures Générées - Intégration users_sample_fixture structure" name="Fixtures Générées - Intégration users_sample_fixture structure" time="0.004">
+    </testcase>
+    <testcase classname="Fixtures Générées - Intégration transactions_sample_fixture structure" name="Fixtures Générées - Intégration transactions_sample_fixture structure" time="0.002">
+    </testcase>
+    <testcase classname="Fixtures Générées - Intégration audit_events_sample_fixture structure" name="Fixtures Générées - Intégration audit_events_sample_fixture structure" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dihya Coding – Test global" errors="0" failures="0" skipped="0" timestamp="2025-05-28T08:08:00" time="0.038" tests="2">
+    <testcase classname="Dihya Coding – Test global doit valider toutes les exigences critiques" name="Dihya Coding – Test global doit valider toutes les exigences critiques" time="0.003">
+    </testcase>
+    <testcase classname="Projekt-Tests sollte grundlegende Funktionalität prüfen" name="Projekt-Tests sollte grundlegende Funktionalität prüfen" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Sécurité – Dihya Coding" errors="0" failures="0" skipped="0" timestamp="2025-05-28T08:08:00" time="0.044" tests="1">
+    <testcase classname="Sécurité – Dihya Coding doit valider toutes les exigences de sécurité avancées" name="Sécurité – Dihya Coding doit valider toutes les exigences de sécurité avancées" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Projekt-Tests" errors="0" failures="0" skipped="0" timestamp="2025-05-28T08:08:00" time="0.033" tests="1">
+    <testcase classname="Projekt-Tests sollte grundlegende Funktionalität prüfen" name="Projekt-Tests sollte grundlegende Funktionalität prüfen" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Fixtures Générées - Intégration" errors="0" failures="0" skipped="0" timestamp="2025-05-28T08:08:00" time="0.042" tests="1">
+    <testcase classname="Fixtures Générées - Intégration deprecated" name="Fixtures Générées - Intégration deprecated" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Infrastructure – Sécurité &amp; Conformité" errors="0" failures="0" skipped="0" timestamp="2025-05-28T08:08:00" time="0.04" tests="1">
+    <testcase classname="Infrastructure – Sécurité &amp; Conformité doit valider toutes les exigences critiques" name="Infrastructure – Sécurité &amp; Conformité doit valider toutes les exigences critiques" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="Backup – Dihya Coding" errors="0" failures="0" skipped="0" timestamp="2025-05-28T08:08:00" time="0.03" tests="1">
+    <testcase classname="Backup – Dihya Coding doit valider toutes les exigences de backup avancées" name="Backup – Dihya Coding doit valider toutes les exigences de backup avancées" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

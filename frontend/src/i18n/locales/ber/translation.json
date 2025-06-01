@@ -1,0 +1,71 @@
+{
+  "app": {
+    "title": "ⴷⵉⵀⵢⴰ ⴽⵓⴷⵉⵏⴳ",
+    "description": "ⴰⵎⴰⵣⴳⴰⴹ ⴰⴽⴽⴰⵍⴰⵡⴰⵏ, ⴰⵏⴰⵎⴰⵡⴰⵏ, ⴰⴳⴰⵔⴷⴰⵏ ⵏⵉⴳⵔⴰⴹ ⵏ RGPD, ⴰⴳⴰⵔⴷⴰⵏ ⵏⴰⵎⴰⵣⴳⴰⴹ ⵏⴰⵎⴰⵣⴳⴰⴹ ⵏⴰⴳⴰⵔⴷⴰⵏ.",
+    "seo_keywords": "ⴰⵎⴰⵣⴳⴰⴹ, ⴽⵓⴷ, ⴰⵏⴰⵎⴰⵡⴰⵏ, RGPD, ⴰⵎⴰⵣⴳⴰⴹ, ⴰⴽⴽⴰⵍⴰⵡⴰⵏ, ⴱⵔⵎⴰⴳⴰ"
+  },
+  "navigation": {
+    "home": "ⴰⵙⴳⴳⴰⴹ",
+    "about": "ⴰⵎⵓⴳⴰⴹ",
+    "contact": "ⴰⴳⴰⵔⴷⴰⵏ",
+    "login": "ⴰⵙⵙⴰⵏⴰⵡ",
+    "logout": "ⴰⵙⵙⴰⵏⴰⵡ ⴰⴳⴰⵔⴷⴰⵏ",
+    "dashboard": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⵎⴰⵣⴳⴰⴹ",
+    "admin": "ⴰⴷⵎⵉⵏ"
+  },
+  "user": {
+    "profile": "ⴰⵎⴰⵣⴳⴰⴹ ⴷ ⴰⵎⵓⴳⴰⴹ",
+    "settings": "ⴰⵙⴳⴳⴰⴹ ⴷ ⴰⵎⵓⴳⴰⴹ",
+    "consent": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ",
+    "audit_log": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ",
+    "security": "ⴰⵏⴰⵎⴰⵡⴰⵏ",
+    "accessibility": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ"
+  },
+  "forms": {
+    "email": "ⴰⵎⴰⵣⴳⴰⴹ ⴷ ⴰⵎⵓⴳⴰⴹ",
+    "password": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ",
+    "submit": "ⴰⴳⴰⵔⴷⴰⵏ",
+    "cancel": "ⴰⴳⴰⵔⴷⴰⵏ",
+    "required": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ",
+    "invalid_email": "ⴰⵎⴰⵣⴳⴰⴹ ⴷ ⴰⵎⵓⴳⴰⴹ ⴰⴳⴰⵔⴷⴰⵏ"
+  },
+  "messages": {
+    "welcome": "ⴰⵣⵓⵍⴰⵏ ⴷ ⴷⵉⵀⵢⴰ ⴽⵓⴷⵉⵏⴳ!",
+    "logout_success": "ⴰⵙⵙⴰⵏⴰⵡ ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ.",
+    "login_success": "ⴰⵙⵙⴰⵏⴰⵡ ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ.",
+    "error_occurred": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ. ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ.",
+    "consent_required": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ."
+  },
+  "security": {
+    "rate_limit": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ. ⴰⴳⴰⵔⴷⴰⵏ.",
+    "forbidden": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ.",
+    "session_expired": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ. ⴰⴳⴰⵔⴷⴰⵏ."
+  },
+  "audit": {
+    "log_title": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⴳⴰⵔⴷⴰⵏ",
+    "clear_logs": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ",
+    "no_logs": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ."
+  },
+  "accessibility": {
+    "increase_font": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ",
+    "decrease_font": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ",
+    "contrast": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ"
+  },
+  "generation": {
+    "start": "ⴰⴳⴰⵔⴷⴰⵏ",
+    "project_name": "ⴰⵎⴰⵣⴳⴰⴹ ⴷ ⴰⵎⵓⴳⴰⴹ",
+    "select_modules": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ",
+    "generation_success": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ!"
+  },
+  "rgpd": {
+    "privacy_policy": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ",
+    "data_rights": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ",
+    "delete_account": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ",
+    "consent_withdraw": "ⴰⴳⴰⵔⴷⴰⵏ ⴰⴳⴰⵔⴷⴰⵏ"
+  },
+  "docs": {
+    "documentation": "ⴰⴳⴰⵔⴷⴰⵏ",
+    "user_guide": "ⴰⴳⴰⵔⴷⴰⵏ ⴷ ⴰⵎⵓⴳⴰⴹ",
+    "api_reference": "ⴰⴳⴰⵔⴷⴰⵏ API"
+  }
+}

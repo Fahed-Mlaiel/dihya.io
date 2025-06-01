@@ -1,0 +1,51 @@
+<!-- Dihya Backend Assets – Email de consentement RGPD (multilingue, accessible, production-ready) -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consentement RGPD – Dihya</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #222; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
+    .btn { display: inline-block; background: #0057b8; color: #fff; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: bold; }
+    .footer { font-size: 0.9em; color: #888; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Contenu principal">
+    <!-- FR -->
+    <section lang="fr" aria-label="Consentement RGPD en français">
+      <h1>Consentement RGPD</h1>
+      <p>Bonjour {{ user_name }},</p>
+      <p>Merci de confirmer votre consentement pour le traitement de vos données personnelles sur Dihya.</p>
+      <p><a href="{{ consent_link }}" class="btn" aria-label="Confirmer le consentement">Confirmer le consentement</a></p>
+    </section>
+    <!-- EN -->
+    <section lang="en" aria-label="GDPR Consent in English">
+      <h1>GDPR Consent</h1>
+      <p>Hello {{ user_name }},</p>
+      <p>Please confirm your consent for the processing of your personal data on Dihya.</p>
+      <p><a href="{{ consent_link }}" class="btn" aria-label="Confirm consent">Confirm consent</a></p>
+    </section>
+    <!-- AR -->
+    <section lang="ar" dir="rtl" aria-label="موافقة RGPD بالعربية">
+      <h1>موافقة RGPD</h1>
+      <p>مرحبًا {{ user_name }}،</p>
+      <p>يرجى تأكيد موافقتك على معالجة بياناتك الشخصية على ديهيا.</p>
+      <p><a href="{{ consent_link }}" class="btn" aria-label="تأكيد الموافقة">تأكيد الموافقة</a></p>
+    </section>
+    <!-- KAB -->
+    <section lang="kab" aria-label="Asentel n usirem RGPD">
+      <h1>Asentel n usirem RGPD</h1>
+      <p>Azul {{ user_name }},</p>
+      <p>Ma ulac aɣilif, senqed asentel-ik i usirem n yisefka-ik s Dihya.</p>
+      <p><a href="{{ consent_link }}" class="btn" aria-label="Sentel asentel">Sentel asentel</a></p>
+    </section>
+    <div class="footer">
+      <p>Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.</p>
+      <p>Need help? <a href="mailto:support@dihya.ai">Contact support</a></p>
+    </div>
+  </div>
+</body>
+</html>

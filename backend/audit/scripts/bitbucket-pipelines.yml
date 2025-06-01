@@ -1,0 +1,24 @@
+# Bitbucket Pipelines pour Dihya – Audit ultra avancé
+# Exécute tous les audits et archive les rapports globaux (CSV/JSON)
+
+image: python:3.11
+
+pipelines:
+  default:
+    - step:
+        name: "Dihya Ultra Audit"
+        caches:
+          - pip
+        script:
+          - pip install openpyxl PyPDF2 toml pyyaml jq || true
+          - chmod +x Dihya/backend/audit/scripts/run_all_audits.sh || true
+          - chmod +x Dihya/backend/audit/scripts/ci_audit_job.sh || true
+          - cd Dihya/backend/audit/scripts
+          - ./run_all_audits.sh || true
+          - ./ci_audit_job.sh || true
+          - pytest test_audit_scripts.py --maxfail=1 --disable-warnings --tb=short
+          - if [ -f package.json ]; then npm install jest --no-save || true; fi
+          - if [ -f test_audit_scripts_node.js ]; then npx jest test_audit_scripts_node.js || node test_audit_scripts_node.js; fi
+          - bash test_audit_scripts_shell.sh
+        artifacts:
+          - Dihya/backend/audit/reports/**

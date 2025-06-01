@@ -1,0 +1,20 @@
+# Dihya Backend Assets – Template de rapport d’audit (multilingue, RGPD, production-ready)
+
+[FR]
+Rapport d’audit Dihya
+- Utilisateur : {{ user_name }}
+- Action : {{ action }}
+- Date : {{ date }}
+- IP : {{ ip }}
+- Résultat : {{ result }}
+
+[EN]
+Dihya Audit Report
+- User: {{ user_name }}
+- Action: {{ action }}
+- Date: {{ date }}
+- IP: {{ ip }}
+- Result: {{ result }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

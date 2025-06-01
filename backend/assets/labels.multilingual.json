@@ -1,0 +1,93 @@
+{
+  "fr": {
+    "branding": "Logos et branding backend",
+    "templates": "Templates statiques (emails, rapports, notifications)",
+    "config": "Fichiers de configuration statiques",
+    "snippets": "Exemples de code backend, blueprints, helpers",
+    "logs": "Exports de logs/audit (RGPD, sécurité)"
+  },
+  "en": {
+    "branding": "Backend logos and branding",
+    "templates": "Static templates (emails, reports, notifications)",
+    "config": "Static configuration files",
+    "snippets": "Backend code examples, blueprints, helpers",
+    "logs": "Logs/audit exports (GDPR, security)"
+  },
+  "de": {
+    "branding": "Backend-Logos und Branding",
+    "templates": "Statische Vorlagen (E-Mails, Berichte, Benachrichtigungen)",
+    "config": "Statische Konfigurationsdateien",
+    "snippets": "Backend-Codebeispiele, Blueprints, Helfer",
+    "logs": "Log-/Audit-Exporte (DSGVO, Sicherheit)"
+  },
+  "ar": {
+    "branding": "شعارات وهوية الباكند",
+    "templates": "قوالب ثابتة (إيميلات، تقارير، إشعارات)",
+    "config": "ملفات إعدادات ثابتة",
+    "snippets": "أمثلة كود باكند، مخططات، مساعدين",
+    "logs": "تصدير السجلات/التدقيق (RGPD، أمان)"
+  },
+  "es": {
+    "branding": "Logotipos y branding backend",
+    "templates": "Plantillas estáticas (emails, informes, notificaciones)",
+    "config": "Archivos de configuración estáticos",
+    "snippets": "Ejemplos de código backend, blueprints, helpers",
+    "logs": "Exportaciones de logs/auditoría (RGPD, seguridad)"
+  },
+  "it": {
+    "branding": "Loghi e branding backend",
+    "templates": "Template statici (email, report, notifiche)",
+    "config": "File di configurazione statici",
+    "snippets": "Esempi di codice backend, blueprints, helpers",
+    "logs": "Esportazioni log/audit (GDPR, sicurezza)"
+  },
+  "pt": {
+    "branding": "Logotipos e branding backend",
+    "templates": "Templates estáticos (emails, relatórios, notificações)",
+    "config": "Ficheiros de configuração estáticos",
+    "snippets": "Exemplos de código backend, blueprints, helpers",
+    "logs": "Exportações de logs/auditoria (RGPD, segurança)"
+  },
+  "nl": {
+    "branding": "Backend-logo's en branding",
+    "templates": "Statische sjablonen (e-mails, rapporten, meldingen)",
+    "config": "Statische configuratiebestanden",
+    "snippets": "Backend-codevoorbeelden, blueprints, helpers",
+    "logs": "Log-/auditexports (AVG, beveiliging)"
+  },
+  "pl": {
+    "branding": "Logotypy i branding backend",
+    "templates": "Szablony statyczne (maile, raporty, powiadomienia)",
+    "config": "Statyczne pliki konfiguracyjne",
+    "snippets": "Przykłady kodu backend, blueprints, helpers",
+    "logs": "Eksporty logów/audytu (RODO, bezpieczeństwo)"
+  },
+  "tr": {
+    "branding": "Backend logoları ve markalaşma",
+    "templates": "Statik şablonlar (e-postalar, raporlar, bildirimler)",
+    "config": "Statik yapılandırma dosyaları",
+    "snippets": "Backend kod örnekleri, şablonlar, yardımcılar",
+    "logs": "Günlük/kayıt dışa aktarımları (KVKK, güvenlik)"
+  },
+  "ru": {
+    "branding": "Логотипы и брендинг бэкенда",
+    "templates": "Статические шаблоны (email, отчеты, уведомления)",
+    "config": "Статические конфигурационные файлы",
+    "snippets": "Примеры кода бэкенда, blueprints, helpers",
+    "logs": "Экспорт логов/аудита (GDPR, безопасность)"
+  },
+  "zh": {
+    "branding": "后端标志和品牌",
+    "templates": "静态模板（邮件、报告、通知）",
+    "config": "静态配置文件",
+    "snippets": "后端代码示例、蓝图、助手",
+    "logs": "日志/审计导出（GDPR，安全）"
+  },
+  "kab": {
+    "branding": "Tignitin d backend",
+    "templates": "Tineflawin yellan (email, anekcum, ilɣa)",
+    "config": "Ifuyla n uswel",
+    "snippets": "Amuddir n code backend, blueprints, helpers",
+    "logs": "Tuffɣa n logs/audit (RGPD, taɣult)"
+  }
+}

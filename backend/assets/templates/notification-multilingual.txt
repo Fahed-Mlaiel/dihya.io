@@ -1,0 +1,32 @@
+# Dihya Backend Assets – Template de notification multilingue (exemple, production-ready)
+
+[FR]
+Bonjour {{ user_name }},
+
+Vous avez reçu une nouvelle notification sur Dihya :
+- Sujet : {{ subject }}
+- Date : {{ date }}
+
+[EN]
+Hello {{ user_name }},
+
+You have received a new notification on Dihya:
+- Subject: {{ subject }}
+- Date: {{ date }}
+
+[AR]
+مرحبًا {{ user_name }}،
+
+لقد تلقيت إشعارًا جديدًا على ديهيا:
+- الموضوع: {{ subject }}
+- التاريخ: {{ date }}
+
+[KAB]
+Azul {{ user_name }},
+
+Tzemreḍ ad teskred-d alɣu amaynut ɣef Dihya:
+- Asentel: {{ subject }}
+- Azemz: {{ date }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

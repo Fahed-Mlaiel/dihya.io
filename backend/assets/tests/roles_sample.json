@@ -1,0 +1,6 @@
+[
+  {"id": 1, "role": "admin", "description": "Administrateur global", "lang": "fr"},
+  {"id": 2, "role": "user", "description": "Utilisateur standard", "lang": "en"},
+  {"id": 3, "role": "auditor", "description": "Auditeur RGPD", "lang": "fr"},
+  {"id": 4, "role": "moderator", "description": "Modérateur", "lang": "en"}
+]

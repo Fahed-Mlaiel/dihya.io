@@ -1,0 +1,28 @@
+name: Docs CI/CD
+on:
+  push:
+    paths:
+      - 'Dihya/docs/**'
+  pull_request:
+    paths:
+      - 'Dihya/docs/**'
+jobs:
+  test-audit-export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install requirements
+        run: pip install -r requirements-dev.txt
+      - name: Run tests
+        run: pytest Dihya/docs/
+      - name: Audit RGPD & Accessibilité
+        run: echo "Audit RGPD & Accessibilité pour docs" # À remplacer par script réel
+      - name: Upload artefacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-artifacts
+          path: Dihya/docs/

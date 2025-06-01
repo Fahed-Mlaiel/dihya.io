@@ -1,0 +1,4 @@
+# robots.txt – Culture-Modul (Dihya Coding)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/culture/sitemap.xml

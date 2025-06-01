@@ -1,0 +1,32 @@
+# Dihya Backend Assets – Rapport d’export RGPD (multilingue, production-ready)
+
+[FR]
+Rapport d’export RGPD
+- Utilisateur : {{ user_name }}
+- Email : {{ user_email }}
+- Date d’export : {{ export_date }}
+- Données exportées : {{ exported_data_fr }}
+
+[EN]
+GDPR Export Report
+- User: {{ user_name }}
+- Email: {{ user_email }}
+- Export date: {{ export_date }}
+- Exported data: {{ exported_data_en }}
+
+[AR]
+تقرير تصدير RGPD
+- المستخدم: {{ user_name }}
+- البريد الإلكتروني: {{ user_email }}
+- تاريخ التصدير: {{ export_date }}
+- البيانات المصدرة: {{ exported_data_ar }}
+
+[KAB]
+Aneqqis n usuter n export RGPD
+- Amiḍan: {{ user_name }}
+- Imayl: {{ user_email }}
+- Azemz n export: {{ export_date }}
+- Isefka yettwasefrun: {{ exported_data_kab }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

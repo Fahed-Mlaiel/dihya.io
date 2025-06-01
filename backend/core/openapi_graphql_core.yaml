@@ -1,0 +1,40 @@
+openapi: 3.0.3
+info:
+  title: Dihya Backend Core GraphQL API
+  description: >
+    API GraphQL du cœur backend Dihya (sécurité, RBAC, multilingue, plugins, audit, RGPD, CI/CD-ready).
+    Toutes les requêtes critiques sont documentées, multilingues, avec exemples d’appels et réponses d’erreur.
+  version: 1.0.0
+servers:
+  - url: /graphql
+paths:
+  /graphql:
+    post:
+      summary: Endpoint GraphQL principal
+      tags: [core]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                variables:
+                  type: object
+      responses:
+        '200':
+          description: Réponse GraphQL
+          content:
+            application/json:
+              examples:
+                fr:
+                  value: { data: { generateProject: { status: 'success', message: 'Projet généré avec succès' } } }
+                en:
+                  value: { data: { generateProject: { status: 'success', message: 'Project generated successfully' } } }
+        '403':
+          description: Accès refusé (RBAC)
+          content:
+            application/json:
+              example: { errors: [{ message: 'Accès refusé' }] }

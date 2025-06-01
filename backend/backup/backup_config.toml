@@ -1,0 +1,36 @@
+# Configuration avancée pour le module backup Dihya
+# Sécurité, i18n, plugins, RGPD, audit, SEO, multitenancy, IA fallback
+
+[security]
+jwt_secret = "CHANGE_ME_SUPER_SECRET"
+jwt_algorithm = "HS256"
+
+[i18n]
+default_locale = "en"
+supported_locales = ["fr", "en", "ar", "de", "zh", "ja", "ko", "nl", "he", "fa", "hi", "es"]
+
+[plugins]
+enabled = true
+
+[rgpd]
+anonymize = true
+export_enabled = true
+
+[seo]
+robots_enabled = true
+sitemap_enabled = true
+
+[ia_fallback]
+llama = true
+mixtral = true
+mistral = true
+
+[multitenancy]
+enabled = true
+
+[audit]
+log_level = "INFO"
+log_format = "json"
+
+[ci]
+compatible = true

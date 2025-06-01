@@ -1,0 +1,30 @@
+[
+  {
+    "model": "social.profil",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "bio": "Bio test utilisateur",
+      "avatar": ""
+    }
+  },
+  {
+    "model": "social.post",
+    "pk": 1,
+    "fields": {
+      "auteur": 1,
+      "contenu": "Premier post de test",
+      "date_creation": "2024-01-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "social.commentaire",
+    "pk": 1,
+    "fields": {
+      "post": 1,
+      "auteur": 1,
+      "contenu": "Premier commentaire de test",
+      "date_creation": "2024-01-01T11:00:00Z"
+    }
+  }
+]

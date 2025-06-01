@@ -1,0 +1,24 @@
+[
+  {
+    "model": "mode.collection",
+    "pk": 1,
+    "fields": {
+      "nom": "Printemps 2025",
+      "saison": "printemps",
+      "annee": 2025,
+      "cree_par": 1
+    }
+  },
+  {
+    "model": "mode.produit",
+    "pk": 1,
+    "fields": {
+      "nom": "Robe Test",
+      "collection": 1,
+      "prix": "99.99",
+      "taille": "M",
+      "couleur": "Rouge",
+      "disponible": true
+    }
+  }
+]

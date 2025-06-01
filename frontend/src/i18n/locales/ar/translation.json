@@ -1,0 +1,71 @@
+{
+  "app": {
+    "title": "ضيا كودينغ",
+    "description": "منصة حديثة وآمنة ومرنة لتوليد المشاريع والبرمجيات، متوافقة مع RGPD وقابلة للتدقيق والتوسعة.",
+    "seo_keywords": "توليد, كود, أمان, RGPD, مشاريع, حديث, منصة, برمجة"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "حول",
+    "contact": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم",
+    "admin": "الإدارة"
+  },
+  "user": {
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "consent": "الموافقة على معالجة البيانات",
+    "audit_log": "سجل التدقيق",
+    "security": "الأمان",
+    "accessibility": "إمكانية الوصول"
+  },
+  "forms": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "required": "هذا الحقل مطلوب",
+    "invalid_email": "البريد الإلكتروني غير صالح"
+  },
+  "messages": {
+    "welcome": "مرحبًا بك في ضيا كودينغ!",
+    "logout_success": "تم تسجيل الخروج بنجاح.",
+    "login_success": "تم تسجيل الدخول بنجاح.",
+    "error_occurred": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "consent_required": "يجب الموافقة على معالجة البيانات للمتابعة."
+  },
+  "security": {
+    "rate_limit": "تم تجاوز الحد الأقصى للطلبات. يرجى الانتظار.",
+    "forbidden": "غير مصرح لك بالوصول إلى هذه الصفحة.",
+    "session_expired": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى."
+  },
+  "audit": {
+    "log_title": "سجل العمليات",
+    "clear_logs": "مسح السجلات",
+    "no_logs": "لا توجد سجلات متاحة."
+  },
+  "accessibility": {
+    "increase_font": "تكبير الخط",
+    "decrease_font": "تصغير الخط",
+    "contrast": "تبديل التباين"
+  },
+  "generation": {
+    "start": "بدء التوليد",
+    "project_name": "اسم المشروع",
+    "select_modules": "اختر الوحدات",
+    "generation_success": "تم توليد المشروع بنجاح!"
+  },
+  "rgpd": {
+    "privacy_policy": "سياسة الخصوصية",
+    "data_rights": "حقوقك على بياناتك",
+    "delete_account": "حذف الحساب",
+    "consent_withdraw": "سحب الموافقة"
+  },
+  "docs": {
+    "documentation": "التوثيق",
+    "user_guide": "دليل المستخدم",
+    "api_reference": "مرجع API"
+  }
+}

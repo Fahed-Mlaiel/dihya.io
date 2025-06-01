@@ -1,0 +1,66 @@
+{
+  "filename": "illustration-api-security.svg",
+  "type": "illustration",
+  "version": "1.0.0",
+  "hash": "sha256:db9bc1f557c86cfe35b6b01af4996c1a7d737f6884c68a0f7b572fd0496a28da",
+  "alt": {
+    "fr": "Illustration sécurité API backend Dihya",
+    "en": "Dihya backend API security illustration",
+    "de": "Dihya Backend-API-Sicherheitsillustration",
+    "ar": "رسم توضيحي لأمان API ديهيا باكند",
+    "es": "Ilustración de seguridad API backend Dihya",
+    "it": "Illustrazione sicurezza API backend Dihya",
+    "pt": "Ilustração de segurança API backend Dihya",
+    "nl": "Dihya backend API-beveiligingsillustratie",
+    "pl": "Ilustracja bezpieczeństwa API backend Dihya",
+    "tr": "Dihya backend API güvenlik illüstrasyonu",
+    "ru": "Иллюстрация безопасности API бэкенда Dihya",
+    "zh": "Dihya 后端 API 安全插图",
+    "kab": "Tugna n tɣellist n API backend Dihya"
+  },
+  "description": {
+    "fr": "Illustration officielle de la sécurité API backend Dihya, optimisée accessibilité et RGPD.",
+    "en": "Official Dihya backend API security illustration, accessibility and GDPR optimized.",
+    "de": "Offizielle Dihya Backend-API-Sicherheitsillustration, barrierefrei und DSGVO-konform.",
+    "ar": "رسم توضيحي رسمي لأمان API ديهيا باكند، متوافق مع الوصول وRGPD.",
+    "es": "Ilustración oficial de seguridad API backend Dihya, accesible y RGPD.",
+    "it": "Illustrazione ufficiale sicurezza API backend Dihya, accessibile e GDPR.",
+    "pt": "Ilustração oficial de segurança API backend Dihya, acessível e RGPD.",
+    "nl": "Officiële Dihya backend API-beveiligingsillustratie, toegankelijk en AVG.",
+    "pl": "Oficjalna ilustracja bezpieczeństwa API backend Dihya, dostępna i RODO.",
+    "tr": "Resmi Dihya backend API güvenlik illüstrasyonu, erişilebilir ve KVKK.",
+    "ru": "Официальная иллюстрация безопасности API бэкенда Dihya, доступная и GDPR.",
+    "zh": "Dihya 后端 API 官方安全插图，符合无障碍和GDPR。",
+    "kab": "Tugna tamezwarut n tɣellist n API backend Dihya, amatu d RGPD."
+  },
+  "tags": [
+    "illustration",
+    "api",
+    "security",
+    "backend",
+    "dihya",
+    "accessibility",
+    "multilingual",
+    "open source",
+    "audit"
+  ],
+  "created_at": "2025-05-22T10:00:00Z",
+  "updated_at": "2025-05-22T10:00:00Z",
+  "author": "Equipe Dihya",
+  "license": "CC-BY-4.0",
+  "audit": {
+    "last_access": "2025-05-22T10:00:00Z",
+    "access_count": 0,
+    "access_log": []
+  },
+  "accessibility": {
+    "contrast": "AAA",
+    "aria": true,
+    "tested": true
+  },
+  "rgpd": {
+    "personal_data": false,
+    "anonymized": true,
+    "compliance": true
+  }
+}

@@ -1,0 +1,10 @@
+- id: 1
+  user_id: 1
+  event: login
+  date: 2025-05-01T08:00:00Z
+  status: success
+- id: 2
+  user_id: 2
+  event: data_export
+  date: 2025-05-02T09:30:00Z
+  status: denied

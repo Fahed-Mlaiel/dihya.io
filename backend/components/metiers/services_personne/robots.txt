@@ -1,0 +1,4 @@
+# robots.txt – Services Personne (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/services_personne/sitemap.xml

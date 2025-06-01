@@ -1,0 +1,62 @@
+{
+  "audiofiles": [
+    {
+      "id": 1,
+      "file": "assets/audio_fr.mp3",
+      "language": "fr",
+      "uploaded_by": 1,
+      "created_at": "2024-01-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "file": "assets/audio_en.mp3",
+      "language": "en",
+      "uploaded_by": 2,
+      "created_at": "2024-01-02T11:00:00Z"
+    },
+    {
+      "id": 3,
+      "file": "assets/audio_ar.mp3",
+      "language": "ar",
+      "uploaded_by": 3,
+      "created_at": "2024-01-03T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "file": "assets/audio_amazigh.mp3",
+      "language": "amazigh",
+      "uploaded_by": 4,
+      "created_at": "2024-01-04T13:00:00Z"
+    }
+  ],
+  "transcriptions": [
+    {
+      "id": 1,
+      "audio_file": 1,
+      "text": "Bonjour, ceci est un test audio en français.",
+      "language": "fr",
+      "created_at": "2024-01-01T10:05:00Z"
+    },
+    {
+      "id": 2,
+      "audio_file": 2,
+      "text": "Hello, this is an English audio test.",
+      "language": "en",
+      "created_at": "2024-01-02T11:05:00Z"
+    },
+    {
+      "id": 3,
+      "audio_file": 3,
+      "text": "مرحبا، هذا اختبار صوتي باللغة العربية.",
+      "language": "ar",
+      "created_at": "2024-01-03T12:05:00Z"
+    },
+    {
+      "id": 4,
+      "audio_file": 4,
+      "text": "ⴰⵣⵓⵍⴰⵍ، ⴷⴰⴷ ⴰⵎⴰⵣⵉⵖ ⴰⴼⴰⵙⴰⵏ ⴰⵏⴰⴹⴹⴰⵢ.",
+      "language": "amazigh",
+      "created_at": "2024-01-04T13:05:00Z"
+    }
+  ]
+}

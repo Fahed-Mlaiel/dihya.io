@@ -1,0 +1,105 @@
+openapi: 3.1.0
+info:
+  title: Dihya Backend API Documentation Index
+  description: |
+    Index de la documentation interactive OpenAPI/Swagger/GraphQL pour tous les modules backend Dihya :
+    - Export policies, provenance, plugins, GraphQL, sécurité, audit, RGPD, multilingue, extensible.
+    - Accès direct Swagger UI/Redoc/GraphQL Playground via le backend (voir instructions ci-dessous).
+  version: "1.0.0"
+servers:
+  - url: /api
+    description: API principale
+paths:
+  /docs:
+    get:
+      summary: Documentation interactive Swagger UI
+      description: |
+        Accès à la documentation interactive Swagger UI pour tous les modules backend (export, provenance, plugins, GraphQL, etc.).
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page Swagger UI
+  /redoc:
+    get:
+      summary: Documentation interactive Redoc
+      description: |
+        Accès à la documentation interactive Redoc pour tous les modules backend (export, provenance, plugins, GraphQL, etc.).
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page Redoc
+  /graphql-playground:
+    get:
+      summary: Documentation interactive GraphQL Playground
+      description: |
+        Accès à la documentation interactive GraphQL Playground pour tous les modules GraphQL backend.
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page GraphQL Playground
+  /rgpd/docs:
+    get:
+      summary: Documentation interactive Swagger UI RGPD
+      description: |
+        Accès à la documentation interactive Swagger UI pour le module RGPD (export, suppression, consentement, multilingue, plugins, audit, sécurité).
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page Swagger UI RGPD
+  /rgpd/graphql:
+    get:
+      summary: Documentation interactive GraphQL Playground RGPD
+      description: |
+        Accès à la documentation interactive GraphQL Playground pour le module RGPD (export, suppression, consentement, multilingue, plugins, audit, sécurité).
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page GraphQL Playground RGPD
+  /core/docs:
+    get:
+      summary: Documentation interactive Swagger UI Core
+      description: |
+        Accès à la documentation interactive Swagger UI pour le module Core (sécurité, RBAC, multilingue, plugins, audit, RGPD, CI/CD).
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page Swagger UI Core
+  /core/graphql:
+    get:
+      summary: Documentation interactive GraphQL Playground Core
+      description: |
+        Accès à la documentation interactive GraphQL Playground pour le module Core (sécurité, RBAC, multilingue, plugins, audit, RGPD, CI/CD).
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page GraphQL Playground Core
+  /dashboard-core:
+    get:
+      summary: Dashboard conformité/monitoring du core backend
+      description: |
+        Accès au dashboard de conformité et de monitoring pour le core backend Dihya.
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page Dashboard Core
+  /dashboard-global:
+    get:
+      summary: Dashboard global conformité, couverture, monitoring
+      description: |
+        Accès au dashboard global de conformité, couverture et monitoring (badges, indicateurs, logs, rapports).
+      tags:
+        - Documentation
+      responses:
+        '200':
+          description: Page Dashboard Global
+  - name: dashboard-global-frontend
+    description: Visualisation du dashboard global conformité/monitoring dans le frontend/documentation interactive
+    url: ../../dashboard_global.md

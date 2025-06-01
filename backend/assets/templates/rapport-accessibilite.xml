@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accessibilityReport>
+  <user>{{ user_name }}</user>
+  <auditDate>{{ audit_date }}</auditDate>
+  <wcagScore>{{ wcag_score }}</wcagScore>
+  <rgaaScore>{{ rgaa_score }}</rgaaScore>
+  <strengths>{{ strengths }}</strengths>
+  <weaknesses>{{ weaknesses }}</weaknesses>
+  <rgpdCompliance>true</rgpdCompliance>
+  <sovereignty>Dihya – Souveraineté numérique</sovereignty>
+</accessibilityReport>

@@ -1,0 +1,1 @@
+(Ce fichier est un placeholder pour la scène VR/AR française utilisée dans les tests et la démo du module vr_ar. Remplacez-le par un vrai fichier .glb pour les tests réels.)

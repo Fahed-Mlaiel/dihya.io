@@ -1,0 +1,33 @@
+[
+  {
+    "model": "securite.incidentsecurite",
+    "pk": 1,
+    "fields": {
+      "titre": "Incident Test",
+      "description": "Desc",
+      "niveau": "mineur",
+      "signale_par": 1,
+      "resolu": false
+    }
+  },
+  {
+    "model": "securite.alertesecurite",
+    "pk": 1,
+    "fields": {
+      "titre": "Alerte Test",
+      "message": "Alerte",
+      "niveau": "info",
+      "actif": true
+    }
+  },
+  {
+    "model": "securite.controlesecurite",
+    "pk": 1,
+    "fields": {
+      "nom": "Contrôle Test",
+      "description": "Desc",
+      "date_controle": "2025-05-01",
+      "conforme": true
+    }
+  }
+]

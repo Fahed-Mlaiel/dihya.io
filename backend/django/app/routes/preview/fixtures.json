@@ -1,0 +1,12 @@
+[
+  {
+    "model": "preview.preview",
+    "pk": 1,
+    "fields": {
+      "titre": "Aperçu Test",
+      "contenu": "Contenu test",
+      "type": "texte",
+      "cree_par": 1
+    }
+  }
+]

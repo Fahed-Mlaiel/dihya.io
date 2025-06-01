@@ -1,0 +1,97 @@
+<!--
+  sitemap.xml pour Dihya Coding
+
+  Bonnes pratiques :
+  - Générer dynamiquement en production si possible
+  - Inclure uniquement les pages publiques et utiles au SEO
+  - Ne jamais exposer de routes sensibles (admin, API, etc.)
+  - Mettre à jour à chaque ajout/suppression de page importante
+  - Documenter la structure pour la maintenance et l’auditabilité
+  - Respecter la conformité RGPD (pas de données personnelles dans les URLs)
+  - Prioriser les pages selon leur utilité métier et SEO
+  - Ajouter les guides multilingues pour l’accessibilité et le SEO international
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Page d’accueil -->
+  <url>
+    <loc>https://dihya.example.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <!-- Génération de projet -->
+  <url>
+    <loc>https://dihya.example.com/generate</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <!-- Preview de projet généré -->
+  <url>
+    <loc>https://dihya.example.com/preview</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <!-- Authentification (login/register) -->
+  <url>
+    <loc>https://dihya.example.com/login</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dihya.example.com/register</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- À propos -->
+  <url>
+    <loc>https://dihya.example.com/about</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Contact -->
+  <url>
+    <loc>https://dihya.example.com/contact</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Guides multilingues (SEO international & accessibilité) -->
+  <url>
+    <loc>https://dihya.example.com/docs/user_guide/guide_fr</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dihya.example.com/docs/user_guide/guide_en</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dihya.example.com/docs/user_guide/guide_ar</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dihya.example.com/docs/user_guide/guide_ber</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <!-- Politique de confidentialité (RGPD) -->
+  <url>
+    <loc>https://dihya.example.com/privacy</loc>
+    <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <!-- Mentions légales -->
+  <url>
+    <loc>https://dihya.example.com/legal</loc>
+    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <!-- Page d’accessibilité -->
+  <url>
+    <loc>https://dihya.example.com/accessibility</loc>
+    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>

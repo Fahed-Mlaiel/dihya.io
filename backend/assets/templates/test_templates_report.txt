@@ -1,0 +1,230 @@
+# Rapport d’audit des templates Dihya – Thu May 22 22:20:44 UTC 2025
+\n## Audit de ./email-consentement.html
+[OK] ./email-consentement.html : balises ARIA présentes
+[OK] ./email-consentement.html : mention RGPD présente
+[OK] ./email-consentement.html : multilingue détecté
+[OK] ./email-consentement.html : labels présents
+[OK] ./email-consentement.html : couleurs de contraste détectées
+\n## Audit de ./template-multilingue.html
+[OK] ./template-multilingue.html : balises ARIA présentes
+[OK] ./template-multilingue.html : mention RGPD présente
+[OK] ./template-multilingue.html : multilingue détecté
+[OK] ./template-multilingue.html : labels présents
+[OK] ./template-multilingue.html : couleurs de contraste détectées
+\n## Audit de ./template-reset-password.html
+[OK] ./template-reset-password.html : balises ARIA présentes
+[OK] ./template-reset-password.html : mention RGPD présente
+[OK] ./template-reset-password.html : multilingue détecté
+[OK] ./template-reset-password.html : labels présents
+[OK] ./template-reset-password.html : couleurs de contraste détectées
+\n## Audit de ./template-welcome-multilingue.html
+[OK] ./template-welcome-multilingue.html : balises ARIA présentes
+[OK] ./template-welcome-multilingue.html : mention RGPD présente
+[OK] ./template-welcome-multilingue.html : multilingue détecté
+[OK] ./template-welcome-multilingue.html : labels présents
+[OK] ./template-welcome-multilingue.html : couleurs de contraste détectées
+\n## Audit de ./template-welcome.html
+[OK] ./template-welcome.html : balises ARIA présentes
+[OK] ./template-welcome.html : mention RGPD présente
+[OK] ./template-welcome.html : multilingue détecté
+[OK] ./template-welcome.html : labels présents
+[OK] ./template-welcome.html : couleurs de contraste détectées
+\n## Audit de ./notification-audit.txt
+[WARN] ./notification-audit.txt : balises ARIA absentes
+[OK] ./notification-audit.txt : mention RGPD présente
+[OK] ./notification-audit.txt : multilingue détecté
+[WARN] ./notification-audit.txt : labels absents
+[WARN] ./notification-audit.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./notification-consentement.txt
+[WARN] ./notification-consentement.txt : balises ARIA absentes
+[OK] ./notification-consentement.txt : mention RGPD présente
+[OK] ./notification-consentement.txt : multilingue détecté
+[WARN] ./notification-consentement.txt : labels absents
+[WARN] ./notification-consentement.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./notification-incident.txt
+[WARN] ./notification-incident.txt : balises ARIA absentes
+[OK] ./notification-incident.txt : mention RGPD présente
+[OK] ./notification-incident.txt : multilingue détecté
+[WARN] ./notification-incident.txt : labels absents
+[WARN] ./notification-incident.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./notification-maintenance.txt
+[WARN] ./notification-maintenance.txt : balises ARIA absentes
+[OK] ./notification-maintenance.txt : mention RGPD présente
+[OK] ./notification-maintenance.txt : multilingue détecté
+[WARN] ./notification-maintenance.txt : labels absents
+[WARN] ./notification-maintenance.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./notification-multilingual.txt
+[WARN] ./notification-multilingual.txt : balises ARIA absentes
+[OK] ./notification-multilingual.txt : mention RGPD présente
+[OK] ./notification-multilingual.txt : multilingue détecté
+[WARN] ./notification-multilingual.txt : labels absents
+[WARN] ./notification-multilingual.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./notification-rgpd.txt
+[WARN] ./notification-rgpd.txt : balises ARIA absentes
+[OK] ./notification-rgpd.txt : mention RGPD présente
+[OK] ./notification-rgpd.txt : multilingue détecté
+[WARN] ./notification-rgpd.txt : labels absents
+[WARN] ./notification-rgpd.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./notification-role.txt
+[WARN] ./notification-role.txt : balises ARIA absentes
+[OK] ./notification-role.txt : mention RGPD présente
+[OK] ./notification-role.txt : multilingue détecté
+[WARN] ./notification-role.txt : labels absents
+[WARN] ./notification-role.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./rapport-accessibilite.txt
+[WARN] ./rapport-accessibilite.txt : balises ARIA absentes
+[OK] ./rapport-accessibilite.txt : mention RGPD présente
+[OK] ./rapport-accessibilite.txt : multilingue détecté
+[WARN] ./rapport-accessibilite.txt : labels absents
+[WARN] ./rapport-accessibilite.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./rapport-audit.txt
+[WARN] ./rapport-audit.txt : balises ARIA absentes
+[OK] ./rapport-audit.txt : mention RGPD présente
+[OK] ./rapport-audit.txt : multilingue détecté
+[WARN] ./rapport-audit.txt : labels absents
+[WARN] ./rapport-audit.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./rapport-export-rgpd.txt
+[WARN] ./rapport-export-rgpd.txt : balises ARIA absentes
+[OK] ./rapport-export-rgpd.txt : mention RGPD présente
+[OK] ./rapport-export-rgpd.txt : multilingue détecté
+[WARN] ./rapport-export-rgpd.txt : labels absents
+[WARN] ./rapport-export-rgpd.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./rapport-incident-rgpd.txt
+[WARN] ./rapport-incident-rgpd.txt : balises ARIA absentes
+[OK] ./rapport-incident-rgpd.txt : mention RGPD présente
+[OK] ./rapport-incident-rgpd.txt : multilingue détecté
+[WARN] ./rapport-incident-rgpd.txt : labels absents
+[WARN] ./rapport-incident-rgpd.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./rapport-suppression-compte.txt
+[WARN] ./rapport-suppression-compte.txt : balises ARIA absentes
+[OK] ./rapport-suppression-compte.txt : mention RGPD présente
+[OK] ./rapport-suppression-compte.txt : multilingue détecté
+[WARN] ./rapport-suppression-compte.txt : labels absents
+[WARN] ./rapport-suppression-compte.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./test_templates_report.txt
+[WARN] ./test_templates_report.txt : balises ARIA absentes
+[OK] ./test_templates_report.txt : mention RGPD présente
+[WARN] ./test_templates_report.txt : multilingue absent
+[OK] ./test_templates_report.txt : labels présents
+[WARN] ./test_templates_report.txt : couleurs de contraste faibles ou absentes
+\n## Audit de ./rapport-rgpd.tex
+[WARN] ./rapport-rgpd.tex : balises ARIA absentes
+[OK] ./rapport-rgpd.tex : mention RGPD présente
+[WARN] ./rapport-rgpd.tex : multilingue absent
+[WARN] ./rapport-rgpd.tex : labels absents
+[WARN] ./rapport-rgpd.tex : couleurs de contraste faibles ou absentes
+\n## Audit avancé de ./email-consentement.html
+[OK] ./email-consentement.html : structure sémantique HTML détectée
+[OK] ./email-consentement.html : liens accessibles détectés
+[OK] ./email-consentement.html : mention souveraineté numérique présente
+[WARN] ./email-consentement.html : multilingue incomplet
+\n## Audit avancé de ./template-multilingue.html
+[OK] ./template-multilingue.html : structure sémantique HTML détectée
+[OK] ./template-multilingue.html : liens accessibles détectés
+[OK] ./template-multilingue.html : mention souveraineté numérique présente
+[WARN] ./template-multilingue.html : multilingue incomplet
+\n## Audit avancé de ./template-reset-password.html
+[OK] ./template-reset-password.html : structure sémantique HTML détectée
+[OK] ./template-reset-password.html : liens accessibles détectés
+[OK] ./template-reset-password.html : mention souveraineté numérique présente
+[WARN] ./template-reset-password.html : multilingue incomplet
+\n## Audit avancé de ./template-welcome-multilingue.html
+[OK] ./template-welcome-multilingue.html : structure sémantique HTML détectée
+[OK] ./template-welcome-multilingue.html : liens accessibles détectés
+[OK] ./template-welcome-multilingue.html : mention souveraineté numérique présente
+[WARN] ./template-welcome-multilingue.html : multilingue incomplet
+\n## Audit avancé de ./template-welcome.html
+[OK] ./template-welcome.html : structure sémantique HTML détectée
+[OK] ./template-welcome.html : liens accessibles détectés
+[OK] ./template-welcome.html : mention souveraineté numérique présente
+[WARN] ./template-welcome.html : multilingue incomplet
+\n## Audit avancé de ./notification-audit.txt
+[WARN] ./notification-audit.txt : structure sémantique HTML absente
+[WARN] ./notification-audit.txt : liens accessibles absents
+[OK] ./notification-audit.txt : mention souveraineté numérique présente
+[WARN] ./notification-audit.txt : multilingue incomplet
+\n## Audit avancé de ./notification-consentement.txt
+[WARN] ./notification-consentement.txt : structure sémantique HTML absente
+[WARN] ./notification-consentement.txt : liens accessibles absents
+[OK] ./notification-consentement.txt : mention souveraineté numérique présente
+[OK] ./notification-consentement.txt : multilingue complet (FR, EN, AR, KAB)
+\n## Audit avancé de ./notification-incident.txt
+[WARN] ./notification-incident.txt : structure sémantique HTML absente
+[WARN] ./notification-incident.txt : liens accessibles absents
+[OK] ./notification-incident.txt : mention souveraineté numérique présente
+[WARN] ./notification-incident.txt : multilingue incomplet
+\n## Audit avancé de ./notification-maintenance.txt
+[WARN] ./notification-maintenance.txt : structure sémantique HTML absente
+[WARN] ./notification-maintenance.txt : liens accessibles absents
+[OK] ./notification-maintenance.txt : mention souveraineté numérique présente
+[OK] ./notification-maintenance.txt : multilingue complet (FR, EN, AR, KAB)
+\n## Audit avancé de ./notification-multilingual.txt
+[WARN] ./notification-multilingual.txt : structure sémantique HTML absente
+[WARN] ./notification-multilingual.txt : liens accessibles absents
+[OK] ./notification-multilingual.txt : mention souveraineté numérique présente
+[OK] ./notification-multilingual.txt : multilingue complet (FR, EN, AR, KAB)
+\n## Audit avancé de ./notification-rgpd.txt
+[WARN] ./notification-rgpd.txt : structure sémantique HTML absente
+[WARN] ./notification-rgpd.txt : liens accessibles absents
+[OK] ./notification-rgpd.txt : mention souveraineté numérique présente
+[OK] ./notification-rgpd.txt : multilingue complet (FR, EN, AR, KAB)
+\n## Audit avancé de ./notification-role.txt
+[WARN] ./notification-role.txt : structure sémantique HTML absente
+[WARN] ./notification-role.txt : liens accessibles absents
+[OK] ./notification-role.txt : mention souveraineté numérique présente
+[WARN] ./notification-role.txt : multilingue incomplet
+\n## Audit avancé de ./rapport-accessibilite.txt
+[WARN] ./rapport-accessibilite.txt : structure sémantique HTML absente
+[WARN] ./rapport-accessibilite.txt : liens accessibles absents
+[OK] ./rapport-accessibilite.txt : mention souveraineté numérique présente
+[WARN] ./rapport-accessibilite.txt : multilingue incomplet
+\n## Audit avancé de ./rapport-audit.txt
+[WARN] ./rapport-audit.txt : structure sémantique HTML absente
+[WARN] ./rapport-audit.txt : liens accessibles absents
+[OK] ./rapport-audit.txt : mention souveraineté numérique présente
+[WARN] ./rapport-audit.txt : multilingue incomplet
+\n## Audit avancé de ./rapport-export-rgpd.txt
+[WARN] ./rapport-export-rgpd.txt : structure sémantique HTML absente
+[WARN] ./rapport-export-rgpd.txt : liens accessibles absents
+[OK] ./rapport-export-rgpd.txt : mention souveraineté numérique présente
+[OK] ./rapport-export-rgpd.txt : multilingue complet (FR, EN, AR, KAB)
+\n## Audit avancé de ./rapport-incident-rgpd.txt
+[WARN] ./rapport-incident-rgpd.txt : structure sémantique HTML absente
+[WARN] ./rapport-incident-rgpd.txt : liens accessibles absents
+[OK] ./rapport-incident-rgpd.txt : mention souveraineté numérique présente
+[OK] ./rapport-incident-rgpd.txt : multilingue complet (FR, EN, AR, KAB)
+\n## Audit avancé de ./rapport-suppression-compte.txt
+[WARN] ./rapport-suppression-compte.txt : structure sémantique HTML absente
+[WARN] ./rapport-suppression-compte.txt : liens accessibles absents
+[OK] ./rapport-suppression-compte.txt : mention souveraineté numérique présente
+[OK] ./rapport-suppression-compte.txt : multilingue complet (FR, EN, AR, KAB)
+\n## Audit avancé de ./test_templates_report.txt
+[WARN] ./test_templates_report.txt : structure sémantique HTML absente
+[WARN] ./test_templates_report.txt : liens accessibles absents
+[OK] ./test_templates_report.txt : mention souveraineté numérique présente
+[WARN] ./test_templates_report.txt : multilingue incomplet
+\n## Audit avancé de ./rapport-accessibilite.xml
+[WARN] ./rapport-accessibilite.xml : structure sémantique HTML absente
+[WARN] ./rapport-accessibilite.xml : liens accessibles absents
+[OK] ./rapport-accessibilite.xml : mention souveraineté numérique présente
+[WARN] ./rapport-accessibilite.xml : multilingue incomplet
+\n## Audit avancé de ./export-rgpd.json
+[WARN] ./export-rgpd.json : structure sémantique HTML absente
+[WARN] ./export-rgpd.json : liens accessibles absents
+[OK] ./export-rgpd.json : mention souveraineté numérique présente
+[WARN] ./export-rgpd.json : multilingue incomplet
+\n## Audit avancé de ./labels.multilingual.json
+[WARN] ./labels.multilingual.json : structure sémantique HTML absente
+[WARN] ./labels.multilingual.json : liens accessibles absents
+[WARN] ./labels.multilingual.json : mention souveraineté numérique absente
+[WARN] ./labels.multilingual.json : multilingue incomplet
+\n## Audit avancé de ./rapport-audit.json
+[WARN] ./rapport-audit.json : structure sémantique HTML absente
+[WARN] ./rapport-audit.json : liens accessibles absents
+[OK] ./rapport-audit.json : mention souveraineté numérique présente
+[WARN] ./rapport-audit.json : multilingue incomplet
+\n## Audit avancé de ./rapport-rgpd.tex
+[WARN] ./rapport-rgpd.tex : structure sémantique HTML absente
+[WARN] ./rapport-rgpd.tex : liens accessibles absents
+[OK] ./rapport-rgpd.tex : mention souveraineté numérique présente
+[WARN] ./rapport-rgpd.tex : multilingue incomplet

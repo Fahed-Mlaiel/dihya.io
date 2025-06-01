@@ -1,0 +1,31 @@
+# Exemples de plugins Dihya (multilingue, RGPD, audit-ready)
+- id: 1
+  name:
+    fr: Générateur de projets web
+    en: Web project generator
+    ar: مولد مشاريع الويب
+    de: Webprojekt-Generator
+  description:
+    fr: Génère des squelettes de projets web, mobile, IA, VR, AR.
+    en: Generates web, mobile, AI, VR, AR project skeletons.
+    ar: ينشئ هياكل مشاريع الويب، المحمول، الذكاء الاصطناعي، الواقع الافتراضي والمعزز.
+    de: Erstellt Projektgerüste für Web, Mobile, KI, VR, AR.
+  version: 1.0.0
+  author: admin
+  audit: true
+  rgpd_ready: true
+- id: 2
+  name:
+    fr: Plugin d'audit RGPD
+    en: GDPR Audit Plugin
+    ar: إضافة تدقيق RGPD
+    de: DSGVO-Audit-Plugin
+  description:
+    fr: Audit automatisé de conformité RGPD.
+    en: Automated GDPR compliance audit.
+    ar: تدقيق امتثال RGPD تلقائي.
+    de: Automatisiertes DSGVO-Compliance-Audit.
+  version: 2.1.0
+  author: admin
+  audit: true
+  rgpd_ready: true

@@ -1,0 +1,44 @@
+# Dihya Backend Assets – Notification RGPD (multilingue, production-ready)
+
+[FR]
+Bonjour {{ user_name }},
+
+Votre demande RGPD a été traitée :
+- Type de demande : {{ rgpd_request_type }}
+- Date : {{ date }}
+- Statut : {{ status_fr }}
+
+Pour toute question, contactez notre DPO.
+
+[EN]
+Hello {{ user_name }},
+
+Your GDPR request has been processed:
+- Request type: {{ rgpd_request_type }}
+- Date: {{ date }}
+- Status: {{ status_en }}
+
+For any questions, contact our DPO.
+
+[AR]
+مرحبًا {{ user_name }}،
+
+تمت معالجة طلبك المتعلق باللائحة العامة لحماية البيانات:
+- نوع الطلب: {{ rgpd_request_type }}
+- التاريخ: {{ date }}
+- الحالة: {{ status_ar }}
+
+لأي استفسار، يرجى التواصل مع مسؤول حماية البيانات.
+
+[KAB]
+Azul {{ user_name }},
+
+Yettwasefru-d asuter-ik n RGPD:
+- Anaw n usuter: {{ rgpd_request_type }}
+- Azemz: {{ date }}
+- Addad: {{ status_kab }}
+
+Ihi, ma tella-d tazmilt, nermes-ed DPO.
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

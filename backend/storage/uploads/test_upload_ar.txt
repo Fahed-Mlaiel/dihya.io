@@ -1,0 +1,3 @@
+ملف اختبار رفع (عربي) – ديهيا
+# Test upload file for Arabic (ar)
+# Usage: upload test, RGPD compliant

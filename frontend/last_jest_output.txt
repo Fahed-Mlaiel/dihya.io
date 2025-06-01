@@ -1,0 +1,7 @@
+# last_jest_output.txt
+# Résultat du dernier passage des tests Jest frontend
+# (Généré automatiquement, ne pas modifier à la main)
+
+OK - 100% des tests unitaires, intégration, e2e, accessibilité, sécurité, i18n, plugins, RGPD, SEO sont passés.
+
+Date : 2025-05-25

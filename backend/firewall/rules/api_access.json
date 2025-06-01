@@ -1,0 +1,12 @@
+{
+  "admin": [
+    "*"
+  ],
+  "user": [
+    "/api/public",
+    "/api/user/*"
+  ],
+  "guest": [
+    "/api/public"
+  ]
+}

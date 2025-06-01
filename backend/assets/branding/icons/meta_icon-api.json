@@ -1,0 +1,23 @@
+{
+  "name": "icon-api.svg",
+  "description": {
+    "fr": "Icône API pour backend, accessible, RGPD, multilingue.",
+    "en": "API icon for backend, accessible, GDPR, multilingual.",
+    "ar": "أيقونة API للخلفية، وصول، RGPD، متعدد اللغات.",
+    "ber": "Tignit API i backend, tazwart, RGPD, amaynut n tutlayt."
+  },
+  "tags": ["api", "backend", "accessibility", "rgpd", "multilingual"],
+  "aria": {
+    "label": {
+      "fr": "Icône API", "en": "API icon", "ar": "أيقونة API", "ber": "Tignit API"
+    },
+    "role": "img"
+  },
+  "version": "1.0.0",
+  "created": "2025-05-22",
+  "author": "Dihya Team",
+  "audit": {
+    "last_audit": "2025-05-22",
+    "auditor": "CI/CD"
+  }
+}

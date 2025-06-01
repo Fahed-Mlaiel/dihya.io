@@ -1,0 +1,18 @@
+# CODEOWNERS
+
+# Hauptverantwortliche für alle Codebereiche
+*       @dihya-lead @security-expert @qa-lead
+
+# Modulexperten
+/Dihya/ai/                 @ai-lead
+/Dihya/backend/            @backend-lead
+/Dihya/frontend/           @frontend-lead
+/Dihya/docs/               @doc-lead
+/Dihya/scripts/            @devops-lead
+
+# Security & Compliance
+/securite.md               @security-expert
+/LEGAL_COMPLIANCE.md       @compliance-lead
+/AUDIT_LOGGING_GUIDE.md    @audit-lead
+
+# Änderungen an Policies, Security, Audit, Compliance müssen von mindestens 2 Experten reviewed werden.

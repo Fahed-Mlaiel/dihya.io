@@ -1,0 +1,3918 @@
+# 📊 Synthèse des métiers du projet Dihya
+
+Ce document est généré automatiquement. **Ne pas modifier à la main.**
+
+Ce document est disponible en : 🇫🇷 | 🇬🇧 | 🇦🇪 | ⵣ
+
+## Statistiques globales
+
+- **Total métiers listés** : 78
+- **Métiers présents dans le projet** : 72
+- **Métiers attendus (CDC)** : 6
+- **Métiers manquants** : 6
+- **Métiers en trop** : 72
+- _Généré le 2025-05-28 05:52_
+
+## Sommaire
+
+- [3d](#3d)
+- [___](#---)
+- [__accessibilité_et_internationalisation](#--accessibilité-et-internationalisation)
+- [__api_restful_et_documentation_swagger/openapi](#--api-restful-et-documentation-swagger/openapi)
+- [__automatisation_de_tâches_métiers](#--automatisation-de-tâches-métiers)
+- [__déploiement_dockerisé_et_scalable](#--déploiement-dockerisé-et-scalable)
+- [__tests__](#--tests--)
+- [administration_publique](#administration-publique)
+- [agriculture](#agriculture)
+- [analytics](#analytics)
+- [arts](#arts)
+- [assets](#assets)
+- [assurance](#assurance)
+- [automobile](#automobile)
+- [backend](#backend)
+- [banque_finance](#banque-finance)
+- [beaute](#beaute)
+- [blockchain](#blockchain)
+- [btp](#btp)
+- [cahier_des_charges](#cahier-des-charges)
+- [cms](#cms)
+- [compliance](#compliance)
+- [components](#components)
+- [construction](#construction)
+- [crypto](#crypto)
+- [culture](#culture)
+- [devops](#devops)
+- [ecommerce](#ecommerce)
+- [education](#education)
+- [energie](#energie)
+- [environnement](#environnement)
+- [frontend](#frontend)
+- [gamer](#gamer)
+- [health](#health)
+- [hotellerie](#hotellerie)
+- [i18n](#i18n)
+- [immobilier](#immobilier)
+- [industrie](#industrie)
+- [intelligence_artificielle](#intelligence-artificielle)
+- [it_devops](#it-devops)
+- [journalisme](#journalisme)
+- [juridique](#juridique)
+- [logistique](#logistique)
+- [loisirs](#loisirs)
+- [manufacturing](#manufacturing)
+- [marketing](#marketing)
+- [medias](#medias)
+- [metiers](#metiers)
+- [mobile](#mobile)
+- [mode](#mode)
+- [models](#models)
+- [plugins](#plugins)
+- [preview](#preview)
+- [publicite](#publicite)
+- [readme](#readme)
+- [recherche](#recherche)
+- [ressources_humaines](#ressources-humaines)
+- [restauration](#restauration)
+- [routes](#routes)
+- [sante](#sante)
+- [science](#science)
+- [scripts](#scripts)
+- [securite](#securite)
+- [seo](#seo)
+- [services](#services)
+- [services_personne](#services-personne)
+- [social](#social)
+- [sport](#sport)
+- [stripe](#stripe)
+- [templates](#templates)
+- [tests](#tests)
+- [tourisme](#tourisme)
+- [transport](#transport)
+- [utils](#utils)
+- [validators](#validators)
+- [voice](#voice)
+- [voyage](#voyage)
+- [vr_ar](#vr-ar)
+
+## ❌ Métiers manquants (attendus mais absents)
+
+- [___](#---)
+- [__accessibilité_et_internationalisation](#--accessibilité-et-internationalisation)
+- [__api_restful_et_documentation_swagger/openapi](#--api-restful-et-documentation-swagger/openapi)
+- [__automatisation_de_tâches_métiers](#--automatisation-de-tâches-métiers)
+- [__déploiement_dockerisé_et_scalable](#--déploiement-dockerisé-et-scalable)
+- [cahier_des_charges](#cahier-des-charges)
+
+## ⚠️ Métiers en trop (présents mais non attendus)
+
+- [3d](#3d)
+- [__tests__](#--tests--)
+- [administration_publique](#administration-publique)
+- [agriculture](#agriculture)
+- [analytics](#analytics)
+- [arts](#arts)
+- [assets](#assets)
+- [assurance](#assurance)
+- [automobile](#automobile)
+- [backend](#backend)
+- [banque_finance](#banque-finance)
+- [beaute](#beaute)
+- [blockchain](#blockchain)
+- [btp](#btp)
+- [cms](#cms)
+- [compliance](#compliance)
+- [components](#components)
+- [construction](#construction)
+- [crypto](#crypto)
+- [culture](#culture)
+- [devops](#devops)
+- [ecommerce](#ecommerce)
+- [education](#education)
+- [energie](#energie)
+- [environnement](#environnement)
+- [frontend](#frontend)
+- [gamer](#gamer)
+- [health](#health)
+- [hotellerie](#hotellerie)
+- [i18n](#i18n)
+- [immobilier](#immobilier)
+- [industrie](#industrie)
+- [intelligence_artificielle](#intelligence-artificielle)
+- [it_devops](#it-devops)
+- [journalisme](#journalisme)
+- [juridique](#juridique)
+- [logistique](#logistique)
+- [loisirs](#loisirs)
+- [manufacturing](#manufacturing)
+- [marketing](#marketing)
+- [medias](#medias)
+- [metiers](#metiers)
+- [mobile](#mobile)
+- [mode](#mode)
+- [models](#models)
+- [plugins](#plugins)
+- [preview](#preview)
+- [publicite](#publicite)
+- [readme](#readme)
+- [recherche](#recherche)
+- [ressources_humaines](#ressources-humaines)
+- [restauration](#restauration)
+- [routes](#routes)
+- [sante](#sante)
+- [science](#science)
+- [scripts](#scripts)
+- [securite](#securite)
+- [seo](#seo)
+- [services](#services)
+- [services_personne](#services-personne)
+- [social](#social)
+- [sport](#sport)
+- [stripe](#stripe)
+- [templates](#templates)
+- [tests](#tests)
+- [tourisme](#tourisme)
+- [transport](#transport)
+- [utils](#utils)
+- [validators](#validators)
+- [voice](#voice)
+- [voyage](#voyage)
+- [vr_ar](#vr-ar)
+
+## Détail par métier
+
+### <a name="3d"></a> 3d
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/3d/index.js`
+    - `Dihya/frontend/src/tests/integration/3d/test_3d.js`
+    - `Dihya/frontend/src/generation/templates/3d/template.js`
+    - `Dihya/backend/tests/integration/3d/test_3d_backend.py`
+    - `Dihya/backend/django/tests/integration/3d/test_3d_django.py`
+    - `Dihya/backend/django/app/tests/integration/3d/test_3d_django.py`
+    - `Dihya/backend/django/app/templates/3d/template.py`
+    - `Dihya/backend/django/app/routes/3d/routes.py`
+    - `Dihya/backend/django/routes/3d/routes.py`
+    - `Dihya/backend/flask/tests/integration/3d/test_3d_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/3d/test_3d_flask.py`
+    - `Dihya/backend/flask/app/templates/3d/template.py`
+    - `Dihya/backend/flask/app/routes/3d/routes.py`
+    - `Dihya/backend/flask/routes/3d/routes.py`
+    - `Dihya/backend/routes/3d/routes.py`
+    - `Dihya/backend/node/tests/integration/3d/test_3d.js`
+    - `Dihya/backend/node/app/tests/integration/3d/test_3d.js`
+    - `Dihya/backend/node/app/templates/3d/template.js`
+    - `Dihya/backend/node/app/routes/3d/routes.js`
+    - `Dihya/backend/node/routes/3d/routes.js`
+    - `Dihya/node/app/templates/3d/template.js`
+    - `Dihya/docs/metiers/3d.md`
+    - `dist/generation/templates/3d/template.js`
+    - `src/generation/templates/3d/template.js`
+    - `backend/node/tests/integration/3d/test_3d.js`
+    - `backend/node/app/tests/integration/3d/test_3d.js`
+    - `backend/node/app/templates/3d/template.js`
+    - `backend/node/app/routes/3d/routes.js`
+    - `backend/node/routes/3d/routes.js`
+    - `docs/metiers/3d.md`
+
+### <a name="---"></a> ___
+
+- **Présent dans le projet** : ❌
+- **Attendu dans le CDC** : ✅
+- **Types détectés** : -
+
+### <a name="--accessibilité-et-internationalisation"></a> __accessibilité_et_internationalisation
+
+- **Présent dans le projet** : ❌
+- **Attendu dans le CDC** : ✅
+- **Types détectés** : -
+
+### <a name="--api-restful-et-documentation-swagger/openapi"></a> __api_restful_et_documentation_swagger/openapi
+
+- **Présent dans le projet** : ❌
+- **Attendu dans le CDC** : ✅
+- **Types détectés** : -
+
+### <a name="--automatisation-de-tâches-métiers"></a> __automatisation_de_tâches_métiers
+
+- **Présent dans le projet** : ❌
+- **Attendu dans le CDC** : ✅
+- **Types détectés** : -
+
+### <a name="--déploiement-dockerisé-et-scalable"></a> __déploiement_dockerisé_et_scalable
+
+- **Présent dans le projet** : ❌
+- **Attendu dans le CDC** : ✅
+- **Types détectés** : -
+
+### <a name="--tests--"></a> __tests__
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test
+- **Chemins** :
+    - `Dihya/backend/node/app/tests/integration/__tests__`
+    - `Dihya/backend/node/app/tests/integration/__tests__/test_fixtures_assets.test.js`
+    - `backend/node/app/tests/integration/__tests__`
+    - `backend/node/app/tests/integration/__tests__/test_fixtures_assets.test.js`
+
+### <a name="administration-publique"></a> administration_publique
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/administration_publique`
+    - `Dihya/frontend/src/components/metiers/administration_publique/index.js`
+    - `Dihya/frontend/src/tests/integration/administration_publique`
+    - `Dihya/frontend/src/tests/integration/administration_publique/test_administration_publique.js`
+    - `Dihya/frontend/src/generation/templates/administration_publique`
+    - `Dihya/frontend/src/generation/templates/administration_publique/template.js`
+    - `Dihya/backend/tests/integration/administration_publique`
+    - `Dihya/backend/tests/integration/administration_publique/test_administration_publique_backend.py`
+    - `Dihya/backend/django/tests/integration/administration_publique`
+    - `Dihya/backend/django/tests/integration/administration_publique/test_administration_publique_django.py`
+    - `Dihya/backend/django/app/tests/integration/administration_publique`
+    - `Dihya/backend/django/app/tests/integration/administration_publique/test_administration_publique_django.py`
+    - `Dihya/backend/django/app/templates/administration_publique`
+    - `Dihya/backend/django/app/templates/administration_publique/template.py`
+    - `Dihya/backend/django/app/routes/administration_publique`
+    - `Dihya/backend/django/app/routes/administration_publique/routes.py`
+    - `Dihya/backend/django/routes/administration_publique`
+    - `Dihya/backend/django/routes/administration_publique/routes.py`
+    - `Dihya/backend/flask/tests/integration/administration_publique`
+    - `Dihya/backend/flask/tests/integration/administration_publique/test_administration_publique_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/administration_publique`
+    - `Dihya/backend/flask/app/tests/integration/administration_publique/test_administration_publique_flask.py`
+    - `Dihya/backend/flask/app/templates/administration_publique`
+    - `Dihya/backend/flask/app/templates/administration_publique/template.py`
+    - `Dihya/backend/flask/app/routes/administration_publique`
+    - `Dihya/backend/flask/app/routes/administration_publique/routes.py`
+    - `Dihya/backend/flask/routes/administration_publique`
+    - `Dihya/backend/flask/routes/administration_publique/routes.py`
+    - `Dihya/backend/routes/administration_publique`
+    - `Dihya/backend/routes/administration_publique/routes.py`
+    - `Dihya/backend/node/tests/integration/administration_publique`
+    - `Dihya/backend/node/tests/integration/administration_publique/test_administration_publique.js`
+    - `Dihya/backend/node/app/tests/integration/administration_publique`
+    - `Dihya/backend/node/app/tests/integration/administration_publique/test_administration_publique.js`
+    - `Dihya/backend/node/app/templates/administration_publique`
+    - `Dihya/backend/node/app/templates/administration_publique/template.js`
+    - `Dihya/backend/node/app/routes/administration_publique`
+    - `Dihya/backend/node/routes/administration_publique`
+    - `Dihya/backend/node/routes/administration_publique/routes.js`
+    - `Dihya/docs/metiers/administration_publique.md`
+    - `coverage/lcov-report/generation/templates/administration_publique`
+    - `dist/components/metiers/administration_publique`
+    - `dist/generation/templates/administration_publique`
+    - `dist/generation/templates/administration_publique/template.js`
+    - `src/components/metiers/administration_publique`
+    - `src/generation/templates/administration_publique`
+    - `src/generation/templates/administration_publique/template.js`
+    - `backend/node/tests/integration/administration_publique`
+    - `backend/node/tests/integration/administration_publique/test_administration_publique.js`
+    - `backend/node/app/tests/integration/administration_publique`
+    - `backend/node/app/tests/integration/administration_publique/test_administration_publique.js`
+    - `backend/node/app/templates/administration_publique`
+    - `backend/node/app/templates/administration_publique/template.js`
+    - `backend/node/app/routes/administration_publique`
+    - `backend/node/app/routes/administration_publique/routes.js`
+    - `backend/node/routes/administration_publique`
+    - `backend/node/routes/administration_publique/routes.js`
+    - `docs/metiers/administration_publique.md`
+
+### <a name="agriculture"></a> agriculture
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/agriculture`
+    - `Dihya/frontend/src/components/metiers/agriculture/index.js`
+    - `Dihya/frontend/src/tests/integration/agriculture`
+    - `Dihya/frontend/src/tests/integration/agriculture/test_agriculture.js`
+    - `Dihya/frontend/src/generation/templates/agriculture`
+    - `Dihya/frontend/src/generation/templates/agriculture/template.js`
+    - `Dihya/backend/tests/integration/agriculture`
+    - `Dihya/backend/tests/integration/agriculture/test_agriculture_backend.py`
+    - `Dihya/backend/django/tests/integration/agriculture`
+    - `Dihya/backend/django/tests/integration/agriculture/test_agriculture_django.py`
+    - `Dihya/backend/django/app/tests/integration/agriculture`
+    - `Dihya/backend/django/app/tests/integration/agriculture/test_agriculture_django.py`
+    - `Dihya/backend/django/app/templates/agriculture`
+    - `Dihya/backend/django/app/templates/agriculture/template.py`
+    - `Dihya/backend/django/app/routes/agriculture`
+    - `Dihya/backend/django/app/routes/agriculture/routes.py`
+    - `Dihya/backend/django/routes/agriculture`
+    - `Dihya/backend/django/routes/agriculture/routes.py`
+    - `Dihya/backend/flask/tests/integration/agriculture`
+    - `Dihya/backend/flask/tests/integration/agriculture/test_agriculture_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/agriculture`
+    - `Dihya/backend/flask/app/tests/integration/agriculture/test_agriculture_flask.py`
+    - `Dihya/backend/flask/app/templates/agriculture`
+    - `Dihya/backend/flask/app/templates/agriculture/template.py`
+    - `Dihya/backend/flask/app/routes/agriculture`
+    - `Dihya/backend/flask/app/routes/agriculture/routes.py`
+    - `Dihya/backend/flask/routes/agriculture`
+    - `Dihya/backend/flask/routes/agriculture/routes.py`
+    - `Dihya/backend/routes/agriculture`
+    - `Dihya/backend/routes/agriculture/routes.py`
+    - `Dihya/backend/node/tests/integration/agriculture`
+    - `Dihya/backend/node/tests/integration/agriculture/test_agriculture.js`
+    - `Dihya/backend/node/app/tests/integration/agriculture`
+    - `Dihya/backend/node/app/tests/integration/agriculture/test_agriculture.js`
+    - `Dihya/backend/node/app/templates/agriculture`
+    - `Dihya/backend/node/app/templates/agriculture/template.js`
+    - `Dihya/backend/node/app/routes/agriculture`
+    - `Dihya/backend/node/routes/agriculture`
+    - `Dihya/backend/node/routes/agriculture/routes.js`
+    - `Dihya/docs/metiers/agriculture.md`
+    - `coverage/lcov-report/generation/templates/agriculture`
+    - `dist/components/metiers/agriculture`
+    - `dist/generation/templates/agriculture`
+    - `dist/generation/templates/agriculture/template.js`
+    - `src/components/metiers/agriculture`
+    - `src/generation/templates/agriculture`
+    - `src/generation/templates/agriculture/template.js`
+    - `backend/node/tests/integration/agriculture`
+    - `backend/node/tests/integration/agriculture/test_agriculture.js`
+    - `backend/node/app/tests/integration/agriculture`
+    - `backend/node/app/tests/integration/agriculture/test_agriculture.js`
+    - `backend/node/app/templates/agriculture`
+    - `backend/node/app/templates/agriculture/template.js`
+    - `backend/node/app/routes/agriculture`
+    - `backend/node/app/routes/agriculture/routes.js`
+    - `backend/node/routes/agriculture`
+    - `backend/node/routes/agriculture/routes.js`
+    - `docs/metiers/agriculture.md`
+
+### <a name="analytics"></a> analytics
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,plugin
+- **Chemins** :
+    - `Dihya/frontend/src/plugins/analytics`
+    - `Dihya/frontend/src/plugins/analytics/README.md`
+    - `Dihya/frontend/src/plugins/analytics/analyticsPlugin.js`
+
+### <a name="arts"></a> arts
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/arts`
+    - `Dihya/frontend/src/components/metiers/arts/index.js`
+    - `Dihya/frontend/src/tests/integration/arts`
+    - `Dihya/frontend/src/tests/integration/arts/test_arts.js`
+    - `Dihya/frontend/src/generation/templates/arts`
+    - `Dihya/frontend/src/generation/templates/arts/template.js`
+    - `Dihya/backend/tests/integration/arts`
+    - `Dihya/backend/tests/integration/arts/test_arts_backend.py`
+    - `Dihya/backend/django/tests/integration/arts`
+    - `Dihya/backend/django/tests/integration/arts/test_arts_django.py`
+    - `Dihya/backend/django/app/tests/integration/arts`
+    - `Dihya/backend/django/app/tests/integration/arts/test_arts_django.py`
+    - `Dihya/backend/django/app/templates/arts`
+    - `Dihya/backend/django/app/templates/arts/template.py`
+    - `Dihya/backend/django/app/routes/arts`
+    - `Dihya/backend/django/app/routes/arts/routes.py`
+    - `Dihya/backend/django/routes/arts`
+    - `Dihya/backend/django/routes/arts/routes.py`
+    - `Dihya/backend/flask/tests/integration/arts`
+    - `Dihya/backend/flask/tests/integration/arts/test_arts_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/arts`
+    - `Dihya/backend/flask/app/tests/integration/arts/test_arts_flask.py`
+    - `Dihya/backend/flask/app/templates/arts`
+    - `Dihya/backend/flask/app/templates/arts/template.py`
+    - `Dihya/backend/flask/app/routes/arts`
+    - `Dihya/backend/flask/app/routes/arts/routes.py`
+    - `Dihya/backend/flask/routes/arts`
+    - `Dihya/backend/flask/routes/arts/routes.py`
+    - `Dihya/backend/routes/arts`
+    - `Dihya/backend/routes/arts/routes.py`
+    - `Dihya/backend/node/tests/integration/arts`
+    - `Dihya/backend/node/tests/integration/arts/test_arts.js`
+    - `Dihya/backend/node/app/tests/integration/arts`
+    - `Dihya/backend/node/app/tests/integration/arts/test_arts.js`
+    - `Dihya/backend/node/app/templates/arts`
+    - `Dihya/backend/node/app/templates/arts/template.js`
+    - `Dihya/backend/node/app/routes/arts`
+    - `Dihya/backend/node/routes/arts`
+    - `Dihya/backend/node/routes/arts/routes.js`
+    - `Dihya/docs/metiers/arts.md`
+    - `coverage/lcov-report/generation/templates/arts`
+    - `dist/components/metiers/arts`
+    - `dist/generation/templates/arts`
+    - `dist/generation/templates/arts/template.js`
+    - `src/components/metiers/arts`
+    - `src/generation/templates/arts`
+    - `src/generation/templates/arts/template.js`
+    - `backend/node/tests/integration/arts`
+    - `backend/node/tests/integration/arts/test_arts.js`
+    - `backend/node/app/tests/integration/arts`
+    - `backend/node/app/tests/integration/arts/test_arts.js`
+    - `backend/node/app/templates/arts`
+    - `backend/node/app/templates/arts/template.js`
+    - `backend/node/app/routes/arts`
+    - `backend/node/app/routes/arts/routes.js`
+    - `backend/node/routes/arts`
+    - `backend/node/routes/arts/routes.js`
+    - `docs/metiers/arts.md`
+
+### <a name="assets"></a> assets
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/django/app/routes/social/assets`
+    - `Dihya/backend/django/app/routes/voyage/assets`
+    - `Dihya/backend/django/app/routes/vr_ar/assets`
+    - `Dihya/backend/django/app/routes/services_personne/assets`
+    - `Dihya/backend/django/app/routes/voice/assets`
+    - `Dihya/backend/django/app/routes/tourisme/assets`
+    - `Dihya/backend/django/app/routes/sport/assets`
+    - `Dihya/backend/django/app/routes/transport/assets`
+
+### <a name="assurance"></a> assurance
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/assurance`
+    - `Dihya/frontend/src/components/metiers/assurance/index.js`
+    - `Dihya/frontend/src/tests/integration/assurance`
+    - `Dihya/frontend/src/tests/integration/assurance/test_assurance.js`
+    - `Dihya/frontend/src/generation/templates/assurance`
+    - `Dihya/frontend/src/generation/templates/assurance/template.js`
+    - `Dihya/backend/tests/integration/assurance`
+    - `Dihya/backend/tests/integration/assurance/test_assurance_backend.py`
+    - `Dihya/backend/django/tests/integration/assurance`
+    - `Dihya/backend/django/tests/integration/assurance/test_assurance_django.py`
+    - `Dihya/backend/django/app/tests/integration/assurance`
+    - `Dihya/backend/django/app/tests/integration/assurance/test_assurance_django.py`
+    - `Dihya/backend/django/app/templates/assurance`
+    - `Dihya/backend/django/app/templates/assurance/template.py`
+    - `Dihya/backend/django/app/routes/assurance`
+    - `Dihya/backend/django/app/routes/assurance/routes.py`
+    - `Dihya/backend/django/routes/assurance`
+    - `Dihya/backend/django/routes/assurance/routes.py`
+    - `Dihya/backend/flask/tests/integration/assurance`
+    - `Dihya/backend/flask/tests/integration/assurance/test_assurance_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/assurance`
+    - `Dihya/backend/flask/app/tests/integration/assurance/test_assurance_flask.py`
+    - `Dihya/backend/flask/app/templates/assurance`
+    - `Dihya/backend/flask/app/templates/assurance/template.py`
+    - `Dihya/backend/flask/app/routes/assurance`
+    - `Dihya/backend/flask/app/routes/assurance/routes.py`
+    - `Dihya/backend/flask/routes/assurance`
+    - `Dihya/backend/flask/routes/assurance/routes.py`
+    - `Dihya/backend/routes/assurance`
+    - `Dihya/backend/routes/assurance/routes.py`
+    - `Dihya/backend/node/tests/integration/assurance`
+    - `Dihya/backend/node/tests/integration/assurance/test_assurance.js`
+    - `Dihya/backend/node/app/tests/integration/assurance`
+    - `Dihya/backend/node/app/tests/integration/assurance/test_assurance.js`
+    - `Dihya/backend/node/app/templates/assurance`
+    - `Dihya/backend/node/app/templates/assurance/template.js`
+    - `Dihya/backend/node/app/routes/assurance`
+    - `Dihya/backend/node/routes/assurance`
+    - `Dihya/backend/node/routes/assurance/routes.js`
+    - `Dihya/docs/metiers/assurance.md`
+    - `coverage/lcov-report/components/metiers/assurance`
+    - `coverage/lcov-report/generation/templates/assurance`
+    - `dist/components/metiers/assurance`
+    - `dist/components/metiers/assurance/index.js`
+    - `dist/generation/templates/assurance`
+    - `dist/generation/templates/assurance/template.js`
+    - `src/components/metiers/assurance`
+    - `src/components/metiers/assurance/index.js`
+    - `src/generation/templates/assurance`
+    - `src/generation/templates/assurance/template.js`
+    - `backend/node/tests/integration/assurance`
+    - `backend/node/tests/integration/assurance/test_assurance.js`
+    - `backend/node/app/tests/integration/assurance`
+    - `backend/node/app/tests/integration/assurance/test_assurance.js`
+    - `backend/node/app/templates/assurance`
+    - `backend/node/app/templates/assurance/template.js`
+    - `backend/node/app/routes/assurance`
+    - `backend/node/app/routes/assurance/routes.js`
+    - `backend/node/routes/assurance`
+    - `backend/node/routes/assurance/routes.js`
+    - `docs/metiers/assurance.md`
+
+### <a name="automobile"></a> automobile
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/automobile`
+    - `Dihya/frontend/src/components/metiers/automobile/index.js`
+    - `Dihya/frontend/src/tests/integration/automobile`
+    - `Dihya/frontend/src/tests/integration/automobile/test_automobile.js`
+    - `Dihya/frontend/src/generation/templates/automobile`
+    - `Dihya/frontend/src/generation/templates/automobile/template.js`
+    - `Dihya/backend/tests/integration/automobile`
+    - `Dihya/backend/tests/integration/automobile/test_automobile_backend.py`
+    - `Dihya/backend/django/tests/integration/automobile`
+    - `Dihya/backend/django/tests/integration/automobile/test_automobile_django.py`
+    - `Dihya/backend/django/app/tests/integration/automobile`
+    - `Dihya/backend/django/app/tests/integration/automobile/test_automobile_django.py`
+    - `Dihya/backend/django/app/templates/automobile`
+    - `Dihya/backend/django/app/templates/automobile/template.py`
+    - `Dihya/backend/django/app/routes/automobile`
+    - `Dihya/backend/django/app/routes/automobile/routes.py`
+    - `Dihya/backend/django/routes/automobile`
+    - `Dihya/backend/django/routes/automobile/routes.py`
+    - `Dihya/backend/flask/tests/integration/automobile`
+    - `Dihya/backend/flask/tests/integration/automobile/test_automobile_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/automobile`
+    - `Dihya/backend/flask/app/tests/integration/automobile/test_automobile_flask.py`
+    - `Dihya/backend/flask/app/templates/automobile`
+    - `Dihya/backend/flask/app/templates/automobile/template.py`
+    - `Dihya/backend/flask/app/routes/automobile`
+    - `Dihya/backend/flask/app/routes/automobile/routes.py`
+    - `Dihya/backend/flask/routes/automobile`
+    - `Dihya/backend/flask/routes/automobile/routes.py`
+    - `Dihya/backend/routes/automobile`
+    - `Dihya/backend/routes/automobile/routes.py`
+    - `Dihya/backend/node/tests/integration/automobile`
+    - `Dihya/backend/node/tests/integration/automobile/test_automobile.js`
+    - `Dihya/backend/node/app/tests/integration/automobile`
+    - `Dihya/backend/node/app/tests/integration/automobile/test_automobile.js`
+    - `Dihya/backend/node/app/templates/automobile`
+    - `Dihya/backend/node/app/templates/automobile/template.js`
+    - `Dihya/backend/node/app/routes/automobile`
+    - `Dihya/backend/node/routes/automobile`
+    - `Dihya/backend/node/routes/automobile/routes.js`
+    - `Dihya/docs/metiers/automobile.md`
+    - `coverage/lcov-report/components/metiers/automobile`
+    - `coverage/lcov-report/generation/templates/automobile`
+    - `dist/components/metiers/automobile`
+    - `dist/components/metiers/automobile/index.js`
+    - `dist/generation/templates/automobile`
+    - `dist/generation/templates/automobile/template.js`
+    - `src/components/metiers/automobile`
+    - `src/components/metiers/automobile/index.js`
+    - `src/generation/templates/automobile`
+    - `src/generation/templates/automobile/template.js`
+    - `backend/node/tests/integration/automobile`
+    - `backend/node/tests/integration/automobile/test_automobile.js`
+    - `backend/node/app/tests/integration/automobile`
+    - `backend/node/app/tests/integration/automobile/test_automobile.js`
+    - `backend/node/app/templates/automobile`
+    - `backend/node/app/templates/automobile/template.js`
+    - `backend/node/app/routes/automobile`
+    - `backend/node/app/routes/automobile/routes.js`
+    - `backend/node/routes/automobile`
+    - `backend/node/routes/automobile/routes.js`
+    - `docs/metiers/automobile.md`
+
+### <a name="backend"></a> backend
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/flask/app/templates/health/backend`
+
+### <a name="banque-finance"></a> banque_finance
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/banque_finance`
+    - `Dihya/frontend/src/components/metiers/banque_finance/index.js`
+    - `Dihya/frontend/src/tests/integration/banque_finance`
+    - `Dihya/frontend/src/tests/integration/banque_finance/test_banque_finance.js`
+    - `Dihya/frontend/src/generation/templates/banque_finance`
+    - `Dihya/frontend/src/generation/templates/banque_finance/template.js`
+    - `Dihya/backend/tests/integration/banque_finance`
+    - `Dihya/backend/tests/integration/banque_finance/test_banque_finance_backend.py`
+    - `Dihya/backend/django/tests/integration/banque_finance`
+    - `Dihya/backend/django/tests/integration/banque_finance/test_banque_finance_django.py`
+    - `Dihya/backend/django/app/tests/integration/banque_finance`
+    - `Dihya/backend/django/app/tests/integration/banque_finance/test_banque_finance_django.py`
+    - `Dihya/backend/django/app/templates/banque_finance`
+    - `Dihya/backend/django/app/templates/banque_finance/template.py`
+    - `Dihya/backend/django/app/routes/banque_finance`
+    - `Dihya/backend/django/app/routes/banque_finance/routes.py`
+    - `Dihya/backend/django/routes/banque_finance`
+    - `Dihya/backend/django/routes/banque_finance/routes.py`
+    - `Dihya/backend/flask/tests/integration/banque_finance`
+    - `Dihya/backend/flask/tests/integration/banque_finance/test_banque_finance_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/banque_finance`
+    - `Dihya/backend/flask/app/tests/integration/banque_finance/test_banque_finance_flask.py`
+    - `Dihya/backend/flask/app/templates/banque_finance`
+    - `Dihya/backend/flask/app/templates/banque_finance/template.py`
+    - `Dihya/backend/flask/app/routes/banque_finance`
+    - `Dihya/backend/flask/app/routes/banque_finance/routes.py`
+    - `Dihya/backend/flask/routes/banque_finance`
+    - `Dihya/backend/flask/routes/banque_finance/routes.py`
+    - `Dihya/backend/routes/banque_finance`
+    - `Dihya/backend/routes/banque_finance/routes.py`
+    - `Dihya/backend/node/tests/integration/banque_finance`
+    - `Dihya/backend/node/tests/integration/banque_finance/test_banque_finance.js`
+    - `Dihya/backend/node/app/tests/integration/banque_finance`
+    - `Dihya/backend/node/app/tests/integration/banque_finance/test_banque_finance.js`
+    - `Dihya/backend/node/app/templates/banque_finance`
+    - `Dihya/backend/node/app/templates/banque_finance/template.js`
+    - `Dihya/backend/node/app/routes/banque_finance`
+    - `Dihya/backend/node/routes/banque_finance`
+    - `Dihya/backend/node/routes/banque_finance/routes.js`
+    - `Dihya/docs/metiers/banque_finance.md`
+    - `coverage/lcov-report/components/metiers/banque_finance`
+    - `coverage/lcov-report/generation/templates/banque_finance`
+    - `dist/components/metiers/banque_finance`
+    - `dist/components/metiers/banque_finance/index.js`
+    - `dist/generation/templates/banque_finance`
+    - `dist/generation/templates/banque_finance/template.js`
+    - `src/components/metiers/banque_finance`
+    - `src/components/metiers/banque_finance/index.js`
+    - `src/generation/templates/banque_finance`
+    - `src/generation/templates/banque_finance/template.js`
+    - `backend/node/tests/integration/banque_finance`
+    - `backend/node/tests/integration/banque_finance/test_banque_finance.js`
+    - `backend/node/app/tests/integration/banque_finance`
+    - `backend/node/app/tests/integration/banque_finance/test_banque_finance.js`
+    - `backend/node/app/templates/banque_finance`
+    - `backend/node/app/templates/banque_finance/template.js`
+    - `backend/node/app/routes/banque_finance`
+    - `backend/node/app/routes/banque_finance/routes.js`
+    - `backend/node/routes/banque_finance`
+    - `backend/node/routes/banque_finance/routes.js`
+    - `docs/metiers/banque_finance.md`
+
+### <a name="beaute"></a> beaute
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/beaute`
+    - `Dihya/frontend/src/components/metiers/beaute/index.js`
+    - `Dihya/frontend/src/tests/integration/beaute`
+    - `Dihya/frontend/src/tests/integration/beaute/test_beaute.js`
+    - `Dihya/frontend/src/generation/templates/beaute`
+    - `Dihya/frontend/src/generation/templates/beaute/template.js`
+    - `Dihya/backend/tests/integration/beaute`
+    - `Dihya/backend/tests/integration/beaute/test_beaute_backend.py`
+    - `Dihya/backend/django/tests/integration/beaute`
+    - `Dihya/backend/django/tests/integration/beaute/test_beaute_django.py`
+    - `Dihya/backend/django/app/tests/integration/beaute`
+    - `Dihya/backend/django/app/tests/integration/beaute/test_beaute_django.py`
+    - `Dihya/backend/django/app/templates/beaute`
+    - `Dihya/backend/django/app/templates/beaute/template.py`
+    - `Dihya/backend/django/app/routes/beaute`
+    - `Dihya/backend/django/app/routes/beaute/routes.py`
+    - `Dihya/backend/django/routes/beaute`
+    - `Dihya/backend/django/routes/beaute/routes.py`
+    - `Dihya/backend/flask/tests/integration/beaute`
+    - `Dihya/backend/flask/tests/integration/beaute/test_beaute_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/beaute`
+    - `Dihya/backend/flask/app/tests/integration/beaute/test_beaute_flask.py`
+    - `Dihya/backend/flask/app/templates/beaute`
+    - `Dihya/backend/flask/app/templates/beaute/template.py`
+    - `Dihya/backend/flask/app/routes/beaute`
+    - `Dihya/backend/flask/app/routes/beaute/routes.py`
+    - `Dihya/backend/flask/routes/beaute`
+    - `Dihya/backend/flask/routes/beaute/routes.py`
+    - `Dihya/backend/routes/beaute`
+    - `Dihya/backend/routes/beaute/routes.py`
+    - `Dihya/backend/node/tests/integration/beaute`
+    - `Dihya/backend/node/tests/integration/beaute/test_beaute.js`
+    - `Dihya/backend/node/app/tests/integration/beaute`
+    - `Dihya/backend/node/app/tests/integration/beaute/test_beaute.js`
+    - `Dihya/backend/node/app/templates/beaute`
+    - `Dihya/backend/node/app/templates/beaute/template.js`
+    - `Dihya/backend/node/app/routes/beaute`
+    - `Dihya/backend/node/routes/beaute`
+    - `Dihya/backend/node/routes/beaute/routes.js`
+    - `Dihya/docs/metiers/beaute.md`
+    - `coverage/lcov-report/components/metiers/beaute`
+    - `coverage/lcov-report/generation/templates/beaute`
+    - `dist/components/metiers/beaute`
+    - `dist/components/metiers/beaute/index.js`
+    - `dist/generation/templates/beaute`
+    - `dist/generation/templates/beaute/template.js`
+    - `src/components/metiers/beaute`
+    - `src/components/metiers/beaute/index.js`
+    - `src/generation/templates/beaute`
+    - `src/generation/templates/beaute/template.js`
+    - `backend/node/tests/integration/beaute`
+    - `backend/node/tests/integration/beaute/test_beaute.js`
+    - `backend/node/app/tests/integration/beaute`
+    - `backend/node/app/tests/integration/beaute/test_beaute.js`
+    - `backend/node/app/templates/beaute`
+    - `backend/node/app/templates/beaute/template.js`
+    - `backend/node/app/routes/beaute`
+    - `backend/node/app/routes/beaute/routes.js`
+    - `backend/node/routes/beaute`
+    - `backend/node/routes/beaute/routes.js`
+    - `docs/metiers/beaute.md`
+
+### <a name="blockchain"></a> blockchain
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/blockchain`
+    - `Dihya/frontend/src/components/metiers/blockchain/index.js`
+    - `Dihya/frontend/src/tests/integration/blockchain`
+    - `Dihya/frontend/src/tests/integration/blockchain/test_blockchain.js`
+    - `Dihya/frontend/src/generation/templates/blockchain`
+    - `Dihya/frontend/src/generation/templates/blockchain/template.js`
+    - `Dihya/backend/tests/integration/blockchain`
+    - `Dihya/backend/tests/integration/blockchain/test_blockchain_backend.py`
+    - `Dihya/backend/django/tests/integration/blockchain`
+    - `Dihya/backend/django/tests/integration/blockchain/test_blockchain_django.py`
+    - `Dihya/backend/django/app/tests/integration/blockchain`
+    - `Dihya/backend/django/app/tests/integration/blockchain/test_blockchain_django.py`
+    - `Dihya/backend/django/app/templates/blockchain`
+    - `Dihya/backend/django/app/templates/blockchain/template.py`
+    - `Dihya/backend/django/app/routes/blockchain`
+    - `Dihya/backend/django/app/routes/blockchain/routes.py`
+    - `Dihya/backend/django/routes/blockchain`
+    - `Dihya/backend/django/routes/blockchain/routes.py`
+    - `Dihya/backend/flask/tests/integration/blockchain`
+    - `Dihya/backend/flask/tests/integration/blockchain/test_blockchain_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/blockchain`
+    - `Dihya/backend/flask/app/tests/integration/blockchain/test_blockchain_flask.py`
+    - `Dihya/backend/flask/app/templates/blockchain`
+    - `Dihya/backend/flask/app/templates/blockchain/template.py`
+    - `Dihya/backend/flask/app/routes/blockchain`
+    - `Dihya/backend/flask/app/routes/blockchain/routes.py`
+    - `Dihya/backend/flask/routes/blockchain`
+    - `Dihya/backend/flask/routes/blockchain/routes.py`
+    - `Dihya/backend/routes/blockchain`
+    - `Dihya/backend/routes/blockchain/routes.py`
+    - `Dihya/backend/node/tests/integration/blockchain`
+    - `Dihya/backend/node/tests/integration/blockchain/test_blockchain.js`
+    - `Dihya/backend/node/app/tests/integration/blockchain`
+    - `Dihya/backend/node/app/tests/integration/blockchain/test_blockchain.js`
+    - `Dihya/backend/node/app/templates/blockchain`
+    - `Dihya/backend/node/app/templates/blockchain/template.js`
+    - `Dihya/backend/node/app/routes/blockchain`
+    - `Dihya/backend/node/routes/blockchain`
+    - `Dihya/backend/node/routes/blockchain/routes.js`
+    - `Dihya/docs/metiers/blockchain.md`
+    - `coverage/lcov-report/components/metiers/blockchain`
+    - `coverage/lcov-report/generation/templates/blockchain`
+    - `dist/components/metiers/blockchain`
+    - `dist/components/metiers/blockchain/index.js`
+    - `dist/generation/templates/blockchain`
+    - `dist/generation/templates/blockchain/template.js`
+    - `src/components/metiers/blockchain`
+    - `src/components/metiers/blockchain/index.js`
+    - `src/generation/templates/blockchain`
+    - `src/generation/templates/blockchain/template.js`
+    - `backend/node/tests/integration/blockchain`
+    - `backend/node/tests/integration/blockchain/test_blockchain.js`
+    - `backend/node/app/tests/integration/blockchain`
+    - `backend/node/app/tests/integration/blockchain/test_blockchain.js`
+    - `backend/node/app/templates/blockchain`
+    - `backend/node/app/templates/blockchain/template.js`
+    - `backend/node/app/routes/blockchain`
+    - `backend/node/app/routes/blockchain/routes.js`
+    - `backend/node/routes/blockchain`
+    - `backend/node/routes/blockchain/routes.js`
+    - `docs/metiers/blockchain.md`
+
+### <a name="btp"></a> btp
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/btp`
+    - `Dihya/frontend/src/components/metiers/btp/index.js`
+    - `Dihya/frontend/src/tests/integration/btp`
+    - `Dihya/frontend/src/tests/integration/btp/test_btp.js`
+    - `Dihya/frontend/src/generation/templates/btp`
+    - `Dihya/frontend/src/generation/templates/btp/template.js`
+    - `Dihya/backend/tests/integration/btp`
+    - `Dihya/backend/tests/integration/btp/test_btp_backend.py`
+    - `Dihya/backend/django/tests/integration/btp`
+    - `Dihya/backend/django/tests/integration/btp/test_btp_django.py`
+    - `Dihya/backend/django/app/tests/integration/btp`
+    - `Dihya/backend/django/app/tests/integration/btp/test_btp_django.py`
+    - `Dihya/backend/django/app/templates/btp`
+    - `Dihya/backend/django/app/templates/btp/template.py`
+    - `Dihya/backend/django/app/routes/btp`
+    - `Dihya/backend/django/app/routes/btp/routes.py`
+    - `Dihya/backend/django/routes/btp`
+    - `Dihya/backend/django/routes/btp/routes.py`
+    - `Dihya/backend/flask/tests/integration/btp`
+    - `Dihya/backend/flask/tests/integration/btp/test_btp_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/btp`
+    - `Dihya/backend/flask/app/tests/integration/btp/test_btp_flask.py`
+    - `Dihya/backend/flask/app/templates/btp`
+    - `Dihya/backend/flask/app/templates/btp/template.py`
+    - `Dihya/backend/flask/app/routes/btp`
+    - `Dihya/backend/flask/app/routes/btp/routes.py`
+    - `Dihya/backend/flask/routes/btp`
+    - `Dihya/backend/flask/routes/btp/routes.py`
+    - `Dihya/backend/routes/btp`
+    - `Dihya/backend/routes/btp/routes.py`
+    - `Dihya/backend/node/tests/integration/btp`
+    - `Dihya/backend/node/tests/integration/btp/test_btp.js`
+    - `Dihya/backend/node/app/tests/integration/btp`
+    - `Dihya/backend/node/app/tests/integration/btp/test_btp.js`
+    - `Dihya/backend/node/app/templates/btp`
+    - `Dihya/backend/node/app/templates/btp/template.js`
+    - `Dihya/backend/node/app/routes/btp`
+    - `Dihya/backend/node/routes/btp`
+    - `Dihya/backend/node/routes/btp/routes.js`
+    - `Dihya/docs/metiers/btp.md`
+    - `coverage/lcov-report/components/metiers/btp`
+    - `coverage/lcov-report/generation/templates/btp`
+    - `dist/components/metiers/btp`
+    - `dist/components/metiers/btp/index.js`
+    - `dist/generation/templates/btp`
+    - `dist/generation/templates/btp/template.js`
+    - `src/components/metiers/btp`
+    - `src/components/metiers/btp/index.js`
+    - `src/generation/templates/btp`
+    - `src/generation/templates/btp/template.js`
+    - `backend/node/tests/integration/btp`
+    - `backend/node/tests/integration/btp/test_btp.js`
+    - `backend/node/app/tests/integration/btp`
+    - `backend/node/app/tests/integration/btp/test_btp.js`
+    - `backend/node/app/templates/btp`
+    - `backend/node/app/templates/btp/template.js`
+    - `backend/node/app/routes/btp`
+    - `backend/node/app/routes/btp/routes.js`
+    - `backend/node/routes/btp`
+    - `backend/node/routes/btp/routes.js`
+    - `docs/metiers/btp.md`
+
+### <a name="cahier-des-charges"></a> cahier_des_charges
+
+- **Présent dans le projet** : ❌
+- **Attendu dans le CDC** : ✅
+- **Types détectés** : -
+
+### <a name="cms"></a> cms
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,plugin
+- **Chemins** :
+    - `Dihya/frontend/src/plugins/cms`
+    - `Dihya/frontend/src/plugins/cms/cmsPlugin.js`
+    - `Dihya/frontend/src/plugins/cms/README.md`
+
+### <a name="compliance"></a> compliance
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/django/app/routes/compliance`
+
+### <a name="components"></a> components
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/flask/app/templates/health/frontend/components`
+
+### <a name="construction"></a> construction
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/construction`
+    - `Dihya/frontend/src/components/metiers/construction/index.js`
+    - `Dihya/frontend/src/tests/integration/construction`
+    - `Dihya/frontend/src/tests/integration/construction/test_construction.js`
+    - `Dihya/frontend/src/generation/templates/construction`
+    - `Dihya/frontend/src/generation/templates/construction/template.js`
+    - `Dihya/backend/tests/integration/construction`
+    - `Dihya/backend/tests/integration/construction/test_construction_backend.py`
+    - `Dihya/backend/django/tests/integration/construction`
+    - `Dihya/backend/django/tests/integration/construction/test_construction_django.py`
+    - `Dihya/backend/django/app/tests/integration/construction`
+    - `Dihya/backend/django/app/tests/integration/construction/test_construction_django.py`
+    - `Dihya/backend/django/app/templates/construction`
+    - `Dihya/backend/django/app/templates/construction/template.py`
+    - `Dihya/backend/django/app/routes/construction`
+    - `Dihya/backend/django/app/routes/construction/routes.py`
+    - `Dihya/backend/django/routes/construction`
+    - `Dihya/backend/django/routes/construction/routes.py`
+    - `Dihya/backend/flask/tests/integration/construction`
+    - `Dihya/backend/flask/tests/integration/construction/test_construction_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/construction`
+    - `Dihya/backend/flask/app/tests/integration/construction/test_construction_flask.py`
+    - `Dihya/backend/flask/app/templates/construction`
+    - `Dihya/backend/flask/app/templates/construction/template.py`
+    - `Dihya/backend/flask/app/routes/construction`
+    - `Dihya/backend/flask/app/routes/construction/routes.py`
+    - `Dihya/backend/flask/routes/construction`
+    - `Dihya/backend/flask/routes/construction/routes.py`
+    - `Dihya/backend/routes/construction`
+    - `Dihya/backend/routes/construction/routes.py`
+    - `Dihya/backend/node/tests/integration/construction`
+    - `Dihya/backend/node/tests/integration/construction/test_construction.js`
+    - `Dihya/backend/node/app/tests/integration/construction`
+    - `Dihya/backend/node/app/tests/integration/construction/test_construction.js`
+    - `Dihya/backend/node/app/templates/construction`
+    - `Dihya/backend/node/app/templates/construction/template.js`
+    - `Dihya/backend/node/app/routes/construction`
+    - `Dihya/backend/node/routes/construction`
+    - `Dihya/backend/node/routes/construction/routes.js`
+    - `Dihya/docs/metiers/construction.md`
+    - `coverage/lcov-report/components/metiers/construction`
+    - `coverage/lcov-report/generation/templates/construction`
+    - `dist/components/metiers/construction`
+    - `dist/components/metiers/construction/index.js`
+    - `dist/generation/templates/construction`
+    - `dist/generation/templates/construction/template.js`
+    - `src/components/metiers/construction`
+    - `src/components/metiers/construction/index.js`
+    - `src/generation/templates/construction`
+    - `src/generation/templates/construction/template.js`
+    - `backend/node/tests/integration/construction`
+    - `backend/node/tests/integration/construction/test_construction.js`
+    - `backend/node/app/tests/integration/construction`
+    - `backend/node/app/tests/integration/construction/test_construction.js`
+    - `backend/node/app/templates/construction`
+    - `backend/node/app/templates/construction/template.js`
+    - `backend/node/app/routes/construction`
+    - `backend/node/app/routes/construction/routes.js`
+    - `backend/node/routes/construction`
+    - `backend/node/routes/construction/routes.js`
+    - `docs/metiers/construction.md`
+
+### <a name="crypto"></a> crypto
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/crypto`
+    - `Dihya/frontend/src/components/metiers/crypto/index.js`
+    - `Dihya/frontend/src/tests/integration/crypto`
+    - `Dihya/frontend/src/tests/integration/crypto/test_crypto.js`
+    - `Dihya/frontend/src/generation/templates/crypto`
+    - `Dihya/frontend/src/generation/templates/crypto/template.js`
+    - `Dihya/backend/tests/integration/crypto`
+    - `Dihya/backend/tests/integration/crypto/test_crypto_backend.py`
+    - `Dihya/backend/django/tests/integration/crypto`
+    - `Dihya/backend/django/tests/integration/crypto/test_crypto_django.py`
+    - `Dihya/backend/django/app/tests/integration/crypto`
+    - `Dihya/backend/django/app/tests/integration/crypto/test_crypto_django.py`
+    - `Dihya/backend/django/app/templates/crypto`
+    - `Dihya/backend/django/app/templates/crypto/template.py`
+    - `Dihya/backend/django/app/routes/crypto`
+    - `Dihya/backend/django/app/routes/crypto/routes.py`
+    - `Dihya/backend/django/routes/crypto`
+    - `Dihya/backend/django/routes/crypto/routes.py`
+    - `Dihya/backend/flask/tests/integration/crypto`
+    - `Dihya/backend/flask/tests/integration/crypto/test_crypto_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/crypto`
+    - `Dihya/backend/flask/app/tests/integration/crypto/test_crypto_flask.py`
+    - `Dihya/backend/flask/app/templates/crypto`
+    - `Dihya/backend/flask/app/templates/crypto/template.py`
+    - `Dihya/backend/flask/app/routes/crypto`
+    - `Dihya/backend/flask/app/routes/crypto/routes.py`
+    - `Dihya/backend/flask/routes/crypto`
+    - `Dihya/backend/flask/routes/crypto/routes.py`
+    - `Dihya/backend/routes/crypto`
+    - `Dihya/backend/routes/crypto/routes.py`
+    - `Dihya/backend/node/tests/integration/crypto`
+    - `Dihya/backend/node/tests/integration/crypto/test_crypto.js`
+    - `Dihya/backend/node/app/tests/integration/crypto`
+    - `Dihya/backend/node/app/tests/integration/crypto/test_crypto.js`
+    - `Dihya/backend/node/app/templates/crypto`
+    - `Dihya/backend/node/app/templates/crypto/template.js`
+    - `Dihya/backend/node/app/routes/crypto`
+    - `Dihya/backend/node/routes/crypto`
+    - `Dihya/backend/node/routes/crypto/routes.js`
+    - `Dihya/docs/metiers/crypto.md`
+    - `coverage/lcov-report/components/metiers/crypto`
+    - `coverage/lcov-report/generation/templates/crypto`
+    - `dist/components/metiers/crypto`
+    - `dist/components/metiers/crypto/index.js`
+    - `dist/generation/templates/crypto`
+    - `dist/generation/templates/crypto/template.js`
+    - `src/components/metiers/crypto`
+    - `src/components/metiers/crypto/index.js`
+    - `src/generation/templates/crypto`
+    - `src/generation/templates/crypto/template.js`
+    - `backend/node/tests/integration/crypto`
+    - `backend/node/tests/integration/crypto/test_crypto.js`
+    - `backend/node/app/tests/integration/crypto`
+    - `backend/node/app/tests/integration/crypto/test_crypto.js`
+    - `backend/node/app/templates/crypto`
+    - `backend/node/app/templates/crypto/template.js`
+    - `backend/node/app/routes/crypto`
+    - `backend/node/app/routes/crypto/routes.js`
+    - `backend/node/routes/crypto`
+    - `backend/node/routes/crypto/routes.js`
+    - `docs/metiers/crypto.md`
+
+### <a name="culture"></a> culture
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/culture`
+    - `Dihya/frontend/src/components/metiers/culture/index.js`
+    - `Dihya/frontend/src/tests/integration/culture`
+    - `Dihya/frontend/src/tests/integration/culture/test_culture.js`
+    - `Dihya/frontend/src/generation/templates/culture`
+    - `Dihya/frontend/src/generation/templates/culture/template.js`
+    - `Dihya/backend/tests/integration/culture`
+    - `Dihya/backend/tests/integration/culture/test_culture_backend.py`
+    - `Dihya/backend/django/tests/integration/culture`
+    - `Dihya/backend/django/tests/integration/culture/test_culture_django.py`
+    - `Dihya/backend/django/app/tests/integration/culture`
+    - `Dihya/backend/django/app/tests/integration/culture/test_culture_django.py`
+    - `Dihya/backend/django/app/templates/culture`
+    - `Dihya/backend/django/app/templates/culture/template.py`
+    - `Dihya/backend/django/app/routes/culture`
+    - `Dihya/backend/django/app/routes/culture/routes.py`
+    - `Dihya/backend/django/routes/culture`
+    - `Dihya/backend/django/routes/culture/routes.py`
+    - `Dihya/backend/flask/tests/integration/culture`
+    - `Dihya/backend/flask/tests/integration/culture/test_culture_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/culture`
+    - `Dihya/backend/flask/app/tests/integration/culture/test_culture_flask.py`
+    - `Dihya/backend/flask/app/templates/culture`
+    - `Dihya/backend/flask/app/templates/culture/template.py`
+    - `Dihya/backend/flask/app/routes/culture`
+    - `Dihya/backend/flask/app/routes/culture/routes.py`
+    - `Dihya/backend/flask/routes/culture`
+    - `Dihya/backend/flask/routes/culture/routes.py`
+    - `Dihya/backend/routes/culture`
+    - `Dihya/backend/routes/culture/routes.py`
+    - `Dihya/backend/node/tests/integration/culture`
+    - `Dihya/backend/node/tests/integration/culture/test_culture.js`
+    - `Dihya/backend/node/app/tests/integration/culture`
+    - `Dihya/backend/node/app/tests/integration/culture/test_culture.js`
+    - `Dihya/backend/node/app/templates/culture`
+    - `Dihya/backend/node/app/templates/culture/template.js`
+    - `Dihya/backend/node/app/routes/culture`
+    - `Dihya/backend/node/routes/culture`
+    - `Dihya/backend/node/routes/culture/routes.js`
+    - `Dihya/docs/metiers/culture.md`
+    - `coverage/lcov-report/components/metiers/culture`
+    - `coverage/lcov-report/generation/templates/culture`
+    - `dist/components/metiers/culture`
+    - `dist/components/metiers/culture/index.js`
+    - `dist/generation/templates/culture`
+    - `dist/generation/templates/culture/template.js`
+    - `src/components/metiers/culture`
+    - `src/components/metiers/culture/index.js`
+    - `src/generation/templates/culture`
+    - `src/generation/templates/culture/template.js`
+    - `backend/node/tests/integration/culture`
+    - `backend/node/tests/integration/culture/test_culture.js`
+    - `backend/node/app/tests/integration/culture`
+    - `backend/node/app/tests/integration/culture/test_culture.js`
+    - `backend/node/app/templates/culture`
+    - `backend/node/app/templates/culture/template.js`
+    - `backend/node/app/routes/culture`
+    - `backend/node/app/routes/culture/routes.js`
+    - `backend/node/routes/culture`
+    - `backend/node/routes/culture/routes.js`
+    - `docs/metiers/culture.md`
+
+### <a name="devops"></a> devops
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,template
+- **Chemins** :
+    - `Dihya/frontend/src/generation/templates/devops`
+    - `Dihya/frontend/src/generation/templates/devops/template.js`
+
+### <a name="ecommerce"></a> ecommerce
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/ecommerce`
+    - `Dihya/frontend/src/components/metiers/ecommerce/index.js`
+    - `Dihya/frontend/src/tests/integration/ecommerce`
+    - `Dihya/frontend/src/tests/integration/ecommerce/test_ecommerce.js`
+    - `Dihya/frontend/src/generation/templates/ecommerce`
+    - `Dihya/frontend/src/generation/templates/ecommerce/template.js`
+    - `Dihya/backend/tests/integration/ecommerce`
+    - `Dihya/backend/tests/integration/ecommerce/test_ecommerce_backend.py`
+    - `Dihya/backend/django/tests/integration/ecommerce`
+    - `Dihya/backend/django/tests/integration/ecommerce/test_ecommerce_django.py`
+    - `Dihya/backend/django/app/tests/integration/ecommerce`
+    - `Dihya/backend/django/app/tests/integration/ecommerce/test_ecommerce_django.py`
+    - `Dihya/backend/django/app/templates/ecommerce`
+    - `Dihya/backend/django/app/templates/ecommerce/template.py`
+    - `Dihya/backend/django/app/routes/ecommerce`
+    - `Dihya/backend/django/app/routes/ecommerce/routes.py`
+    - `Dihya/backend/django/routes/ecommerce`
+    - `Dihya/backend/django/routes/ecommerce/routes.py`
+    - `Dihya/backend/flask/tests/integration/ecommerce`
+    - `Dihya/backend/flask/tests/integration/ecommerce/test_ecommerce_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/ecommerce`
+    - `Dihya/backend/flask/app/tests/integration/ecommerce/test_ecommerce_flask.py`
+    - `Dihya/backend/flask/app/templates/ecommerce`
+    - `Dihya/backend/flask/app/templates/ecommerce/template.py`
+    - `Dihya/backend/flask/app/routes/ecommerce`
+    - `Dihya/backend/flask/app/routes/ecommerce/routes.py`
+    - `Dihya/backend/flask/routes/ecommerce`
+    - `Dihya/backend/flask/routes/ecommerce/routes.py`
+    - `Dihya/backend/routes/ecommerce`
+    - `Dihya/backend/routes/ecommerce/routes.py`
+    - `Dihya/backend/node/tests/integration/ecommerce`
+    - `Dihya/backend/node/tests/integration/ecommerce/test_ecommerce.js`
+    - `Dihya/backend/node/app/tests/integration/ecommerce`
+    - `Dihya/backend/node/app/tests/integration/ecommerce/test_ecommerce.js`
+    - `Dihya/backend/node/app/templates/ecommerce`
+    - `Dihya/backend/node/app/templates/ecommerce/template.js`
+    - `Dihya/backend/node/app/routes/ecommerce`
+    - `Dihya/backend/node/routes/ecommerce`
+    - `Dihya/backend/node/routes/ecommerce/routes.js`
+    - `Dihya/docs/metiers/ecommerce.md`
+    - `coverage/lcov-report/components/metiers/ecommerce`
+    - `coverage/lcov-report/generation/templates/ecommerce`
+    - `dist/components/metiers/ecommerce`
+    - `dist/components/metiers/ecommerce/index.js`
+    - `dist/generation/templates/ecommerce`
+    - `dist/generation/templates/ecommerce/template.js`
+    - `src/components/metiers/ecommerce`
+    - `src/components/metiers/ecommerce/index.js`
+    - `src/generation/templates/ecommerce`
+    - `src/generation/templates/ecommerce/template.js`
+    - `backend/node/tests/integration/ecommerce`
+    - `backend/node/tests/integration/ecommerce/test_ecommerce.js`
+    - `backend/node/app/tests/integration/ecommerce`
+    - `backend/node/app/tests/integration/ecommerce/test_ecommerce.js`
+    - `backend/node/app/templates/ecommerce`
+    - `backend/node/app/templates/ecommerce/template.js`
+    - `backend/node/app/routes/ecommerce`
+    - `backend/node/app/routes/ecommerce/routes.js`
+    - `backend/node/routes/ecommerce`
+    - `backend/node/routes/ecommerce/routes.js`
+    - `docs/metiers/ecommerce.md`
+
+### <a name="education"></a> education
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/education`
+    - `Dihya/frontend/src/components/metiers/education/index.js`
+    - `Dihya/frontend/src/tests/integration/education`
+    - `Dihya/frontend/src/tests/integration/education/test_education.js`
+    - `Dihya/frontend/src/generation/templates/education`
+    - `Dihya/frontend/src/generation/templates/education/template.js`
+    - `Dihya/backend/tests/integration/education`
+    - `Dihya/backend/tests/integration/education/test_education_backend.py`
+    - `Dihya/backend/django/tests/integration/education`
+    - `Dihya/backend/django/tests/integration/education/test_education_django.py`
+    - `Dihya/backend/django/app/tests/integration/education`
+    - `Dihya/backend/django/app/tests/integration/education/test_education_django.py`
+    - `Dihya/backend/django/app/templates/education`
+    - `Dihya/backend/django/app/templates/education/template.py`
+    - `Dihya/backend/django/app/routes/education`
+    - `Dihya/backend/django/app/routes/education/routes.py`
+    - `Dihya/backend/django/routes/education`
+    - `Dihya/backend/django/routes/education/routes.py`
+    - `Dihya/backend/flask/tests/integration/education`
+    - `Dihya/backend/flask/tests/integration/education/test_education_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/education`
+    - `Dihya/backend/flask/app/tests/integration/education/test_education_flask.py`
+    - `Dihya/backend/flask/app/templates/education`
+    - `Dihya/backend/flask/app/templates/education/template.py`
+    - `Dihya/backend/flask/app/routes/education`
+    - `Dihya/backend/flask/app/routes/education/routes.py`
+    - `Dihya/backend/flask/routes/education`
+    - `Dihya/backend/flask/routes/education/routes.py`
+    - `Dihya/backend/routes/education`
+    - `Dihya/backend/routes/education/routes.py`
+    - `Dihya/backend/node/tests/integration/education`
+    - `Dihya/backend/node/tests/integration/education/test_education.js`
+    - `Dihya/backend/node/app/tests/integration/education`
+    - `Dihya/backend/node/app/tests/integration/education/test_education.js`
+    - `Dihya/backend/node/app/templates/education`
+    - `Dihya/backend/node/app/templates/education/template.js`
+    - `Dihya/backend/node/app/routes/education`
+    - `Dihya/backend/node/routes/education`
+    - `Dihya/backend/node/routes/education/routes.js`
+    - `Dihya/docs/metiers/education.md`
+    - `coverage/lcov-report/components/metiers/education`
+    - `coverage/lcov-report/generation/templates/education`
+    - `dist/components/metiers/education`
+    - `dist/components/metiers/education/index.js`
+    - `dist/generation/templates/education`
+    - `dist/generation/templates/education/template.js`
+    - `src/components/metiers/education`
+    - `src/components/metiers/education/index.js`
+    - `src/generation/templates/education`
+    - `src/generation/templates/education/template.js`
+    - `backend/node/tests/integration/education`
+    - `backend/node/tests/integration/education/test_education.js`
+    - `backend/node/app/tests/integration/education`
+    - `backend/node/app/tests/integration/education/test_education.js`
+    - `backend/node/app/templates/education`
+    - `backend/node/app/templates/education/template.js`
+    - `backend/node/app/routes/education`
+    - `backend/node/app/routes/education/routes.js`
+    - `backend/node/routes/education`
+    - `backend/node/routes/education/routes.js`
+    - `docs/metiers/education.md`
+
+### <a name="energie"></a> energie
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/energie`
+    - `Dihya/frontend/src/components/metiers/energie/index.js`
+    - `Dihya/frontend/src/tests/integration/energie`
+    - `Dihya/frontend/src/tests/integration/energie/test_energie.js`
+    - `Dihya/frontend/src/generation/templates/energie`
+    - `Dihya/frontend/src/generation/templates/energie/template.js`
+    - `Dihya/backend/tests/integration/energie`
+    - `Dihya/backend/tests/integration/energie/test_energie_backend.py`
+    - `Dihya/backend/django/tests/integration/energie`
+    - `Dihya/backend/django/tests/integration/energie/test_energie_django.py`
+    - `Dihya/backend/django/app/tests/integration/energie`
+    - `Dihya/backend/django/app/tests/integration/energie/test_energie_django.py`
+    - `Dihya/backend/django/app/templates/energie`
+    - `Dihya/backend/django/app/templates/energie/template.py`
+    - `Dihya/backend/django/app/routes/energie`
+    - `Dihya/backend/django/app/routes/energie/routes.py`
+    - `Dihya/backend/django/routes/energie`
+    - `Dihya/backend/django/routes/energie/routes.py`
+    - `Dihya/backend/flask/tests/integration/energie`
+    - `Dihya/backend/flask/tests/integration/energie/test_energie_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/energie`
+    - `Dihya/backend/flask/app/tests/integration/energie/test_energie_flask.py`
+    - `Dihya/backend/flask/app/templates/energie`
+    - `Dihya/backend/flask/app/templates/energie/template.py`
+    - `Dihya/backend/flask/app/routes/energie`
+    - `Dihya/backend/flask/app/routes/energie/routes.py`
+    - `Dihya/backend/flask/routes/energie`
+    - `Dihya/backend/flask/routes/energie/routes.py`
+    - `Dihya/backend/routes/energie`
+    - `Dihya/backend/routes/energie/routes.py`
+    - `Dihya/backend/node/tests/integration/energie`
+    - `Dihya/backend/node/tests/integration/energie/test_energie.js`
+    - `Dihya/backend/node/app/tests/integration/energie`
+    - `Dihya/backend/node/app/tests/integration/energie/test_energie.js`
+    - `Dihya/backend/node/app/templates/energie`
+    - `Dihya/backend/node/app/templates/energie/template.js`
+    - `Dihya/backend/node/app/routes/energie`
+    - `Dihya/backend/node/routes/energie`
+    - `Dihya/backend/node/routes/energie/routes.js`
+    - `Dihya/docs/metiers/energie.md`
+    - `coverage/lcov-report/components/metiers/energie`
+    - `coverage/lcov-report/generation/templates/energie`
+    - `dist/components/metiers/energie`
+    - `dist/components/metiers/energie/index.js`
+    - `dist/generation/templates/energie`
+    - `dist/generation/templates/energie/template.js`
+    - `src/components/metiers/energie`
+    - `src/components/metiers/energie/index.js`
+    - `src/generation/templates/energie`
+    - `src/generation/templates/energie/template.js`
+    - `backend/node/tests/integration/energie`
+    - `backend/node/tests/integration/energie/test_energie.js`
+    - `backend/node/app/tests/integration/energie`
+    - `backend/node/app/tests/integration/energie/test_energie.js`
+    - `backend/node/app/templates/energie`
+    - `backend/node/app/templates/energie/template.js`
+    - `backend/node/app/routes/energie`
+    - `backend/node/app/routes/energie/routes.js`
+    - `backend/node/routes/energie`
+    - `backend/node/routes/energie/routes.js`
+    - `docs/metiers/energie.md`
+
+### <a name="environnement"></a> environnement
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/environnement`
+    - `Dihya/frontend/src/tests/integration/environnement`
+    - `Dihya/frontend/src/generation/templates/environnement`
+    - `Dihya/backend/tests/integration/environnement`
+    - `Dihya/backend/django/tests/integration/environnement`
+    - `Dihya/backend/django/app/tests/integration/environnement`
+    - `Dihya/backend/django/app/templates/environnement`
+    - `Dihya/backend/django/app/routes/environnement`
+    - `Dihya/backend/django/routes/environnement`
+    - `Dihya/backend/flask/tests/integration/environnement`
+    - `Dihya/backend/flask/app/tests/integration/environnement`
+    - `Dihya/backend/flask/app/templates/environnement`
+    - `Dihya/backend/flask/app/routes/environnement`
+    - `Dihya/backend/flask/routes/environnement`
+    - `Dihya/backend/routes/environnement`
+    - `Dihya/backend/node/tests/integration/environnement`
+    - `Dihya/backend/node/app/tests/integration/environnement`
+    - `Dihya/backend/node/app/templates/environnement`
+    - `Dihya/backend/node/app/routes/environnement`
+    - `Dihya/backend/node/routes/environnement`
+    - `Dihya/docs/metiers/environnement.md`
+    - `coverage/lcov-report/components/metiers/environnement`
+    - `coverage/lcov-report/generation/templates/environnement`
+    - `dist/components/metiers/environnement`
+    - `dist/generation/templates/environnement`
+    - `src/components/metiers/environnement`
+    - `src/generation/templates/environnement`
+    - `backend/node/tests/integration/environnement`
+    - `backend/node/app/tests/integration/environnement`
+    - `backend/node/app/templates/environnement`
+    - `backend/node/app/routes/environnement`
+    - `backend/node/routes/environnement`
+    - `docs/metiers/environnement.md`
+
+### <a name="frontend"></a> frontend
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/flask/app/templates/health/frontend`
+
+### <a name="gamer"></a> gamer
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/gamer`
+    - `Dihya/frontend/src/components/metiers/gamer/index.js`
+    - `Dihya/frontend/src/tests/integration/gamer`
+    - `Dihya/frontend/src/tests/integration/gamer/test_gamer.js`
+    - `Dihya/frontend/src/generation/templates/gamer`
+    - `Dihya/frontend/src/generation/templates/gamer/template.js`
+    - `Dihya/backend/tests/integration/gamer`
+    - `Dihya/backend/tests/integration/gamer/test_gamer_backend.py`
+    - `Dihya/backend/django/tests/integration/gamer`
+    - `Dihya/backend/django/tests/integration/gamer/test_gamer_django.py`
+    - `Dihya/backend/django/app/tests/integration/gamer`
+    - `Dihya/backend/django/app/tests/integration/gamer/test_gamer_django.py`
+    - `Dihya/backend/django/app/templates/gamer`
+    - `Dihya/backend/django/app/templates/gamer/template.py`
+    - `Dihya/backend/django/app/routes/gamer`
+    - `Dihya/backend/django/app/routes/gamer/routes.py`
+    - `Dihya/backend/django/routes/gamer`
+    - `Dihya/backend/django/routes/gamer/routes.py`
+    - `Dihya/backend/flask/tests/integration/gamer`
+    - `Dihya/backend/flask/tests/integration/gamer/test_gamer_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/gamer`
+    - `Dihya/backend/flask/app/tests/integration/gamer/test_gamer_flask.py`
+    - `Dihya/backend/flask/app/templates/gamer`
+    - `Dihya/backend/flask/app/templates/gamer/template.py`
+    - `Dihya/backend/flask/app/routes/gamer`
+    - `Dihya/backend/flask/app/routes/gamer/routes.py`
+    - `Dihya/backend/flask/routes/gamer`
+    - `Dihya/backend/flask/routes/gamer/routes.py`
+    - `Dihya/backend/routes/gamer`
+    - `Dihya/backend/routes/gamer/routes.py`
+    - `Dihya/backend/node/tests/integration/gamer`
+    - `Dihya/backend/node/tests/integration/gamer/test_gamer.js`
+    - `Dihya/backend/node/app/tests/integration/gamer`
+    - `Dihya/backend/node/app/tests/integration/gamer/test_gamer.js`
+    - `Dihya/backend/node/app/templates/gamer`
+    - `Dihya/backend/node/app/templates/gamer/template.js`
+    - `Dihya/backend/node/app/routes/gamer`
+    - `Dihya/backend/node/routes/gamer`
+    - `Dihya/backend/node/routes/gamer/routes.js`
+    - `Dihya/docs/metiers/gamer.md`
+    - `coverage/lcov-report/components/metiers/gamer`
+    - `coverage/lcov-report/generation/templates/gamer`
+    - `dist/components/metiers/gamer`
+    - `dist/components/metiers/gamer/index.js`
+    - `dist/generation/templates/gamer`
+    - `dist/generation/templates/gamer/template.js`
+    - `src/components/metiers/gamer`
+    - `src/components/metiers/gamer/index.js`
+    - `src/generation/templates/gamer`
+    - `src/generation/templates/gamer/template.js`
+    - `backend/node/tests/integration/gamer`
+    - `backend/node/tests/integration/gamer/test_gamer.js`
+    - `backend/node/app/tests/integration/gamer`
+    - `backend/node/app/tests/integration/gamer/test_gamer.js`
+    - `backend/node/app/templates/gamer`
+    - `backend/node/app/templates/gamer/template.js`
+    - `backend/node/app/routes/gamer`
+    - `backend/node/app/routes/gamer/routes.js`
+    - `backend/node/routes/gamer`
+    - `backend/node/routes/gamer/routes.js`
+    - `docs/metiers/gamer.md`
+
+### <a name="health"></a> health
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/health`
+    - `Dihya/frontend/src/components/metiers/health/index.js`
+    - `Dihya/frontend/src/tests/integration/health`
+    - `Dihya/frontend/src/tests/integration/health/test_health.js`
+    - `Dihya/frontend/src/generation/templates/health`
+    - `Dihya/frontend/src/generation/templates/health/template.js`
+    - `Dihya/backend/tests/integration/health`
+    - `Dihya/backend/tests/integration/health/test_health_backend.py`
+    - `Dihya/backend/django/tests/integration/health`
+    - `Dihya/backend/django/tests/integration/health/test_health_django.py`
+    - `Dihya/backend/django/app/tests/integration/health`
+    - `Dihya/backend/django/app/tests/integration/health/test_health_django.py`
+    - `Dihya/backend/django/app/templates/health`
+    - `Dihya/backend/django/app/templates/health/template.py`
+    - `Dihya/backend/django/app/routes/health`
+    - `Dihya/backend/django/app/routes/health/routes.py`
+    - `Dihya/backend/django/routes/health`
+    - `Dihya/backend/django/routes/health/routes.py`
+    - `Dihya/backend/flask/tests/integration/health`
+    - `Dihya/backend/flask/tests/integration/health/test_health_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/health`
+    - `Dihya/backend/flask/app/tests/integration/health/test_health_flask.py`
+    - `Dihya/backend/flask/app/templates/health`
+    - `Dihya/backend/flask/app/templates/health/template.py`
+    - `Dihya/backend/flask/app/routes/health`
+    - `Dihya/backend/flask/app/routes/health/routes.py`
+    - `Dihya/backend/flask/routes/health`
+    - `Dihya/backend/flask/routes/health/routes.py`
+    - `Dihya/backend/routes/health`
+    - `Dihya/backend/routes/health/routes.py`
+    - `Dihya/backend/node/tests/integration/health`
+    - `Dihya/backend/node/tests/integration/health/test_health.js`
+    - `Dihya/backend/node/app/tests/integration/health`
+    - `Dihya/backend/node/app/tests/integration/health/test_health.js`
+    - `Dihya/backend/node/app/templates/health`
+    - `Dihya/backend/node/app/templates/health/template.js`
+    - `Dihya/backend/node/app/routes/health`
+    - `Dihya/backend/node/routes/health`
+    - `Dihya/backend/node/routes/health/routes.js`
+    - `Dihya/docs/metiers/health.md`
+    - `coverage/lcov-report/components/metiers/health`
+    - `coverage/lcov-report/generation/templates/health`
+    - `dist/components/metiers/health`
+    - `dist/components/metiers/health/index.js`
+    - `dist/generation/templates/health`
+    - `dist/generation/templates/health/template.js`
+    - `src/components/metiers/health`
+    - `src/components/metiers/health/index.js`
+    - `src/generation/templates/health`
+    - `src/generation/templates/health/template.js`
+    - `backend/node/tests/integration/health`
+    - `backend/node/tests/integration/health/test_health.js`
+    - `backend/node/app/tests/integration/health`
+    - `backend/node/app/tests/integration/health/test_health.js`
+    - `backend/node/app/templates/health`
+    - `backend/node/app/templates/health/template.js`
+    - `backend/node/app/routes/health`
+    - `backend/node/app/routes/health/routes.js`
+    - `backend/node/routes/health`
+    - `backend/node/routes/health/routes.js`
+    - `docs/metiers/health.md`
+
+### <a name="hotellerie"></a> hotellerie
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/hotellerie`
+    - `frontend/src/tests/integration/hotellerie/test_hotellerie.js`
+    - `Dihya/frontend/src/components/metiers/hotellerie`
+    - `Dihya/frontend/src/components/metiers/hotellerie/index.js`
+    - `Dihya/frontend/src/tests/integration/hotellerie`
+    - `Dihya/frontend/src/tests/integration/hotellerie/test_hotellerie.js`
+    - `Dihya/frontend/src/generation/templates/hotellerie`
+    - `Dihya/frontend/src/generation/templates/hotellerie/template.js`
+    - `Dihya/backend/tests/integration/hotellerie`
+    - `Dihya/backend/tests/integration/hotellerie/test_hotellerie_backend.py`
+    - `Dihya/backend/django/tests/integration/hotellerie`
+    - `Dihya/backend/django/tests/integration/hotellerie/test_hotellerie_django.py`
+    - `Dihya/backend/django/app/tests/integration/hotellerie`
+    - `Dihya/backend/django/app/tests/integration/hotellerie/test_hotellerie_django.py`
+    - `Dihya/backend/django/app/templates/hotellerie`
+    - `Dihya/backend/django/app/templates/hotellerie/template.py`
+    - `Dihya/backend/django/app/routes/hotellerie`
+    - `Dihya/backend/django/app/routes/hotellerie/routes.py`
+    - `Dihya/backend/django/routes/hotellerie`
+    - `Dihya/backend/django/routes/hotellerie/routes.py`
+    - `Dihya/backend/flask/tests/integration/hotellerie`
+    - `Dihya/backend/flask/tests/integration/hotellerie/test_hotellerie_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/hotellerie`
+    - `Dihya/backend/flask/app/tests/integration/hotellerie/test_hotellerie_flask.py`
+    - `Dihya/backend/flask/app/templates/hotellerie`
+    - `Dihya/backend/flask/app/templates/hotellerie/template.py`
+    - `Dihya/backend/flask/app/routes/hotellerie`
+    - `Dihya/backend/flask/app/routes/hotellerie/routes.py`
+    - `Dihya/backend/flask/routes/hotellerie`
+    - `Dihya/backend/flask/routes/hotellerie/routes.py`
+    - `Dihya/backend/routes/hotellerie`
+    - `Dihya/backend/routes/hotellerie/routes.py`
+    - `Dihya/backend/node/tests/integration/hotellerie`
+    - `Dihya/backend/node/tests/integration/hotellerie/test_hotellerie.js`
+    - `Dihya/backend/node/app/tests/integration/hotellerie`
+    - `Dihya/backend/node/app/tests/integration/hotellerie/test_hotellerie.js`
+    - `Dihya/backend/node/app/templates/hotellerie`
+    - `Dihya/backend/node/app/templates/hotellerie/template.js`
+    - `Dihya/backend/node/app/routes/hotellerie`
+    - `Dihya/backend/node/routes/hotellerie`
+    - `Dihya/backend/node/routes/hotellerie/routes.js`
+    - `Dihya/docs/metiers/hotellerie.md`
+    - `coverage/lcov-report/components/metiers/hotellerie`
+    - `coverage/lcov-report/generation/templates/hotellerie`
+    - `dist/components/metiers/hotellerie`
+    - `dist/components/metiers/hotellerie/index.js`
+    - `dist/generation/templates/hotellerie`
+    - `dist/generation/templates/hotellerie/template.js`
+    - `src/components/metiers/hotellerie`
+    - `src/components/metiers/hotellerie/index.js`
+    - `src/generation/templates/hotellerie`
+    - `src/generation/templates/hotellerie/template.js`
+    - `backend/node/tests/integration/hotellerie`
+    - `backend/node/tests/integration/hotellerie/test_hotellerie.js`
+    - `backend/node/app/tests/integration/hotellerie`
+    - `backend/node/app/tests/integration/hotellerie/test_hotellerie.js`
+    - `backend/node/app/templates/hotellerie`
+    - `backend/node/app/templates/hotellerie/template.js`
+    - `backend/node/app/routes/hotellerie`
+    - `backend/node/app/routes/hotellerie/routes.js`
+    - `backend/node/routes/hotellerie`
+    - `backend/node/routes/hotellerie/routes.js`
+    - `docs/metiers/hotellerie.md`
+
+### <a name="i18n"></a> i18n
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,template
+- **Chemins** :
+    - `Dihya/frontend/src/generation/templates/i18n`
+    - `Dihya/frontend/src/generation/templates/i18n/template.js`
+    - `Dihya/backend/flask/app/templates/health/frontend/i18n`
+    - `dist/generation/templates/i18n`
+    - `dist/generation/templates/i18n/template.js`
+    - `src/generation/templates/i18n`
+    - `src/generation/templates/i18n/template.js`
+
+### <a name="immobilier"></a> immobilier
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/immobilier`
+    - `frontend/src/tests/integration/immobilier/test_immobilier.js`
+    - `Dihya/frontend/src/components/metiers/immobilier`
+    - `Dihya/frontend/src/components/metiers/immobilier/index.js`
+    - `Dihya/frontend/src/tests/integration/immobilier`
+    - `Dihya/frontend/src/tests/integration/immobilier/test_immobilier.js`
+    - `Dihya/frontend/src/generation/templates/immobilier`
+    - `Dihya/frontend/src/generation/templates/immobilier/template.js`
+    - `Dihya/backend/tests/integration/immobilier`
+    - `Dihya/backend/tests/integration/immobilier/test_immobilier_backend.py`
+    - `Dihya/backend/django/tests/integration/immobilier`
+    - `Dihya/backend/django/tests/integration/immobilier/test_immobilier_django.py`
+    - `Dihya/backend/django/app/tests/integration/immobilier`
+    - `Dihya/backend/django/app/tests/integration/immobilier/test_immobilier_django.py`
+    - `Dihya/backend/django/app/templates/immobilier`
+    - `Dihya/backend/django/app/templates/immobilier/template.py`
+    - `Dihya/backend/django/app/routes/immobilier`
+    - `Dihya/backend/django/app/routes/immobilier/routes.py`
+    - `Dihya/backend/django/routes/immobilier`
+    - `Dihya/backend/django/routes/immobilier/routes.py`
+    - `Dihya/backend/flask/tests/integration/immobilier`
+    - `Dihya/backend/flask/tests/integration/immobilier/test_immobilier_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/immobilier`
+    - `Dihya/backend/flask/app/tests/integration/immobilier/test_immobilier_flask.py`
+    - `Dihya/backend/flask/app/templates/immobilier`
+    - `Dihya/backend/flask/app/templates/immobilier/template.py`
+    - `Dihya/backend/flask/app/routes/immobilier`
+    - `Dihya/backend/flask/app/routes/immobilier/routes.py`
+    - `Dihya/backend/flask/routes/immobilier`
+    - `Dihya/backend/flask/routes/immobilier/routes.py`
+    - `Dihya/backend/routes/immobilier`
+    - `Dihya/backend/routes/immobilier/routes.py`
+    - `Dihya/backend/node/tests/integration/immobilier`
+    - `Dihya/backend/node/tests/integration/immobilier/test_immobilier.js`
+    - `Dihya/backend/node/app/tests/integration/immobilier`
+    - `Dihya/backend/node/app/tests/integration/immobilier/test_immobilier.js`
+    - `Dihya/backend/node/app/templates/immobilier`
+    - `Dihya/backend/node/app/templates/immobilier/template.js`
+    - `Dihya/backend/node/app/routes/immobilier`
+    - `Dihya/backend/node/routes/immobilier`
+    - `Dihya/backend/node/routes/immobilier/routes.js`
+    - `Dihya/docs/metiers/immobilier.md`
+    - `coverage/lcov-report/generation/templates/immobilier`
+    - `dist/generation/templates/immobilier`
+    - `dist/generation/templates/immobilier/template.js`
+    - `src/generation/templates/immobilier`
+    - `src/generation/templates/immobilier/template.js`
+    - `backend/node/tests/integration/immobilier`
+    - `backend/node/tests/integration/immobilier/test_immobilier.js`
+    - `backend/node/app/tests/integration/immobilier`
+    - `backend/node/app/tests/integration/immobilier/test_immobilier.js`
+    - `backend/node/app/templates/immobilier`
+    - `backend/node/app/templates/immobilier/template.js`
+    - `backend/node/app/routes/immobilier`
+    - `backend/node/app/routes/immobilier/routes.js`
+    - `backend/node/routes/immobilier`
+    - `backend/node/routes/immobilier/routes.js`
+    - `docs/metiers/immobilier.md`
+
+### <a name="industrie"></a> industrie
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/industrie`
+    - `frontend/src/tests/integration/industrie/test_industrie.js`
+    - `Dihya/frontend/src/components/metiers/industrie`
+    - `Dihya/frontend/src/components/metiers/industrie/index.js`
+    - `Dihya/frontend/src/tests/integration/industrie`
+    - `Dihya/frontend/src/tests/integration/industrie/test_industrie.js`
+    - `Dihya/frontend/src/generation/templates/industrie`
+    - `Dihya/frontend/src/generation/templates/industrie/template.js`
+    - `Dihya/backend/tests/integration/industrie`
+    - `Dihya/backend/tests/integration/industrie/test_industrie_backend.py`
+    - `Dihya/backend/django/tests/integration/industrie`
+    - `Dihya/backend/django/tests/integration/industrie/test_industrie_django.py`
+    - `Dihya/backend/django/app/tests/integration/industrie`
+    - `Dihya/backend/django/app/tests/integration/industrie/test_industrie_django.py`
+    - `Dihya/backend/django/app/templates/industrie`
+    - `Dihya/backend/django/app/templates/industrie/template.py`
+    - `Dihya/backend/django/app/routes/industrie`
+    - `Dihya/backend/django/app/routes/industrie/routes.py`
+    - `Dihya/backend/django/routes/industrie`
+    - `Dihya/backend/django/routes/industrie/routes.py`
+    - `Dihya/backend/flask/tests/integration/industrie`
+    - `Dihya/backend/flask/tests/integration/industrie/test_industrie_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/industrie`
+    - `Dihya/backend/flask/app/tests/integration/industrie/test_industrie_flask.py`
+    - `Dihya/backend/flask/app/templates/industrie`
+    - `Dihya/backend/flask/app/templates/industrie/template.py`
+    - `Dihya/backend/flask/app/routes/industrie`
+    - `Dihya/backend/flask/app/routes/industrie/routes.py`
+    - `Dihya/backend/flask/routes/industrie`
+    - `Dihya/backend/flask/routes/industrie/routes.py`
+    - `Dihya/backend/routes/industrie`
+    - `Dihya/backend/routes/industrie/routes.py`
+    - `Dihya/backend/node/tests/integration/industrie`
+    - `Dihya/backend/node/tests/integration/industrie/test_industrie.js`
+    - `Dihya/backend/node/app/tests/integration/industrie`
+    - `Dihya/backend/node/app/tests/integration/industrie/test_industrie.js`
+    - `Dihya/backend/node/app/templates/industrie`
+    - `Dihya/backend/node/app/templates/industrie/template.js`
+    - `Dihya/backend/node/app/routes/industrie`
+    - `Dihya/backend/node/routes/industrie`
+    - `Dihya/backend/node/routes/industrie/routes.js`
+    - `Dihya/docs/metiers/industrie.md`
+    - `coverage/lcov-report/components/metiers/industrie`
+    - `coverage/lcov-report/generation/templates/industrie`
+    - `dist/components/metiers/industrie`
+    - `dist/components/metiers/industrie/index.js`
+    - `dist/generation/templates/industrie`
+    - `dist/generation/templates/industrie/template.js`
+    - `src/components/metiers/industrie`
+    - `src/components/metiers/industrie/index.js`
+    - `src/generation/templates/industrie`
+    - `src/generation/templates/industrie/template.js`
+    - `backend/node/tests/integration/industrie`
+    - `backend/node/tests/integration/industrie/test_industrie.js`
+    - `backend/node/app/tests/integration/industrie`
+    - `backend/node/app/tests/integration/industrie/test_industrie.js`
+    - `backend/node/app/templates/industrie`
+    - `backend/node/app/templates/industrie/template.js`
+    - `backend/node/app/routes/industrie`
+    - `backend/node/app/routes/industrie/routes.js`
+    - `backend/node/routes/industrie`
+    - `backend/node/routes/industrie/routes.js`
+    - `docs/metiers/industrie.md`
+
+### <a name="intelligence-artificielle"></a> intelligence_artificielle
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/intelligence_artificielle`
+    - `frontend/src/tests/integration/intelligence_artificielle/test_intelligence_artificielle.js`
+    - `Dihya/frontend/src/components/metiers/intelligence_artificielle`
+    - `Dihya/frontend/src/components/metiers/intelligence_artificielle/index.js`
+    - `Dihya/frontend/src/tests/integration/intelligence_artificielle`
+    - `Dihya/frontend/src/tests/integration/intelligence_artificielle/test_intelligence_artificielle.js`
+    - `Dihya/frontend/src/generation/templates/intelligence_artificielle`
+    - `Dihya/frontend/src/generation/templates/intelligence_artificielle/template.js`
+    - `Dihya/backend/tests/integration/intelligence_artificielle`
+    - `Dihya/backend/tests/integration/intelligence_artificielle/test_intelligence_artificielle_backend.py`
+    - `Dihya/backend/django/tests/integration/intelligence_artificielle`
+    - `Dihya/backend/django/tests/integration/intelligence_artificielle/test_intelligence_artificielle_django.py`
+    - `Dihya/backend/django/app/tests/integration/intelligence_artificielle`
+    - `Dihya/backend/django/app/tests/integration/intelligence_artificielle/test_intelligence_artificielle_django.py`
+    - `Dihya/backend/django/app/templates/intelligence_artificielle`
+    - `Dihya/backend/django/app/templates/intelligence_artificielle/template.py`
+    - `Dihya/backend/django/app/routes/intelligence_artificielle`
+    - `Dihya/backend/django/app/routes/intelligence_artificielle/routes.py`
+    - `Dihya/backend/django/routes/intelligence_artificielle`
+    - `Dihya/backend/django/routes/intelligence_artificielle/routes.py`
+    - `Dihya/backend/flask/tests/integration/intelligence_artificielle`
+    - `Dihya/backend/flask/tests/integration/intelligence_artificielle/test_intelligence_artificielle_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/intelligence_artificielle`
+    - `Dihya/backend/flask/app/tests/integration/intelligence_artificielle/test_intelligence_artificielle_flask.py`
+    - `Dihya/backend/flask/app/templates/intelligence_artificielle`
+    - `Dihya/backend/flask/app/templates/intelligence_artificielle/template.py`
+    - `Dihya/backend/flask/app/routes/intelligence_artificielle`
+    - `Dihya/backend/flask/app/routes/intelligence_artificielle/routes.py`
+    - `Dihya/backend/flask/routes/intelligence_artificielle`
+    - `Dihya/backend/flask/routes/intelligence_artificielle/routes.py`
+    - `Dihya/backend/routes/intelligence_artificielle`
+    - `Dihya/backend/routes/intelligence_artificielle/routes.py`
+    - `Dihya/backend/node/tests/integration/intelligence_artificielle`
+    - `Dihya/backend/node/tests/integration/intelligence_artificielle/test_intelligence_artificielle.js`
+    - `Dihya/backend/node/app/tests/integration/intelligence_artificielle`
+    - `Dihya/backend/node/app/tests/integration/intelligence_artificielle/test_intelligence_artificielle.js`
+    - `Dihya/backend/node/app/templates/intelligence_artificielle`
+    - `Dihya/backend/node/app/templates/intelligence_artificielle/template.js`
+    - `Dihya/backend/node/app/routes/intelligence_artificielle`
+    - `Dihya/backend/node/routes/intelligence_artificielle`
+    - `Dihya/backend/node/routes/intelligence_artificielle/routes.js`
+    - `Dihya/docs/metiers/intelligence_artificielle.md`
+    - `coverage/lcov-report/components/metiers/intelligence_artificielle`
+    - `coverage/lcov-report/generation/templates/intelligence_artificielle`
+    - `dist/components/metiers/intelligence_artificielle`
+    - `dist/components/metiers/intelligence_artificielle/index.js`
+    - `dist/generation/templates/intelligence_artificielle`
+    - `dist/generation/templates/intelligence_artificielle/template.js`
+    - `src/components/metiers/intelligence_artificielle`
+    - `src/components/metiers/intelligence_artificielle/index.js`
+    - `src/generation/templates/intelligence_artificielle`
+    - `src/generation/templates/intelligence_artificielle/template.js`
+    - `backend/node/tests/integration/intelligence_artificielle`
+    - `backend/node/tests/integration/intelligence_artificielle/test_intelligence_artificielle.js`
+    - `backend/node/app/tests/integration/intelligence_artificielle`
+    - `backend/node/app/tests/integration/intelligence_artificielle/test_intelligence_artificielle.js`
+    - `backend/node/app/templates/intelligence_artificielle`
+    - `backend/node/app/templates/intelligence_artificielle/template.js`
+    - `backend/node/app/routes/intelligence_artificielle`
+    - `backend/node/app/routes/intelligence_artificielle/routes.js`
+    - `backend/node/routes/intelligence_artificielle`
+    - `backend/node/routes/intelligence_artificielle/routes.js`
+    - `docs/metiers/intelligence_artificielle.md`
+
+### <a name="it-devops"></a> it_devops
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/it_devops`
+    - `frontend/src/tests/integration/it_devops/test_it_devops.js`
+    - `Dihya/frontend/src/components/metiers/it_devops`
+    - `Dihya/frontend/src/components/metiers/it_devops/index.js`
+    - `Dihya/frontend/src/tests/integration/it_devops`
+    - `Dihya/frontend/src/tests/integration/it_devops/test_it_devops.js`
+    - `Dihya/frontend/src/generation/templates/it_devops`
+    - `Dihya/frontend/src/generation/templates/it_devops/template.js`
+    - `Dihya/backend/tests/integration/it_devops`
+    - `Dihya/backend/tests/integration/it_devops/test_it_devops_backend.py`
+    - `Dihya/backend/django/tests/integration/it_devops`
+    - `Dihya/backend/django/tests/integration/it_devops/test_it_devops_django.py`
+    - `Dihya/backend/django/app/tests/integration/it_devops`
+    - `Dihya/backend/django/app/tests/integration/it_devops/test_it_devops_django.py`
+    - `Dihya/backend/django/app/templates/it_devops`
+    - `Dihya/backend/django/app/templates/it_devops/template.py`
+    - `Dihya/backend/django/app/routes/it_devops`
+    - `Dihya/backend/django/app/routes/it_devops/routes.py`
+    - `Dihya/backend/django/routes/it_devops`
+    - `Dihya/backend/django/routes/it_devops/routes.py`
+    - `Dihya/backend/flask/tests/integration/it_devops`
+    - `Dihya/backend/flask/tests/integration/it_devops/test_it_devops_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/it_devops`
+    - `Dihya/backend/flask/app/tests/integration/it_devops/test_it_devops_flask.py`
+    - `Dihya/backend/flask/app/templates/it_devops`
+    - `Dihya/backend/flask/app/templates/it_devops/template.py`
+    - `Dihya/backend/flask/app/routes/it_devops`
+    - `Dihya/backend/flask/app/routes/it_devops/routes.py`
+    - `Dihya/backend/flask/routes/it_devops`
+    - `Dihya/backend/flask/routes/it_devops/routes.py`
+    - `Dihya/backend/routes/it_devops`
+    - `Dihya/backend/routes/it_devops/routes.py`
+    - `Dihya/backend/node/tests/integration/it_devops`
+    - `Dihya/backend/node/tests/integration/it_devops/test_it_devops.js`
+    - `Dihya/backend/node/app/tests/integration/it_devops`
+    - `Dihya/backend/node/app/tests/integration/it_devops/test_it_devops.js`
+    - `Dihya/backend/node/app/templates/it_devops`
+    - `Dihya/backend/node/app/templates/it_devops/template.js`
+    - `Dihya/backend/node/app/routes/it_devops`
+    - `Dihya/backend/node/routes/it_devops`
+    - `Dihya/backend/node/routes/it_devops/routes.js`
+    - `Dihya/docs/metiers/it_devops.md`
+    - `coverage/lcov-report/generation/templates/it_devops`
+    - `dist/generation/templates/it_devops`
+    - `dist/generation/templates/it_devops/template.js`
+    - `src/generation/templates/it_devops`
+    - `src/generation/templates/it_devops/template.js`
+    - `backend/node/tests/integration/it_devops`
+    - `backend/node/tests/integration/it_devops/test_it_devops.js`
+    - `backend/node/app/tests/integration/it_devops`
+    - `backend/node/app/tests/integration/it_devops/test_it_devops.js`
+    - `backend/node/app/templates/it_devops`
+    - `backend/node/app/templates/it_devops/template.js`
+    - `backend/node/app/routes/it_devops`
+    - `backend/node/app/routes/it_devops/routes.js`
+    - `backend/node/routes/it_devops`
+    - `backend/node/routes/it_devops/routes.js`
+    - `docs/metiers/it_devops.md`
+
+### <a name="journalisme"></a> journalisme
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/journalisme`
+    - `frontend/src/tests/integration/journalisme/test_journalisme.js`
+    - `Dihya/frontend/src/components/metiers/journalisme`
+    - `Dihya/frontend/src/components/metiers/journalisme/index.js`
+    - `Dihya/frontend/src/tests/integration/journalisme`
+    - `Dihya/frontend/src/tests/integration/journalisme/test_journalisme.js`
+    - `Dihya/frontend/src/generation/templates/journalisme`
+    - `Dihya/frontend/src/generation/templates/journalisme/template.js`
+    - `Dihya/backend/tests/integration/journalisme`
+    - `Dihya/backend/tests/integration/journalisme/test_journalisme_backend.py`
+    - `Dihya/backend/django/tests/integration/journalisme`
+    - `Dihya/backend/django/tests/integration/journalisme/test_journalisme_django.py`
+    - `Dihya/backend/django/app/tests/integration/journalisme`
+    - `Dihya/backend/django/app/tests/integration/journalisme/test_journalisme_django.py`
+    - `Dihya/backend/django/app/templates/journalisme`
+    - `Dihya/backend/django/app/templates/journalisme/template.py`
+    - `Dihya/backend/django/app/routes/journalisme`
+    - `Dihya/backend/django/app/routes/journalisme/routes.py`
+    - `Dihya/backend/django/routes/journalisme`
+    - `Dihya/backend/django/routes/journalisme/routes.py`
+    - `Dihya/backend/flask/tests/integration/journalisme`
+    - `Dihya/backend/flask/tests/integration/journalisme/test_journalisme_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/journalisme`
+    - `Dihya/backend/flask/app/tests/integration/journalisme/test_journalisme_flask.py`
+    - `Dihya/backend/flask/app/templates/journalisme`
+    - `Dihya/backend/flask/app/templates/journalisme/template.py`
+    - `Dihya/backend/flask/app/routes/journalisme`
+    - `Dihya/backend/flask/app/routes/journalisme/routes.py`
+    - `Dihya/backend/flask/routes/journalisme`
+    - `Dihya/backend/flask/routes/journalisme/routes.py`
+    - `Dihya/backend/routes/journalisme`
+    - `Dihya/backend/routes/journalisme/routes.py`
+    - `Dihya/backend/node/tests/integration/journalisme`
+    - `Dihya/backend/node/tests/integration/journalisme/test_journalisme.js`
+    - `Dihya/backend/node/app/tests/integration/journalisme`
+    - `Dihya/backend/node/app/tests/integration/journalisme/test_journalisme.js`
+    - `Dihya/backend/node/app/templates/journalisme`
+    - `Dihya/backend/node/app/templates/journalisme/template.js`
+    - `Dihya/backend/node/app/routes/journalisme`
+    - `Dihya/backend/node/routes/journalisme`
+    - `Dihya/backend/node/routes/journalisme/routes.js`
+    - `Dihya/docs/metiers/journalisme.md`
+    - `coverage/lcov-report/generation/templates/journalisme`
+    - `dist/generation/templates/journalisme`
+    - `dist/generation/templates/journalisme/template.js`
+    - `src/generation/templates/journalisme`
+    - `src/generation/templates/journalisme/template.js`
+    - `backend/node/tests/integration/journalisme`
+    - `backend/node/tests/integration/journalisme/test_journalisme.js`
+    - `backend/node/app/tests/integration/journalisme`
+    - `backend/node/app/tests/integration/journalisme/test_journalisme.js`
+    - `backend/node/app/templates/journalisme`
+    - `backend/node/app/templates/journalisme/template.js`
+    - `backend/node/app/routes/journalisme`
+    - `backend/node/app/routes/journalisme/routes.js`
+    - `backend/node/routes/journalisme`
+    - `backend/node/routes/journalisme/routes.js`
+    - `docs/metiers/journalisme.md`
+
+### <a name="juridique"></a> juridique
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/juridique`
+    - `frontend/src/tests/integration/juridique/test_juridique.js`
+    - `Dihya/frontend/src/components/metiers/juridique`
+    - `Dihya/frontend/src/components/metiers/juridique/index.js`
+    - `Dihya/frontend/src/tests/integration/juridique`
+    - `Dihya/frontend/src/tests/integration/juridique/test_juridique.js`
+    - `Dihya/frontend/src/generation/templates/juridique`
+    - `Dihya/frontend/src/generation/templates/juridique/template.js`
+    - `Dihya/backend/tests/integration/juridique`
+    - `Dihya/backend/tests/integration/juridique/test_juridique_backend.py`
+    - `Dihya/backend/django/tests/integration/juridique`
+    - `Dihya/backend/django/tests/integration/juridique/test_juridique_django.py`
+    - `Dihya/backend/django/app/tests/integration/juridique`
+    - `Dihya/backend/django/app/tests/integration/juridique/test_juridique_django.py`
+    - `Dihya/backend/django/app/templates/juridique`
+    - `Dihya/backend/django/app/templates/juridique/template.py`
+    - `Dihya/backend/django/app/routes/juridique`
+    - `Dihya/backend/django/app/routes/juridique/routes.py`
+    - `Dihya/backend/django/routes/juridique`
+    - `Dihya/backend/django/routes/juridique/routes.py`
+    - `Dihya/backend/flask/tests/integration/juridique`
+    - `Dihya/backend/flask/tests/integration/juridique/test_juridique_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/juridique`
+    - `Dihya/backend/flask/app/tests/integration/juridique/test_juridique_flask.py`
+    - `Dihya/backend/flask/app/templates/juridique`
+    - `Dihya/backend/flask/app/templates/juridique/template.py`
+    - `Dihya/backend/flask/app/routes/juridique`
+    - `Dihya/backend/flask/app/routes/juridique/routes.py`
+    - `Dihya/backend/flask/routes/juridique`
+    - `Dihya/backend/flask/routes/juridique/routes.py`
+    - `Dihya/backend/routes/juridique`
+    - `Dihya/backend/routes/juridique/routes.py`
+    - `Dihya/backend/node/tests/integration/juridique`
+    - `Dihya/backend/node/tests/integration/juridique/test_juridique.js`
+    - `Dihya/backend/node/app/tests/integration/juridique`
+    - `Dihya/backend/node/app/tests/integration/juridique/test_juridique.js`
+    - `Dihya/backend/node/app/templates/juridique`
+    - `Dihya/backend/node/app/templates/juridique/template.js`
+    - `Dihya/backend/node/app/routes/juridique`
+    - `Dihya/backend/node/routes/juridique`
+    - `Dihya/backend/node/routes/juridique/routes.js`
+    - `Dihya/docs/metiers/juridique.md`
+    - `coverage/lcov-report/generation/templates/juridique`
+    - `dist/generation/templates/juridique`
+    - `dist/generation/templates/juridique/template.js`
+    - `src/generation/templates/juridique`
+    - `src/generation/templates/juridique/template.js`
+    - `backend/node/tests/integration/juridique`
+    - `backend/node/tests/integration/juridique/test_juridique.js`
+    - `backend/node/app/tests/integration/juridique`
+    - `backend/node/app/tests/integration/juridique/test_juridique.js`
+    - `backend/node/app/templates/juridique`
+    - `backend/node/app/templates/juridique/template.js`
+    - `backend/node/app/routes/juridique`
+    - `backend/node/app/routes/juridique/routes.js`
+    - `backend/node/routes/juridique`
+    - `backend/node/routes/juridique/routes.js`
+    - `docs/metiers/juridique.md`
+
+### <a name="logistique"></a> logistique
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/logistique`
+    - `frontend/src/tests/integration/logistique/test_logistique.js`
+    - `Dihya/frontend/src/components/metiers/logistique`
+    - `Dihya/frontend/src/components/metiers/logistique/index.js`
+    - `Dihya/frontend/src/tests/integration/logistique`
+    - `Dihya/frontend/src/tests/integration/logistique/test_logistique.js`
+    - `Dihya/frontend/src/generation/templates/logistique`
+    - `Dihya/frontend/src/generation/templates/logistique/template.js`
+    - `Dihya/backend/tests/integration/logistique`
+    - `Dihya/backend/tests/integration/logistique/test_logistique_backend.py`
+    - `Dihya/backend/django/tests/integration/logistique`
+    - `Dihya/backend/django/tests/integration/logistique/test_logistique_django.py`
+    - `Dihya/backend/django/app/tests/integration/logistique`
+    - `Dihya/backend/django/app/tests/integration/logistique/test_logistique_django.py`
+    - `Dihya/backend/django/app/templates/logistique`
+    - `Dihya/backend/django/app/templates/logistique/template.py`
+    - `Dihya/backend/django/app/routes/logistique`
+    - `Dihya/backend/django/app/routes/logistique/routes.py`
+    - `Dihya/backend/django/routes/logistique`
+    - `Dihya/backend/django/routes/logistique/routes.py`
+    - `Dihya/backend/flask/tests/integration/logistique`
+    - `Dihya/backend/flask/tests/integration/logistique/test_logistique_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/logistique`
+    - `Dihya/backend/flask/app/tests/integration/logistique/test_logistique_flask.py`
+    - `Dihya/backend/flask/app/templates/logistique`
+    - `Dihya/backend/flask/app/templates/logistique/template.py`
+    - `Dihya/backend/flask/app/routes/logistique`
+    - `Dihya/backend/flask/app/routes/logistique/routes.py`
+    - `Dihya/backend/flask/routes/logistique`
+    - `Dihya/backend/flask/routes/logistique/routes.py`
+    - `Dihya/backend/routes/logistique`
+    - `Dihya/backend/routes/logistique/routes.py`
+    - `Dihya/backend/node/tests/integration/logistique`
+    - `Dihya/backend/node/tests/integration/logistique/test_logistique.js`
+    - `Dihya/backend/node/app/tests/integration/logistique`
+    - `Dihya/backend/node/app/tests/integration/logistique/test_logistique.js`
+    - `Dihya/backend/node/app/templates/logistique`
+    - `Dihya/backend/node/app/templates/logistique/template.js`
+    - `Dihya/backend/node/app/routes/logistique`
+    - `Dihya/backend/node/app/routes/logistique/routes.js`
+    - `Dihya/backend/node/routes/logistique`
+    - `Dihya/backend/node/routes/logistique/routes.js`
+    - `Dihya/docs/metiers/logistique.md`
+    - `coverage/lcov-report/generation/templates/logistique`
+    - `dist/generation/templates/logistique`
+    - `dist/generation/templates/logistique/template.js`
+    - `src/generation/templates/logistique`
+    - `src/generation/templates/logistique/template.js`
+    - `backend/node/tests/integration/logistique`
+    - `backend/node/tests/integration/logistique/test_logistique.js`
+    - `backend/node/app/tests/integration/logistique`
+    - `backend/node/app/tests/integration/logistique/test_logistique.js`
+    - `backend/node/app/templates/logistique`
+    - `backend/node/app/templates/logistique/template.js`
+    - `backend/node/app/routes/logistique`
+    - `backend/node/app/routes/logistique/routes.js`
+    - `backend/node/routes/logistique`
+    - `backend/node/routes/logistique/routes.js`
+    - `docs/metiers/logistique.md`
+
+### <a name="loisirs"></a> loisirs
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/loisirs`
+    - `frontend/src/tests/integration/loisirs/test_loisirs.js`
+    - `Dihya/frontend/src/components/metiers/loisirs`
+    - `Dihya/frontend/src/components/metiers/loisirs/index.js`
+    - `Dihya/frontend/src/tests/integration/loisirs`
+    - `Dihya/frontend/src/tests/integration/loisirs/test_loisirs.js`
+    - `Dihya/frontend/src/generation/templates/loisirs`
+    - `Dihya/frontend/src/generation/templates/loisirs/template.js`
+    - `Dihya/backend/tests/integration/loisirs`
+    - `Dihya/backend/tests/integration/loisirs/test_loisirs_backend.py`
+    - `Dihya/backend/django/tests/integration/loisirs`
+    - `Dihya/backend/django/tests/integration/loisirs/test_loisirs_django.py`
+    - `Dihya/backend/django/app/tests/integration/loisirs`
+    - `Dihya/backend/django/app/tests/integration/loisirs/test_loisirs_django.py`
+    - `Dihya/backend/django/app/templates/loisirs`
+    - `Dihya/backend/django/app/templates/loisirs/template.py`
+    - `Dihya/backend/django/app/routes/loisirs`
+    - `Dihya/backend/django/app/routes/loisirs/routes.py`
+    - `Dihya/backend/django/routes/loisirs`
+    - `Dihya/backend/django/routes/loisirs/routes.py`
+    - `Dihya/backend/flask/tests/integration/loisirs`
+    - `Dihya/backend/flask/tests/integration/loisirs/test_loisirs_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/loisirs`
+    - `Dihya/backend/flask/app/tests/integration/loisirs/test_loisirs_flask.py`
+    - `Dihya/backend/flask/app/templates/loisirs`
+    - `Dihya/backend/flask/app/templates/loisirs/template.py`
+    - `Dihya/backend/flask/app/routes/loisirs`
+    - `Dihya/backend/flask/app/routes/loisirs/routes.py`
+    - `Dihya/backend/flask/routes/loisirs`
+    - `Dihya/backend/flask/routes/loisirs/routes.py`
+    - `Dihya/backend/routes/loisirs`
+    - `Dihya/backend/routes/loisirs/routes.py`
+    - `Dihya/backend/node/tests/integration/loisirs`
+    - `Dihya/backend/node/tests/integration/loisirs/test_loisirs.js`
+    - `Dihya/backend/node/app/tests/integration/loisirs`
+    - `Dihya/backend/node/app/tests/integration/loisirs/test_loisirs.js`
+    - `Dihya/backend/node/app/templates/loisirs`
+    - `Dihya/backend/node/app/templates/loisirs/template.js`
+    - `Dihya/backend/node/app/routes/loisirs`
+    - `Dihya/backend/node/routes/loisirs`
+    - `Dihya/backend/node/routes/loisirs/routes.js`
+    - `Dihya/docs/metiers/loisirs.md`
+    - `coverage/lcov-report/generation/templates/loisirs`
+    - `dist/generation/templates/loisirs`
+    - `dist/generation/templates/loisirs/template.js`
+    - `src/generation/templates/loisirs`
+    - `src/generation/templates/loisirs/template.js`
+    - `backend/node/tests/integration/loisirs`
+    - `backend/node/tests/integration/loisirs/test_loisirs.js`
+    - `backend/node/app/tests/integration/loisirs`
+    - `backend/node/app/tests/integration/loisirs/test_loisirs.js`
+    - `backend/node/app/templates/loisirs`
+    - `backend/node/app/templates/loisirs/template.js`
+    - `backend/node/app/routes/loisirs`
+    - `backend/node/app/routes/loisirs/routes.js`
+    - `backend/node/routes/loisirs`
+    - `backend/node/routes/loisirs/routes.js`
+    - `docs/metiers/loisirs.md`
+
+### <a name="manufacturing"></a> manufacturing
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `frontend/src/tests/integration/manufacturing`
+    - `frontend/src/tests/integration/manufacturing/test_manufacturing.js`
+    - `Dihya/frontend/src/components/metiers/manufacturing`
+    - `Dihya/frontend/src/components/metiers/manufacturing/index.js`
+    - `Dihya/frontend/src/tests/integration/manufacturing`
+    - `Dihya/frontend/src/tests/integration/manufacturing/test_manufacturing.js`
+    - `Dihya/frontend/src/generation/templates/manufacturing`
+    - `Dihya/frontend/src/generation/templates/manufacturing/template.js`
+    - `Dihya/backend/tests/integration/manufacturing`
+    - `Dihya/backend/tests/integration/manufacturing/test_manufacturing_backend.py`
+    - `Dihya/backend/django/tests/integration/manufacturing`
+    - `Dihya/backend/django/tests/integration/manufacturing/test_manufacturing_django.py`
+    - `Dihya/backend/django/app/tests/integration/manufacturing`
+    - `Dihya/backend/django/app/tests/integration/manufacturing/test_manufacturing_django.py`
+    - `Dihya/backend/django/app/templates/manufacturing`
+    - `Dihya/backend/django/app/templates/manufacturing/template.py`
+    - `Dihya/backend/django/app/routes/manufacturing`
+    - `Dihya/backend/django/app/routes/manufacturing/routes.py`
+    - `Dihya/backend/django/routes/manufacturing`
+    - `Dihya/backend/django/routes/manufacturing/routes.py`
+    - `Dihya/backend/flask/tests/integration/manufacturing`
+    - `Dihya/backend/flask/tests/integration/manufacturing/test_manufacturing_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/manufacturing`
+    - `Dihya/backend/flask/app/tests/integration/manufacturing/test_manufacturing_flask.py`
+    - `Dihya/backend/flask/app/templates/manufacturing`
+    - `Dihya/backend/flask/app/templates/manufacturing/template.py`
+    - `Dihya/backend/flask/app/routes/manufacturing`
+    - `Dihya/backend/flask/app/routes/manufacturing/routes.py`
+    - `Dihya/backend/flask/routes/manufacturing`
+    - `Dihya/backend/flask/routes/manufacturing/routes.py`
+    - `Dihya/backend/routes/manufacturing`
+    - `Dihya/backend/routes/manufacturing/routes.py`
+    - `Dihya/backend/node/tests/integration/manufacturing`
+    - `Dihya/backend/node/tests/integration/manufacturing/test_manufacturing.js`
+    - `Dihya/backend/node/app/tests/integration/manufacturing`
+    - `Dihya/backend/node/app/tests/integration/manufacturing/test_manufacturing.js`
+    - `Dihya/backend/node/app/templates/manufacturing`
+    - `Dihya/backend/node/app/templates/manufacturing/template.js`
+    - `Dihya/backend/node/app/routes/manufacturing`
+    - `Dihya/backend/node/app/routes/manufacturing/routes.js`
+    - `Dihya/backend/node/routes/manufacturing`
+    - `Dihya/backend/node/routes/manufacturing/routes.js`
+    - `Dihya/docs/metiers/manufacturing.md`
+    - `coverage/lcov-report/generation/templates/manufacturing`
+    - `dist/generation/templates/manufacturing`
+    - `dist/generation/templates/manufacturing/template.js`
+    - `src/generation/templates/manufacturing`
+    - `src/generation/templates/manufacturing/template.js`
+    - `backend/node/tests/integration/manufacturing`
+    - `backend/node/tests/integration/manufacturing/test_manufacturing.js`
+    - `backend/node/app/tests/integration/manufacturing`
+    - `backend/node/app/tests/integration/manufacturing/test_manufacturing.js`
+    - `backend/node/app/templates/manufacturing`
+    - `backend/node/app/templates/manufacturing/template.js`
+    - `backend/node/app/routes/manufacturing`
+    - `backend/node/app/routes/manufacturing/routes.js`
+    - `backend/node/routes/manufacturing`
+    - `backend/node/routes/manufacturing/routes.js`
+    - `docs/metiers/manufacturing.md`
+
+### <a name="marketing"></a> marketing
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/marketing`
+    - `Dihya/frontend/src/components/metiers/marketing/index.js`
+    - `Dihya/frontend/src/tests/integration/marketing`
+    - `Dihya/frontend/src/tests/integration/marketing/test_marketing.js`
+    - `Dihya/frontend/src/generation/templates/marketing`
+    - `Dihya/frontend/src/generation/templates/marketing/template.js`
+    - `Dihya/backend/tests/integration/marketing`
+    - `Dihya/backend/tests/integration/marketing/test_marketing_backend.py`
+    - `Dihya/backend/django/tests/integration/marketing`
+    - `Dihya/backend/django/tests/integration/marketing/test_marketing_django.py`
+    - `Dihya/backend/django/app/tests/integration/marketing`
+    - `Dihya/backend/django/app/tests/integration/marketing/test_marketing_django.py`
+    - `Dihya/backend/django/app/templates/marketing`
+    - `Dihya/backend/django/app/templates/marketing/template.py`
+    - `Dihya/backend/django/app/routes/marketing`
+    - `Dihya/backend/django/app/routes/marketing/routes.py`
+    - `Dihya/backend/django/routes/marketing`
+    - `Dihya/backend/django/routes/marketing/routes.py`
+    - `Dihya/backend/flask/tests/integration/marketing`
+    - `Dihya/backend/flask/tests/integration/marketing/test_marketing_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/marketing`
+    - `Dihya/backend/flask/app/tests/integration/marketing/test_marketing_flask.py`
+    - `Dihya/backend/flask/app/templates/marketing`
+    - `Dihya/backend/flask/app/templates/marketing/template.py`
+    - `Dihya/backend/flask/app/routes/marketing`
+    - `Dihya/backend/flask/app/routes/marketing/routes.py`
+    - `Dihya/backend/flask/routes/marketing`
+    - `Dihya/backend/flask/routes/marketing/routes.py`
+    - `Dihya/backend/routes/marketing`
+    - `Dihya/backend/routes/marketing/routes.py`
+    - `Dihya/backend/node/tests/integration/marketing`
+    - `Dihya/backend/node/tests/integration/marketing/test_marketing.js`
+    - `Dihya/backend/node/app/tests/integration/marketing`
+    - `Dihya/backend/node/app/tests/integration/marketing/test_marketing.js`
+    - `Dihya/backend/node/app/templates/marketing`
+    - `Dihya/backend/node/app/templates/marketing/template.js`
+    - `Dihya/backend/node/app/routes/marketing`
+    - `Dihya/backend/node/routes/marketing`
+    - `Dihya/docs/metiers/marketing.md`
+    - `coverage/lcov-report/generation/templates/marketing`
+    - `dist/generation/templates/marketing`
+    - `dist/generation/templates/marketing/template.js`
+    - `src/generation/templates/marketing`
+    - `src/generation/templates/marketing/template.js`
+    - `backend/node/tests/integration/marketing`
+    - `backend/node/tests/integration/marketing/test_marketing.js`
+    - `backend/node/app/tests/integration/marketing`
+    - `backend/node/app/tests/integration/marketing/test_marketing.js`
+    - `backend/node/app/templates/marketing`
+    - `backend/node/app/templates/marketing/template.js`
+    - `backend/node/app/routes/marketing`
+    - `backend/node/app/routes/marketing/routes.js`
+    - `backend/node/routes/marketing`
+    - `docs/metiers/marketing.md`
+
+### <a name="medias"></a> medias
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/medias`
+    - `Dihya/frontend/src/components/metiers/medias/index.js`
+    - `Dihya/frontend/src/tests/integration/medias`
+    - `Dihya/frontend/src/tests/integration/medias/test_medias.js`
+    - `Dihya/frontend/src/generation/templates/medias`
+    - `Dihya/frontend/src/generation/templates/medias/template.js`
+    - `Dihya/backend/tests/integration/medias`
+    - `Dihya/backend/tests/integration/medias/test_medias_backend.py`
+    - `Dihya/backend/django/tests/integration/medias`
+    - `Dihya/backend/django/tests/integration/medias/test_medias_django.py`
+    - `Dihya/backend/django/app/tests/integration/medias`
+    - `Dihya/backend/django/app/tests/integration/medias/test_medias_django.py`
+    - `Dihya/backend/django/app/templates/medias`
+    - `Dihya/backend/django/app/templates/medias/template.py`
+    - `Dihya/backend/django/app/routes/medias`
+    - `Dihya/backend/django/app/routes/medias/routes.py`
+    - `Dihya/backend/django/routes/medias`
+    - `Dihya/backend/django/routes/medias/routes.py`
+    - `Dihya/backend/flask/tests/integration/medias`
+    - `Dihya/backend/flask/tests/integration/medias/test_medias_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/medias`
+    - `Dihya/backend/flask/app/tests/integration/medias/test_medias_flask.py`
+    - `Dihya/backend/flask/app/templates/medias`
+    - `Dihya/backend/flask/app/templates/medias/template.py`
+    - `Dihya/backend/flask/app/routes/medias`
+    - `Dihya/backend/flask/app/routes/medias/routes.py`
+    - `Dihya/backend/flask/routes/medias`
+    - `Dihya/backend/flask/routes/medias/routes.py`
+    - `Dihya/backend/routes/medias`
+    - `Dihya/backend/routes/medias/routes.py`
+    - `Dihya/backend/node/tests/integration/medias`
+    - `Dihya/backend/node/tests/integration/medias/test_medias.js`
+    - `Dihya/backend/node/app/tests/integration/medias`
+    - `Dihya/backend/node/app/tests/integration/medias/test_medias.js`
+    - `Dihya/backend/node/app/templates/medias`
+    - `Dihya/backend/node/app/templates/medias/template.js`
+    - `Dihya/backend/node/app/routes/medias`
+    - `Dihya/backend/node/app/routes/medias/routes.js`
+    - `Dihya/backend/node/routes/medias`
+    - `Dihya/backend/node/routes/medias/routes.js`
+    - `Dihya/docs/metiers/medias.md`
+    - `coverage/lcov-report/components/metiers/medias`
+    - `coverage/lcov-report/generation/templates/medias`
+    - `dist/components/metiers/medias`
+    - `dist/components/metiers/medias/index.js`
+    - `dist/generation/templates/medias`
+    - `dist/generation/templates/medias/template.js`
+    - `src/components/metiers/medias`
+    - `src/components/metiers/medias/index.js`
+    - `src/generation/templates/medias`
+    - `src/generation/templates/medias/template.js`
+    - `backend/node/tests/integration/medias`
+    - `backend/node/tests/integration/medias/test_medias.js`
+    - `backend/node/app/tests/integration/medias`
+    - `backend/node/app/tests/integration/medias/test_medias.js`
+    - `backend/node/app/templates/medias`
+    - `backend/node/app/templates/medias/template.js`
+    - `backend/node/app/routes/medias`
+    - `backend/node/app/routes/medias/routes.js`
+    - `backend/node/routes/medias`
+    - `backend/node/routes/medias/routes.js`
+    - `docs/metiers/medias.md`
+
+### <a name="metiers"></a> metiers
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,plugin
+- **Chemins** :
+    - `Dihya/plugins/metiers`
+    - `Dihya/plugins/metiers/3d_plugin.py`
+    - `Dihya/plugins/metiers/vr_ar_plugin.py`
+    - `Dihya/plugins/metiers/CONTRIBUTING.md`
+    - `Dihya/plugins/metiers/README.md`
+    - `Dihya/plugins/metiers/example_plugin.py`
+
+### <a name="mobile"></a> mobile
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/mobile`
+    - `Dihya/frontend/src/components/metiers/mobile/index.js`
+    - `Dihya/frontend/src/tests/integration/mobile`
+    - `Dihya/frontend/src/tests/integration/mobile/test_mobile.js`
+    - `Dihya/frontend/src/generation/templates/mobile`
+    - `Dihya/frontend/src/generation/templates/mobile/template.js`
+    - `Dihya/backend/tests/integration/mobile`
+    - `Dihya/backend/tests/integration/mobile/test_mobile_backend.py`
+    - `Dihya/backend/django/tests/integration/mobile`
+    - `Dihya/backend/django/tests/integration/mobile/test_mobile_django.py`
+    - `Dihya/backend/django/app/tests/integration/mobile`
+    - `Dihya/backend/django/app/tests/integration/mobile/test_mobile_django.py`
+    - `Dihya/backend/django/app/templates/mobile`
+    - `Dihya/backend/django/app/templates/mobile/template.py`
+    - `Dihya/backend/django/app/routes/mobile`
+    - `Dihya/backend/django/app/routes/mobile/routes.py`
+    - `Dihya/backend/django/routes/mobile`
+    - `Dihya/backend/django/routes/mobile/routes.py`
+    - `Dihya/backend/flask/tests/integration/mobile`
+    - `Dihya/backend/flask/tests/integration/mobile/test_mobile_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/mobile`
+    - `Dihya/backend/flask/app/tests/integration/mobile/test_mobile_flask.py`
+    - `Dihya/backend/flask/app/templates/mobile`
+    - `Dihya/backend/flask/app/templates/mobile/template.py`
+    - `Dihya/backend/flask/app/routes/mobile`
+    - `Dihya/backend/flask/app/routes/mobile/routes.py`
+    - `Dihya/backend/flask/routes/mobile`
+    - `Dihya/backend/flask/routes/mobile/routes.py`
+    - `Dihya/backend/routes/mobile`
+    - `Dihya/backend/routes/mobile/routes.py`
+    - `Dihya/backend/node/tests/integration/mobile`
+    - `Dihya/backend/node/tests/integration/mobile/test_mobile.js`
+    - `Dihya/backend/node/app/tests/integration/mobile`
+    - `Dihya/backend/node/app/tests/integration/mobile/test_mobile.js`
+    - `Dihya/backend/node/app/templates/mobile`
+    - `Dihya/backend/node/app/templates/mobile/template.js`
+    - `Dihya/backend/node/app/routes/mobile`
+    - `Dihya/backend/node/app/routes/mobile/routes.js`
+    - `Dihya/backend/node/routes/mobile`
+    - `Dihya/backend/node/routes/mobile/routes.js`
+    - `Dihya/docs/metiers/mobile.md`
+    - `coverage/lcov-report/components/metiers/mobile`
+    - `coverage/lcov-report/generation/templates/mobile`
+    - `dist/components/metiers/mobile`
+    - `dist/components/metiers/mobile/index.js`
+    - `dist/generation/templates/mobile`
+    - `dist/generation/templates/mobile/template.js`
+    - `src/components/metiers/mobile`
+    - `src/components/metiers/mobile/index.js`
+    - `src/generation/templates/mobile`
+    - `src/generation/templates/mobile/template.js`
+    - `backend/node/tests/integration/mobile`
+    - `backend/node/tests/integration/mobile/test_mobile.js`
+    - `backend/node/app/tests/integration/mobile`
+    - `backend/node/app/tests/integration/mobile/test_mobile.js`
+    - `backend/node/app/templates/mobile`
+    - `backend/node/app/templates/mobile/template.js`
+    - `backend/node/app/routes/mobile`
+    - `backend/node/app/routes/mobile/routes.js`
+    - `backend/node/routes/mobile`
+    - `backend/node/routes/mobile/routes.js`
+    - `docs/metiers/mobile.md`
+
+### <a name="mode"></a> mode
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/mode`
+    - `Dihya/frontend/src/components/metiers/mode/index.js`
+    - `Dihya/frontend/src/tests/integration/mode`
+    - `Dihya/frontend/src/tests/integration/mode/test_mode.js`
+    - `Dihya/frontend/src/generation/templates/mode`
+    - `Dihya/frontend/src/generation/templates/mode/template.js`
+    - `Dihya/backend/tests/integration/mode`
+    - `Dihya/backend/tests/integration/mode/test_mode_backend.py`
+    - `Dihya/backend/django/tests/integration/mode`
+    - `Dihya/backend/django/tests/integration/mode/test_mode_django.py`
+    - `Dihya/backend/django/app/tests/integration/mode`
+    - `Dihya/backend/django/app/tests/integration/mode/test_mode_django.py`
+    - `Dihya/backend/django/app/templates/mode`
+    - `Dihya/backend/django/app/templates/mode/template.py`
+    - `Dihya/backend/django/app/routes/mode`
+    - `Dihya/backend/django/app/routes/mode/routes.py`
+    - `Dihya/backend/django/routes/mode`
+    - `Dihya/backend/django/routes/mode/routes.py`
+    - `Dihya/backend/flask/tests/integration/mode`
+    - `Dihya/backend/flask/tests/integration/mode/test_mode_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/mode`
+    - `Dihya/backend/flask/app/tests/integration/mode/test_mode_flask.py`
+    - `Dihya/backend/flask/app/templates/mode`
+    - `Dihya/backend/flask/app/templates/mode/template.py`
+    - `Dihya/backend/flask/app/routes/mode`
+    - `Dihya/backend/flask/app/routes/mode/routes.py`
+    - `Dihya/backend/flask/routes/mode`
+    - `Dihya/backend/flask/routes/mode/routes.py`
+    - `Dihya/backend/routes/mode`
+    - `Dihya/backend/routes/mode/routes.py`
+    - `Dihya/backend/node/tests/integration/mode`
+    - `Dihya/backend/node/tests/integration/mode/test_mode.js`
+    - `Dihya/backend/node/app/tests/integration/mode`
+    - `Dihya/backend/node/app/tests/integration/mode/test_mode.js`
+    - `Dihya/backend/node/app/templates/mode`
+    - `Dihya/backend/node/app/templates/mode/template.js`
+    - `Dihya/backend/node/app/routes/mode`
+    - `Dihya/backend/node/app/routes/mode/routes.js`
+    - `Dihya/backend/node/routes/mode`
+    - `Dihya/backend/node/routes/mode/routes.js`
+    - `Dihya/docs/metiers/mode.md`
+    - `coverage/lcov-report/components/metiers/mode`
+    - `coverage/lcov-report/generation/templates/mode`
+    - `dist/components/metiers/mode`
+    - `dist/components/metiers/mode/index.js`
+    - `dist/generation/templates/mode`
+    - `dist/generation/templates/mode/template.js`
+    - `src/components/metiers/mode`
+    - `src/components/metiers/mode/index.js`
+    - `src/generation/templates/mode`
+    - `src/generation/templates/mode/template.js`
+    - `backend/node/tests/integration/mode`
+    - `backend/node/tests/integration/mode/test_mode.js`
+    - `backend/node/app/tests/integration/mode`
+    - `backend/node/app/tests/integration/mode/test_mode.js`
+    - `backend/node/app/templates/mode`
+    - `backend/node/app/templates/mode/template.js`
+    - `backend/node/app/routes/mode`
+    - `backend/node/app/routes/mode/routes.js`
+    - `backend/node/routes/mode`
+    - `backend/node/routes/mode/routes.js`
+    - `docs/metiers/mode.md`
+
+### <a name="models"></a> models
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/flask/app/templates/health/backend/models`
+
+### <a name="plugins"></a> plugins
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/assets/scripts/routes/vr_ar/plugins`
+    - `Dihya/backend/django/routes/intelligence_artificielle/plugins`
+    - `Dihya/backend/routes/intelligence_artificielle/plugins`
+    - `Dihya/backend/routes/vr_ar/plugins`
+    - `Dihya/backend/routes/blockchain/plugins`
+
+### <a name="preview"></a> preview
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/preview`
+    - `Dihya/frontend/src/components/metiers/preview/index.js`
+    - `Dihya/frontend/src/tests/integration/preview`
+    - `Dihya/frontend/src/tests/integration/preview/test_preview.js`
+    - `Dihya/frontend/src/generation/templates/preview`
+    - `Dihya/frontend/src/generation/templates/preview/template.js`
+    - `Dihya/backend/tests/integration/preview`
+    - `Dihya/backend/tests/integration/preview/test_preview_backend.py`
+    - `Dihya/backend/django/tests/integration/preview`
+    - `Dihya/backend/django/tests/integration/preview/test_preview_django.py`
+    - `Dihya/backend/django/app/tests/integration/preview`
+    - `Dihya/backend/django/app/tests/integration/preview/test_preview_django.py`
+    - `Dihya/backend/django/app/templates/preview`
+    - `Dihya/backend/django/app/templates/preview/template.py`
+    - `Dihya/backend/django/app/routes/preview`
+    - `Dihya/backend/django/app/routes/preview/routes.py`
+    - `Dihya/backend/django/routes/preview`
+    - `Dihya/backend/django/routes/preview/routes.py`
+    - `Dihya/backend/flask/tests/integration/preview`
+    - `Dihya/backend/flask/tests/integration/preview/test_preview_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/preview`
+    - `Dihya/backend/flask/app/tests/integration/preview/test_preview_flask.py`
+    - `Dihya/backend/flask/app/templates/preview`
+    - `Dihya/backend/flask/app/templates/preview/template.py`
+    - `Dihya/backend/flask/app/routes/preview`
+    - `Dihya/backend/flask/app/routes/preview/routes.py`
+    - `Dihya/backend/flask/routes/preview`
+    - `Dihya/backend/flask/routes/preview/routes.py`
+    - `Dihya/backend/routes/preview`
+    - `Dihya/backend/routes/preview/routes.py`
+    - `Dihya/backend/node/tests/integration/preview`
+    - `Dihya/backend/node/tests/integration/preview/test_preview.js`
+    - `Dihya/backend/node/app/tests/integration/preview`
+    - `Dihya/backend/node/app/tests/integration/preview/test_preview.js`
+    - `Dihya/backend/node/app/templates/preview`
+    - `Dihya/backend/node/app/templates/preview/template.js`
+    - `Dihya/backend/node/app/routes/preview`
+    - `Dihya/backend/node/app/routes/preview/routes.js`
+    - `Dihya/backend/node/routes/preview`
+    - `Dihya/backend/node/routes/preview/routes.js`
+    - `Dihya/docs/metiers/preview.md`
+    - `coverage/lcov-report/components/metiers/preview`
+    - `coverage/lcov-report/generation/templates/preview`
+    - `dist/components/metiers/preview`
+    - `dist/components/metiers/preview/index.js`
+    - `dist/generation/templates/preview`
+    - `dist/generation/templates/preview/template.js`
+    - `src/components/metiers/preview`
+    - `src/components/metiers/preview/index.js`
+    - `src/generation/templates/preview`
+    - `src/generation/templates/preview/template.js`
+    - `backend/node/tests/integration/preview`
+    - `backend/node/tests/integration/preview/test_preview.js`
+    - `backend/node/app/tests/integration/preview`
+    - `backend/node/app/tests/integration/preview/test_preview.js`
+    - `backend/node/app/templates/preview`
+    - `backend/node/app/templates/preview/template.js`
+    - `backend/node/app/routes/preview`
+    - `backend/node/app/routes/preview/routes.js`
+    - `backend/node/routes/preview`
+    - `backend/node/routes/preview/routes.js`
+    - `docs/metiers/preview.md`
+
+### <a name="publicite"></a> publicite
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/publicite`
+    - `Dihya/frontend/src/components/metiers/publicite/index.js`
+    - `Dihya/frontend/src/tests/integration/publicite`
+    - `Dihya/frontend/src/tests/integration/publicite/test_publicite.js`
+    - `Dihya/frontend/src/generation/templates/publicite`
+    - `Dihya/frontend/src/generation/templates/publicite/template.js`
+    - `Dihya/backend/tests/integration/publicite`
+    - `Dihya/backend/tests/integration/publicite/test_publicite_backend.py`
+    - `Dihya/backend/django/tests/integration/publicite`
+    - `Dihya/backend/django/tests/integration/publicite/test_publicite_django.py`
+    - `Dihya/backend/django/app/tests/integration/publicite`
+    - `Dihya/backend/django/app/tests/integration/publicite/test_publicite_django.py`
+    - `Dihya/backend/django/app/templates/publicite`
+    - `Dihya/backend/django/app/templates/publicite/template.py`
+    - `Dihya/backend/django/app/routes/publicite`
+    - `Dihya/backend/django/app/routes/publicite/routes.py`
+    - `Dihya/backend/django/routes/publicite`
+    - `Dihya/backend/django/routes/publicite/routes.py`
+    - `Dihya/backend/flask/tests/integration/publicite`
+    - `Dihya/backend/flask/tests/integration/publicite/test_publicite_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/publicite`
+    - `Dihya/backend/flask/app/tests/integration/publicite/test_publicite_flask.py`
+    - `Dihya/backend/flask/app/templates/publicite`
+    - `Dihya/backend/flask/app/templates/publicite/template.py`
+    - `Dihya/backend/flask/app/routes/publicite`
+    - `Dihya/backend/flask/app/routes/publicite/routes.py`
+    - `Dihya/backend/flask/routes/publicite`
+    - `Dihya/backend/flask/routes/publicite/routes.py`
+    - `Dihya/backend/routes/publicite`
+    - `Dihya/backend/routes/publicite/routes.py`
+    - `Dihya/backend/node/tests/integration/publicite`
+    - `Dihya/backend/node/tests/integration/publicite/test_publicite.js`
+    - `Dihya/backend/node/app/tests/integration/publicite`
+    - `Dihya/backend/node/app/tests/integration/publicite/test_publicite.js`
+    - `Dihya/backend/node/app/templates/publicite`
+    - `Dihya/backend/node/app/templates/publicite/template.js`
+    - `Dihya/backend/node/app/routes/publicite`
+    - `Dihya/backend/node/app/routes/publicite/routes.js`
+    - `Dihya/backend/node/routes/publicite`
+    - `Dihya/backend/node/routes/publicite/routes.js`
+    - `Dihya/docs/metiers/publicite.md`
+    - `coverage/lcov-report/components/metiers/publicite`
+    - `coverage/lcov-report/generation/templates/publicite`
+    - `dist/components/metiers/publicite`
+    - `dist/components/metiers/publicite/index.js`
+    - `dist/generation/templates/publicite`
+    - `dist/generation/templates/publicite/template.js`
+    - `src/components/metiers/publicite`
+    - `src/components/metiers/publicite/index.js`
+    - `src/generation/templates/publicite`
+    - `src/generation/templates/publicite/template.js`
+    - `backend/node/tests/integration/publicite`
+    - `backend/node/tests/integration/publicite/test_publicite.js`
+    - `backend/node/app/tests/integration/publicite`
+    - `backend/node/app/tests/integration/publicite/test_publicite.js`
+    - `backend/node/app/templates/publicite`
+    - `backend/node/app/templates/publicite/template.js`
+    - `backend/node/app/routes/publicite`
+    - `backend/node/app/routes/publicite/routes.js`
+    - `backend/node/routes/publicite`
+    - `backend/node/routes/publicite/routes.js`
+    - `docs/metiers/publicite.md`
+
+### <a name="readme"></a> readme
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : doc
+- **Chemins** :
+    - `Dihya/docs/metiers/README.md`
+
+### <a name="recherche"></a> recherche
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/recherche`
+    - `Dihya/frontend/src/components/metiers/recherche/index.js`
+    - `Dihya/frontend/src/tests/integration/recherche`
+    - `Dihya/frontend/src/tests/integration/recherche/test_recherche.js`
+    - `Dihya/frontend/src/generation/templates/recherche`
+    - `Dihya/frontend/src/generation/templates/recherche/template.js`
+    - `Dihya/backend/tests/integration/recherche`
+    - `Dihya/backend/tests/integration/recherche/test_recherche_backend.py`
+    - `Dihya/backend/django/tests/integration/recherche`
+    - `Dihya/backend/django/tests/integration/recherche/test_recherche_django.py`
+    - `Dihya/backend/django/app/tests/integration/recherche`
+    - `Dihya/backend/django/app/tests/integration/recherche/test_recherche_django.py`
+    - `Dihya/backend/django/app/templates/recherche`
+    - `Dihya/backend/django/app/templates/recherche/template.py`
+    - `Dihya/backend/django/app/routes/recherche`
+    - `Dihya/backend/django/app/routes/recherche/routes.py`
+    - `Dihya/backend/django/routes/recherche`
+    - `Dihya/backend/django/routes/recherche/routes.py`
+    - `Dihya/backend/flask/tests/integration/recherche`
+    - `Dihya/backend/flask/tests/integration/recherche/test_recherche_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/recherche`
+    - `Dihya/backend/flask/app/tests/integration/recherche/test_recherche_flask.py`
+    - `Dihya/backend/flask/app/templates/recherche`
+    - `Dihya/backend/flask/app/templates/recherche/template.py`
+    - `Dihya/backend/flask/app/routes/recherche`
+    - `Dihya/backend/flask/app/routes/recherche/routes.py`
+    - `Dihya/backend/flask/routes/recherche`
+    - `Dihya/backend/flask/routes/recherche/routes.py`
+    - `Dihya/backend/routes/recherche`
+    - `Dihya/backend/routes/recherche/routes.py`
+    - `Dihya/backend/node/tests/integration/recherche`
+    - `Dihya/backend/node/tests/integration/recherche/test_recherche.js`
+    - `Dihya/backend/node/app/tests/integration/recherche`
+    - `Dihya/backend/node/app/tests/integration/recherche/test_recherche.js`
+    - `Dihya/backend/node/app/templates/recherche`
+    - `Dihya/backend/node/app/templates/recherche/template.js`
+    - `Dihya/backend/node/app/routes/recherche`
+    - `Dihya/backend/node/app/routes/recherche/routes.js`
+    - `Dihya/backend/node/routes/recherche`
+    - `Dihya/backend/node/routes/recherche/routes.js`
+    - `Dihya/docs/metiers/recherche.md`
+    - `coverage/lcov-report/components/metiers/recherche`
+    - `coverage/lcov-report/generation/templates/recherche`
+    - `dist/components/metiers/recherche`
+    - `dist/components/metiers/recherche/index.js`
+    - `dist/generation/templates/recherche`
+    - `dist/generation/templates/recherche/template.js`
+    - `src/components/metiers/recherche`
+    - `src/components/metiers/recherche/index.js`
+    - `src/generation/templates/recherche`
+    - `src/generation/templates/recherche/template.js`
+    - `backend/node/tests/integration/recherche`
+    - `backend/node/tests/integration/recherche/test_recherche.js`
+    - `backend/node/app/tests/integration/recherche`
+    - `backend/node/app/tests/integration/recherche/test_recherche.js`
+    - `backend/node/app/templates/recherche`
+    - `backend/node/app/templates/recherche/template.js`
+    - `backend/node/app/routes/recherche`
+    - `backend/node/app/routes/recherche/routes.js`
+    - `backend/node/routes/recherche`
+    - `backend/node/routes/recherche/routes.js`
+    - `docs/metiers/recherche.md`
+
+### <a name="ressources-humaines"></a> ressources_humaines
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/ressources_humaines`
+    - `Dihya/frontend/src/components/metiers/ressources_humaines/index.js`
+    - `Dihya/frontend/src/tests/integration/ressources_humaines`
+    - `Dihya/frontend/src/tests/integration/ressources_humaines/test_ressources_humaines.js`
+    - `Dihya/frontend/src/generation/templates/ressources_humaines`
+    - `Dihya/frontend/src/generation/templates/ressources_humaines/template.js`
+    - `Dihya/backend/tests/integration/ressources_humaines`
+    - `Dihya/backend/tests/integration/ressources_humaines/test_ressources_humaines_backend.py`
+    - `Dihya/backend/django/tests/integration/ressources_humaines`
+    - `Dihya/backend/django/tests/integration/ressources_humaines/test_ressources_humaines_django.py`
+    - `Dihya/backend/django/app/tests/integration/ressources_humaines`
+    - `Dihya/backend/django/app/tests/integration/ressources_humaines/test_ressources_humaines_django.py`
+    - `Dihya/backend/django/app/templates/ressources_humaines`
+    - `Dihya/backend/django/app/templates/ressources_humaines/template.py`
+    - `Dihya/backend/django/app/routes/ressources_humaines`
+    - `Dihya/backend/django/app/routes/ressources_humaines/routes.py`
+    - `Dihya/backend/django/routes/ressources_humaines`
+    - `Dihya/backend/django/routes/ressources_humaines/routes.py`
+    - `Dihya/backend/flask/tests/integration/ressources_humaines`
+    - `Dihya/backend/flask/tests/integration/ressources_humaines/test_ressources_humaines_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/ressources_humaines`
+    - `Dihya/backend/flask/app/tests/integration/ressources_humaines/test_ressources_humaines_flask.py`
+    - `Dihya/backend/flask/app/templates/ressources_humaines`
+    - `Dihya/backend/flask/app/templates/ressources_humaines/template.py`
+    - `Dihya/backend/flask/app/routes/ressources_humaines`
+    - `Dihya/backend/flask/app/routes/ressources_humaines/routes.py`
+    - `Dihya/backend/flask/routes/ressources_humaines`
+    - `Dihya/backend/flask/routes/ressources_humaines/routes.py`
+    - `Dihya/backend/routes/ressources_humaines`
+    - `Dihya/backend/routes/ressources_humaines/routes.py`
+    - `Dihya/backend/node/tests/integration/ressources_humaines`
+    - `Dihya/backend/node/tests/integration/ressources_humaines/test_ressources_humaines.js`
+    - `Dihya/backend/node/app/tests/integration/ressources_humaines`
+    - `Dihya/backend/node/app/tests/integration/ressources_humaines/test_ressources_humaines.js`
+    - `Dihya/backend/node/app/templates/ressources_humaines`
+    - `Dihya/backend/node/app/templates/ressources_humaines/template.js`
+    - `Dihya/backend/node/app/routes/ressources_humaines`
+    - `Dihya/backend/node/app/routes/ressources_humaines/routes.js`
+    - `Dihya/backend/node/routes/ressources_humaines`
+    - `Dihya/backend/node/routes/ressources_humaines/routes.js`
+    - `Dihya/docs/metiers/ressources_humaines.md`
+    - `coverage/lcov-report/components/metiers/ressources_humaines`
+    - `coverage/lcov-report/generation/templates/ressources_humaines`
+    - `dist/components/metiers/ressources_humaines`
+    - `dist/components/metiers/ressources_humaines/index.js`
+    - `dist/generation/templates/ressources_humaines`
+    - `dist/generation/templates/ressources_humaines/template.js`
+    - `src/components/metiers/ressources_humaines`
+    - `src/components/metiers/ressources_humaines/index.js`
+    - `src/generation/templates/ressources_humaines`
+    - `src/generation/templates/ressources_humaines/template.js`
+    - `backend/node/tests/integration/ressources_humaines`
+    - `backend/node/tests/integration/ressources_humaines/test_ressources_humaines.js`
+    - `backend/node/app/tests/integration/ressources_humaines`
+    - `backend/node/app/tests/integration/ressources_humaines/test_ressources_humaines.js`
+    - `backend/node/app/templates/ressources_humaines`
+    - `backend/node/app/templates/ressources_humaines/template.js`
+    - `backend/node/app/routes/ressources_humaines`
+    - `backend/node/app/routes/ressources_humaines/routes.js`
+    - `backend/node/routes/ressources_humaines`
+    - `backend/node/routes/ressources_humaines/routes.js`
+    - `docs/metiers/ressources_humaines.md`
+
+### <a name="restauration"></a> restauration
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/restauration`
+    - `Dihya/frontend/src/components/metiers/restauration/index.js`
+    - `Dihya/frontend/src/tests/integration/restauration`
+    - `Dihya/frontend/src/tests/integration/restauration/test_restauration.js`
+    - `Dihya/frontend/src/generation/templates/restauration`
+    - `Dihya/frontend/src/generation/templates/restauration/template.js`
+    - `Dihya/backend/tests/integration/restauration`
+    - `Dihya/backend/tests/integration/restauration/test_restauration_backend.py`
+    - `Dihya/backend/django/tests/integration/restauration`
+    - `Dihya/backend/django/tests/integration/restauration/test_restauration_django.py`
+    - `Dihya/backend/django/app/tests/integration/restauration`
+    - `Dihya/backend/django/app/tests/integration/restauration/test_restauration_django.py`
+    - `Dihya/backend/django/app/templates/restauration`
+    - `Dihya/backend/django/app/templates/restauration/template.py`
+    - `Dihya/backend/django/app/routes/restauration`
+    - `Dihya/backend/django/app/routes/restauration/routes.py`
+    - `Dihya/backend/django/routes/restauration`
+    - `Dihya/backend/django/routes/restauration/routes.py`
+    - `Dihya/backend/flask/tests/integration/restauration`
+    - `Dihya/backend/flask/tests/integration/restauration/test_restauration_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/restauration`
+    - `Dihya/backend/flask/app/tests/integration/restauration/test_restauration_flask.py`
+    - `Dihya/backend/flask/app/templates/restauration`
+    - `Dihya/backend/flask/app/templates/restauration/template.py`
+    - `Dihya/backend/flask/app/routes/restauration`
+    - `Dihya/backend/flask/app/routes/restauration/routes.py`
+    - `Dihya/backend/flask/routes/restauration`
+    - `Dihya/backend/flask/routes/restauration/routes.py`
+    - `Dihya/backend/routes/restauration`
+    - `Dihya/backend/routes/restauration/routes.py`
+    - `Dihya/backend/node/tests/integration/restauration`
+    - `Dihya/backend/node/tests/integration/restauration/test_restauration.js`
+    - `Dihya/backend/node/app/tests/integration/restauration`
+    - `Dihya/backend/node/app/tests/integration/restauration/test_restauration.js`
+    - `Dihya/backend/node/app/templates/restauration`
+    - `Dihya/backend/node/app/templates/restauration/template.js`
+    - `Dihya/backend/node/app/routes/restauration`
+    - `Dihya/backend/node/app/routes/restauration/routes.js`
+    - `Dihya/backend/node/routes/restauration`
+    - `Dihya/backend/node/routes/restauration/routes.js`
+    - `Dihya/docs/metiers/restauration.md`
+    - `coverage/lcov-report/components/metiers/restauration`
+    - `coverage/lcov-report/generation/templates/restauration`
+    - `dist/components/metiers/restauration`
+    - `dist/components/metiers/restauration/index.js`
+    - `dist/generation/templates/restauration`
+    - `dist/generation/templates/restauration/template.js`
+    - `src/components/metiers/restauration`
+    - `src/components/metiers/restauration/index.js`
+    - `src/generation/templates/restauration`
+    - `src/generation/templates/restauration/template.js`
+    - `backend/node/tests/integration/restauration`
+    - `backend/node/tests/integration/restauration/test_restauration.js`
+    - `backend/node/app/tests/integration/restauration`
+    - `backend/node/app/tests/integration/restauration/test_restauration.js`
+    - `backend/node/app/templates/restauration`
+    - `backend/node/app/templates/restauration/template.js`
+    - `backend/node/app/routes/restauration`
+    - `backend/node/app/routes/restauration/routes.js`
+    - `backend/node/routes/restauration`
+    - `backend/node/routes/restauration/routes.js`
+    - `docs/metiers/restauration.md`
+
+### <a name="routes"></a> routes
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/flask/app/templates/health/backend/routes`
+
+### <a name="sante"></a> sante
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/sante`
+    - `Dihya/frontend/src/components/metiers/sante/index.js`
+    - `Dihya/frontend/src/tests/integration/sante`
+    - `Dihya/frontend/src/tests/integration/sante/test_sante.js`
+    - `Dihya/frontend/src/generation/templates/sante`
+    - `Dihya/frontend/src/generation/templates/sante/template.js`
+    - `Dihya/backend/tests/integration/sante`
+    - `Dihya/backend/tests/integration/sante/test_sante_backend.py`
+    - `Dihya/backend/django/tests/integration/sante`
+    - `Dihya/backend/django/tests/integration/sante/test_sante_django.py`
+    - `Dihya/backend/django/app/tests/integration/sante`
+    - `Dihya/backend/django/app/tests/integration/sante/test_sante_django.py`
+    - `Dihya/backend/django/app/templates/sante`
+    - `Dihya/backend/django/app/templates/sante/template.py`
+    - `Dihya/backend/django/app/routes/sante`
+    - `Dihya/backend/django/app/routes/sante/routes.py`
+    - `Dihya/backend/django/routes/sante`
+    - `Dihya/backend/django/routes/sante/routes.py`
+    - `Dihya/backend/flask/tests/integration/sante`
+    - `Dihya/backend/flask/tests/integration/sante/test_sante_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/sante`
+    - `Dihya/backend/flask/app/tests/integration/sante/test_sante_flask.py`
+    - `Dihya/backend/flask/app/templates/sante`
+    - `Dihya/backend/flask/app/templates/sante/template.py`
+    - `Dihya/backend/flask/app/routes/sante`
+    - `Dihya/backend/flask/app/routes/sante/routes.py`
+    - `Dihya/backend/flask/routes/sante`
+    - `Dihya/backend/flask/routes/sante/routes.py`
+    - `Dihya/backend/routes/sante`
+    - `Dihya/backend/routes/sante/routes.py`
+    - `Dihya/backend/node/tests/integration/sante`
+    - `Dihya/backend/node/tests/integration/sante/test_sante.js`
+    - `Dihya/backend/node/app/tests/integration/sante`
+    - `Dihya/backend/node/app/tests/integration/sante/test_sante.js`
+    - `Dihya/backend/node/app/templates/sante`
+    - `Dihya/backend/node/app/templates/sante/template.js`
+    - `Dihya/backend/node/app/routes/sante`
+    - `Dihya/backend/node/app/routes/sante/routes.js`
+    - `Dihya/backend/node/routes/sante`
+    - `Dihya/backend/node/routes/sante/routes.js`
+    - `Dihya/docs/metiers/sante.md`
+    - `coverage/lcov-report/components/metiers/sante`
+    - `coverage/lcov-report/generation/templates/sante`
+    - `dist/components/metiers/sante`
+    - `dist/components/metiers/sante/index.js`
+    - `dist/generation/templates/sante`
+    - `dist/generation/templates/sante/template.js`
+    - `src/components/metiers/sante`
+    - `src/components/metiers/sante/index.js`
+    - `src/generation/templates/sante`
+    - `src/generation/templates/sante/template.js`
+    - `backend/node/tests/integration/sante`
+    - `backend/node/tests/integration/sante/test_sante.js`
+    - `backend/node/app/tests/integration/sante`
+    - `backend/node/app/tests/integration/sante/test_sante.js`
+    - `backend/node/app/templates/sante`
+    - `backend/node/app/templates/sante/template.js`
+    - `backend/node/app/routes/sante`
+    - `backend/node/app/routes/sante/routes.js`
+    - `backend/node/routes/sante`
+    - `backend/node/routes/sante/routes.js`
+    - `docs/metiers/sante.md`
+
+### <a name="science"></a> science
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/science`
+    - `Dihya/frontend/src/components/metiers/science/index.js`
+    - `Dihya/frontend/src/tests/integration/science`
+    - `Dihya/frontend/src/tests/integration/science/test_science.js`
+    - `Dihya/frontend/src/generation/templates/science`
+    - `Dihya/frontend/src/generation/templates/science/template.js`
+    - `Dihya/backend/tests/integration/science`
+    - `Dihya/backend/tests/integration/science/test_science_backend.py`
+    - `Dihya/backend/django/tests/integration/science`
+    - `Dihya/backend/django/tests/integration/science/test_science_django.py`
+    - `Dihya/backend/django/app/tests/integration/science`
+    - `Dihya/backend/django/app/tests/integration/science/test_science_django.py`
+    - `Dihya/backend/django/app/templates/science`
+    - `Dihya/backend/django/app/templates/science/template.py`
+    - `Dihya/backend/django/app/routes/science`
+    - `Dihya/backend/django/app/routes/science/routes.py`
+    - `Dihya/backend/django/routes/science`
+    - `Dihya/backend/django/routes/science/routes.py`
+    - `Dihya/backend/flask/tests/integration/science`
+    - `Dihya/backend/flask/tests/integration/science/test_science_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/science`
+    - `Dihya/backend/flask/app/tests/integration/science/test_science_flask.py`
+    - `Dihya/backend/flask/app/templates/science`
+    - `Dihya/backend/flask/app/templates/science/template.py`
+    - `Dihya/backend/flask/app/routes/science`
+    - `Dihya/backend/flask/app/routes/science/routes.py`
+    - `Dihya/backend/flask/routes/science`
+    - `Dihya/backend/flask/routes/science/routes.py`
+    - `Dihya/backend/routes/science`
+    - `Dihya/backend/routes/science/routes.py`
+    - `Dihya/backend/node/tests/integration/science`
+    - `Dihya/backend/node/tests/integration/science/test_science.js`
+    - `Dihya/backend/node/app/tests/integration/science`
+    - `Dihya/backend/node/app/tests/integration/science/test_science.js`
+    - `Dihya/backend/node/app/templates/science`
+    - `Dihya/backend/node/app/templates/science/template.js`
+    - `Dihya/backend/node/app/routes/science`
+    - `Dihya/backend/node/app/routes/science/routes.js`
+    - `Dihya/backend/node/routes/science`
+    - `Dihya/backend/node/routes/science/routes.js`
+    - `Dihya/docs/metiers/science.md`
+    - `coverage/lcov-report/components/metiers/science`
+    - `coverage/lcov-report/generation/templates/science`
+    - `dist/components/metiers/science`
+    - `dist/components/metiers/science/index.js`
+    - `dist/generation/templates/science`
+    - `dist/generation/templates/science/template.js`
+    - `src/components/metiers/science`
+    - `src/components/metiers/science/index.js`
+    - `src/generation/templates/science`
+    - `src/generation/templates/science/template.js`
+    - `backend/node/tests/integration/science`
+    - `backend/node/tests/integration/science/test_science.js`
+    - `backend/node/app/tests/integration/science`
+    - `backend/node/app/tests/integration/science/test_science.js`
+    - `backend/node/app/templates/science`
+    - `backend/node/app/templates/science/template.js`
+    - `backend/node/app/routes/science`
+    - `backend/node/app/routes/science/routes.js`
+    - `backend/node/routes/science`
+    - `backend/node/routes/science/routes.js`
+    - `docs/metiers/science.md`
+
+### <a name="scripts"></a> scripts
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/django/app/routes/voyage/scripts`
+    - `Dihya/backend/django/app/routes/vr_ar/scripts`
+    - `Dihya/backend/django/app/routes/voice/scripts`
+
+### <a name="securite"></a> securite
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/securite`
+    - `Dihya/frontend/src/components/metiers/securite/index.js`
+    - `Dihya/frontend/src/tests/integration/securite`
+    - `Dihya/frontend/src/tests/integration/securite/test_securite.js`
+    - `Dihya/frontend/src/generation/templates/securite`
+    - `Dihya/frontend/src/generation/templates/securite/template.js`
+    - `Dihya/backend/tests/integration/securite`
+    - `Dihya/backend/tests/integration/securite/test_securite_backend.py`
+    - `Dihya/backend/django/tests/integration/securite`
+    - `Dihya/backend/django/tests/integration/securite/test_securite_django.py`
+    - `Dihya/backend/django/app/tests/integration/securite`
+    - `Dihya/backend/django/app/tests/integration/securite/test_securite_django.py`
+    - `Dihya/backend/django/app/templates/securite`
+    - `Dihya/backend/django/app/templates/securite/template.py`
+    - `Dihya/backend/django/app/routes/securite`
+    - `Dihya/backend/django/app/routes/securite/routes.py`
+    - `Dihya/backend/django/routes/securite`
+    - `Dihya/backend/django/routes/securite/routes.py`
+    - `Dihya/backend/flask/tests/integration/securite`
+    - `Dihya/backend/flask/tests/integration/securite/test_securite_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/securite`
+    - `Dihya/backend/flask/app/tests/integration/securite/test_securite_flask.py`
+    - `Dihya/backend/flask/app/templates/securite`
+    - `Dihya/backend/flask/app/templates/securite/template.py`
+    - `Dihya/backend/flask/app/routes/securite`
+    - `Dihya/backend/flask/app/routes/securite/routes.py`
+    - `Dihya/backend/flask/routes/securite`
+    - `Dihya/backend/flask/routes/securite/routes.py`
+    - `Dihya/backend/routes/securite`
+    - `Dihya/backend/routes/securite/routes.py`
+    - `Dihya/backend/node/tests/integration/securite`
+    - `Dihya/backend/node/tests/integration/securite/test_securite.js`
+    - `Dihya/backend/node/app/tests/integration/securite`
+    - `Dihya/backend/node/app/tests/integration/securite/test_securite.js`
+    - `Dihya/backend/node/app/templates/securite`
+    - `Dihya/backend/node/app/templates/securite/template.js`
+    - `Dihya/backend/node/app/routes/securite`
+    - `Dihya/backend/node/app/routes/securite/routes.js`
+    - `Dihya/backend/node/routes/securite`
+    - `Dihya/backend/node/routes/securite/routes.js`
+    - `Dihya/docs/metiers/securite.md`
+    - `coverage/lcov-report/components/metiers/securite`
+    - `coverage/lcov-report/generation/templates/securite`
+    - `dist/components/metiers/securite`
+    - `dist/components/metiers/securite/index.js`
+    - `dist/generation/templates/securite`
+    - `dist/generation/templates/securite/template.js`
+    - `src/components/metiers/securite`
+    - `src/components/metiers/securite/index.js`
+    - `src/generation/templates/securite`
+    - `src/generation/templates/securite/template.js`
+    - `backend/node/tests/integration/securite`
+    - `backend/node/tests/integration/securite/test_securite.js`
+    - `backend/node/app/tests/integration/securite`
+    - `backend/node/app/tests/integration/securite/test_securite.js`
+    - `backend/node/app/templates/securite`
+    - `backend/node/app/templates/securite/template.js`
+    - `backend/node/app/routes/securite`
+    - `backend/node/app/routes/securite/routes.js`
+    - `backend/node/routes/securite`
+    - `backend/node/routes/securite/routes.js`
+    - `docs/metiers/securite.md`
+
+### <a name="seo"></a> seo
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/seo`
+    - `Dihya/frontend/src/components/metiers/seo/index.js`
+    - `Dihya/frontend/src/tests/integration/seo`
+    - `Dihya/frontend/src/tests/integration/seo/test_seo.js`
+    - `Dihya/frontend/src/generation/templates/seo`
+    - `Dihya/frontend/src/generation/templates/seo/template.js`
+    - `Dihya/backend/tests/integration/seo`
+    - `Dihya/backend/tests/integration/seo/test_seo_backend.py`
+    - `Dihya/backend/django/tests/integration/seo`
+    - `Dihya/backend/django/tests/integration/seo/test_seo_django.py`
+    - `Dihya/backend/django/app/tests/integration/seo`
+    - `Dihya/backend/django/app/tests/integration/seo/test_seo_django.py`
+    - `Dihya/backend/django/app/templates/seo`
+    - `Dihya/backend/django/app/templates/seo/template.py`
+    - `Dihya/backend/django/app/routes/seo`
+    - `Dihya/backend/django/app/routes/seo/routes.py`
+    - `Dihya/backend/django/routes/seo`
+    - `Dihya/backend/django/routes/seo/routes.py`
+    - `Dihya/backend/flask/tests/integration/seo`
+    - `Dihya/backend/flask/tests/integration/seo/test_seo_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/seo`
+    - `Dihya/backend/flask/app/tests/integration/seo/test_seo_flask.py`
+    - `Dihya/backend/flask/app/templates/seo`
+    - `Dihya/backend/flask/app/templates/seo/template.py`
+    - `Dihya/backend/flask/app/routes/seo`
+    - `Dihya/backend/flask/app/routes/seo/routes.py`
+    - `Dihya/backend/flask/routes/seo`
+    - `Dihya/backend/flask/routes/seo/routes.py`
+    - `Dihya/backend/routes/seo`
+    - `Dihya/backend/routes/seo/routes.py`
+    - `Dihya/backend/node/tests/integration/seo`
+    - `Dihya/backend/node/tests/integration/seo/test_seo.js`
+    - `Dihya/backend/node/app/tests/integration/seo`
+    - `Dihya/backend/node/app/tests/integration/seo/test_seo.js`
+    - `Dihya/backend/node/app/templates/seo`
+    - `Dihya/backend/node/app/templates/seo/template.js`
+    - `Dihya/backend/node/app/routes/seo`
+    - `Dihya/backend/node/app/routes/seo/routes.js`
+    - `Dihya/backend/node/routes/seo`
+    - `Dihya/backend/node/routes/seo/routes.js`
+    - `Dihya/docs/metiers/seo.md`
+    - `coverage/lcov-report/components/metiers/seo`
+    - `coverage/lcov-report/generation/templates/seo`
+    - `dist/components/metiers/seo`
+    - `dist/components/metiers/seo/index.js`
+    - `dist/generation/templates/seo`
+    - `dist/generation/templates/seo/template.js`
+    - `src/components/metiers/seo`
+    - `src/components/metiers/seo/index.js`
+    - `src/generation/templates/seo`
+    - `src/generation/templates/seo/template.js`
+    - `backend/node/tests/integration/seo`
+    - `backend/node/tests/integration/seo/test_seo.js`
+    - `backend/node/app/tests/integration/seo`
+    - `backend/node/app/tests/integration/seo/test_seo.js`
+    - `backend/node/app/templates/seo`
+    - `backend/node/app/templates/seo/template.js`
+    - `backend/node/app/routes/seo`
+    - `backend/node/app/routes/seo/routes.js`
+    - `backend/node/routes/seo`
+    - `backend/node/routes/seo/routes.js`
+    - `docs/metiers/seo.md`
+
+### <a name="services"></a> services
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier
+- **Chemins** :
+    - `Dihya/backend/flask/app/templates/health/backend/services`
+
+### <a name="services-personne"></a> services_personne
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/services_personne`
+    - `Dihya/frontend/src/components/metiers/services_personne/index.js`
+    - `Dihya/frontend/src/tests/integration/services_personne`
+    - `Dihya/frontend/src/tests/integration/services_personne/test_services_personne.js`
+    - `Dihya/frontend/src/generation/templates/services_personne`
+    - `Dihya/frontend/src/generation/templates/services_personne/template.js`
+    - `Dihya/backend/tests/integration/services_personne`
+    - `Dihya/backend/tests/integration/services_personne/test_services_personne_backend.py`
+    - `Dihya/backend/django/tests/integration/services_personne`
+    - `Dihya/backend/django/tests/integration/services_personne/test_services_personne_django.py`
+    - `Dihya/backend/django/app/tests/integration/services_personne`
+    - `Dihya/backend/django/app/tests/integration/services_personne/test_services_personne_django.py`
+    - `Dihya/backend/django/app/templates/services_personne`
+    - `Dihya/backend/django/app/templates/services_personne/template.py`
+    - `Dihya/backend/django/app/routes/services_personne`
+    - `Dihya/backend/django/app/routes/services_personne/routes.py`
+    - `Dihya/backend/django/routes/services_personne`
+    - `Dihya/backend/django/routes/services_personne/routes.py`
+    - `Dihya/backend/flask/tests/integration/services_personne`
+    - `Dihya/backend/flask/tests/integration/services_personne/test_services_personne_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/services_personne`
+    - `Dihya/backend/flask/app/tests/integration/services_personne/test_services_personne_flask.py`
+    - `Dihya/backend/flask/app/templates/services_personne`
+    - `Dihya/backend/flask/app/templates/services_personne/template.py`
+    - `Dihya/backend/flask/app/routes/services_personne`
+    - `Dihya/backend/flask/app/routes/services_personne/routes.py`
+    - `Dihya/backend/flask/routes/services_personne`
+    - `Dihya/backend/flask/routes/services_personne/routes.py`
+    - `Dihya/backend/routes/services_personne`
+    - `Dihya/backend/routes/services_personne/routes.py`
+    - `Dihya/backend/node/tests/integration/services_personne`
+    - `Dihya/backend/node/tests/integration/services_personne/test_services_personne.js`
+    - `Dihya/backend/node/app/tests/integration/services_personne`
+    - `Dihya/backend/node/app/tests/integration/services_personne/test_services_personne.js`
+    - `Dihya/backend/node/app/templates/services_personne`
+    - `Dihya/backend/node/app/templates/services_personne/template.js`
+    - `Dihya/backend/node/app/routes/services_personne`
+    - `Dihya/backend/node/app/routes/services_personne/routes.js`
+    - `Dihya/backend/node/routes/services_personne`
+    - `Dihya/backend/node/routes/services_personne/routes.js`
+    - `Dihya/docs/metiers/services_personne.md`
+    - `coverage/lcov-report/components/metiers/services_personne`
+    - `coverage/lcov-report/generation/templates/services_personne`
+    - `dist/components/metiers/services_personne`
+    - `dist/components/metiers/services_personne/index.js`
+    - `dist/generation/templates/services_personne`
+    - `dist/generation/templates/services_personne/template.js`
+    - `src/components/metiers/services_personne`
+    - `src/components/metiers/services_personne/index.js`
+    - `src/generation/templates/services_personne`
+    - `src/generation/templates/services_personne/template.js`
+    - `backend/node/tests/integration/services_personne`
+    - `backend/node/tests/integration/services_personne/test_services_personne.js`
+    - `backend/node/app/tests/integration/services_personne`
+    - `backend/node/app/tests/integration/services_personne/test_services_personne.js`
+    - `backend/node/app/templates/services_personne`
+    - `backend/node/app/templates/services_personne/template.js`
+    - `backend/node/app/routes/services_personne`
+    - `backend/node/app/routes/services_personne/routes.js`
+    - `backend/node/routes/services_personne`
+    - `backend/node/routes/services_personne/routes.js`
+    - `docs/metiers/services_personne.md`
+
+### <a name="social"></a> social
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/social`
+    - `Dihya/frontend/src/components/metiers/social/index.js`
+    - `Dihya/frontend/src/tests/integration/social`
+    - `Dihya/frontend/src/tests/integration/social/test_social.js`
+    - `Dihya/frontend/src/generation/templates/social`
+    - `Dihya/frontend/src/generation/templates/social/template.js`
+    - `Dihya/backend/tests/integration/social`
+    - `Dihya/backend/tests/integration/social/test_social_backend.py`
+    - `Dihya/backend/django/tests/integration/social`
+    - `Dihya/backend/django/tests/integration/social/test_social_django.py`
+    - `Dihya/backend/django/app/tests/integration/social`
+    - `Dihya/backend/django/app/tests/integration/social/test_social_django.py`
+    - `Dihya/backend/django/app/templates/social`
+    - `Dihya/backend/django/app/templates/social/template.py`
+    - `Dihya/backend/django/app/routes/social`
+    - `Dihya/backend/django/app/routes/social/routes.py`
+    - `Dihya/backend/django/routes/social`
+    - `Dihya/backend/django/routes/social/routes.py`
+    - `Dihya/backend/flask/tests/integration/social`
+    - `Dihya/backend/flask/tests/integration/social/test_social_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/social`
+    - `Dihya/backend/flask/app/tests/integration/social/test_social_flask.py`
+    - `Dihya/backend/flask/app/templates/social`
+    - `Dihya/backend/flask/app/templates/social/template.py`
+    - `Dihya/backend/flask/app/routes/social`
+    - `Dihya/backend/flask/app/routes/social/routes.py`
+    - `Dihya/backend/flask/routes/social`
+    - `Dihya/backend/flask/routes/social/routes.py`
+    - `Dihya/backend/routes/social`
+    - `Dihya/backend/routes/social/routes.py`
+    - `Dihya/backend/node/tests/integration/social`
+    - `Dihya/backend/node/tests/integration/social/test_social.js`
+    - `Dihya/backend/node/app/tests/integration/social`
+    - `Dihya/backend/node/app/tests/integration/social/test_social.js`
+    - `Dihya/backend/node/app/templates/social`
+    - `Dihya/backend/node/app/templates/social/template.js`
+    - `Dihya/backend/node/app/routes/social`
+    - `Dihya/backend/node/app/routes/social/routes.js`
+    - `Dihya/backend/node/routes/social`
+    - `Dihya/backend/node/routes/social/routes.js`
+    - `Dihya/docs/metiers/social.md`
+    - `coverage/lcov-report/components/metiers/social`
+    - `coverage/lcov-report/generation/templates/social`
+    - `dist/components/metiers/social`
+    - `dist/components/metiers/social/index.js`
+    - `dist/generation/templates/social`
+    - `src/components/metiers/social`
+    - `src/components/metiers/social/index.js`
+    - `src/generation/templates/social`
+    - `backend/node/tests/integration/social`
+    - `backend/node/tests/integration/social/test_social.js`
+    - `backend/node/app/tests/integration/social`
+    - `backend/node/app/tests/integration/social/test_social.js`
+    - `backend/node/app/templates/social`
+    - `backend/node/app/templates/social/template.js`
+    - `backend/node/app/routes/social`
+    - `backend/node/app/routes/social/routes.js`
+    - `backend/node/routes/social`
+    - `backend/node/routes/social/routes.js`
+    - `docs/metiers/social.md`
+
+### <a name="sport"></a> sport
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/sport`
+    - `Dihya/frontend/src/components/metiers/sport/index.js`
+    - `Dihya/frontend/src/tests/integration/sport`
+    - `Dihya/frontend/src/tests/integration/sport/test_sport.js`
+    - `Dihya/frontend/src/generation/templates/sport`
+    - `Dihya/frontend/src/generation/templates/sport/template.js`
+    - `Dihya/backend/tests/integration/sport`
+    - `Dihya/backend/tests/integration/sport/test_sport_backend.py`
+    - `Dihya/backend/django/tests/integration/sport`
+    - `Dihya/backend/django/tests/integration/sport/test_sport_django.py`
+    - `Dihya/backend/django/app/tests/integration/sport`
+    - `Dihya/backend/django/app/tests/integration/sport/test_sport_django.py`
+    - `Dihya/backend/django/app/templates/sport`
+    - `Dihya/backend/django/app/templates/sport/template.py`
+    - `Dihya/backend/django/app/routes/sport`
+    - `Dihya/backend/django/app/routes/sport/routes.py`
+    - `Dihya/backend/django/routes/sport`
+    - `Dihya/backend/django/routes/sport/routes.py`
+    - `Dihya/backend/flask/tests/integration/sport`
+    - `Dihya/backend/flask/tests/integration/sport/test_sport_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/sport`
+    - `Dihya/backend/flask/app/tests/integration/sport/test_sport_flask.py`
+    - `Dihya/backend/flask/app/templates/sport`
+    - `Dihya/backend/flask/app/templates/sport/template.py`
+    - `Dihya/backend/flask/app/routes/sport`
+    - `Dihya/backend/flask/app/routes/sport/routes.py`
+    - `Dihya/backend/flask/routes/sport`
+    - `Dihya/backend/flask/routes/sport/routes.py`
+    - `Dihya/backend/routes/sport`
+    - `Dihya/backend/routes/sport/routes.py`
+    - `Dihya/backend/node/tests/integration/sport`
+    - `Dihya/backend/node/tests/integration/sport/test_sport.js`
+    - `Dihya/backend/node/app/tests/integration/sport`
+    - `Dihya/backend/node/app/tests/integration/sport/test_sport.js`
+    - `Dihya/backend/node/app/templates/sport`
+    - `Dihya/backend/node/app/templates/sport/template.js`
+    - `Dihya/backend/node/app/routes/sport`
+    - `Dihya/backend/node/app/routes/sport/routes.js`
+    - `Dihya/backend/node/routes/sport`
+    - `Dihya/backend/node/routes/sport/routes.js`
+    - `Dihya/docs/metiers/sport.md`
+    - `coverage/lcov-report/components/metiers/sport`
+    - `coverage/lcov-report/generation/templates/sport`
+    - `dist/components/metiers/sport`
+    - `dist/components/metiers/sport/index.js`
+    - `dist/generation/templates/sport`
+    - `dist/generation/templates/sport/template.js`
+    - `src/components/metiers/sport`
+    - `src/components/metiers/sport/index.js`
+    - `src/generation/templates/sport`
+    - `src/generation/templates/sport/template.js`
+    - `backend/node/tests/integration/sport`
+    - `backend/node/tests/integration/sport/test_sport.js`
+    - `backend/node/app/tests/integration/sport`
+    - `backend/node/app/tests/integration/sport/test_sport.js`
+    - `backend/node/app/templates/sport`
+    - `backend/node/app/templates/sport/template.js`
+    - `backend/node/app/routes/sport`
+    - `backend/node/app/routes/sport/routes.js`
+    - `backend/node/routes/sport`
+    - `backend/node/routes/sport/routes.js`
+    - `docs/metiers/sport.md`
+
+### <a name="stripe"></a> stripe
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,plugin
+- **Chemins** :
+    - `Dihya/frontend/src/plugins/stripe`
+    - `Dihya/frontend/src/plugins/stripe/stripePlugin.js`
+    - `Dihya/frontend/src/plugins/stripe/README.md`
+
+### <a name="templates"></a> templates
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,plugin
+- **Chemins** :
+    - `Dihya/frontend/src/plugins/templates`
+    - `Dihya/frontend/src/plugins/templates/generationTemplate.js`
+    - `Dihya/frontend/src/plugins/templates/README.md`
+    - `Dihya/backend/flask/app/plugins/templates`
+    - `Dihya/backend/flask/app/plugins/templates/generation_template.py`
+    - `Dihya/backend/flask/app/plugins/templates/README.md`
+    - `Dihya/backend/flask/app/plugins/templates/example_plugin.py`
+    - `Dihya/backend/flask/app/plugins/templates/__init__.py`
+    - `Dihya/backend/flask/app/plugins/templates/elearning_template.py`
+    - `Dihya/backend/flask/app/plugins/templates/tests/test.py`
+    - `Dihya/backend/flask/app/plugins/templates/tests/test.js`
+    - `Dihya/backend/flask/app/plugins/templates/tests/test_example_plugin_tests.py`
+    - `Dihya/backend/flask/app/plugins/templates/tests/README.md`
+    - `Dihya/backend/flask/app/plugins/templates/tests/conftest.py`
+
+### <a name="tests"></a> tests
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,plugin
+- **Chemins** :
+    - `Dihya/frontend/src/plugins/tests`
+    - `Dihya/frontend/src/plugins/tests/test.py`
+    - `Dihya/frontend/src/plugins/tests/test.js`
+    - `Dihya/frontend/src/plugins/tests/test_plugins.js`
+    - `Dihya/frontend/src/plugins/tests/README.md`
+    - `Dihya/marketplace/plugins/tests`
+    - `Dihya/marketplace/plugins/tests/test_plugin.js`
+    - `Dihya/marketplace/plugins/tests/test_stripe_plugin.js`
+    - `Dihya/marketplace/plugins/tests/README.md`
+    - `Dihya/marketplace/plugins/tests/test_plugin_py.py`
+    - `Dihya/marketplace/templates/tests`
+    - `Dihya/backend/django/app/routes/social/tests`
+    - `Dihya/backend/django/app/routes/energie/tests`
+    - `Dihya/backend/django/app/routes/voyage/tests`
+    - `Dihya/backend/django/app/routes/ecommerce/tests`
+    - `Dihya/backend/django/app/routes/vr_ar/tests`
+    - `Dihya/backend/django/app/routes/services_personne/tests`
+    - `Dihya/backend/django/app/routes/health/tests`
+    - `Dihya/backend/django/app/routes/voice/tests`
+    - `Dihya/backend/django/app/routes/tourisme/tests`
+    - `Dihya/backend/django/app/routes/education/tests`
+    - `Dihya/backend/django/app/routes/sport/tests`
+    - `Dihya/backend/django/app/routes/gamer/tests`
+    - `Dihya/backend/django/app/routes/transport/tests`
+    - `Dihya/backend/flask/app/plugins/tests`
+    - `Dihya/backend/flask/app/plugins/tests/test_plugins_tests.py`
+    - `Dihya/backend/flask/app/plugins/tests/test.py`
+    - `Dihya/backend/flask/app/plugins/tests/test.js`
+    - `Dihya/backend/flask/app/plugins/tests/README.md`
+    - `Dihya/backend/flask/app/plugins/tests/__init__.py`
+    - `Dihya/backend/flask/app/plugins/tests/conftest.py`
+    - `Dihya/backend/flask/app/plugins/templates/tests`
+    - `Dihya/backend/flask/app/templates/health/backend/tests`
+    - `Dihya/backend/flask/app/routes/tests`
+    - `backend/flask/plugins/tests`
+    - `backend/flask/plugins/tests/test_example_plugin.py`
+
+### <a name="tourisme"></a> tourisme
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/tourisme`
+    - `Dihya/frontend/src/components/metiers/tourisme/index.js`
+    - `Dihya/frontend/src/tests/integration/tourisme`
+    - `Dihya/frontend/src/tests/integration/tourisme/test_tourisme.js`
+    - `Dihya/frontend/src/generation/templates/tourisme`
+    - `Dihya/frontend/src/generation/templates/tourisme/template.js`
+    - `Dihya/backend/tests/integration/tourisme`
+    - `Dihya/backend/tests/integration/tourisme/test_tourisme_backend.py`
+    - `Dihya/backend/django/tests/integration/tourisme`
+    - `Dihya/backend/django/tests/integration/tourisme/test_tourisme_django.py`
+    - `Dihya/backend/django/app/tests/integration/tourisme`
+    - `Dihya/backend/django/app/tests/integration/tourisme/test_tourisme_django.py`
+    - `Dihya/backend/django/app/templates/tourisme`
+    - `Dihya/backend/django/app/templates/tourisme/template.py`
+    - `Dihya/backend/django/app/routes/tourisme`
+    - `Dihya/backend/django/app/routes/tourisme/routes.py`
+    - `Dihya/backend/django/routes/tourisme`
+    - `Dihya/backend/django/routes/tourisme/routes.py`
+    - `Dihya/backend/flask/tests/integration/tourisme`
+    - `Dihya/backend/flask/tests/integration/tourisme/test_tourisme_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/tourisme`
+    - `Dihya/backend/flask/app/tests/integration/tourisme/test_tourisme_flask.py`
+    - `Dihya/backend/flask/app/templates/tourisme`
+    - `Dihya/backend/flask/app/templates/tourisme/template.py`
+    - `Dihya/backend/flask/app/routes/tourisme`
+    - `Dihya/backend/flask/app/routes/tourisme/routes.py`
+    - `Dihya/backend/flask/routes/tourisme`
+    - `Dihya/backend/flask/routes/tourisme/routes.py`
+    - `Dihya/backend/routes/tourisme`
+    - `Dihya/backend/routes/tourisme/routes.py`
+    - `Dihya/backend/node/tests/integration/tourisme`
+    - `Dihya/backend/node/tests/integration/tourisme/test_tourisme.js`
+    - `Dihya/backend/node/app/tests/integration/tourisme`
+    - `Dihya/backend/node/app/tests/integration/tourisme/test_tourisme.js`
+    - `Dihya/backend/node/app/templates/tourisme`
+    - `Dihya/backend/node/app/templates/tourisme/template.js`
+    - `Dihya/backend/node/app/routes/tourisme`
+    - `Dihya/backend/node/app/routes/tourisme/routes.js`
+    - `Dihya/backend/node/routes/tourisme`
+    - `Dihya/backend/node/routes/tourisme/routes.js`
+    - `Dihya/docs/metiers/tourisme.md`
+    - `coverage/lcov-report/components/metiers/tourisme`
+    - `coverage/lcov-report/generation/templates/tourisme`
+    - `dist/components/metiers/tourisme`
+    - `dist/components/metiers/tourisme/index.js`
+    - `dist/generation/templates/tourisme`
+    - `dist/generation/templates/tourisme/template.js`
+    - `src/components/metiers/tourisme`
+    - `src/components/metiers/tourisme/index.js`
+    - `src/generation/templates/tourisme`
+    - `src/generation/templates/tourisme/template.js`
+    - `backend/node/tests/integration/tourisme`
+    - `backend/node/tests/integration/tourisme/test_tourisme.js`
+    - `backend/node/app/tests/integration/tourisme`
+    - `backend/node/app/tests/integration/tourisme/test_tourisme.js`
+    - `backend/node/app/templates/tourisme`
+    - `backend/node/app/templates/tourisme/template.js`
+    - `backend/node/app/routes/tourisme`
+    - `backend/node/app/routes/tourisme/routes.js`
+    - `backend/node/routes/tourisme`
+    - `backend/node/routes/tourisme/routes.js`
+    - `docs/metiers/tourisme.md`
+
+### <a name="transport"></a> transport
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/transport`
+    - `Dihya/frontend/src/components/metiers/transport/index.js`
+    - `Dihya/frontend/src/tests/integration/transport`
+    - `Dihya/frontend/src/tests/integration/transport/test_transport.js`
+    - `Dihya/frontend/src/generation/templates/transport`
+    - `Dihya/frontend/src/generation/templates/transport/template.js`
+    - `Dihya/backend/tests/integration/transport`
+    - `Dihya/backend/tests/integration/transport/test_transport_backend.py`
+    - `Dihya/backend/django/tests/integration/transport`
+    - `Dihya/backend/django/tests/integration/transport/test_transport_django.py`
+    - `Dihya/backend/django/app/tests/integration/transport`
+    - `Dihya/backend/django/app/tests/integration/transport/test_transport_django.py`
+    - `Dihya/backend/django/app/templates/transport`
+    - `Dihya/backend/django/app/templates/transport/template.py`
+    - `Dihya/backend/django/app/routes/transport`
+    - `Dihya/backend/django/app/routes/transport/routes.py`
+    - `Dihya/backend/django/routes/transport`
+    - `Dihya/backend/django/routes/transport/routes.py`
+    - `Dihya/backend/flask/tests/integration/transport`
+    - `Dihya/backend/flask/tests/integration/transport/test_transport_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/transport`
+    - `Dihya/backend/flask/app/tests/integration/transport/test_transport_flask.py`
+    - `Dihya/backend/flask/app/templates/transport`
+    - `Dihya/backend/flask/app/templates/transport/template.py`
+    - `Dihya/backend/flask/app/routes/transport`
+    - `Dihya/backend/flask/app/routes/transport/routes.py`
+    - `Dihya/backend/flask/routes/transport`
+    - `Dihya/backend/flask/routes/transport/routes.py`
+    - `Dihya/backend/routes/transport`
+    - `Dihya/backend/routes/transport/routes.py`
+    - `Dihya/backend/node/tests/integration/transport`
+    - `Dihya/backend/node/tests/integration/transport/test_transport.js`
+    - `Dihya/backend/node/app/tests/integration/transport`
+    - `Dihya/backend/node/app/tests/integration/transport/test_transport.js`
+    - `Dihya/backend/node/app/templates/transport`
+    - `Dihya/backend/node/app/templates/transport/template.js`
+    - `Dihya/backend/node/app/routes/transport`
+    - `Dihya/backend/node/app/routes/transport/routes.js`
+    - `Dihya/backend/node/routes/transport`
+    - `Dihya/backend/node/routes/transport/routes.js`
+    - `Dihya/docs/metiers/transport.md`
+    - `coverage/lcov-report/components/metiers/transport`
+    - `coverage/lcov-report/generation/templates/transport`
+    - `dist/components/metiers/transport`
+    - `dist/components/metiers/transport/index.js`
+    - `dist/generation/templates/transport`
+    - `dist/generation/templates/transport/template.js`
+    - `src/components/metiers/transport`
+    - `src/components/metiers/transport/index.js`
+    - `src/generation/templates/transport`
+    - `src/generation/templates/transport/template.js`
+    - `backend/node/tests/integration/transport`
+    - `backend/node/tests/integration/transport/test_transport.js`
+    - `backend/node/app/tests/integration/transport`
+    - `backend/node/app/tests/integration/transport/test_transport.js`
+    - `backend/node/app/templates/transport`
+    - `backend/node/app/templates/transport/template.js`
+    - `backend/node/app/routes/transport`
+    - `backend/node/app/routes/transport/routes.js`
+    - `backend/node/routes/transport`
+    - `backend/node/routes/transport/routes.js`
+    - `docs/metiers/transport.md`
+
+### <a name="utils"></a> utils
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/utils`
+    - `Dihya/frontend/src/tests/integration/utils`
+    - `Dihya/frontend/src/tests/integration/utils/test_utils.js`
+    - `Dihya/frontend/src/generation/templates/utils`
+    - `Dihya/frontend/src/generation/templates/utils/template.js`
+    - `Dihya/backend/tests/integration/utils`
+    - `Dihya/backend/tests/integration/utils/test_utils_backend.py`
+    - `Dihya/backend/django/tests/integration/utils`
+    - `Dihya/backend/django/tests/integration/utils/test_utils_django.py`
+    - `Dihya/backend/django/app/tests/integration/utils`
+    - `Dihya/backend/django/app/tests/integration/utils/test_utils_django.py`
+    - `Dihya/backend/django/app/templates/utils`
+    - `Dihya/backend/django/app/templates/utils/template.py`
+    - `Dihya/backend/django/app/routes/utils`
+    - `Dihya/backend/django/app/routes/utils/routes.py`
+    - `Dihya/backend/django/routes/utils`
+    - `Dihya/backend/django/routes/utils/routes.py`
+    - `Dihya/backend/flask/tests/integration/utils`
+    - `Dihya/backend/flask/tests/integration/utils/test_utils_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/utils`
+    - `Dihya/backend/flask/app/tests/integration/utils/test_utils_flask.py`
+    - `Dihya/backend/flask/app/templates/utils`
+    - `Dihya/backend/flask/app/templates/utils/template.py`
+    - `Dihya/backend/flask/app/routes/utils`
+    - `Dihya/backend/flask/app/routes/utils/routes.py`
+    - `Dihya/backend/flask/routes/utils`
+    - `Dihya/backend/flask/routes/utils/routes.py`
+    - `Dihya/backend/routes/utils`
+    - `Dihya/backend/routes/utils/routes.py`
+    - `Dihya/backend/node/tests/integration/utils`
+    - `Dihya/backend/node/tests/integration/utils/test_utils.js`
+    - `Dihya/backend/node/app/tests/integration/utils`
+    - `Dihya/backend/node/app/tests/integration/utils/test_utils.js`
+    - `Dihya/backend/node/app/templates/utils`
+    - `Dihya/backend/node/app/templates/utils/template.js`
+    - `Dihya/backend/node/app/routes/utils`
+    - `Dihya/backend/node/app/routes/utils/routes.js`
+    - `Dihya/backend/node/routes/utils`
+    - `Dihya/backend/node/routes/utils/routes.js`
+    - `Dihya/docs/metiers/utils.md`
+    - `coverage/lcov-report/components/metiers/utils`
+    - `coverage/lcov-report/generation/templates/utils`
+    - `dist/components/metiers/utils`
+    - `dist/generation/templates/utils`
+    - `dist/generation/templates/utils/template.js`
+    - `src/components/metiers/utils`
+    - `src/generation/templates/utils`
+    - `src/generation/templates/utils/template.js`
+    - `backend/node/tests/integration/utils`
+    - `backend/node/tests/integration/utils/test_utils.js`
+    - `backend/node/app/tests/integration/utils`
+    - `backend/node/app/tests/integration/utils/test_utils.js`
+    - `backend/node/app/templates/utils`
+    - `backend/node/app/templates/utils/template.js`
+    - `backend/node/app/routes/utils`
+    - `backend/node/app/routes/utils/routes.js`
+    - `backend/node/routes/utils`
+    - `backend/node/routes/utils/routes.js`
+    - `docs/metiers/utils.md`
+
+### <a name="validators"></a> validators
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/validators`
+    - `Dihya/frontend/src/components/metiers/validators/index.js`
+    - `Dihya/frontend/src/tests/integration/validators`
+    - `Dihya/frontend/src/tests/integration/validators/test_validators.js`
+    - `Dihya/frontend/src/generation/templates/validators`
+    - `Dihya/frontend/src/generation/templates/validators/template.js`
+    - `Dihya/backend/tests/integration/validators`
+    - `Dihya/backend/tests/integration/validators/test_validators_backend.py`
+    - `Dihya/backend/django/tests/integration/validators`
+    - `Dihya/backend/django/tests/integration/validators/test_validators_django.py`
+    - `Dihya/backend/django/app/tests/integration/validators`
+    - `Dihya/backend/django/app/tests/integration/validators/test_validators_django.py`
+    - `Dihya/backend/django/app/templates/validators`
+    - `Dihya/backend/django/app/templates/validators/template.py`
+    - `Dihya/backend/django/app/routes/validators`
+    - `Dihya/backend/django/app/routes/validators/routes.py`
+    - `Dihya/backend/django/routes/validators`
+    - `Dihya/backend/django/routes/validators/routes.py`
+    - `Dihya/backend/flask/tests/integration/validators`
+    - `Dihya/backend/flask/tests/integration/validators/test_validators_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/validators`
+    - `Dihya/backend/flask/app/tests/integration/validators/test_validators_flask.py`
+    - `Dihya/backend/flask/app/templates/validators`
+    - `Dihya/backend/flask/app/templates/validators/template.py`
+    - `Dihya/backend/flask/app/routes/validators`
+    - `Dihya/backend/flask/app/routes/validators/routes.py`
+    - `Dihya/backend/flask/routes/validators`
+    - `Dihya/backend/flask/routes/validators/routes.py`
+    - `Dihya/backend/routes/validators`
+    - `Dihya/backend/routes/validators/routes.py`
+    - `Dihya/backend/node/tests/integration/validators`
+    - `Dihya/backend/node/tests/integration/validators/test_validators.js`
+    - `Dihya/backend/node/app/tests/integration/validators`
+    - `Dihya/backend/node/app/tests/integration/validators/test_validators.js`
+    - `Dihya/backend/node/app/templates/validators`
+    - `Dihya/backend/node/app/templates/validators/template.js`
+    - `Dihya/backend/node/app/routes/validators`
+    - `Dihya/backend/node/app/routes/validators/routes.js`
+    - `Dihya/backend/node/routes/validators`
+    - `Dihya/backend/node/routes/validators/routes.js`
+    - `Dihya/docs/metiers/validators.md`
+    - `coverage/lcov-report/components/metiers/validators`
+    - `coverage/lcov-report/generation/templates/validators`
+    - `dist/components/metiers/validators`
+    - `dist/components/metiers/validators/index.js`
+    - `dist/generation/templates/validators`
+    - `dist/generation/templates/validators/template.js`
+    - `src/components/metiers/validators`
+    - `src/components/metiers/validators/index.js`
+    - `src/generation/templates/validators`
+    - `src/generation/templates/validators/template.js`
+    - `backend/node/tests/integration/validators`
+    - `backend/node/tests/integration/validators/test_validators.js`
+    - `backend/node/app/tests/integration/validators`
+    - `backend/node/app/tests/integration/validators/test_validators.js`
+    - `backend/node/app/templates/validators`
+    - `backend/node/app/templates/validators/template.js`
+    - `backend/node/app/routes/validators`
+    - `backend/node/app/routes/validators/routes.js`
+    - `backend/node/routes/validators`
+    - `backend/node/routes/validators/routes.js`
+    - `docs/metiers/validators.md`
+
+### <a name="voice"></a> voice
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/voice`
+    - `Dihya/frontend/src/components/metiers/voice/index.js`
+    - `Dihya/frontend/src/tests/integration/voice`
+    - `Dihya/frontend/src/tests/integration/voice/test_voice.js`
+    - `Dihya/frontend/src/generation/templates/voice`
+    - `Dihya/frontend/src/generation/templates/voice/template.js`
+    - `Dihya/backend/tests/integration/voice`
+    - `Dihya/backend/tests/integration/voice/test_voice_backend.py`
+    - `Dihya/backend/django/tests/integration/voice`
+    - `Dihya/backend/django/tests/integration/voice/test_voice_django.py`
+    - `Dihya/backend/django/app/tests/integration/voice`
+    - `Dihya/backend/django/app/tests/integration/voice/test_voice_django.py`
+    - `Dihya/backend/django/app/templates/voice`
+    - `Dihya/backend/django/app/templates/voice/template.py`
+    - `Dihya/backend/django/app/routes/voice`
+    - `Dihya/backend/django/app/routes/voice/routes.py`
+    - `Dihya/backend/django/routes/voice`
+    - `Dihya/backend/django/routes/voice/routes.py`
+    - `Dihya/backend/flask/tests/integration/voice`
+    - `Dihya/backend/flask/tests/integration/voice/test_voice_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/voice`
+    - `Dihya/backend/flask/app/tests/integration/voice/test_voice_flask.py`
+    - `Dihya/backend/flask/app/templates/voice`
+    - `Dihya/backend/flask/app/templates/voice/template.py`
+    - `Dihya/backend/flask/app/routes/voice`
+    - `Dihya/backend/flask/app/routes/voice/routes.py`
+    - `Dihya/backend/flask/routes/voice`
+    - `Dihya/backend/flask/routes/voice/routes.py`
+    - `Dihya/backend/routes/voice`
+    - `Dihya/backend/routes/voice/routes.py`
+    - `Dihya/backend/node/tests/integration/voice`
+    - `Dihya/backend/node/tests/integration/voice/test_voice.js`
+    - `Dihya/backend/node/app/tests/integration/voice`
+    - `Dihya/backend/node/app/tests/integration/voice/test_voice.js`
+    - `Dihya/backend/node/app/templates/voice`
+    - `Dihya/backend/node/app/templates/voice/template.js`
+    - `Dihya/backend/node/app/routes/voice`
+    - `Dihya/backend/node/app/routes/voice/routes.js`
+    - `Dihya/backend/node/routes/voice`
+    - `Dihya/backend/node/routes/voice/routes.js`
+    - `Dihya/docs/metiers/voice.md`
+    - `coverage/lcov-report/components/metiers/voice`
+    - `dist/components/metiers/voice`
+    - `dist/components/metiers/voice/index.js`
+    - `src/components/metiers/voice`
+    - `src/components/metiers/voice/index.js`
+    - `backend/node/tests/integration/voice`
+    - `backend/node/tests/integration/voice/test_voice.js`
+    - `backend/node/app/tests/integration/voice`
+    - `backend/node/app/tests/integration/voice/test_voice.js`
+    - `backend/node/app/templates/voice`
+    - `backend/node/app/templates/voice/template.js`
+    - `backend/node/app/routes/voice`
+    - `backend/node/app/routes/voice/routes.js`
+    - `backend/node/routes/voice`
+    - `backend/node/routes/voice/routes.js`
+    - `docs/metiers/voice.md`
+
+### <a name="voyage"></a> voyage
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/frontend/src/components/metiers/voyage`
+    - `Dihya/frontend/src/components/metiers/voyage/index.js`
+    - `Dihya/frontend/src/tests/integration/voyage`
+    - `Dihya/frontend/src/tests/integration/voyage/test_voyage.js`
+    - `Dihya/frontend/src/generation/templates/voyage`
+    - `Dihya/frontend/src/generation/templates/voyage/template.js`
+    - `Dihya/backend/tests/integration/voyage`
+    - `Dihya/backend/tests/integration/voyage/test_voyage_backend.py`
+    - `Dihya/backend/django/tests/integration/voyage`
+    - `Dihya/backend/django/tests/integration/voyage/test_voyage_django.py`
+    - `Dihya/backend/django/app/tests/integration/voyage`
+    - `Dihya/backend/django/app/tests/integration/voyage/test_voyage_django.py`
+    - `Dihya/backend/django/app/templates/voyage`
+    - `Dihya/backend/django/app/templates/voyage/template.py`
+    - `Dihya/backend/django/app/routes/voyage`
+    - `Dihya/backend/django/app/routes/voyage/routes.py`
+    - `Dihya/backend/django/routes/voyage`
+    - `Dihya/backend/django/routes/voyage/routes.py`
+    - `Dihya/backend/flask/tests/integration/voyage`
+    - `Dihya/backend/flask/tests/integration/voyage/test_voyage_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/voyage`
+    - `Dihya/backend/flask/app/tests/integration/voyage/test_voyage_flask.py`
+    - `Dihya/backend/flask/app/templates/voyage`
+    - `Dihya/backend/flask/app/templates/voyage/template.py`
+    - `Dihya/backend/flask/app/routes/voyage`
+    - `Dihya/backend/flask/app/routes/voyage/routes.py`
+    - `Dihya/backend/flask/routes/voyage`
+    - `Dihya/backend/flask/routes/voyage/routes.py`
+    - `Dihya/backend/routes/voyage`
+    - `Dihya/backend/routes/voyage/routes.py`
+    - `Dihya/backend/node/tests/integration/voyage`
+    - `Dihya/backend/node/tests/integration/voyage/test_voyage.js`
+    - `Dihya/backend/node/app/tests/integration/voyage`
+    - `Dihya/backend/node/app/tests/integration/voyage/test_voyage.js`
+    - `Dihya/backend/node/app/templates/voyage`
+    - `Dihya/backend/node/app/templates/voyage/template.js`
+    - `Dihya/backend/node/app/routes/voyage`
+    - `Dihya/backend/node/app/routes/voyage/routes.js`
+    - `Dihya/backend/node/routes/voyage`
+    - `Dihya/backend/node/routes/voyage/routes.js`
+    - `Dihya/docs/metiers/voyage.md`
+    - `coverage/lcov-report/components/metiers/voyage`
+    - `dist/components/metiers/voyage`
+    - `dist/components/metiers/voyage/index.js`
+    - `src/components/metiers/voyage`
+    - `src/components/metiers/voyage/index.js`
+    - `backend/node/tests/integration/voyage`
+    - `backend/node/tests/integration/voyage/test_voyage.js`
+    - `backend/node/app/tests/integration/voyage`
+    - `backend/node/app/tests/integration/voyage/test_voyage.js`
+    - `backend/node/app/templates/voyage`
+    - `backend/node/app/templates/voyage/template.js`
+    - `backend/node/app/routes/voyage`
+    - `backend/node/app/routes/voyage/routes.js`
+    - `backend/node/routes/voyage`
+    - `backend/node/routes/voyage/routes.js`
+    - `docs/metiers/voyage.md`
+
+### <a name="vr-ar"></a> vr_ar
+
+- **Présent dans le projet** : ✅
+- **Attendu dans le CDC** : ❌
+- **Types détectés** : dossier,test,frontend_component,plugin,template,backend_route,doc
+- **Chemins** :
+    - `Dihya/assets/images/routes/vr_ar`
+    - `Dihya/frontend/src/components/metiers/vr_ar`
+    - `Dihya/frontend/src/components/metiers/vr_ar/index.js`
+    - `Dihya/frontend/src/tests/integration/vr_ar`
+    - `Dihya/frontend/src/tests/integration/vr_ar/test_vr_ar.js`
+    - `Dihya/frontend/src/generation/templates/vr_ar`
+    - `Dihya/frontend/src/generation/templates/vr_ar/template.js`
+    - `Dihya/backend/assets/scripts/routes/vr_ar`
+    - `Dihya/backend/tests/integration/vr_ar`
+    - `Dihya/backend/tests/integration/vr_ar/test_vr_ar_backend.py`
+    - `Dihya/backend/django/tests/integration/vr_ar`
+    - `Dihya/backend/django/tests/integration/vr_ar/test_vr_ar_django.py`
+    - `Dihya/backend/django/app/tests/integration/vr_ar`
+    - `Dihya/backend/django/app/tests/integration/vr_ar/test_vr_ar_django.py`
+    - `Dihya/backend/django/app/templates/vr_ar`
+    - `Dihya/backend/django/app/templates/vr_ar/template.py`
+    - `Dihya/backend/django/app/routes/vr_ar`
+    - `Dihya/backend/django/app/routes/vr_ar/routes.py`
+    - `Dihya/backend/django/routes/vr_ar`
+    - `Dihya/backend/django/routes/vr_ar/routes.py`
+    - `Dihya/backend/flask/tests/integration/vr_ar`
+    - `Dihya/backend/flask/tests/integration/vr_ar/test_vr_ar_flask.py`
+    - `Dihya/backend/flask/app/tests/integration/vr_ar`
+    - `Dihya/backend/flask/app/tests/integration/vr_ar/test_vr_ar_flask.py`
+    - `Dihya/backend/flask/app/templates/vr_ar`
+    - `Dihya/backend/flask/app/templates/vr_ar/template.py`
+    - `Dihya/backend/flask/app/routes/vr_ar`
+    - `Dihya/backend/flask/app/routes/vr_ar/routes.py`
+    - `Dihya/backend/flask/routes/vr_ar`
+    - `Dihya/backend/flask/routes/vr_ar/routes.py`
+    - `Dihya/backend/routes/vr_ar`
+    - `Dihya/backend/routes/vr_ar/routes.py`
+    - `Dihya/backend/node/tests/integration/vr_ar`
+    - `Dihya/backend/node/tests/integration/vr_ar/test_vr_ar.js`
+    - `Dihya/backend/node/app/tests/integration/vr_ar`
+    - `Dihya/backend/node/app/tests/integration/vr_ar/test_vr_ar.js`
+    - `Dihya/backend/node/app/plugins/vr_ar`
+    - `Dihya/backend/node/app/plugins/vr_ar/emotion_analysis.js`
+    - `Dihya/backend/node/app/templates/vr_ar`
+    - `Dihya/backend/node/app/templates/vr_ar/template.js`
+    - `Dihya/backend/node/app/routes/vr_ar`
+    - `Dihya/backend/node/app/routes/vr_ar/routes.js`
+    - `Dihya/backend/node/routes/vr_ar`
+    - `Dihya/backend/node/routes/vr_ar/routes.js`
+    - `Dihya/node/app/templates/vr_ar`
+    - `Dihya/node/app/templates/vr_ar/template.js`
+    - `Dihya/docs/metiers/vr_ar.md`
+    - `coverage/lcov-report/components/metiers/vr_ar`
+    - `dist/components/metiers/vr_ar`
+    - `dist/components/metiers/vr_ar/index.js`
+    - `src/components/metiers/vr_ar`
+    - `src/components/metiers/vr_ar/index.js`
+    - `backend/node/tests/integration/vr_ar`
+    - `backend/node/tests/integration/vr_ar/test_vr_ar.js`
+    - `backend/node/app/tests/integration/vr_ar`
+    - `backend/node/app/tests/integration/vr_ar/test_vr_ar.js`
+    - `backend/node/app/plugins/vr_ar`
+    - `backend/node/app/plugins/vr_ar/emotion_analysis.js`
+    - `backend/node/app/templates/vr_ar`
+    - `backend/node/app/templates/vr_ar/template.js`
+    - `backend/node/app/routes/vr_ar`
+    - `backend/node/app/routes/vr_ar/routes.js`
+    - `backend/node/routes/vr_ar`
+    - `backend/node/routes/vr_ar/routes.js`
+    - `docs/metiers/vr_ar.md`
+

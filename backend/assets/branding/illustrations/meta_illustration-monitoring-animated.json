@@ -1,0 +1,66 @@
+{
+  "filename": "illustration-monitoring-animated.svg",
+  "type": "illustration",
+  "version": "1.0.0",
+  "hash": "sha256:c3514ca3648ab292f5a432bd0c3d77f20b47a5bf993ce02c396f859e571fe204",
+  "alt": {
+    "fr": "Illustration animée monitoring backend Dihya",
+    "en": "Dihya backend animated monitoring illustration",
+    "de": "Dihya Backend-animierte Monitoring-Illustration",
+    "ar": "رسم توضيحي متحرك لمراقبة ديهيا باكند",
+    "es": "Ilustración animada de monitorización backend Dihya",
+    "it": "Illustrazione animata monitoraggio backend Dihya",
+    "pt": "Ilustração animada de monitoramento backend Dihya",
+    "nl": "Dihya backend geanimeerde monitoring illustratie",
+    "pl": "Animowana ilustracja monitoringu backend Dihya",
+    "tr": "Dihya backend animasyonlu izleme illüstrasyonu",
+    "ru": "Анимированная иллюстрация мониторинга бэкенда Dihya",
+    "zh": "Dihya 后端监控动画插图",
+    "kab": "Tugna tazayrit n monitoring n backend Dihya"
+  },
+  "description": {
+    "fr": "Illustration animée officielle du monitoring backend Dihya, optimisée accessibilité et RGPD.",
+    "en": "Official animated Dihya backend monitoring illustration, accessibility and GDPR optimized.",
+    "de": "Offizielle animierte Dihya Backend-Monitoring-Illustration, barrierefrei und DSGVO-konform.",
+    "ar": "رسم توضيحي متحرك رسمي لمراقبة ديهيا باكند، متوافق مع الوصول وRGPD.",
+    "es": "Ilustración animada oficial de monitorización backend Dihya, accesible y RGPD.",
+    "it": "Illustrazione animata ufficiale monitoraggio backend Dihya, accessibile e GDPR.",
+    "pt": "Ilustração animada oficial de monitoramento backend Dihya, acessível e RGPD.",
+    "nl": "Officiële geanimeerde Dihya backend monitoring illustratie, toegankelijk en AVG.",
+    "pl": "Oficjalna animowana ilustracja monitoringu backend Dihya, dostępna i RODO.",
+    "tr": "Resmi Dihya backend animasyonlu izleme illüstrasyonu, erişilebilir ve KVKK.",
+    "ru": "Официальная анимированная иллюстрация мониторинга бэкенда Dihya, доступная и GDPR.",
+    "zh": "Dihya 后端官方监控动画插图，符合无障碍和GDPR。",
+    "kab": "Tugna tamezwarut tazayrit n monitoring n backend Dihya, amatu d RGPD."
+  },
+  "tags": [
+    "illustration",
+    "monitoring",
+    "animated",
+    "backend",
+    "dihya",
+    "accessibility",
+    "multilingual",
+    "open source",
+    "audit"
+  ],
+  "created_at": "2025-05-22T10:00:00Z",
+  "updated_at": "2025-05-22T10:00:00Z",
+  "author": "Equipe Dihya",
+  "license": "CC-BY-4.0",
+  "audit": {
+    "last_access": "2025-05-22T10:00:00Z",
+    "access_count": 0,
+    "access_log": []
+  },
+  "accessibility": {
+    "contrast": "AAA",
+    "aria": true,
+    "tested": true
+  },
+  "rgpd": {
+    "personal_data": false,
+    "anonymized": true,
+    "compliance": true
+  }
+}

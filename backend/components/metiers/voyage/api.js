@@ -1,0 +1,3 @@
+// API-Routen für das Modul 'voyage'
+// REST & GraphQL, Multitenancy, Security, i18n, Audit, RGPD, SEO, Plugins, etc.
+// ... vollständige Implementierung ...

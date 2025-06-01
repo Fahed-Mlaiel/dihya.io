@@ -1,0 +1,18 @@
+module.exports = [
+  {
+    "timestamp": "2025-05-22T12:00:00Z",
+    "event": "user_login",
+    "user": "anonymous",
+    "action": "login",
+    "result": "success",
+    "lang": "fr"
+  },
+  {
+    "timestamp": "2025-05-22T12:01:00Z",
+    "event": "user_login",
+    "user": "anonymous",
+    "action": "login",
+    "result": "success",
+    "lang": "en"
+  }
+];

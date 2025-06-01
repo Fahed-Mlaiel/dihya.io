@@ -1,0 +1,4 @@
+# robots.txt – Crypto-Modul (Dihya Coding)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/crypto/sitemap.xml

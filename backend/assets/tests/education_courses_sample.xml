@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+  <course id="1" name="Mathématiques" lang="fr" credits="6"/>
+  <course id="2" name="Computer Science" lang="en" credits="5"/>
+</courses>

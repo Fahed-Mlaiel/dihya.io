@@ -1,0 +1,4 @@
+# robots.txt – Energie (Dihya Coding)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/energie/sitemap.xml

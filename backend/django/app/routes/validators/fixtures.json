@@ -1,0 +1,13 @@
+[
+  {
+    "model": "validators.validationlog",
+    "pk": 1,
+    "fields": {
+      "timestamp": "2025-05-22T10:00:00Z",
+      "type_validation": "email",
+      "resultat": "valide",
+      "details": "Email conforme RFC",
+      "utilisateur": "admin"
+    }
+  }
+]

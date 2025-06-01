@@ -1,0 +1,4 @@
+[
+  {"id": 1, "name": "Patient A", "dob": "1980-01-01", "gender": "F", "lang": "fr", "diagnosis": "hypertension", "consent": true},
+  {"id": 2, "name": "Patient B", "dob": "1975-05-12", "gender": "M", "lang": "en", "diagnosis": "diabetes", "consent": false}
+]

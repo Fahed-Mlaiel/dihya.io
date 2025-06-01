@@ -1,0 +1,66 @@
+{
+  "filename": "illustration-rgpd-compliance.svg",
+  "type": "illustration",
+  "version": "1.0.0",
+  "hash": "sha256:859126b890d0e8bd4ad7a7ed9c83609dc3ca17b252fb162d8c656e79820a8a88",
+  "alt": {
+    "fr": "Illustration conformité RGPD backend Dihya",
+    "en": "Dihya backend RGPD compliance illustration",
+    "de": "Dihya Backend-RGPD-Konformitätsillustration",
+    "ar": "رسم توضيحي للامتثال RGPD ديهيا باكند",
+    "es": "Ilustración de cumplimiento RGPD backend Dihya",
+    "it": "Illustrazione conformità RGPD backend Dihya",
+    "pt": "Ilustração de conformidade RGPD backend Dihya",
+    "nl": "Dihya backend RGPD-conformiteitsillustratie",
+    "pl": "Ilustracja zgodności RGPD backend Dihya",
+    "tr": "Dihya backend RGPD uyumluluk illüstrasyonu",
+    "ru": "Иллюстрация соответствия RGPD бэкенда Dihya",
+    "zh": "Dihya 后端 RGPD 合规插图",
+    "kab": "Tugna n tamedyazt RGPD n backend Dihya"
+  },
+  "description": {
+    "fr": "Illustration officielle de la conformité RGPD backend Dihya, optimisée accessibilité et multilingue.",
+    "en": "Official Dihya backend RGPD compliance illustration, accessibility and multilingual optimized.",
+    "de": "Offizielle Dihya Backend-RGPD-Konformitätsillustration, barrierefrei und mehrsprachig.",
+    "ar": "رسم توضيحي رسمي للامتثال RGPD ديهيا باكند، متوافق مع الوصول ومتعدد اللغات.",
+    "es": "Ilustración oficial de cumplimiento RGPD backend Dihya, accesible y multilingüe.",
+    "it": "Illustrazione ufficiale conformità RGPD backend Dihya, accessibile e multilingue.",
+    "pt": "Ilustração oficial de conformidade RGPD backend Dihya, acessível e multilingue.",
+    "nl": "Officiële Dihya backend RGPD-conformiteitsillustratie, toegankelijk en meertalig.",
+    "pl": "Oficjalna ilustracja zgodności RGPD backend Dihya, dostępna i wielojęzyczna.",
+    "tr": "Resmi Dihya backend RGPD uyumluluk illüstrasyonu, erişilebilir ve çok dilli.",
+    "ru": "Официальная иллюстрация соответствия RGPD бэкенда Dihya, доступная и многоязычная.",
+    "zh": "Dihya 后端 RGPD 官方合规插图，符合无障碍和多语言。",
+    "kab": "Tugna tamezwarut n tamedyazt RGPD n backend Dihya, amatu d tameslayt."
+  },
+  "tags": [
+    "illustration",
+    "rgpd",
+    "compliance",
+    "backend",
+    "dihya",
+    "accessibility",
+    "multilingual",
+    "open source",
+    "audit"
+  ],
+  "created_at": "2025-05-22T10:00:00Z",
+  "updated_at": "2025-05-22T10:00:00Z",
+  "author": "Equipe Dihya",
+  "license": "CC-BY-4.0",
+  "audit": {
+    "last_access": "2025-05-22T10:00:00Z",
+    "access_count": 0,
+    "access_log": []
+  },
+  "accessibility": {
+    "contrast": "AAA",
+    "aria": true,
+    "tested": true
+  },
+  "rgpd": {
+    "personal_data": false,
+    "anonymized": true,
+    "compliance": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "filename": "icon-api.svg",
+  "type": "icon",
+  "version": "1.0.0",
+  "hash": "sha256:EXEMPLE_HASH_ICON_API_DE",
+  "alt": {
+    "de": "Dihya Backend-API-Icon"
+  },
+  "description": {
+    "de": "Offizielles Icon für die Dihya Backend-API, barrierefrei und DSGVO-konform."
+  },
+  "tags": [
+    "icon",
+    "api",
+    "backend",
+    "dihya",
+    "accessibility",
+    "multilingual",
+    "open source",
+    "audit"
+  ],
+  "created_at": "2025-05-28T10:00:00Z",
+  "updated_at": "2025-05-28T10:00:00Z",
+  "author": "Equipe Dihya",
+  "license": "CC-BY-4.0",
+  "audit": {
+    "accessibility": "AAA",
+    "rgpd": true,
+    "tested": true,
+    "ci": true
+  }
+}

@@ -1,0 +1,14 @@
+[[consent_events]]
+id = 1
+user_id = 1
+consent_type = "67xYGeBESJ"
+date = "2025-05-01T10:00:00Z"
+status = "given"
+
+[[consent_events]]
+id = 2
+user_id = 2
+consent_type = "marketing"
+date = "2025-05-02T11:00:00Z"
+status = "refused"
+

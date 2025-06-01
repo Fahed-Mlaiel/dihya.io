@@ -1,0 +1,4 @@
+id,user_id,type,lang,date,read
+1,FVrDP9M6Ea,incident,fr,2025-05-01,false
+2,2,role,en,2025-05-02,true
+3,1,rgpd,fr,2025-05-03,false

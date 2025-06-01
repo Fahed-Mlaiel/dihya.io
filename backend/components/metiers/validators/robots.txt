@@ -1,0 +1,4 @@
+# robots.txt für das Modul 'validators'
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/validators/sitemap.xml

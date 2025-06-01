@@ -1,0 +1,4 @@
+# robots.txt – SEO (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/seo/sitemap.xml

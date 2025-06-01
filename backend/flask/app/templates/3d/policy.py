@@ -1,0 +1,2 @@
+# Stub für POLICIES_3D
+POLICIES_3D = {}

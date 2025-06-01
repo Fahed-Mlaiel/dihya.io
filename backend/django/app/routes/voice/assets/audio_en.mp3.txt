@@ -1,0 +1,1 @@
+(Ce fichier est un placeholder pour l'asset audio anglais utilisé dans les tests et la démo du module voice. Remplacez-le par un vrai fichier audio pour les tests réels.)

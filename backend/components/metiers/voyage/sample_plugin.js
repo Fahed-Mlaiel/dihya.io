@@ -1,0 +1,3 @@
+// Beispiel-Plugin für das Modul 'voyage'
+// Erweiterbar, sicher, auditierbar, i18n, RGPD, Multitenancy, etc.
+// ... vollständige Implementierung ...

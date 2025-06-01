@@ -1,0 +1,47 @@
+<!-- Dihya Backend Assets – Template multilingue (HTML, accessible, RGPD, production-ready) -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ subject_fr }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #222; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 32px; }
+    .footer { font-size: 0.9em; color: #888; margin-top: 32px; }
+    .btn { display: inline-block; background: #0057b8; color: #fff; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Contenu principal">
+    <!-- FR -->
+    <section lang="fr" aria-label="Notification en français">
+      <h1>{{ subject_fr }}</h1>
+      <p>Bonjour {{ user_name }},</p>
+      <p>{{ body_fr }}</p>
+    </section>
+    <!-- EN -->
+    <section lang="en" aria-label="Notification in English">
+      <h1>{{ subject_en }}</h1>
+      <p>Hello {{ user_name }},</p>
+      <p>{{ body_en }}</p>
+    </section>
+    <!-- AR -->
+    <section lang="ar" dir="rtl" aria-label="إشعار بالعربية">
+      <h1>{{ subject_ar }}</h1>
+      <p>مرحبًا {{ user_name }}،</p>
+      <p>{{ body_ar }}</p>
+    </section>
+    <!-- KAB -->
+    <section lang="kab" aria-label="Tazmilt s Taqbaylit">
+      <h1>{{ subject_kab }}</h1>
+      <p>Azul {{ user_name }},</p>
+      <p>{{ body_kab }}</p>
+    </section>
+    <div class="footer">
+      <p>Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.</p>
+      <p>Need help? <a href="mailto:support@dihya.ai">Contact support</a></p>
+    </div>
+  </div>
+</body>
+</html>

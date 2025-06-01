@@ -1,0 +1,169 @@
+openapi: 3.0.3
+info:
+  title: Dihya Coding API - Extensions
+  description: >
+    Spécification OpenAPI complémentaire pour les extensions, plugins et endpoints avancés de la plateforme Dihya Coding.
+    Cette spec permet de documenter les routes additionnelles, les plugins, les hooks ou les intégrations tierces.
+  version: "1.0.0"
+  contact:
+    name: Équipe Dihya Coding
+    email: api@dihya.coding
+
+servers:
+  - url: https://api.dihya.coding/v1
+
+tags:
+  - name: plugins
+    description: Endpoints pour la gestion des plugins et extensions
+  - name: monitoring
+    description: Endpoints d’observabilité (logs, métriques, traces)
+  - name: sovereignty
+    description: Endpoints de souveraineté numérique (anonymisation, export, backup)
+
+paths:
+  /plugins/install:
+    post:
+      tags:
+        - plugins
+      summary: Installer un plugin tiers
+      description: >
+        Permet à un administrateur d’installer dynamiquement un plugin compatible Dihya Coding.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                plugin_url:
+                  type: string
+                  description: URL du plugin à installer
+                signature:
+                  type: string
+                  description: Signature de vérification du plugin
+              required:
+                - plugin_url
+      responses:
+        "200":
+          description: Plugin installé avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  message:
+                    type: string
+        "400":
+          description: Paramètres invalides ou plugin non conforme
+        "401":
+          description: Authentification requise
+        "403":
+          description: Action réservée à l’admin
+
+  /sovereignty/export:
+    get:
+      tags:
+        - sovereignty
+      summary: Export anonymisé des données utilisateur
+      description: >
+        Permet à un utilisateur d’exporter ses données personnelles de façon anonymisée, conformément au RGPD.
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Export généré avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  export_url:
+                    type: string
+                    description: Lien temporaire vers l’archive exportée
+        "401":
+          description: Authentification requise
+
+  /monitoring/metrics:
+    get:
+      tags:
+        - monitoring
+      summary: Récupérer les métriques système et applicatives
+      description: >
+        Endpoint sécurisé pour la récupération des métriques Prometheus/Opentelemetry.
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Métriques au format texte
+          content:
+            text/plain:
+              schema:
+                type: string
+        "401":
+          description: Authentification requise
+
+  /api/health/extra:
+    get:
+      summary: Healthcheck avancé (plugin)
+      description: Expose des métriques avancées, RGPD, audit, via plugin backend.
+      tags:
+        - Monitoring
+      responses:
+        '200':
+          description: Statut et métriques avancées
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  metrics:
+                    type: object
+                    properties:
+                      uptime:
+                        type: integer
+                      users_online:
+                        type: integer
+                      cpu:
+                        type: number
+                      ram:
+                        type: number
+                  rgpd:
+                    type: boolean
+                  audit:
+                    type: string
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    PluginInstallRequest:
+      type: object
+      properties:
+        plugin_url:
+          type: string
+        signature:
+          type: string
+      required:
+        - plugin_url
+
+    ExportResponse:
+      type: object
+      properties:
+        export_url:
+          type: string
+
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        error:
+          type: string

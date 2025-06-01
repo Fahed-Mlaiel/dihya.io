@@ -1,0 +1,3 @@
+id,account_id,amount,currency,date,type,status
+1,1001,500.00,EUR,2025-05-01,deposit,completed
+2,1002,200.00,USD,2025-05-02,withdrawal,failed

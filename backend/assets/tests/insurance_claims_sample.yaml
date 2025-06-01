@@ -1,0 +1,12 @@
+- id: 1
+  policy_id: 101
+  user_id: 1
+  claim_type: accident
+  amount: 1200.00
+  status: approved
+- id: 2
+  policy_id: 102
+  user_id: 2
+  claim_type: theft
+  amount: 800.00
+  status: denied

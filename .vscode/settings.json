@@ -1,0 +1,127 @@
+{
+  // 🌍 Multilingue & Souveraineté
+  "i18n-ally.localesPaths": [
+    "frontend/public/locales",
+    "docs/i18n"
+  ],
+  "i18n-ally.enabledFrameworks": ["react", "vue", "js", "json", "yaml"],
+  "i18n-ally.locales": ["fr", "en", "ar", "tzr"],
+  "i18n-ally.sortKeys": true,
+
+  // 🧹 Qualité & Formatage
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.venv": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true,
+    "**/.next": true,
+    "**/.cache": true,
+    "**/.coverage": true,
+    "**/.idea": true,
+    "**/.vscode": false
+  },
+
+  // 🔒 Sécurité & Souveraineté
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "yaml": true
+  },
+
+  // 🟦 Frontend (React, JS/TS)
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".ts", ".tsx", ".vue"]
+  },
+  "prettier.requireConfig": true,
+  "css.validate": true,
+  "stylelint.validate": ["css", "scss", "sass", "less", "postcss"],
+
+  // 🐍 Backend Python
+  "python.pythonPath": "python3",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.mypyEnabled": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["backend/tests"],
+
+  // 🟩 Backend Node.js
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+
+  // 📱 Mobile (React Native, Flutter)
+  "react-native-tools": {
+    "projectRoot": "mobile"
+  },
+  "dart.flutterSdkPath": "/usr/local/flutter",
+  "dart.analysisExcludedFolders": [
+    "mobile/build",
+    "mobile/.dart_tool"
+  ],
+
+  // ♿ Accessibilité
+  "axe-core.runOnSave": true,
+  "axe-core.languages": ["fr", "en", "ar", "tzr"],
+
+  // 📚 Docs & Markdown
+  "markdownlint.config": {
+    "default": true,
+    "MD013": false, // Désactive la limite de longueur de ligne
+    "MD033": false  // Autorise le HTML dans Markdown
+  },
+  "markdown.preview.breaks": true,
+  "markdown.previewFrontMatter": "show",
+
+  // 🛠️ Divers & Productivité
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.rulers": [80, 120],
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  "workbench.startupEditor": "readme",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // 🧪 Tests & Coverage
+  "coverage-gutters.showGutterCoverage": true,
+  "coverage-gutters.coverageFileNames": [
+    "coverage/lcov.info",
+    "coverage.xml",
+    "htmlcov/index.html"
+  ],
+
+  // 🏗️ Codespaces & Remote
+  "remote.SSH.remotePlatform": {
+    "dihya": "linux"
+  },
+  "terminal.integrated.defaultProfile.linux": "bash"
+}

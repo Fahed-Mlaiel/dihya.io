@@ -1,0 +1,4 @@
+# robots.txt – Hotellerie (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/hotellerie/sitemap.xml

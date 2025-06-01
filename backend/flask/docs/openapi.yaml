@@ -1,0 +1,208 @@
+openapi: 3.0.3
+info:
+  title: API Backend Dihya Coding
+  description: >
+    API RESTful générée par la plateforme Dihya Coding.
+    Toutes les routes respectent les standards de sécurité, validation, i18n, modularité et souveraineté numérique.
+    Licence AGPL v3.
+  version: "1.0.0"
+  contact:
+    name: Équipe Dihya Coding
+    url: https://github.com/dihya-coding
+    email: contact@dihya.dev
+  license:
+    name: GNU AGPL v3
+    url: https://www.gnu.org/licenses/agpl-3.0.html
+
+servers:
+  - url: http://localhost:5000/api
+    description: Serveur local de développement
+
+tags:
+  - name: Auth
+    description: Authentification et gestion des utilisateurs
+  - name: Users
+    description: Gestion des profils et rôles utilisateurs
+  - name: Main
+    description: Routes publiques (accueil, healthcheck, SEO)
+  - name: Admin
+    description: Fonctions d’administration
+  - name: Génération
+    description: Génération automatique de projet (IA, fallback, preview)
+
+paths:
+  /auth/register:
+    post:
+      tags: [Auth]
+      summary: Inscription d’un nouvel utilisateur
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRegister'
+      responses:
+        '201':
+          description: Utilisateur créé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserResponse'
+        '400':
+          description: Erreur de validation
+  /auth/login:
+    post:
+      tags: [Auth]
+      summary: Connexion utilisateur (JWT)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLogin'
+      responses:
+        '200':
+          description: Connexion réussie
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          description: Identifiants invalides
+  /users/me:
+    get:
+      tags: [Users]
+      summary: Récupérer le profil utilisateur courant
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Profil utilisateur
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserResponse'
+        '401':
+          description: Non authentifié
+
+  /:
+    get:
+      tags: [Main]
+      summary: Accueil / Healthcheck
+      responses:
+        '200':
+          description: API opérationnelle
+
+  /generate:
+    post:
+      tags: [Génération]
+      summary: Génération automatique de projet (IA, fallback, preview)
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateRequest'
+      responses:
+        '200':
+          description: Projet généré ou lien de prévisualisation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenerateResponse'
+        '400':
+          description: Spécification invalide
+        '401':
+          description: Non authentifié
+        '429':
+          description: Quota IA dépassé
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    UserRegister:
+      type: object
+      required: [username, email, password]
+      properties:
+        username:
+          type: string
+          example: alice
+        email:
+          type: string
+          format: email
+          example: alice@dihya.dev
+        password:
+          type: string
+          format: password
+          example: motdepassefort
+    UserLogin:
+      type: object
+      required: [email, password]
+      properties:
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+          format: password
+    UserResponse:
+      type: object
+      properties:
+        id:
+          type: integer
+        username:
+          type: string
+        email:
+          type: string
+        role:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+    AuthResponse:
+      type: object
+      properties:
+        access_token:
+          type: string
+        refresh_token:
+          type: string
+    GenerateRequest:
+      type: object
+      required: [spec, type, stack]
+      properties:
+        spec:
+          type: string
+          description: Cahier des charges du projet (texte libre ou dicté)
+          example: Je veux une app de gestion de tâches multilingue...
+        type:
+          type: string
+          description: Type de projet à générer (webapp, mobile, backend, etc.)
+          example: webapp
+        stack:
+          type: string
+          description: Stack technique souhaitée (ex: react+flask)
+          example: react+flask
+    GenerateResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        status:
+          type: string
+          example: SUCCESS
+        code:
+          type: string
+          description: Code généré (si applicable)
+        preview_url:
+          type: string
+          description: Lien de prévisualisation sécurisé
+
+security:
+  - bearerAuth: []

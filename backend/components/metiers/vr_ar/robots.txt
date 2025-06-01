@@ -1,0 +1,7 @@
+# robots.txt (dynamique généré par backend Dihya Coding)
+User-agent: *
+Disallow:
+Sitemap: /api/vr-ar/sitemap.xml
+
+# Ce fichier est généré dynamiquement pour chaque tenant/langue/route métier.
+# Voir la documentation SEO backend Dihya Coding pour personnalisation avancée.

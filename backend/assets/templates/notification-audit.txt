@@ -1,0 +1,24 @@
+# Dihya Backend Assets – Notification d’audit (multilingue, RGPD, production-ready)
+
+[FR]
+Bonjour {{ user_name }},
+
+Une action critique a été enregistrée sur votre compte Dihya :
+- Action : {{ action }}
+- Date : {{ date }}
+- IP : {{ ip }}
+
+Si vous n’êtes pas à l’origine de cette action, contactez immédiatement le support.
+
+[EN]
+Hello {{ user_name }},
+
+A critical action was logged on your Dihya account:
+- Action: {{ action }}
+- Date: {{ date }}
+- IP: {{ ip }}
+
+If you did not initiate this action, please contact support immediately.
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

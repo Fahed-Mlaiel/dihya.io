@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-22T11:53:04.774Z",
+  "illustrations": [
+    {
+      "filename": "illustration-api-security.svg",
+      "exists": true,
+      "meta": true,
+      "hash_ok": true,
+      "langs_ok": true,
+      "accessibility_ok": true,
+      "rgpd_ok": true,
+      "svg_valid": true
+    },
+    {
+      "filename": "illustration-monitoring-animated.svg",
+      "exists": true,
+      "meta": true,
+      "hash_ok": true,
+      "langs_ok": true,
+      "accessibility_ok": true,
+      "rgpd_ok": true,
+      "svg_valid": true
+    },
+    {
+      "filename": "illustration-rgpd-compliance.svg",
+      "exists": true,
+      "meta": true,
+      "hash_ok": true,
+      "langs_ok": true,
+      "accessibility_ok": true,
+      "rgpd_ok": true,
+      "svg_valid": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+openapi: 3.1.0
+info:
+  title: Dihya Provenance API
+  description: |
+    API de gestion de la provenance, traçabilité, auditabilité, RGPD, plugins, multitenant, multilingue, extensible.
+    - Authentification JWT, CORS, WAF, anti-DDOS, auditabilité, anonymisation, plugins, fallback IA.
+    - Internationalisation dynamique (fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es)
+    - REST/GraphQL, multitenant, gestion des rôles, conformité RGPD, auditabilité, logs structurés.
+    - Documentation interactive générée automatiquement (Swagger UI, Redoc, GraphQL Playground).
+  version: "1.0.0"
+servers:
+  - url: /api/compliance/provenance
+    description: API REST provenance
+paths:
+  /log:
+    post:
+      summary: Enregistrement d’un événement de provenance
+      description: |
+        Enregistre un événement de provenance (audit, RGPD, plugins, anonymisation, sécurité maximale).
+      tags:
+        - Provenance
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProvenanceLogRequest'
+      responses:
+        '200':
+          description: Provenance enregistrée
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProvenanceLogResponse'
+        '403':
+          description: Action non autorisée
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+        '422':
+          description: Erreur de validation
+components:
+  schemas:
+    ProvenanceLogRequest:
+      type: object
+      properties:
+        tenant_id:
+          type: string
+          description: ID du tenant
+        user_id:
+          type: string
+          description: ID de l’utilisateur
+        role:
+          type: string
+          enum: [admin, user, guest]
+        event:
+          type: string
+          description: Type d’événement (export, modification, suppression, etc.)
+        details:
+          type: object
+          additionalProperties: true
+        lang:
+          type: string
+          description: Code langue (fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es)
+      required: [tenant_id, user_id, role, event]
+    ProvenanceLogResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        audit_id:
+          type: string
+      required: [status, message, audit_id]
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []

@@ -1,0 +1,304 @@
+openapi: 3.1.0
+info:
+  title: Dihya API
+  description: |
+    API ultra avancée, multistack, multilingue, souveraine, sécurisée et accessible pour le projet Dihya.
+    - RGPD, NIS2, accessibilité, souveraineté numérique, fallback IA open source.
+    - Multilingue (fr, en, ar, tzm) via i18n.
+    - Sécurité, gestion des rôles (RBAC), auditabilité, performance.
+    - Compatible React, Flask, Node, Django, Flutter, CI/CD, Codespaces.
+    - Documentation exhaustive, exemples, tests, conformité.
+  version: "1.0.0"
+  contact:
+    name: Dihya Core Team
+    email: api@dihya.eu
+    url: https://dihya.eu
+  license:
+    name: GNU AGPL-3.0
+    url: https://www.gnu.org/licenses/agpl-3.0.html
+
+servers:
+  - url: https://api.dihya.eu/v1
+    description: Production (cloud souverain)
+  - url: https://staging.api.dihya.eu/v1
+    description: Staging (fallback open source)
+  - url: http://localhost:8000/v1
+    description: Local/dev
+
+tags:
+  - name: Auth
+    description: Authentification, MFA, gestion des rôles (RBAC)
+  - name: Utilisateurs
+    description: Gestion des utilisateurs, profils, consentement RGPD
+  - name: IA
+    description: Accès aux fonctionnalités IA (fallback open source inclus)
+  - name: i18n
+    description: Internationalisation, multilingue (fr, en, ar, tzm)
+  - name: Accessibilité
+    description: Contrôles et audits d’accessibilité
+  - name: Souveraineté
+    description: Contrôles souveraineté numérique, fallback, conformité
+
+paths:
+  /auth/login:
+    post:
+      tags: [Auth]
+      summary: Connexion utilisateur avec MFA
+      description: Authentifie un utilisateur avec MFA, journalise l’accès, respecte RGPD.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: Connexion réussie
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          description: Authentification échouée
+        '429':
+          description: Trop de tentatives (anti-bruteforce)
+      security:
+        - MFAAuth: []
+  /users/me:
+    get:
+      tags: [Utilisateurs]
+      summary: Infos du profil utilisateur courant
+      description: Retourne les infos du profil, rôles, consentement RGPD, multilingue.
+      responses:
+        '200':
+          description: Profil utilisateur
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserProfile'
+        '401':
+          description: Non authentifié
+      security:
+        - BearerAuth: []
+  /users/consent:
+    post:
+      tags: [Utilisateurs]
+      summary: Mise à jour du consentement RGPD
+      description: Met à jour et journalise le consentement utilisateur (multilingue, traçabilité).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConsentRequest'
+      responses:
+        '200':
+          description: Consentement mis à jour
+        '400':
+          description: Requête invalide
+      security:
+        - BearerAuth: []
+  /ai/ask:
+    post:
+      tags: [IA]
+      summary: Question à l’IA (fallback open source si cloud KO)
+      description: Pose une question à l’IA (LLM), fallback open source si indisponible, multilingue.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AIRequest'
+      responses:
+        '200':
+          description: Réponse IA
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AIResponse'
+        '503':
+          description: Service indisponible (ni cloud, ni fallback)
+      security:
+        - BearerAuth: []
+  /i18n/languages:
+    get:
+      tags: [i18n]
+      summary: Liste des langues supportées
+      description: Retourne la liste des langues supportées (fr, en, ar, tzm).
+      responses:
+        '200':
+          description: Liste des langues
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+  /accessibility/audit:
+    post:
+      tags: [Accessibilité]
+      summary: Audit d’accessibilité d’une page ou ressource
+      description: Lance un audit RGAA/WCAG sur une URL ou ressource, journalise le résultat.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AccessibilityAuditRequest'
+      responses:
+        '200':
+          description: Rapport d’audit accessibilité
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AccessibilityAuditReport'
+        '400':
+          description: Requête invalide
+      security:
+        - BearerAuth: []
+  /sovereignty/check:
+    get:
+      tags: [Souveraineté]
+      summary: Vérifie la souveraineté numérique et fallback IA
+      description: Vérifie la localisation des données, l’usage de fallback open source, la conformité souveraineté.
+      responses:
+        '200':
+          description: Rapport souveraineté
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SovereigntyReport'
+      security:
+        - BearerAuth: []
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: Authentification JWT sécurisée, MFA recommandé.
+    MFAAuth:
+      type: apiKey
+      in: header
+      name: X-MFA-Token
+      description: Jeton MFA à usage unique (TOTP, SMS, etc.)
+
+  schemas:
+    LoginRequest:
+      type: object
+      required: [email, password, mfa_token, lang]
+      properties:
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+          format: password
+        mfa_token:
+          type: string
+          description: Jeton MFA (TOTP, SMS, etc.)
+        lang:
+          type: string
+          enum: [fr, en, ar, tzm]
+          description: Langue de la réponse attendue
+    AuthResponse:
+      type: object
+      properties:
+        access_token:
+          type: string
+        refresh_token:
+          type: string
+        user:
+          $ref: '#/components/schemas/UserProfile'
+    UserProfile:
+      type: object
+      properties:
+        id:
+          type: string
+        email:
+          type: string
+          format: email
+        roles:
+          type: array
+          items:
+            type: string
+        consent:
+          type: boolean
+        lang:
+          type: string
+          enum: [fr, en, ar, tzm]
+    ConsentRequest:
+      type: object
+      required: [consent, lang]
+      properties:
+        consent:
+          type: boolean
+        lang:
+          type: string
+          enum: [fr, en, ar, tzm]
+    AIRequest:
+      type: object
+      required: [question, lang]
+      properties:
+        question:
+          type: string
+        lang:
+          type: string
+          enum: [fr, en, ar, tzm]
+    AIResponse:
+      type: object
+      properties:
+        answer:
+          type: string
+        lang:
+          type: string
+          enum: [fr, en, ar, tzm]
+        fallback_used:
+          type: boolean
+          description: true si fallback IA open source utilisé
+    AccessibilityAuditRequest:
+      type: object
+      required: [url, lang]
+      properties:
+        url:
+          type: string
+          format: uri
+        lang:
+          type: string
+          enum: [fr, en, ar, tzm]
+    AccessibilityAuditReport:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+        score:
+          type: number
+          minimum: 0
+          maximum: 100
+        issues:
+          type: array
+          items:
+            type: string
+        lang:
+          type: string
+          enum: [fr, en, ar, tzm]
+    SovereigntyReport:
+      type: object
+      properties:
+        data_location:
+          type: string
+          description: Localisation des données (pays, cloud, fallback)
+        fallback_ia:
+          type: boolean
+          description: true si fallback IA open source actif
+        compliance:
+          type: array
+          items:
+            type: string
+          description: Liste des conformités validées (RGPD, NIS2, etc.)
+
+externalDocs:
+  description: Documentation complète, guides, tests, conformité, multilingue
+  url: https://dihya.eu/docs

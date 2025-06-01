@@ -1,0 +1,66 @@
+{
+  "filename": "favicon-api-dark.svg",
+  "type": "favicon",
+  "version": "1.0.0",
+  "hash": "sha256:EXEMPLE_HASH_DARK",
+  "alt": {
+    "fr": "Favicon API Dihya backend version sombre",
+    "en": "Dihya backend API favicon dark",
+    "de": "Dihya Backend-API-Favicon Dunkel",
+    "ar": "أيقونة API ديهيا باكند داكنة",
+    "es": "Favicon API backend Dihya oscuro",
+    "it": "Favicon API backend Dihya scuro",
+    "pt": "Favicon API backend Dihya escuro",
+    "nl": "Dihya backend API-favicon donker",
+    "pl": "Favicon API backend Dihya ciemny",
+    "tr": "Dihya backend API koyu faviconu",
+    "ru": "Фавикон API бэкенда Dihya тёмный",
+    "zh": "Dihya 后端 API 深色图标",
+    "kab": "Favicon API n backend Dihya aberkan"
+  },
+  "description": {
+    "fr": "Favicon sombre officiel de l’API backend Dihya, optimisé accessibilité et RGPD.",
+    "en": "Official dark Dihya backend API favicon, accessibility and GDPR optimized.",
+    "de": "Offizielles dunkles Dihya Backend-API-Favicon, barrierefrei und DSGVO-konform.",
+    "ar": "أيقونة API ديهيا الرسمية للباكند (داكنة)، متوافقة مع الوصول وRGPD.",
+    "es": "Favicon oscuro oficial API backend Dihya, accesible y RGPD.",
+    "it": "Favicon API backend Dihya ufficiale scuro, accessibile e GDPR.",
+    "pt": "Favicon API backend Dihya oficial escuro, acessível e RGPD.",
+    "nl": "Officieel donker Dihya backend API-favicon, toegankelijk en AVG.",
+    "pl": "Oficjalny ciemny favicon API backend Dihya, dostępny i RODO.",
+    "tr": "Resmi koyu Dihya backend API faviconu, erişilebilir ve KVKK.",
+    "ru": "Официальный тёмный фавикон API бэкенда Dihya, доступный и GDPR.",
+    "zh": "Dihya 后端 API 官方深色图标，符合无障碍和GDPR。",
+    "kab": "Favicon tamezwarut aberkan n API backend Dihya, amatu d RGPD."
+  },
+  "tags": [
+    "favicon",
+    "api",
+    "backend",
+    "dihya",
+    "accessibility",
+    "multilingual",
+    "open source",
+    "audit",
+    "dark"
+  ],
+  "created_at": "2025-05-22T10:00:00Z",
+  "updated_at": "2025-05-22T10:00:00Z",
+  "author": "Equipe Dihya",
+  "license": "CC-BY-4.0",
+  "audit": {
+    "last_access": "2025-05-22T10:00:00Z",
+    "access_count": 0,
+    "access_log": []
+  },
+  "accessibility": {
+    "contrast": "AAA",
+    "aria": true,
+    "tested": true
+  },
+  "rgpd": {
+    "personal_data": false,
+    "anonymized": true,
+    "compliance": true
+  }
+}

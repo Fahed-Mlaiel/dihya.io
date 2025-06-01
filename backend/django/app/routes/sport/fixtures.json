@@ -1,0 +1,49 @@
+[
+  {
+    "model": "sport.club",
+    "pk": 1,
+    "fields": {
+      "nom": "Olympique Paris",
+      "ville": "Paris",
+      "date_fondation": "1980-01-01"
+    }
+  },
+  {
+    "model": "sport.equipe",
+    "pk": 1,
+    "fields": {
+      "club": 1,
+      "nom": "Equipe A",
+      "categorie": "Senior"
+    }
+  },
+  {
+    "model": "sport.athlete",
+    "pk": 1,
+    "fields": {
+      "equipe": 1,
+      "nom": "Martin",
+      "prenom": "Jean",
+      "date_naissance": "1995-05-10"
+    }
+  },
+  {
+    "model": "sport.competition",
+    "pk": 1,
+    "fields": {
+      "nom": "Coupe Nationale",
+      "date": "2024-06-01",
+      "lieu": "Paris"
+    }
+  },
+  {
+    "model": "sport.resultat",
+    "pk": 1,
+    "fields": {
+      "competition": 1,
+      "equipe": 1,
+      "score": "3-2",
+      "classement": 1
+    }
+  }
+]

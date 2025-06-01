@@ -1,0 +1,7 @@
+# Notifications d’exemple (multilingue)
+
+| id | user_id | type      | lang | date       | read  |
+|----|---------|-----------|------|------------|-------|
+| 1  | 1       | incident  | fr   | 2025-05-01 | false |
+| 2  | 2       | role      | en   | 2025-05-02 | true  |
+| 3  | 1       | rgpd      | fr   | 2025-05-03 | false |

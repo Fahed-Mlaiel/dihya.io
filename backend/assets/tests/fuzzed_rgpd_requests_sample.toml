@@ -1,0 +1,14 @@
+[[requests]]
+id = 1
+user_id = 1
+type = "fhvPhFeVdD"
+date = "2025-05-01"
+status = "completed"
+
+[[requests]]
+id = 2
+user_id = 2
+type = "deletion"
+date = "2025-05-02"
+status = "pending"
+

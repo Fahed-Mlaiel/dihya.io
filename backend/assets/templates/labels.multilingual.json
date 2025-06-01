@@ -1,0 +1,38 @@
+{
+  "fr": {
+    "reset_password_subject": "Réinitialisation de votre mot de passe Dihya",
+    "reset_password_greeting": "Bonjour {{ user_name }},",
+    "reset_password_body": "Vous avez demandé la réinitialisation de votre mot de passe. Cliquez sur le bouton ci-dessous pour continuer.",
+    "reset_password_button": "Réinitialiser le mot de passe",
+    "reset_password_footer": "Ce lien est valable 30 minutes. Si vous n’êtes pas à l’origine de cette demande, ignorez ce message.",
+    "audit_notification_subject": "Notification d’audit Dihya",
+    "audit_notification_body": "Une action critique a été enregistrée sur votre compte."
+  },
+  "en": {
+    "reset_password_subject": "Reset your Dihya password",
+    "reset_password_greeting": "Hello {{ user_name }},",
+    "reset_password_body": "You requested a password reset. Click the button below to continue.",
+    "reset_password_button": "Reset password",
+    "reset_password_footer": "This link is valid for 30 minutes. If you did not request this, please ignore this message.",
+    "audit_notification_subject": "Dihya Audit Notification",
+    "audit_notification_body": "A critical action was logged on your account."
+  },
+  "ar": {
+    "reset_password_subject": "إعادة تعيين كلمة المرور لحسابك في ديهيا",
+    "reset_password_greeting": "مرحبًا {{ user_name }}،",
+    "reset_password_body": "لقد طلبت إعادة تعيين كلمة المرور. اضغط على الزر أدناه للمتابعة.",
+    "reset_password_button": "إعادة تعيين كلمة المرور",
+    "reset_password_footer": "هذا الرابط صالح لمدة 30 دقيقة. إذا لم تطلب ذلك، تجاهل هذه الرسالة.",
+    "audit_notification_subject": "إشعار تدقيق ديهيا",
+    "audit_notification_body": "تم تسجيل إجراء حرج على حسابك."
+  },
+  "kab": {
+    "reset_password_subject": "Ales asen n wawal uffir n Dihya",
+    "reset_password_greeting": "Azul {{ user_name }},",
+    "reset_password_body": "Tzemreḍ ad tesnifel awalen n wawal-ik. Ssedqed ɣef tqeffalt ddaw-a akken ad tkemmel.",
+    "reset_password_button": "Ales asen n wawal uffir",
+    "reset_password_footer": "Taqeffalt-a tella-d i 30 n tesdat. Ma yella ur tzemreḍ ara, ssexdem-a.",
+    "audit_notification_subject": "Alɣu n usenfel Dihya",
+    "audit_notification_body": "Tettwasel-d tigawt tameɣtut ɣef umiḍan-ik."
+  }
+}

@@ -1,0 +1,100 @@
+<!--
+Dashboard global conformité/monitoring Dihya – rendu HTML statique pour intégration iframe/frontend
+Généré automatiquement à chaque build CI/CD
+-->
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Dashboard Global Conformité & Monitoring – Dihya</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f8fafc;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    .dashboard {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px #0001;
+      padding: 2rem;
+    }
+
+    h1,
+    h2 {
+      color: #b8860b;
+    }
+
+    .badges {
+      display: flex;
+      gap: 32px;
+      margin-bottom: 32px;
+    }
+
+    .badges img {
+      height: 48px;
+    }
+
+    .indics {
+      margin-bottom: 2rem;
+    }
+
+    pre {
+      background: #f3f3f3;
+      border-radius: 6px;
+      padding: 1rem;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="dashboard">
+    <h1>Dashboard Global Conformité & Monitoring – Dihya</h1>
+    <div class="badges">
+      <div><img src="../backend/compliance/reports/badge_conformite.svg" alt="Badge conformité backend" />
+        <div>Conformité backend/core</div>
+      </div>
+      <div><img src="../backend/db/tests/coverage_db_badge.svg" alt="Badge couverture DB" />
+        <div>Couverture tests DB</div>
+      </div>
+    </div>
+    <div class="indics">
+      <b>Dernier build CI/CD</b> : <span id="build_date">(auto)</span><br />
+      <b>Statut global conformité</b> : <span id="global_status">(auto)</span><br />
+      <b>Langues supportées</b> : fr, en, ar, ber, de, zh, ja, ko, nl, he, fa, hi, es<br />
+      <b>Tests compliance</b> : <span id="compliance_tests">(auto)</span><br />
+      <b>Tests core</b> : <span id="core_tests">(auto)</span><br />
+      <b>Tests DB</b> : <span id="db_tests">(auto)</span><br />
+      <b>Incidents détectés</b> : <span id="incidents">(auto)</span><br />
+      <b>Plugins actifs</b> : <span id="plugins">(auto)</span><br />
+      <b>Dernier audit RGPD</b> : <span id="last_audit">(auto)</span><br />
+    </div>
+    <h2>Graphiques globaux (exemple)</h2>
+    <pre>
+Répartition des tests :
+Compliance : (auto)
+Core : (auto)
+DB : (auto)
+Échecs : (auto)
+    </pre>
+    <h2>Logs & rapports globaux</h2>
+    <ul>
+      <li><a href="../../monitoring_report.md">Rapport monitoring CI/CD</a></li>
+      <li><a href="../backend/assets/logs/">Logs d’audit globaux</a></li>
+      <li><a href="../backend/compliance/rgpd/">Rapports RGPD</a></li>
+      <li><a href="../backend/db/migrations/">Rapports DB</a></li>
+    </ul>
+    <hr />
+    <small>Ce dashboard est généré automatiquement à chaque build CI/CD pour garantir la conformité, la sécurité,
+      l’accessibilité et l’auditabilité de toute la plateforme Dihya.</small>
+  </div>
+</body>
+
+</html>

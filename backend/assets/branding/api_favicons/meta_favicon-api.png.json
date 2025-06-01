@@ -1,0 +1,56 @@
+{
+  "filename": "favicon-api.png",
+  "type": "favicon",
+  "version": "1.0.0",
+  "hash": "sha256:EXEMPLE_HASH_PNG",
+  "alt": {
+    "fr": "Favicon API Dihya backend (PNG)",
+    "en": "Dihya backend API favicon (PNG)",
+    "de": "Dihya Backend-API-Favicon (PNG)",
+    "ar": "أيقونة API ديهيا باكند (PNG)",
+    "es": "Favicon API backend Dihya (PNG)",
+    "it": "Favicon API backend Dihya (PNG)",
+    "pt": "Favicon API backend Dihya (PNG)",
+    "nl": "Dihya backend API-favicon (PNG)",
+    "pl": "Favicon API backend Dihya (PNG)",
+    "tr": "Dihya backend API faviconu (PNG)",
+    "ru": "Фавикон API бэкенда Dihya (PNG)",
+    "zh": "Dihya 后端 API 图标 (PNG)",
+    "kab": "Favicon API n backend Dihya (PNG)"
+  },
+  "description": {
+    "fr": "Favicon officiel PNG de l’API backend Dihya, optimisé accessibilité et RGPD.",
+    "en": "Official Dihya backend API favicon (PNG), accessibility and GDPR optimized.",
+    "de": "Offizielles Dihya Backend-API-Favicon (PNG), barrierefrei und DSGVO-konform.",
+    "ar": "أيقونة API ديهيا الرسمية للباكند (PNG)، متوافقة مع الوصول وRGPD.",
+    "es": "Favicon oficial API backend Dihya (PNG), accesible y RGPD.",
+    "it": "Favicon API backend Dihya ufficiale (PNG), accessibile e GDPR.",
+    "pt": "Favicon API backend Dihya oficial (PNG), acessível e RGPD.",
+    "nl": "Officieel Dihya backend API-favicon (PNG), toegankelijk en AVG.",
+    "pl": "Oficjalny favicon API backend Dihya (PNG), dostępny i RODO.",
+    "tr": "Resmi Dihya backend API faviconu (PNG), erişilebilir ve KVKK.",
+    "ru": "Официальный фавикон API бэкенда Dihya (PNG), доступный и GDPR.",
+    "zh": "Dihya 后端 API 官方图标 (PNG)，符合无障碍和GDPR。",
+    "kab": "Favicon tamezwarut n API backend Dihya (PNG), amatu d RGPD."
+  },
+  "tags": [
+    "favicon",
+    "api",
+    "backend",
+    "dihya",
+    "accessibility",
+    "multilingual",
+    "open source",
+    "audit"
+  ],
+  "created_at": "2025-05-28T10:00:00Z",
+  "updated_at": "2025-05-28T10:00:00Z",
+  "author": "Equipe Dihya",
+  "license": "CC-BY-4.0",
+  "audit": {
+    "accessibility": "AAA",
+    "rgpd": true,
+    "tested": true,
+    "ci": true
+  }
+}

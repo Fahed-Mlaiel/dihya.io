@@ -1,0 +1,20 @@
+[
+  {
+    "model": "recherche.requeterecherche",
+    "pk": 1,
+    "fields": {
+      "terme": "Test",
+      "utilisateur": 1
+    }
+  },
+  {
+    "model": "recherche.resultatrecherche",
+    "pk": 1,
+    "fields": {
+      "requete": 1,
+      "titre": "Résultat Test",
+      "url": "https://example.com",
+      "score": 0.99
+    }
+  }
+]

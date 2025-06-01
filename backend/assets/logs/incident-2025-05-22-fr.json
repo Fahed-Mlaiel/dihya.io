@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-05-22T11:25:00Z",
+  "event": "security_incident",
+  "user": "anonymous",
+  "ip": "0.0.0.0",
+  "action": "blocked_attempt",
+  "result": "blocked",
+  "language": "fr",
+  "hash": "sha256:..."
+}

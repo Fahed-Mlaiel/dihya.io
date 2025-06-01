@@ -1,0 +1,32 @@
+// Jenkins Pipeline pour Dihya – Audit ultra avancé
+pipeline {
+    agent any
+    stages {
+        stage('Install dependencies') {
+            steps {
+                sh 'pip install openpyxl PyPDF2 toml pyyaml jq || true'
+                sh 'chmod +x Dihya/backend/audit/scripts/run_all_audits.sh || true'
+                sh 'chmod +x Dihya/backend/audit/scripts/ci_audit_job.sh || true'
+            }
+        }
+        stage('Run all audits') {
+            steps {
+                dir('Dihya/backend/audit/scripts') {
+                    sh './run_all_audits.sh || true'
+                    sh './ci_audit_job.sh || true'
+                }
+            }
+        }
+        stage('Archive audit reports') {
+            steps {
+                archiveArtifacts artifacts: 'Dihya/backend/audit/reports/**', fingerprint: true
+            }
+        }
+        stage('Show global report') {
+            steps {
+                sh 'cat Dihya/backend/audit/reports/rapport_global_audit.json || true'
+                sh 'cat Dihya/backend/audit/reports/rapport_global_audit.csv || true'
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+- amount: 100
+  currency: EUR
+  id: 1
+  lang: fr
+  status: success
+  user_id: 1
+- amount: 200
+  currency: USD
+  id: 2
+  lang: en
+  status: failed
+  user_id: 2

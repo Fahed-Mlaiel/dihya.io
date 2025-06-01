@@ -1,0 +1,66 @@
+# CI/CD universel pour Dihya – Audit ultra avancé (GitHub Actions, GitLab CI, Azure, Jenkins, etc.)
+# Ce job exécute tous les audits et archive les rapports globaux
+
+name: Dihya Ultra Audit
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install -r Dihya/backend/audit/scripts/requirements.txt || true
+          pip install openpyxl PyPDF2 toml pyyaml jq || true
+      - name: Run all audits (batch)
+        run: |
+          cd Dihya/backend/audit/scripts
+          chmod +x run_all_audits.sh || true
+          ./run_all_audits.sh || true
+      - name: Run CI audit job (rapports globaux)
+        run: |
+          cd Dihya/backend/audit/scripts
+          chmod +x ci_audit_job.sh || true
+          ./ci_audit_job.sh || true
+      - name: Run Python audit unit tests
+        run: |
+          cd Dihya/backend/audit/scripts
+          pytest test_audit_scripts.py --maxfail=1 --disable-warnings --tb=short
+      - name: Run Node.js audit unit tests
+        run: |
+          cd Dihya/backend/audit/scripts
+          if [ -f package.json ]; then npm install jest --no-save || true; fi
+          if [ -f test_audit_scripts_node.js ]; then npx jest test_audit_scripts_node.js || node test_audit_scripts_node.js; fi
+      - name: Run Shell audit unit tests
+        run: |
+          cd Dihya/backend/audit/scripts
+          bash test_audit_scripts_shell.sh
+      - name: Archive audit test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-test-results
+          path: |
+            Dihya/backend/audit/scripts/last_pytest_output.txt
+            Dihya/backend/audit/scripts/last_jest_output.txt
+            Dihya/backend/audit/scripts/last_shell_output.txt
+      - name: Archive audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-reports
+          path: Dihya/backend/audit/reports/
+      - name: Affiche le rapport global
+        run: |
+          cat Dihya/backend/audit/reports/rapport_global_audit.json || true
+          cat Dihya/backend/audit/reports/rapport_global_audit.csv || true

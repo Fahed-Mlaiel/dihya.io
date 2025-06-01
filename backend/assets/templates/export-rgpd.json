@@ -1,0 +1,9 @@
+{
+  "user_name": "{{ user_name }}",
+  "user_email": "{{ user_email }}",
+  "export_date": "{{ export_date }}",
+  "exported_data": "{{ exported_data_json }}",
+  "rgpd_compliance": true,
+  "sovereignty": "Dihya – Souveraineté numérique",
+  "rgpd_notice": "Conforme RGPD – Vos données sont protégées."
+}

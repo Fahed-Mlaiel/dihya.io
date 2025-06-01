@@ -1,0 +1,43 @@
+{
+  "description": "Exemple d’appel API sécurisé pour la plateforme Dihya Coding.",
+  "endpoint": "/api/v1/auth/login",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer <JWT_TOKEN>"
+  },
+  "request_body": {
+    "email": "user@example.com",
+    "password": "MotDePasseSecurise123!"
+  },
+  "validations": [
+    "L’email doit être valide (RFC 5322)",
+    "Le mot de passe doit respecter la politique de sécurité (longueur, complexité)"
+  ],
+  "response_success": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "token": "<JWT_TOKEN>",
+      "user": {
+        "id": 42,
+        "email": "user@example.com",
+        "role": "user"
+      }
+    }
+  },
+  "response_error": {
+    "status": 401,
+    "body": {
+      "success": false,
+      "error": "Authentification échouée. Vérifiez vos identifiants."
+    }
+  },
+  "security": [
+    "HTTPS obligatoire",
+    "Rate limiting appliqué",
+    "Logs d’accès horodatés",
+    "Aucune information sensible dans les messages d’erreur"
+  ],
+  "docstring": "Cet exemple illustre un appel sécurisé à l’API d’authentification Dihya Coding, conforme aux bonnes pratiques du projet."
+}

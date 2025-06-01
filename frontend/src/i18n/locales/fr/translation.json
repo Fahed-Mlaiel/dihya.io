@@ -1,0 +1,71 @@
+{
+  "app": {
+    "title": "Dihya Coding",
+    "description": "Plateforme moderne, sécurisée et extensible pour la génération de projets et de code, conforme RGPD, auditée et robuste.",
+    "seo_keywords": "génération, code, sécurité, RGPD, projets, moderne, plateforme, programmation"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "dashboard": "Tableau de bord",
+    "admin": "Administration"
+  },
+  "user": {
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "consent": "Consentement au traitement des données",
+    "audit_log": "Journal d’audit",
+    "security": "Sécurité",
+    "accessibility": "Accessibilité"
+  },
+  "forms": {
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "submit": "Envoyer",
+    "cancel": "Annuler",
+    "required": "Ce champ est requis",
+    "invalid_email": "Adresse e-mail invalide"
+  },
+  "messages": {
+    "welcome": "Bienvenue sur Dihya Coding !",
+    "logout_success": "Déconnexion réussie.",
+    "login_success": "Connexion réussie.",
+    "error_occurred": "Une erreur est survenue. Veuillez réessayer.",
+    "consent_required": "Vous devez consentir au traitement des données pour continuer."
+  },
+  "security": {
+    "rate_limit": "Limite de requêtes dépassée. Veuillez patienter.",
+    "forbidden": "Vous n’êtes pas autorisé à accéder à cette page.",
+    "session_expired": "Session expirée. Veuillez vous reconnecter."
+  },
+  "audit": {
+    "log_title": "Journal des opérations",
+    "clear_logs": "Effacer les journaux",
+    "no_logs": "Aucun journal disponible."
+  },
+  "accessibility": {
+    "increase_font": "Augmenter la taille du texte",
+    "decrease_font": "Diminuer la taille du texte",
+    "contrast": "Basculer le contraste"
+  },
+  "generation": {
+    "start": "Démarrer la génération",
+    "project_name": "Nom du projet",
+    "select_modules": "Sélectionner les modules",
+    "generation_success": "Projet généré avec succès !"
+  },
+  "rgpd": {
+    "privacy_policy": "Politique de confidentialité",
+    "data_rights": "Vos droits sur les données",
+    "delete_account": "Supprimer le compte",
+    "consent_withdraw": "Retirer le consentement"
+  },
+  "docs": {
+    "documentation": "Documentation",
+    "user_guide": "Guide utilisateur",
+    "api_reference": "Référence API"
+  }
+}

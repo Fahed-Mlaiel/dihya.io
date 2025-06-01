@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-05-22T11:30:00Z",
+  "event": "integrity_check",
+  "asset": "backend/assets/config/prod.yaml",
+  "user": "system",
+  "action": "verify_hash",
+  "result": "success",
+  "language": "fr",
+  "hash": "sha256:..."
+}

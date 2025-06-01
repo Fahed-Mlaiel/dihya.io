@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/workspaces/Dihya/Dihya/backend/assets/tests/test_datasets.py", line 218, in <module>
+    test_users_sample_xlsx()
+  File "/workspaces/Dihya/Dihya/backend/assets/tests/test_datasets.py", line 131, in test_users_sample_xlsx
+    wb = openpyxl.load_workbook('users_sample.xlsx')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/zipfile/__init__.py", line 1339, in __init__
+    self._RealGetContents()
+  File "/home/codespace/.python/current/lib/python3.12/zipfile/__init__.py", line 1406, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file

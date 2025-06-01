@@ -1,0 +1,66 @@
+openapi: 3.1.0
+info:
+  title: Dihya Compliance GraphQL API
+  description: |
+    Documentation interactive pour l’API GraphQL de conformité, audit, RGPD, plugins, multilingue, extensible.
+    - Expose les schémas, mutations, queries, types, autorisations, plugins, auditabilité, fallback IA.
+    - Internationalisation dynamique (fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es)
+    - Sécurité JWT, CORS, WAF, anti-DDOS, auditabilité, anonymisation, plugins, fallback IA.
+    - Compatible GraphQL Playground, Altair, Postman, Swagger UI (description), Redoc.
+  version: "1.0.0"
+servers:
+  - url: /api/compliance/graphql
+    description: API GraphQL compliance
+paths:
+  /graphql:
+    post:
+      summary: Endpoint GraphQL conformité
+      description: |
+        Endpoint unique pour toutes les requêtes GraphQL conformité, audit, RGPD, plugins, multilingue.
+      tags:
+        - GraphQL
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                variables:
+                  type: object
+                  additionalProperties: true
+      responses:
+        '200':
+          description: Résultat de la requête GraphQL
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  errors:
+                    type: array
+                    items:
+                      type: object
+        '403':
+          description: Action non autorisée
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+        '422':
+          description: Erreur de validation
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []

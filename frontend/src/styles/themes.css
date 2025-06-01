@@ -1,0 +1,171 @@
+/**
+ * @file themes.css
+ * @description Thèmes CSS pour Dihya Coding : design moderne, accessibilité, SEO, sécurité, conformité RGPD, auditabilité, extensibilité, robustesse et documentation claire.
+ * Inclut les thèmes light, dark, high-contrast, amazigh et personnalisés.
+ * Respecte les bonnes pratiques CSS, responsive, dark/light, contrastes, focus, animations accessibles, branding amazigh-tech.
+ */
+
+/* --- Thème clair (par défaut) --- */
+:root {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1e40af;
+  --color-secondary: #facc15;
+  --color-accent: #f59e42;
+  --color-background: #f9fafb;
+  --color-surface: #fff;
+  --color-text: #222;
+  --color-border: #d1d5db;
+  --color-focus: #facc15;
+  --color-error: #dc2626;
+  --color-success: #22c55e;
+  --color-info: #2563eb;
+  --color-warning: #f59e42;
+  --amazigh-blue: #2563eb;
+  --amazigh-yellow: #facc15;
+  --amazigh-orange: #f59e42;
+  --amazigh-red: #e11d48;
+  --font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  --font-amazigh: 'Tifinagh', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* --- Thème sombre (dark mode) --- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #181a1b;
+    --color-surface: #23272f;
+    --color-text: #f3f4f6;
+    --color-border: #374151;
+    --color-primary: #60a5fa;
+    --color-primary-dark: #2563eb;
+    --color-secondary: #fde68a;
+    --color-accent: #f59e42;
+  }
+}
+
+/* --- Thème high-contrast (accessibilité) --- */
+.theme-high-contrast {
+  --color-background: #000;
+  --color-surface: #fff;
+  --color-text: #fff;
+  --color-border: #fff;
+  --color-primary: #ff0;
+  --color-primary-dark: #ff0;
+  --color-secondary: #0ff;
+  --color-focus: #f00;
+}
+
+/* --- Thème Amazigh (branding culturel, optionnel) --- */
+.theme-amazigh {
+  --color-background: #fef9c3;
+  --color-surface: #fffbe6;
+  --color-text: #1e293b;
+  --color-primary: #2563eb;
+  --color-secondary: #facc15;
+  --color-accent: #f59e42;
+  --color-border: #f59e42;
+  --color-focus: #e11d48;
+  --font-family: 'Tifinagh', 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* --- Application des variables globales --- */
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  transition: background 0.3s, color 0.3s;
+}
+
+/* --- Boutons et éléments interactifs --- */
+button, .btn {
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 0.375em;
+  border: none;
+  padding: 0.5em 1.2em;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+button:focus, .btn:focus {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+button:hover, .btn:hover {
+  background: var(--color-primary-dark);
+}
+
+/* --- Champs de formulaire --- */
+input, textarea, select {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 0.375em;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5em;
+  transition: border 0.2s;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: var(--color-primary);
+  outline: none;
+  background: #fef9c3;
+}
+
+/* --- Titres --- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+/* --- Liens --- */
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: var(--color-primary-dark);
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* --- Tableaux --- */
+table {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+th, td {
+  border: 1px solid var(--color-border);
+}
+
+/* --- Badges, alertes, utilitaires --- */
+.bg-primary { background: var(--color-primary) !important; color: #fff !important; }
+.bg-secondary { background: var(--color-secondary) !important; color: #222 !important; }
+.text-error { color: var(--color-error) !important; }
+.text-success { color: var(--color-success) !important; }
+.text-info { color: var(--color-info) !important; }
+.text-warning { color: var(--color-warning) !important; }
+.border-primary { border-color: var(--color-primary) !important; }
+.focus-outline { outline: 2px solid var(--color-focus) !important; outline-offset: 2px !important; }
+
+/* --- Motif Amazigh décoratif (branding, extensible) --- */
+.amazigh-motif {
+  background: repeating-linear-gradient(
+    135deg,
+    var(--color-secondary),
+    var(--color-secondary) 2px,
+    transparent 2px,
+    transparent 8px
+  );
+  opacity: 0.08;
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+/* --- Extensible : ajoutez vos thèmes personnalisés ici --- */
+
+/* --- Documentation claire : chaque section est commentée pour auditabilité --- */

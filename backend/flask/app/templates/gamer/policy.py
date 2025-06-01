@@ -1,0 +1,2 @@
+# Stub für GAMER_POLICIES
+GAMER_POLICIES = {}

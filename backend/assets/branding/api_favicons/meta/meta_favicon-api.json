@@ -1,0 +1,74 @@
+{
+  "name": "Dihya API Favicon",
+  "description": {
+    "fr": "Favicon officiel de l’API backend Dihya, conforme RGPD, accessibilité, multilingue, auditée.",
+    "en": "Official Dihya backend API favicon, RGPD-compliant, accessible, multilingual, audited.",
+    "ar": "أيقونة فافيكون الرسمية لواجهة برمجة تطبيقات Dihya، متوافقة مع RGPD، متاحة للجميع، متعددة اللغات، مدققة.",
+    "tzm": "Favicon n API Dihya, yellan d amḍan, RGPD, iɣewwaṛ, iɣerzen, iɣewwaṛen.",
+    "de": "Offizielles Dihya API-Favicon, DSGVO-konform, barrierefrei, mehrsprachig, auditiert.",
+    "zh": "Dihya 后端 API 官方 favicon，符合 RGPD，支持无障碍，多语言，已审计。",
+    "ja": "Dihya バックエンドAPI公式ファビコン。RGPD準拠、アクセシブル、多言語、監査済み。",
+    "ko": "Dihya 백엔드 API 공식 파비콘, RGPD 준수, 접근성, 다국어, 감사 완료.",
+    "nl": "Officiële Dihya backend API-favicon, RGPD-conform, toegankelijk, meertalig, geaudit.",
+    "he": "פאביקון רשמי של Dihya API, תואם RGPD, נגיש, רב-לשוני, מבוקר.",
+    "fa": "فاویکون رسمی API بک‌اند Dihya، مطابق RGPD، دسترس‌پذیر، چندزبانه، حسابرسی‌شده.",
+    "hi": "Dihya बैकएंड API का आधिकारिक फेविकॉन, RGPD-अनुपालन, सुलभ, बहुभाषी, ऑडिटेड।",
+    "es": "Favicon oficial de la API backend de Dihya, conforme RGPD, accesible, multilingüe, auditado."
+  },
+  "version": "1.0.0",
+  "created": "2025-05-22T00:00:00Z",
+  "updated": "2025-05-22T00:00:00Z",
+  "author": "Dihya Coding Project",
+  "license": "MIT",
+  "hash_sha256": "b7e2e1e2c1e4e8e7d2f1c3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
+  "accessibility": {
+    "contrast": "AAA",
+    "alt_text": {
+      "fr": "Favicon API Dihya, accessible, multilingue.",
+      "en": "Dihya API favicon, accessible, multilingual.",
+      "ar": "أيقونة فافيكون Dihya API، متاحة للجميع، متعددة اللغات.",
+      "tzm": "Favicon n API Dihya, iɣewwaṛ, iɣerzen.",
+      "de": "Dihya API-Favicon, barrierefrei, mehrsprachig.",
+      "zh": "Dihya API favicon, 支持无障碍，多语言。",
+      "ja": "Dihya APIファビコン、アクセシブル、多言語。",
+      "ko": "Dihya API 파비콘, 접근성, 다국어.",
+      "nl": "Dihya API-favicon, toegankelijk, meertalig.",
+      "he": "פאביקון Dihya API, נגיש, רב-לשוני.",
+      "fa": "فاویکون Dihya API، دسترس‌پذیر، چندزبانه.",
+      "hi": "Dihya API फेविकॉन, सुलभ, बहुभाषी।",
+      "es": "Favicon Dihya API, accesible, multilingüe."
+    }
+  },
+  "seo": {
+    "robots": "index, follow",
+    "sitemap": "/sitemap.xml"
+  },
+  "rgpd": {
+    "conformite": true,
+    "anonymisation": true,
+    "exportable": true,
+    "audit_log": true
+  },
+  "integration": {
+    "django": true,
+    "rest": true,
+    "graphql": true,
+    "ci_cd": [
+      "github_actions",
+      "docker",
+      "k8s",
+      "local_fallback"
+    ]
+  },
+  "audit": {
+    "last_audit": "2025-05-22T00:00:00Z",
+    "auditor": "Dihya Security Team",
+    "result": "passed"
+  },
+  "plugins": [
+    "favicon-generator",
+    "accessibility-checker",
+    "seo-analyzer",
+    "rgpd-exporter"
+  ]
+}

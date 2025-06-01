@@ -1,0 +1,88 @@
+openapi: 3.0.3
+info:
+  title: Dihya Backend Core API
+  description: >
+    API REST du cœur backend Dihya (sécurité, RBAC, multilingue, plugins, audit, RGPD, CI/CD-ready).
+    Toutes les routes critiques sont documentées, multilingues, avec exemples d’appels et réponses d’erreur.
+  version: 1.0.0
+servers:
+  - url: /api
+paths:
+  /generate:
+    post:
+      summary: Génération automatique de projet
+      tags: [core]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: false
+      responses:
+        '200':
+          description: Projet généré avec succès
+          content:
+            application/json:
+              examples:
+                fr:
+                  value: { status: 'success', message: 'Projet généré avec succès' }
+                en:
+                  value: { status: 'success', message: 'Project generated successfully' }
+        '403':
+          description: Accès refusé (RBAC)
+          content:
+            application/json:
+              example: { error: 'Accès refusé' }
+  /auth/login:
+    post:
+      summary: Authentification utilisateur (mock)
+      tags: [core]
+      responses:
+        '200':
+          description: Token JWT mock
+          content:
+            application/json:
+              example: { token: 'mock-jwt-token', role: 'user' }
+  /user/profile:
+    get:
+      summary: Profil utilisateur (mock)
+      tags: [core]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Profil utilisateur
+          content:
+            application/json:
+              example: { user: 'demo', role: 'user' }
+        '403':
+          description: Accès refusé (RBAC)
+          content:
+            application/json:
+              example: { error: 'Accès refusé' }
+  /plugins:
+    get:
+      summary: Liste des plugins chargés
+      tags: [core]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Liste des plugins
+          content:
+            application/json:
+              example: { plugins: ['example_plugin'] }
+  /templates:
+    get:
+      summary: Liste des templates métiers
+      tags: [core]
+      responses:
+        '200':
+          description: Liste des templates
+          content:
+            application/json:
+              example: { templates: ['template1', 'template2'] }
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

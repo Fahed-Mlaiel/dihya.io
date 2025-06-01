@@ -1,0 +1,102 @@
+openapi: 3.1.0
+info:
+  title: Dihya Plugins API
+  description: |
+    API d’intégration et de gestion des plugins backend Dihya : extensions, modules métiers, sécurité, audit, RGPD, multilingue, extensible.
+    - Authentification JWT, CORS, WAF, anti-DDOS, auditabilité, anonymisation, plugins, fallback IA.
+    - Internationalisation dynamique (fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es)
+    - REST/GraphQL, multitenant, gestion des rôles, conformité RGPD, auditabilité, logs structurés.
+    - Documentation interactive générée automatiquement (Swagger UI, Redoc, GraphQL Playground).
+  version: "1.0.0"
+servers:
+  - url: /api/plugins
+    description: API REST plugins
+paths:
+  /list:
+    get:
+      summary: Liste des plugins installés
+      description: |
+        Retourne la liste des plugins installés et actifs (sécurité, RGPD, audit, multilingue).
+      tags:
+        - Plugins
+      responses:
+        '200':
+          description: Liste des plugins
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PluginInfo'
+  /activate:
+    post:
+      summary: Activation d’un plugin
+      description: |
+        Active un plugin (sécurité, audit, RGPD, multilingue, extensible).
+      tags:
+        - Plugins
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PluginActivateRequest'
+      responses:
+        '200':
+          description: Plugin activé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PluginActivateResponse'
+        '403':
+          description: Action non autorisée
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+        '422':
+          description: Erreur de validation
+components:
+  schemas:
+    PluginInfo:
+      type: object
+      properties:
+        name:
+          type: string
+        version:
+          type: string
+        description:
+          type: string
+        enabled:
+          type: boolean
+        author:
+          type: string
+        lang:
+          type: string
+      required: [name, version, enabled]
+    PluginActivateRequest:
+      type: object
+      properties:
+        name:
+          type: string
+        lang:
+          type: string
+      required: [name]
+    PluginActivateResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+      required: [status, message]
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - bearerAuth: []

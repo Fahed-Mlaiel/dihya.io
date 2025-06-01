@@ -1,0 +1,11 @@
+# ABAC Policy – Dihya Backend
+attributes:
+  - name: department
+    values: [it, finance, health, education]
+  - name: clearance
+    values: [public, internal, confidential, secret]
+rules:
+  - if: user.department == 'health' and resource.type == 'patient_data'
+    allow: view, update
+  - if: user.clearance == 'confidential'
+    allow: view:confidential_data

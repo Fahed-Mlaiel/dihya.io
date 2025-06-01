@@ -1,0 +1,29 @@
+# Exemples de scènes et assets VR/AR (multilingue, RGPD)
+scenes:
+  - id: 1
+    title:
+      fr: Usine connectée
+      en: Connected Factory
+      ar: المصنع المتصل
+      de: Vernetzte Fabrik
+    description:
+      fr: Simulation VR d'une usine intelligente.
+      en: VR simulation of a smart factory.
+      ar: محاكاة VR لمصنع ذكي.
+      de: VR-Simulation einer Smart Factory.
+    lang: fr
+    created_by: admin
+    created_at: 2025-05-24T10:00:00Z
+assets:
+  - id: 1
+    scene: 1
+    file: usine_3d.glb
+    type: 3D
+    lang: fr
+    uploaded_at: 2025-05-24T10:01:00Z
+  - id: 2
+    scene: 1
+    file: usine_audio.mp3
+    type: audio
+    lang: en
+    uploaded_at: 2025-05-24T10:02:00Z

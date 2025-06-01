@@ -1,0 +1,28 @@
+# Dihya Backend Assets – Rapport de suppression de compte (multilingue, production-ready)
+
+[FR]
+Rapport de suppression de compte
+- Utilisateur : {{ user_name }}
+- Date de suppression : {{ deletion_date }}
+- Statut : {{ status_fr }}
+
+[EN]
+Account Deletion Report
+- User: {{ user_name }}
+- Deletion date: {{ deletion_date }}
+- Status: {{ status_en }}
+
+[AR]
+تقرير حذف الحساب
+- المستخدم: {{ user_name }}
+- تاريخ الحذف: {{ deletion_date }}
+- الحالة: {{ status_ar }}
+
+[KAB]
+Aneqqis n usuter n tukksa n umiḍan
+- Amiḍan: {{ user_name }}
+- Azemz n tukksa: {{ deletion_date }}
+- Addad: {{ status_kab }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

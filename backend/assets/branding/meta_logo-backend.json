@@ -1,0 +1,64 @@
+{
+  "filename": "logo-backend.svg",
+  "type": "logo",
+  "version": "1.0.0",
+  "hash": "sha256:EXEMPLE_HASH",
+  "alt": {
+    "fr": "Logo Dihya backend",
+    "en": "Dihya backend logo",
+    "de": "Dihya Backend-Logo",
+    "ar": "شعار ديهيا باكند",
+    "es": "Logo backend Dihya",
+    "it": "Logo backend Dihya",
+    "pt": "Logo backend Dihya",
+    "nl": "Dihya backend-logo",
+    "pl": "Logo backend Dihya",
+    "tr": "Dihya backend logosu",
+    "ru": "Логотип бэкенда Dihya",
+    "zh": "Dihya 后端标志",
+    "kab": "Tignit n backend Dihya"
+  },
+  "description": {
+    "fr": "Logo officiel du backend Dihya, optimisé accessibilité et RGPD.",
+    "en": "Official Dihya backend logo, accessibility and GDPR optimized.",
+    "de": "Offizielles Dihya Backend-Logo, barrierefrei und DSGVO-konform.",
+    "ar": "شعار ديهيا الرسمي للباكند، متوافق مع الوصول وRGPD.",
+    "es": "Logo oficial backend Dihya, accesible y RGPD.",
+    "it": "Logo backend Dihya ufficiale, accessibile e GDPR.",
+    "pt": "Logo backend Dihya oficial, acessível e RGPD.",
+    "nl": "Officieel Dihya backend-logo, toegankelijk en AVG.",
+    "pl": "Oficjalne logo backend Dihya, dostępne i RODO.",
+    "tr": "Resmi Dihya backend logosu, erişilebilir ve KVKK.",
+    "ru": "Официальный логотип бэкенда Dihya, доступный и GDPR.",
+    "zh": "Dihya 后端官方标志，符合无障碍和GDPR。",
+    "kab": "Tignit tamezwarut n backend Dihya, amatu d RGPD."
+  },
+  "tags": [
+    "logo",
+    "backend",
+    "dihya",
+    "accessibility",
+    "multilingual",
+    "open source",
+    "audit"
+  ],
+  "created_at": "2025-05-22T10:00:00Z",
+  "updated_at": "2025-05-22T10:00:00Z",
+  "author": "Equipe Dihya",
+  "license": "CC-BY-4.0",
+  "audit": {
+    "last_access": "2025-05-22T10:00:00Z",
+    "access_count": 0,
+    "access_log": []
+  },
+  "accessibility": {
+    "contrast": "AAA",
+    "aria": true,
+    "tested": true
+  },
+  "rgpd": {
+    "personal_data": false,
+    "anonymized": true,
+    "compliance": true
+  }
+}
