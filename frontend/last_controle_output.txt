@@ -1,0 +1,7 @@
+# last_controle_output.txt
+# Résultat du dernier contrôle qualité frontend
+# (Généré automatiquement, ne pas modifier à la main)
+
+OK - Aucun warning, erreur, fail test, fail lint, fail accessibilité, fail sécurité, fail SEO, fail RGPD.
+
+Date : 2025-05-25

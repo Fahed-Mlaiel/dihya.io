@@ -1,0 +1,2 @@
+# Stub für ENV_POLICIES
+ENV_POLICIES = {}

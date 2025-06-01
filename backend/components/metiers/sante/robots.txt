@@ -1,0 +1,4 @@
+# robots.txt – Sante (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/sante/sitemap.xml

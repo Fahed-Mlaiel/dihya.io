@@ -1,0 +1,24 @@
+{
+  "name": "logo-backend.svg",
+  "description": {
+    "fr": "Logo principal backend Dihya (SVG, accessible, RGPD, multilingue)",
+    "en": "Dihya backend main logo (SVG, accessible, GDPR, multilingual)",
+    "ar": "شعار الخلفية الرئيسي (SVG، وصول، RGPD، متعدد اللغات)",
+    "ber": "Azwaw ameqran n backend Dihya (SVG, tazwart, RGPD, amaynut n tutlayt)"
+  },
+  "tags": ["logo", "backend", "accessibility", "rgpd", "multilingual"],
+  "aria": {
+    "label": {
+      "fr": "Logo Dihya Backend", "en": "Dihya Backend Logo", "ar": "شعار Dihya Backend", "ber": "Azwaw n Dihya Backend"
+    },
+    "role": "img"
+  },
+  "contrast": "AAA",
+  "version": "1.0.0",
+  "created": "2025-05-22",
+  "author": "Dihya Team",
+  "audit": {
+    "last_audit": "2025-05-22",
+    "auditor": "CI/CD"
+  }
+}

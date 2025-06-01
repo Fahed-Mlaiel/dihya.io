@@ -1,0 +1,4 @@
+# robots.txt für das Modul 'voyage'
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/voyage/sitemap.xml

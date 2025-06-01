@@ -1,0 +1,9 @@
+# openapi.yaml – Spécification OpenAPI Dihya Backend
+# (À compléter selon l’API réelle du backend)
+
+openapi: 3.0.3
+info:
+  title: Dihya Backend API
+  version: 1.0.0
+  description: API RESTful sécurisée, multilingue, modulaire, conforme RGPD
+# ...ajoutez ici les paths, schemas, security, etc.

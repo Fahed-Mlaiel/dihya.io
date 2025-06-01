@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-05-22T11:40:00Z",
+  "event": "notification_sent",
+  "user": "anonymous",
+  "language": "fr",
+  "action": "send_notification",
+  "result": "success",
+  "hash": "sha256:..."
+}

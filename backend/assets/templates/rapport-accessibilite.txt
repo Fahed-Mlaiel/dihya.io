@@ -1,0 +1,22 @@
+# Dihya Backend Assets – Rapport d’accessibilité (multilingue, WCAG/RGAA, RGPD)
+
+[FR]
+Rapport d’accessibilité Dihya
+- Utilisateur : {{ user_name }}
+- Date d’audit : {{ audit_date }}
+- Score WCAG : {{ wcag_score }}
+- Score RGAA : {{ rgaa_score }}
+- Points forts : {{ strengths_fr }}
+- Points à améliorer : {{ weaknesses_fr }}
+
+[EN]
+Dihya Accessibility Report
+- User: {{ user_name }}
+- Audit date: {{ audit_date }}
+- WCAG score: {{ wcag_score }}
+- RGAA score: {{ rgaa_score }}
+- Strengths: {{ strengths_en }}
+- Weaknesses: {{ weaknesses_en }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

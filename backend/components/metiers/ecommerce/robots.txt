@@ -1,0 +1,4 @@
+# robots.txt – E-commerce (Dihya Coding)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/ecommerce/sitemap.xml

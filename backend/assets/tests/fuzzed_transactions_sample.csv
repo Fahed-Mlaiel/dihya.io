@@ -1,0 +1,4 @@
+id,user_id,amount,currency,date,status
+1,NhY12VTTKl,120.50,EUR,2025-05-01,completed
+2,2,75.00,USD,2025-05-02,failed
+3,1,200.00,EUR,2025-05-03,pending

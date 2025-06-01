@@ -1,0 +1,3 @@
+Temporary file for Dihya storage system test.
+# Fichier temporaire de test pour Dihya
+# Usage: test de stockage, suppression automatique

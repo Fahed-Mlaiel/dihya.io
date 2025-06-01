@@ -1,0 +1,5 @@
+id,role_name,description,lang
+1,admin,Administrateur,fr
+2,user,Utilisateur,fr
+3,admin,Administrator,en
+4,user,User,en

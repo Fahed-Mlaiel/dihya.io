@@ -1,0 +1,20 @@
+{
+  "app": {
+    "name": "Dihya Backend",
+    "env": "staging",
+    "debug": false,
+    "allowed_hosts": ["staging.dihya.example.com"]
+  },
+  "security": {
+    "cors": {"enabled": true, "origins": ["https://staging.dihya.example.com"]},
+    "csrf": {"enabled": true}
+  },
+  "rgpd": {
+    "data_retention_days": 90,
+    "anonymize_on_delete": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s %(levelname)s %(message)s"
+  }
+}

@@ -1,0 +1,1 @@
+(Ce fichier est un placeholder pour le billet de voyage français utilisé dans les tests et la démo du module voyage. Remplacez-le par un vrai PDF pour les tests réels.)

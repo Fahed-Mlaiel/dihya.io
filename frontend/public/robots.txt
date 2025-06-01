@@ -1,0 +1,27 @@
+# robots.txt — Dihya Coding
+
+# Ce fichier contrôle l’indexation par les moteurs de recherche.
+# Respecte les bonnes pratiques SEO, sécurité, RGPD et souveraineté.
+
+# Bonnes pratiques :
+# - Bloquer l’indexation des environnements de développement et de test
+# - Autoriser l’indexation du site public en production
+# - Protéger les endpoints sensibles (API, admin, données privées)
+# - Documenter chaque règle pour la maintenance et l’auditabilité
+
+User-agent: *
+# Protéger les routes sensibles et internes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /backend/
+Disallow: /docs/
+# Autoriser tout le reste (site public, pages, génération, preview, etc.)
+Allow: /
+
+# RGPD : pas de fuite de données personnelles via les URLs indexées
+
+# Sitemap (à adapter selon l’URL de prod)
+Sitemap: /sitemap.xml
+
+# Fin du fichier robots.txt Dihya Coding

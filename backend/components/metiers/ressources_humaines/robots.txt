@@ -1,0 +1,4 @@
+# robots.txt – RH (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/ressources_humaines/sitemap.xml

@@ -1,0 +1,20 @@
+# dev.yaml – Configuration de développement (Dihya Backend)
+app:
+  name: Dihya Backend
+  env: development
+  debug: true
+  allowed_hosts:
+    - localhost
+    - 127.0.0.1
+security:
+  cors:
+    enabled: true
+    origins: ["*"]
+  csrf:
+    enabled: false
+rgpd:
+  data_retention_days: 30
+  anonymize_on_delete: true
+logging:
+  level: DEBUG
+  format: "%(asctime)s %(levelname)s %(message)s"

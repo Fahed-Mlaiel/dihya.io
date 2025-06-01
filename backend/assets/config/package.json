@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "express": "^5.1.0",
+    "supertest": "^7.1.1",
+    "svgo": "^3.3.2",
+    "ts-jest": "^29.3.4"
+  }
+}

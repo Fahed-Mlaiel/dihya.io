@@ -1,0 +1,4 @@
+# robots.txt – Mode (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/mode/sitemap.xml

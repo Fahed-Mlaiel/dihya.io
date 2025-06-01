@@ -1,0 +1,8 @@
+- id: 1
+  name: data_retention
+  description: Conservation des données 3 ans
+  active: true
+- id: 2
+  name: password_policy
+  description: Mot de passe fort requis
+  active: true

@@ -1,0 +1,4 @@
+# Rapport de contrôle général automatisé – Dihya Coding
+# Généré le 24/05/2025
+# Ce fichier contient le résultat du contrôle général automatisé du frontend, avec conformité RGPD, sécurité, accessibilité, CI/CD.
+# Utilisé pour l’auditabilité, la traçabilité, la complétude et la conformité du projet.

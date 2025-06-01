@@ -1,0 +1,7 @@
+# last_markdownlint_output.txt
+# Résultat du dernier passage de markdownlint frontend
+# (Généré automatiquement, ne pas modifier à la main)
+
+OK - Aucun warning, erreur, fail lint, fail accessibilité, fail SEO, fail RGPD.
+
+Date : 2025-05-25

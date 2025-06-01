@@ -1,0 +1,24 @@
+# Dihya Backend Assets – Template de notification de rôle (multilingue, RGPD, production-ready)
+
+[FR]
+Bonjour {{ user_name }},
+
+Votre rôle a été modifié sur Dihya :
+- Nouveau rôle : {{ new_role }}
+- Projet : {{ project_name }}
+- Date : {{ date }}
+
+Si ce changement n’est pas attendu, contactez le support.
+
+[EN]
+Hello {{ user_name }},
+
+Your role has been updated on Dihya:
+- New role: {{ new_role }}
+- Project: {{ project_name }}
+- Date: {{ date }}
+
+If this change is unexpected, please contact support.
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

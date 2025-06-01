@@ -1,0 +1,23 @@
+{
+  "name": "qr-export-backend.svg",
+  "description": {
+    "fr": "QR code d’export backend (SVG, accessible, RGPD, multilingue)",
+    "en": "Backend export QR code (SVG, accessible, GDPR, multilingual)",
+    "ar": "رمز QR للتصدير الخلفي (SVG، وصول، RGPD، متعدد اللغات)",
+    "ber": "QR code n export n backend (SVG, tazwart, RGPD, amaynut n tutlayt)"
+  },
+  "tags": ["qr", "export", "backend", "accessibility", "rgpd", "multilingual"],
+  "aria": {
+    "label": {
+      "fr": "QR code d’export backend", "en": "Backend export QR code", "ar": "رمز QR للتصدير الخلفي", "ber": "QR code n export n backend"
+    },
+    "role": "img"
+  },
+  "version": "1.0.0",
+  "created": "2025-05-22",
+  "author": "Dihya Team",
+  "audit": {
+    "last_audit": "2025-05-22",
+    "auditor": "CI/CD"
+  }
+}

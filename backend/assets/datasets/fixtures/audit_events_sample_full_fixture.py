@@ -1,0 +1,38 @@
+import pytest
+
+@pytest.fixture
+def audit_events_sample_full():
+    return [
+  {
+    "timestamp": "2025-05-22T12:00:00Z",
+    "event": "user_login",
+    "user": "anonymous",
+    "action": "login",
+    "result": "success",
+    "lang": "fr"
+  },
+  {
+    "timestamp": "2025-05-22T12:01:00Z",
+    "event": "user_login",
+    "user": "anonymous",
+    "action": "login",
+    "result": "success",
+    "lang": "en"
+  },
+  {
+    "timestamp": "2025-05-22T12:02:00Z",
+    "event": "user_logout",
+    "user": "anonymous",
+    "action": "logout",
+    "result": "success",
+    "lang": "fr"
+  },
+  {
+    "timestamp": "2025-05-22T12:03:00Z",
+    "event": "user_logout",
+    "user": "anonymous",
+    "action": "logout",
+    "result": "success",
+    "lang": "en"
+  }
+]

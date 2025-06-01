@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-05-22T10:00:00Z",
+  "event": "asset_access",
+  "asset": "branding/logo-backend.svg",
+  "user": "anonymous",
+  "action": "read",
+  "result": "success",
+  "hash": "sha256:..."
+}

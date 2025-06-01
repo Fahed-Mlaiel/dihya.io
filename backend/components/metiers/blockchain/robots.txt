@@ -1,0 +1,4 @@
+# robots.txt – Blockchain-Modul (Dihya Coding)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/blockchain/sitemap.xml

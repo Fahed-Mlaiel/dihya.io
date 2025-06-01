@@ -1,0 +1,32 @@
+# Dihya Backend Assets – Notification de consentement explicite (multilingue, RGPD)
+
+[FR]
+Bonjour {{ user_name }},
+
+Votre consentement a été enregistré pour le traitement de vos données personnelles sur Dihya.
+- Date : {{ date }}
+- Statut : {{ status_fr }}
+
+[EN]
+Hello {{ user_name }},
+
+Your consent has been recorded for the processing of your personal data on Dihya.
+- Date: {{ date }}
+- Status: {{ status_en }}
+
+[AR]
+مرحبًا {{ user_name }}،
+
+تم تسجيل موافقتك على معالجة بياناتك الشخصية على ديهيا.
+- التاريخ: {{ date }}
+- الحالة: {{ status_ar }}
+
+[KAB]
+Azul {{ user_name }},
+
+Yettwasefru-d asentel-ik i usirem n yisefka-ik s Dihya.
+- Azemz: {{ date }}
+- Addad: {{ status_kab }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

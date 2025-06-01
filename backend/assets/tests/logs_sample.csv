@@ -1,0 +1,6 @@
+# id,service,action,user,lang,timestamp,details
+1,ia,create,admin,fr,2025-05-24T10:00:00Z,Création d'un modèle IA
+2,vr,access,user1,en,2025-05-24T10:05:00Z,Accès à une scène VR
+3,ar,update,user2,ar,2025-05-24T10:10:00Z,Modification d'un asset AR
+4,plugin,install,admin,de,2025-05-24T10:15:00Z,Installation d'un plugin
+5,webhook,trigger,user3,es,2025-05-24T10:20:00Z,Déclenchement d'un webhook

@@ -1,0 +1,9 @@
+# .backupignore
+# Fichiers/dossiers à exclure des backups (exemple)
+__pycache__/
+node_modules/
+*.log
+*.tmp
+secrets/
+.env
+.DS_Store

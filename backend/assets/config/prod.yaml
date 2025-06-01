@@ -1,0 +1,53 @@
+app_name: Dihya Backend
+version: 1.0.0
+env: production
+log_level: WARNING
+audit: true
+languages:
+  - fr
+  - en
+  - de
+  - ar
+  - es
+  - it
+  - pt
+  - nl
+  - pl
+  - tr
+  - ru
+  - zh
+  - kab
+plugins:
+  - audit
+  - rgpd
+  - accessibility
+security:
+  csrf_protection: true
+  rate_limit: 1000
+  allowed_hosts:
+    - localhost
+    - 127.0.0.1
+    - dihya.local
+rgpd:
+  data_retention_days: 365
+  anonymize_logs: true
+accessibility:
+  wcag_level: AA
+  aria_enabled: true
+ci_cd:
+  enabled: true
+  pipeline: github-actions
+meta:
+  last_update: "2025-05-22T10:00:00Z"
+  author: Equipe Dihya
+app:
+  name: Dihya Backend
+  env: production
+  debug: false
+  allowed_hosts:
+    - localhost
+    - 127.0.0.1
+    - dihya.local
+logging:
+  level: WARNING
+  format: "%(asctime)s %(levelname)s %(message)s"

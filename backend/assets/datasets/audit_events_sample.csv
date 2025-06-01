@@ -1,0 +1,4 @@
+# Dihya Backend Assets – Dataset d’événements d’audit (CSV, anonymisé, multilingue, RGPD, production-ready)
+timestamp,event,user,action,result,lang
+2025-05-22T12:00:00Z,user_login,anonymous,login,success,fr
+2025-05-22T12:01:00Z,user_login,anonymous,login,success,en

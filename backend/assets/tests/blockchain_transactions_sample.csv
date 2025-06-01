@@ -1,0 +1,3 @@
+id,hash,from,to,amount,currency,date,status
+1,0xabc123,0x1,0x2,0.5,ETH,2025-05-01,confirmed
+2,0xdef456,0x3,0x4,1.2,BTC,2025-05-02,pending

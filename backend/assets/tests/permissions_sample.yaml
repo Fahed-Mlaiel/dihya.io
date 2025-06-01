@@ -1,0 +1,12 @@
+- id: 1
+  role: admin
+  permission: all
+- id: 2
+  role: user
+  permission: read
+- id: 3
+  role: auditor
+  permission: audit
+- id: 4
+  role: moderator
+  permission: moderate

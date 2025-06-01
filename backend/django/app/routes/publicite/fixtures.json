@@ -1,0 +1,25 @@
+[
+  {
+    "model": "publicite.campagnepublicitaire",
+    "pk": 1,
+    "fields": {
+      "nom": "Campagne Pub 2025",
+      "canal": "display",
+      "budget": "1000.00",
+      "date_debut": "2025-06-01T00:00:00Z",
+      "date_fin": "2025-08-31T23:59:59Z",
+      "statut": "active",
+      "cree_par": 1
+    }
+  },
+  {
+    "model": "publicite.analyticspublicite",
+    "pk": 1,
+    "fields": {
+      "campagne": 1,
+      "impressions": 1000,
+      "clics": 100,
+      "conversions": 10
+    }
+  }
+]

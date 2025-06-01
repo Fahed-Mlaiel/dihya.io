@@ -1,0 +1,24 @@
+{
+  "name": "logo-backend-dark.svg",
+  "description": {
+    "fr": "Logo backend sombre Dihya (SVG, accessible, RGPD, multilingue)",
+    "en": "Dihya backend dark logo (SVG, accessible, GDPR, multilingual)",
+    "ar": "شعار الخلفية الداكن (SVG، وصول، RGPD، متعدد اللغات)",
+    "ber": "Azwaw aberkan n backend Dihya (SVG, tazwart, RGPD, amaynut n tutlayt)"
+  },
+  "tags": ["logo", "backend", "accessibility", "rgpd", "multilingual", "dark"],
+  "aria": {
+    "label": {
+      "fr": "Logo Dihya Backend sombre", "en": "Dihya Backend dark logo", "ar": "شعار Dihya Backend الداكن", "ber": "Azwaw aberkan n Dihya Backend"
+    },
+    "role": "img"
+  },
+  "contrast": "AAA",
+  "version": "1.0.0",
+  "created": "2025-05-22",
+  "author": "Dihya Team",
+  "audit": {
+    "last_audit": "2025-05-22",
+    "auditor": "CI/CD"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-05-22T11:15:00Z",
+  "event": "user_login",
+  "user": "anonymous",
+  "ip": "0.0.0.0",
+  "action": "login",
+  "result": "success",
+  "language": "fr",
+  "hash": "sha256:..."
+}

@@ -1,0 +1,15 @@
+[[meters]]
+id = 1
+location = "Paris"
+type = "electric"
+value = 12345.6
+unit = "kWh"
+date = "2025-05-01"
+
+[[meters]]
+id = 2
+location = "Berlin"
+type = "gas"
+value = 234.5
+unit = "m3"
+date = "2025-05-02"

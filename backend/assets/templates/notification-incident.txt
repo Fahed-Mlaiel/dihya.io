@@ -1,0 +1,24 @@
+# Dihya Backend Assets – Template de notification d’incident (multilingue, RGPD, production-ready)
+
+[FR]
+Bonjour {{ user_name }},
+
+Un incident de sécurité a été détecté sur votre compte Dihya :
+- Incident : {{ incident }}
+- Date : {{ date }}
+- IP : {{ ip }}
+
+Merci de vérifier vos activités récentes et de contacter le support si besoin.
+
+[EN]
+Hello {{ user_name }},
+
+A security incident was detected on your Dihya account:
+- Incident: {{ incident }}
+- Date: {{ date }}
+- IP: {{ ip }}
+
+Please review your recent activities and contact support if needed.
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

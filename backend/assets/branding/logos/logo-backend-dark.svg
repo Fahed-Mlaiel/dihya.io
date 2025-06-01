@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="48" viewBox="0 0 120 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logoBackendDarkTitle logoBackendDarkDesc" role="img">
+  <title id="logoBackendDarkTitle">Logo Dihya Backend (sombre)</title>
+  <desc id="logoBackendDarkDesc">Logo sombre Dihya pour backend, accessible, multilingue, RGPD</desc>
+  <rect x="0" y="0" width="120" height="48" rx="12" fill="#111"/>
+  <text x="60" y="30" text-anchor="middle" font-size="24" fill="#FFD600" font-family="Arial" aria-hidden="true">Dihya</text>
+</svg>

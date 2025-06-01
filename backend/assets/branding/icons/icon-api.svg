@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="iconApiTitle iconApiDesc" role="img">
+  <title id="iconApiTitle">API</title>
+  <desc id="iconApiDesc">Icône représentant une API, accessible, multilingue, RGPD</desc>
+  <rect x="4" y="4" width="40" height="40" rx="8" fill="#1976D2"/>
+  <text x="24" y="28" text-anchor="middle" font-size="16" fill="#fff" font-family="Arial" aria-hidden="true">API</text>
+</svg>

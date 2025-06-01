@@ -1,0 +1,2 @@
+# Stub für HOTEL_POLICIES
+HOTEL_POLICIES = {}

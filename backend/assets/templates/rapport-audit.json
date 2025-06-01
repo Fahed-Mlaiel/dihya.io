@@ -1,0 +1,9 @@
+{
+  "user_name": "{{ user_name }}",
+  "action": "{{ action }}",
+  "date": "{{ date }}",
+  "ip": "{{ ip }}",
+  "result": "{{ result }}",
+  "rgpd_compliance": true,
+  "sovereignty": "Dihya – Souveraineté numérique"
+}

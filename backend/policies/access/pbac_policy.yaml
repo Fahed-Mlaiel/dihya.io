@@ -1,0 +1,8 @@
+# PBAC Policy – Dihya Backend
+policies:
+  - name: upload_limit
+    condition: user.role == 'user' and resource.size < 10MB
+    allow: upload:file
+  - name: admin_override
+    condition: user.role == 'admin'
+    allow: all

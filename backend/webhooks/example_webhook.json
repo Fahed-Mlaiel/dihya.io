@@ -1,0 +1,8 @@
+{
+  "name": "incident_alert",
+  "url": "https://webhook.dihya.ai/incident",
+  "method": "POST",
+  "headers": {"Authorization": "Bearer exampletoken"},
+  "payload": {"event": "incident", "severity": "high"}
+}
+

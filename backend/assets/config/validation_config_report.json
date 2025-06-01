@@ -1,0 +1,47 @@
+{
+  "app": {
+    "name": "Validation Report",
+    "env": "report",
+    "debug": false,
+    "allowed_hosts": ["localhost"]
+  },
+  "security": {
+    "cors": {"enabled": false, "origins": []},
+    "csrf": {"enabled": true}
+  },
+  "rgpd": {
+    "data_retention_days": 365,
+    "anonymize_on_delete": false
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s %(levelname)s %(message)s"
+  },
+  "date": "2025-05-22T11:59:38.456779Z",
+  "files": [
+    {
+      "file": "audit.toml",
+      "valid": true,
+      "fields_ok": true,
+      "errors": []
+    },
+    {
+      "file": "validation_config_report.json",
+      "valid": true,
+      "fields_ok": false,
+      "errors": []
+    },
+    {
+      "file": "default.json",
+      "valid": true,
+      "fields_ok": true,
+      "errors": []
+    },
+    {
+      "file": "prod.yaml",
+      "valid": true,
+      "fields_ok": true,
+      "errors": []
+    }
+  ]
+}

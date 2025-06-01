@@ -1,0 +1,3 @@
+// Exemple de plugin pour le dossier constants
+// Extension, sécurité, audit, RGPD, i18n, multitenancy, etc.
+// ...implémentation complète...

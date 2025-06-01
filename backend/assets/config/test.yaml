@@ -1,0 +1,19 @@
+# test.yaml – Configuration de test automatisé (Dihya Backend)
+app:
+  name: Dihya Backend
+  env: test
+  debug: false
+  allowed_hosts:
+    - test.dihya.example.com
+security:
+  cors:
+    enabled: false
+    origins: []
+  csrf:
+    enabled: true
+rgpd:
+  data_retention_days: 1
+  anonymize_on_delete: true
+logging:
+  level: WARNING
+  format: "%(asctime)s %(levelname)s %(message)s"

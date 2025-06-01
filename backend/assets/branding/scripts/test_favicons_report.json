@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-22T11:53:16.610303Z",
+  "favicons": [
+    {
+      "filename": "favicon-api.svg",
+      "exists": true,
+      "meta": false,
+      "hash_ok": false,
+      "langs_ok": false,
+      "accessibility_ok": false,
+      "rgpd_ok": false,
+      "svg_valid": true
+    },
+    {
+      "filename": "favicon-api-color.svg",
+      "exists": true,
+      "meta": true,
+      "hash_ok": false,
+      "langs_ok": true,
+      "accessibility_ok": true,
+      "rgpd_ok": true,
+      "svg_valid": true
+    },
+    {
+      "filename": "favicon-api-dark.svg",
+      "exists": true,
+      "meta": true,
+      "hash_ok": false,
+      "langs_ok": true,
+      "accessibility_ok": true,
+      "rgpd_ok": true,
+      "svg_valid": true
+    }
+  ]
+}

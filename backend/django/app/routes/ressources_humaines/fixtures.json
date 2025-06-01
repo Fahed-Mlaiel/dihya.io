@@ -1,0 +1,31 @@
+[
+  {
+    "model": "ressources_humaines.employe",
+    "pk": 1,
+    "fields": {
+      "nom": "Doe",
+      "prenom": "John",
+      "email": "john.doe@example.com",
+      "poste": "Développeur",
+      "date_embauche": "2025-01-01",
+      "manager": 1
+    }
+  },
+  {
+    "model": "ressources_humaines.poste",
+    "pk": 1,
+    "fields": {
+      "titre": "Développeur",
+      "ouvert": true
+    }
+  },
+  {
+    "model": "ressources_humaines.candidature",
+    "pk": 1,
+    "fields": {
+      "employe": 1,
+      "poste": 1,
+      "statut": "en_attente"
+    }
+  }
+]

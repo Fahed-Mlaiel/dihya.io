@@ -1,0 +1,3 @@
+id,username,email,role,lang
+1,user1,user1@example.com,admin,fr
+2,user2,user2@example.com,user,en

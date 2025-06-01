@@ -1,0 +1,22 @@
+# RBAC Policy – Dihya Backend
+roles:
+  - name: admin
+    permissions:
+      - all
+  - name: user
+    permissions:
+      - upload:file
+      - download:file
+      - view:own_data
+  - name: auditor
+    permissions:
+      - view:all_logs
+      - export:rgpd
+  - name: ai_user
+    permissions:
+      - use:ai_plugin
+      - upload:file
+      - view:own_data
+  - name: guest
+    permissions:
+      - view:public

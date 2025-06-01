@@ -1,0 +1,36 @@
+# Dihya Backend Assets – Notification de maintenance (multilingue, production-ready)
+
+[FR]
+Bonjour {{ user_name }},
+
+Une opération de maintenance est prévue sur Dihya :
+- Date : {{ date }}
+- Heure : {{ time }}
+- Impact : {{ impact_fr }}
+
+[EN]
+Hello {{ user_name }},
+
+A maintenance operation is scheduled on Dihya:
+- Date: {{ date }}
+- Time: {{ time }}
+- Impact: {{ impact_en }}
+
+[AR]
+مرحبًا {{ user_name }}،
+
+هناك عملية صيانة مجدولة على ديهيا:
+- التاريخ: {{ date }}
+- الوقت: {{ time }}
+- التأثير: {{ impact_ar }}
+
+[KAB]
+Azul {{ user_name }},
+
+Yella-d amekti n uselkim ɣef Dihya:
+- Azemz: {{ date }}
+- Akud: {{ time }}
+- Asefru: {{ impact_kab }}
+
+---
+Conforme RGPD – Vos données sont protégées. | Dihya – Souveraineté numérique.

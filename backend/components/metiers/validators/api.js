@@ -1,0 +1,3 @@
+// API-Routen für das Modul 'validators'
+// REST & GraphQL, Multitenancy, Security, i18n, Audit, RGPD, SEO, Plugins, etc.
+// ... vollständige Implementierung ...

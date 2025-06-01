@@ -1,0 +1,4 @@
+# robots.txt généré dynamiquement pour le module backup Dihya
+User-agent: *
+Disallow:
+Sitemap: /sitemap.xml

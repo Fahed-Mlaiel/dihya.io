@@ -1,0 +1,19 @@
+{
+  "model_name": "llama-3b",
+  "version": "1.0.0",
+  "type": "binaire",
+  "hash_sha256": "...",
+  "license": "open source",
+  "description": {
+    "fr": "Modèle IA open source LLaMA 3B, optimisé pour la génération de texte multilingue.",
+    "en": "Open source AI model LLaMA 3B, optimized for multilingual text generation.",
+    "ar": "نموذج ذكاء اصطناعي مفتوح المصدر LLaMA 3B، مُحسَّن لتوليد النصوص متعددة اللغات.",
+    "kab": "Amuddir IA LLaMA 3B, yellan d open source, yebnan i usenfel n uḍris amaynut."
+  },
+  "rgpd": {
+    "personal_data": false,
+    "anonymization": true
+  },
+  "author": "Equipe Dihya",
+  "last_update": "2025-05-22T10:00:00Z"
+}

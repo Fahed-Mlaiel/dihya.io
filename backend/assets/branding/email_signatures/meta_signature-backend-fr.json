@@ -1,0 +1,23 @@
+{
+  "name": "signature-backend-fr.html",
+  "description": {
+    "fr": "Signature email backend Dihya (HTML, accessible, RGPD, multilingue)",
+    "en": "Dihya backend email signature (HTML, accessible, GDPR, multilingual)",
+    "ar": "توقيع البريد الإلكتروني للخلفية (HTML، وصول، RGPD، متعدد اللغات)",
+    "ber": "Azmul n email backend Dihya (HTML, tazwart, RGPD, amaynut n tutlayt)"
+  },
+  "tags": ["email", "signature", "backend", "accessibility", "rgpd", "multilingual"],
+  "aria": {
+    "label": {
+      "fr": "Signature email Dihya", "en": "Dihya email signature", "ar": "توقيع البريد الإلكتروني Dihya", "ber": "Azmul n email Dihya"
+    },
+    "role": "presentation"
+  },
+  "version": "1.0.0",
+  "created": "2025-05-22",
+  "author": "Dihya Team",
+  "audit": {
+    "last_audit": "2025-05-22",
+    "auditor": "CI/CD"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "username": "alice",
+    "email": "alice@example.com",
+    "password_hash": "hashed_pw1",
+    "role": "admin",
+    "lang": "fr",
+    "is_active": true,
+    "consent_rgpd": true
+  },
+  {
+    "username": "bob",
+    "email": "bob@example.com",
+    "password_hash": "hashed_pw2",
+    "role": "user",
+    "lang": "en",
+    "is_active": true,
+    "consent_rgpd": false
+  },
+  {
+    "username": "ليلى",
+    "email": "leila@example.com",
+    "password_hash": "hashed_pw3",
+    "role": "ai_user",
+    "lang": "ar",
+    "is_active": true,
+    "consent_rgpd": true
+  },
+  {
+    "username": "ⴰⵣⵉⵍ",
+    "email": "azil@example.com",
+    "password_hash": "hashed_pw4",
+    "role": "auditor",
+    "lang": "tzm",
+    "is_active": false,
+    "consent_rgpd": false
+  }
+]

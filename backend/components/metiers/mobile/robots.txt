@@ -1,0 +1,4 @@
+# robots.txt – Mobile (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/mobile/sitemap.xml

@@ -1,0 +1,43 @@
+[
+  {
+    "model": "transport.vehicule",
+    "pk": 1,
+    "fields": {
+      "immatriculation": "AB-123-CD",
+      "type": "Bus",
+      "capacite": 50
+    }
+  },
+  {
+    "model": "transport.conducteur",
+    "pk": 1,
+    "fields": {
+      "nom": "Dupont",
+      "prenom": "Jean",
+      "email": "jean.dupont@example.com"
+    }
+  },
+  {
+    "model": "transport.trajet",
+    "pk": 1,
+    "fields": {
+      "vehicule": 1,
+      "conducteur": 1,
+      "depart": "Paris",
+      "arrivee": "Lyon",
+      "date": "2024-07-01",
+      "places_disponibles": 40
+    }
+  },
+  {
+    "model": "transport.reservation",
+    "pk": 1,
+    "fields": {
+      "trajet": 1,
+      "nom_client": "Alice",
+      "email_client": "alice@example.com",
+      "places": 2,
+      "date_reservation": "2024-06-20"
+    }
+  }
+]

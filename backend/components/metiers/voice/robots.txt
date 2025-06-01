@@ -1,0 +1,4 @@
+# robots.txt für das Modul 'voice'
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/voice/sitemap.xml

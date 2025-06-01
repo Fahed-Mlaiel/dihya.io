@@ -1,0 +1,23 @@
+{
+  "name": "icon-audit.svg",
+  "description": {
+    "fr": "Icône Audit pour backend, accessibilité, RGPD, multilingue.",
+    "en": "Audit icon for backend, accessibility, GDPR, multilingual.",
+    "ar": "أيقونة التدقيق للخلفية، وصول، RGPD، متعدد اللغات.",
+    "ber": "Tignit n l’audit i backend, tazwart, RGPD, amaynut n tutlayt."
+  },
+  "tags": ["audit", "backend", "accessibility", "rgpd", "multilingual"],
+  "aria": {
+    "label": {
+      "fr": "Icône Audit", "en": "Audit icon", "ar": "أيقونة التدقيق", "ber": "Tignit n l’audit"
+    },
+    "role": "img"
+  },
+  "version": "1.0.0",
+  "created": "2025-05-22",
+  "author": "Dihya Team",
+  "audit": {
+    "last_audit": "2025-05-22",
+    "auditor": "CI/CD"
+  }
+}

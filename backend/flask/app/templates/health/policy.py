@@ -1,0 +1,2 @@
+# Stub für HEALTH_POLICIES
+HEALTH_POLICIES = {}

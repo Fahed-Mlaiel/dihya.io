@@ -1,0 +1,22 @@
+[
+  {
+    "model": "seo.pageseo",
+    "pk": 1,
+    "fields": {
+      "url": "https://example.com",
+      "titre": "Accueil",
+      "description": "Page d’accueil",
+      "mots_cles": "test,seo",
+      "indexable": true
+    }
+  },
+  {
+    "model": "seo.auditseo",
+    "pk": 1,
+    "fields": {
+      "page": 1,
+      "score": 95,
+      "rapport": "OK"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "model": "services_personne.beneficiaire",
+    "pk": 1,
+    "fields": {
+      "nom": "Dupont",
+      "prenom": "Alice",
+      "email": "alice.dupont@example.com",
+      "telephone": "0600000001",
+      "adresse": "1 rue de la Paix, Paris"
+    }
+  },
+  {
+    "model": "services_personne.intervenant",
+    "pk": 1,
+    "fields": {
+      "nom": "Martin",
+      "prenom": "Jean",
+      "email": "jean.martin@example.com",
+      "specialite": "Aide à domicile"
+    }
+  },
+  {
+    "model": "services_personne.prestation",
+    "pk": 1,
+    "fields": {
+      "beneficiaire": 1,
+      "intervenant": 1,
+      "type_prestation": "Ménage",
+      "date": "2024-01-01T10:00:00Z",
+      "statut": "planifiee"
+    }
+  }
+]

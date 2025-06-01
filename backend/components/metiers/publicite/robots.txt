@@ -1,0 +1,4 @@
+# robots.txt – Publicité (SEO multitenant, multilingue)
+User-agent: *
+Disallow:
+Sitemap: /backend/components/metiers/publicite/sitemap.xml

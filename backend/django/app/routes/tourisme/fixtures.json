@@ -1,0 +1,44 @@
+[
+  {
+    "model": "tourisme.destination",
+    "pk": 1,
+    "fields": {
+      "nom": "Paris",
+      "pays": "France",
+      "description": "Ville lumière"
+    }
+  },
+  {
+    "model": "tourisme.offre",
+    "pk": 1,
+    "fields": {
+      "destination": 1,
+      "titre": "Séjour à Paris",
+      "description": "Offre spéciale été",
+      "prix": "1200.00",
+      "date_debut": "2024-07-01",
+      "date_fin": "2024-07-10"
+    }
+  },
+  {
+    "model": "tourisme.reservation",
+    "pk": 1,
+    "fields": {
+      "offre": 1,
+      "nom_client": "Alice",
+      "email_client": "alice@example.com",
+      "date_reservation": "2024-06-01",
+      "statut": "en_attente"
+    }
+  },
+  {
+    "model": "tourisme.avis",
+    "pk": 1,
+    "fields": {
+      "reservation": 1,
+      "note": 5,
+      "commentaire": "Super séjour!",
+      "date_avis": "2024-06-02"
+    }
+  }
+]

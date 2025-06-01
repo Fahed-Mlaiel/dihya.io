@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-05-22T10:15:00Z",
+  "event": "compliance_export",
+  "user": "anonymous",
+  "action": "export_rgpd",
+  "result": "success",
+  "hash": "sha256:..."
+}

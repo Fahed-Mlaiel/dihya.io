@@ -1,0 +1,10 @@
+- id: 1
+  device_id: "A1B2C3"
+  user_id: 1
+  event: "app_open"
+  timestamp: "2025-05-01T08:00:00Z"
+- id: 2
+  device_id: "D4E5F6"
+  user_id: 2
+  event: "crash"
+  timestamp: "2025-05-02T09:00:00Z"

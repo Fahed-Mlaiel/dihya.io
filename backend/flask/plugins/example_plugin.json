@@ -1,0 +1,30 @@
+{
+  "name": "dihya-example-plugin",
+  "version": "1.0.0",
+  "description": "Plugin métier ultra avancé, multilingue, sécurisé, RGPD, extensible, testé, production-ready.",
+  "author": "Dihya Core Team",
+  "main": "example_plugin.py",
+  "i18n": [
+    "fr",
+    "en",
+    "ar",
+    "amz",
+    "de",
+    "zh",
+    "ja",
+    "ko",
+    "nl",
+    "he",
+    "fa",
+    "hi",
+    "es"
+  ],
+  "permissions": [
+    "plugin:run",
+    "logs:write",
+    "audit:read",
+    "rbac:check"
+  ],
+  "fallback": true,
+  "sovereign": true
+}
