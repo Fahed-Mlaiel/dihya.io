@@ -1,0 +1,2 @@
+[33me17bf7d2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Refonte majeure des modules métiers, restructuration backend/frontend, harmonisation, suppression des doublons, ajout de tests, docs et templates. Mise à jour des configs et renommages (intelligence_artificielle→ai, 3d→threed).
+[33mc42ea7c7[m Import complet du projet Codespace au 01/06/2025
