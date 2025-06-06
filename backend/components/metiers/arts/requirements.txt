@@ -1,0 +1,2 @@
+# Dépendances Python pour le module Arts
+jsonschema

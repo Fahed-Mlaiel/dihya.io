@@ -1,7 +1,4 @@
-# robots.txt (dynamique généré par backend Dihya Coding)
+# robots.txt – Environnement (SEO multitenant, multilingue)
 User-agent: *
 Disallow:
-Sitemap: /api/automobile/sitemap.xml
-
-# Ce fichier est généré dynamiquement pour chaque tenant/langue/route métier.
-# Voir la documentation SEO backend Dihya Coding pour personnalisation avancée.
+Sitemap: /backend/components/metiers/environnement/sitemap.xml

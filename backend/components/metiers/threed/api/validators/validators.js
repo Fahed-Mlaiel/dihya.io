@@ -1,0 +1,9 @@
+// validators.js – Validateurs ultra avancés pour l’API Threed (JS)
+function validate3dEntity(data) {
+  if (!data.name || typeof data.name !== 'string') throw new Error('Invalid name');
+  if (!data.status || !['active', 'inactive'].includes(data.status)) throw new Error('Invalid status');
+  // RGPD, accessibilité, audit, edge cases
+  // ...
+  return true;
+}
+module.exports = { validate3dEntity };

@@ -61,7 +61,6 @@ INSTALLED_APPS = [
     'backend.django.app.routes.services_personne.apps.ServicesPersonneConfig',
     'backend.django.app.routes.manufacturing.apps.ManufacturingConfig',
     'backend.django.app.routes.ecommerce.apps.EcommerceConfig',
-    'backend.django.app.routes.intelligence_artificielle.apps.IntelligenceArtificielleConfig',
     'backend.django.app.routes.juridique.apps.JuridiqueConfig',
     'backend.django.app.routes.loisirs.apps.LoisirsConfig',
     'backend.django.app.routes.medias.apps.MediasConfig',

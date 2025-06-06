@@ -1,26 +1,26 @@
-# Blockchain – Politique de sécurité et conformité
+# Environnement – Politique de sécurité et conformité (Dihya Coding)
 
-- **RBAC** : Accès par rôle (admin, user, invité)
+- **RBAC** : Accès par rôle (admin, opérateur, invité)
 - **JWT** : Authentification forte, expiration courte, rotation
 - **CORS** : Origines restreintes, headers stricts
-- **Validation** : Schémas stricts, anti-injection, anti-XSS, anti-CSRF
-- **Audit** : Journalisation structurée, export RGPD, anonymisation, logs d’accès, traçabilité complète
-- **WAF** : Protection anti-DDOS, filtrage IP, détection d’anomalies, rate limiting
-- **RGPD** : Consentement explicite, droit à l’oubli, portabilité, minimisation des données, logs d’accès anonymisés
-- **SEO** : Métadonnées, sitemap, robots.txt, logs structurés, accessibilité SEO backend
-- **i18n** : Détection automatique, fallback, accessibilité multilingue (13+ langues)
-- **Plugins** : Chargement dynamique, sandbox, auditabilité, hooks, extension IA
-- **Multitenancy** : Isolation stricte des tenants, logs séparés, audit multi-tenant
-- **Fallback IA** : Intégration fallback LLM (LLaMA, Mixtral, Mistral, etc.)
-- **Accessibilité** : WCAG 2.1/2.2 AA, navigation clavier, ARIA, audit accessibilité
-- **Export/Anonymisation** : Export RGPD, anonymisation complète, logs d’export
-- **Documentation** : Intégrée, multilingue, versionnée, CI/CD-ready
-- **CI/CD** : Tests, lint, audit, build, déploiement automatisé, monitoring
+- **Validation** : Schémas stricts, anti-injection, anti-XSS
+- **Audit** : Journalisation structurée, export RGPD, anonymisation
+- **WAF** : Protection anti-DDOS, filtrage IP, détection d’anomalies
+- **RGPD** : Consentement explicite, droit à l’oubli, portabilité
+- **SEO** : Métadonnées, sitemap, robots.txt, logs structurés
+- **i18n** : Détection automatique, fallback, accessibilité multilingue
+- **Plugins** : Chargement dynamique, sandbox, auditabilité
+- **Multitenancy** : Isolation stricte, logs séparés, export par tenant
+- **Fallback IA** : Repli automatique sur IA open source en cas d’erreur
+- **Documentation** : Intégrée, multilingue, versionnée
+- **Logs** : Structurés, exportables, auditables
+- **Export/Anonymisation** : RGPD, portabilité, suppression sécurisée
+- **CI/CD** : Tests, audit, déploiement automatisé
 
 ## Exemples de règles
-- Un invité ne peut pas créer/modifier/supprimer un asset blockchain
-- Un user peut gérer ses propres assets blockchain
-- Un admin peut tout gérer, exporter, auditer, configurer les plugins
+- Un invité ne peut pas créer/modifier/supprimer une alerte
+- Un opérateur peut gérer ses propres alertes
+- Un admin peut tout gérer, exporter, auditer
 
 ---
-© 2024 Dihya Coding. Open Source. RGPD-compliant.
+© 2025 Dihya Coding. Open Source. RGPD-compliant.

@@ -88,3 +88,19 @@ export async function deleteBlockchainProject(req, res) {
   const deleted = projects.splice(idx, 1);
   res.json({ deleted });
 }
+
+exports.status = (req, res) => {
+  res.json({ status: 'Blockchain opérationnelle' });
+};
+
+exports.health = (req, res) => {
+  res.json({ health: 'ok', timestamp: new Date().toISOString() });
+};
+
+exports.info = (req, res) => {
+  res.json({
+    name: 'Blockchain',
+    version: '1.0.0',
+    description: 'API Métier Blockchain avancée',
+  });
+};

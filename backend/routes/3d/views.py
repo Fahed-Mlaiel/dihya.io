@@ -15,6 +15,8 @@ from .i18n import THREED_I18N
 from .permissions import IsThreeDProjectOwnerOrReadOnly, IsThreeDAssetManagerOrReadOnly
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_protect
+from rest_framework.decorators import action
+from rest_framework.response import Response
 
 @method_decorator(csrf_protect, name='dispatch')
 class ThreeDProjectViewSet(viewsets.ModelViewSet):
@@ -35,11 +37,27 @@ class ThreeDProjectViewSet(viewsets.ModelViewSet):
         threed_audit_logger.log(self.request.user, 'delete', 'ThreeDProject', instance.id, details=instance.name, language=instance.lang)
         instance.delete()
 
+    @action(detail=True, methods=['get'], url_path='export_rgpd')
     def export_rgpd(self, request, pk=None):
-        """Export RGPD des données du projet 3D (exemple)."""
+        """Export RGPD des données du projet 3D (anonymisation, audit, exportable)."""
         project = self.get_object()
-        # ... logique d’export RGPD ...
-        return Response({'status': 'exported', 'project': project.name})
+        data = {
+            'id': project.id,
+            'name': 'anonymized',
+            'description': 'anonymized',
+            'lang': project.lang,
+            'created_at': project.created_at,
+        }
+        threed_audit_logger.log(request.user, 'export_rgpd', 'ThreeDProject', project.id, details='export', language=project.lang)
+        return Response({'status': 'exported', 'project': data})
+
+    @action(detail=True, methods=['delete'], url_path='delete_rgpd')
+    def delete_rgpd(self, request, pk=None):
+        """Suppression RGPD du projet 3D (audit, anonymisation, exportable)."""
+        project = self.get_object()
+        threed_audit_logger.log(request.user, 'delete_rgpd', 'ThreeDProject', project.id, details='delete', language=project.lang)
+        project.delete()
+        return Response({'status': 'deleted', 'project_id': pk})
 
 @method_decorator(csrf_protect, name='dispatch')
 class ThreeDAssetViewSet(viewsets.ModelViewSet):

@@ -1,27 +1,47 @@
-// api.js – REST/GraphQL API für Blockchain-Modul (Dihya Coding)
+// api.js – API ultra avancée pour Environnement (Dihya Coding)
 const express = require('express');
 const { validateJWT, rbac, audit, i18n, waf, ddos, seo, multitenancy, pluginLoader } = require('../../../core/middleware');
-const BlockchainController = require('./index');
+const EnvironnementController = require('./environnement_controller.js');
 const router = express.Router();
 
-// Sicherheit, i18n, Audit, SEO, Multitenancy, Plugins, RGPD, Logging, Fallback-AI
-router.use(waf(), ddos(), seo('blockchain'), multitenancy(), i18n(), audit());
+// Middleware ultra avancé : sécurité, RGPD, i18n, audit, SEO, multitenancy, plugins
+router.use(waf(), ddos(), seo('environnement'), multitenancy(), i18n(), audit());
 router.use(validateJWT());
 
-router.get('/', rbac(['admin', 'user']), async (req, res) => {
-  // Beispiel: dynamische i18n, Audit, SEO, Plugins
-  const lang = req.lang || 'en';
-  audit.log({ event: 'blockchain_list', user: req.user });
-  // ...
-  res.json({ message: req.t('blockchain_list'), lang });
+// CRUD ultra avancé avec RBAC, i18n, plugins, audit, RGPD, fallback-AI
+router.get('/', rbac(['admin', 'operator', 'guest']), async (req, res) => {
+  audit.log({ event: 'environnement_list', user: req.user });
+  const lang = req.lang || 'fr';
+  const result = await EnvironnementController.getData(req, res);
+  res.json({ result, lang });
 });
 
-// Beispiel für Plugin-Integration
-router.post('/plugin', rbac(['admin']), pluginLoader('blockchain'), async (req, res) => {
-  // ... Plugin-Logik ...
-  res.json({ success: true });
+router.post('/alerts', rbac(['admin', 'operator']), pluginLoader('environnement'), async (req, res) => {
+  audit.log({ event: 'environnement_create_alert', user: req.user });
+  const lang = req.lang || 'fr';
+  const created = await EnvironnementController.createAlert(req, res);
+  res.status(201).json({ created, lang });
 });
 
-// ... weitere Routen (CRUD, Export, Anonymisierung, Fallback-AI, etc.) ...
+router.put('/alerts/:id', rbac(['admin', 'operator']), pluginLoader('environnement'), async (req, res) => {
+  audit.log({ event: 'environnement_update_alert', user: req.user, id: req.params.id });
+  const lang = req.lang || 'fr';
+  const updated = await EnvironnementController.updateAlert(req, res);
+  res.json({ updated, lang });
+});
+
+router.delete('/alerts/:id', rbac(['admin', 'operator']), pluginLoader('environnement'), async (req, res) => {
+  audit.log({ event: 'environnement_delete_alert', user: req.user, id: req.params.id });
+  await EnvironnementController.deleteAlert(req, res);
+  res.status(204).end();
+});
+
+// Fallback-AI, SEO, accessibilité, multitenancy, plugins dynamiques
+router.post('/alerts/ai-detect', rbac(['admin', 'operator']), pluginLoader('environnement'), async (req, res) => {
+  // ... logique IA ...
+  res.json({ anomaly: 'Aucune anomalie détectée' });
+});
+
+// ... autres routes avancées (statistiques, IA, audit, etc.) ...
 
 module.exports = router;

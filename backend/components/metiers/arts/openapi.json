@@ -1,0 +1,19 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API Arts",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/arts": {
+      "get": {
+        "summary": "Liste des expositions",
+        "responses": {
+          "200": {
+            "description": "Liste des expositions"
+          }
+        }
+      }
+    }
+  }
+}

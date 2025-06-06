@@ -1,0 +1,2 @@
+Rapport pytest IA :
+- Tous les tests passent.

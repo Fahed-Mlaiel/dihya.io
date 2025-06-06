@@ -15,7 +15,10 @@
  * @license AGPL-3.0
  */
 
+import express from 'express';
 import { v4 as uuidv4 } from 'uuid';
+
+const router = express.Router();
 
 /**
  * @typedef {Object} EducationProject
@@ -32,26 +35,43 @@ import { v4 as uuidv4 } from 'uuid';
 
 const projects = [];
 
-export async function getEducationProjects(req, res) {
+router.get('/projects', (req, res) => {
   res.json({ projects });
-}
+});
 
-export async function createEducationProject(req, res) {
+router.post('/projects', (req, res) => {
   const project = { id: uuidv4(), ...req.body };
   projects.push(project);
   res.status(201).json({ project });
-}
+});
 
-export async function updateEducationProject(req, res) {
+router.put('/projects/:id', (req, res) => {
   const idx = projects.findIndex(p => p.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Not found' });
   projects[idx] = { ...projects[idx], ...req.body };
   res.json({ project: projects[idx] });
-}
+});
 
-export async function deleteEducationProject(req, res) {
+router.delete('/projects/:id', (req, res) => {
   const idx = projects.findIndex(p => p.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Not found' });
   const deleted = projects.splice(idx, 1);
   res.json({ deleted });
-}
+});
+
+// Exemple de données en mémoire
+let cours = [
+  { id: 1, titre: 'Mathématiques', description: 'Cours de maths', niveau: 'L1', enseignant_id: 1 }
+];
+
+router.get('/cours', (req, res) => {
+  res.json(cours);
+});
+
+router.post('/cours', (req, res) => {
+  const nouveauCours = req.body;
+  cours.push(nouveauCours);
+  res.json(nouveauCours);
+});
+
+export default router;

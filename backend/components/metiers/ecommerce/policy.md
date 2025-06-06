@@ -1,21 +1,26 @@
-# E-Commerce – Sicherheits- und Compliance-Policy
+# Environnement – Politique de sécurité et conformité (Dihya Coding)
 
-- **RBAC**: Rollenbasiert (admin, shop-besitzer, kunde, gast)
-- **JWT**: Starke Authentifizierung, kurze Gültigkeit, Rotation
-- **CORS**: Strenge Ursprünge, restriktive Header
-- **Validierung**: Strikte Schemata, Anti-Injection, Anti-XSS
-- **Audit**: Strukturierte Logs, RGPD-Export, Anonymisierung
-- **WAF**: Anti-DDOS, IP-Filter, Anomalie-Erkennung
-- **RGPD**: Explizite Einwilligung, Recht auf Vergessen, Portabilität
-- **SEO**: Metadaten, Sitemap, robots.txt, strukturierte Logs
-- **i18n**: Automatische Erkennung, Fallback, barrierefrei
-- **Plugins**: Dynamisches Laden, Sandbox, Auditierbarkeit
+- **RBAC** : Accès par rôle (admin, opérateur, invité)
+- **JWT** : Authentification forte, expiration courte, rotation
+- **CORS** : Origines restreintes, headers stricts
+- **Validation** : Schémas stricts, anti-injection, anti-XSS
+- **Audit** : Journalisation structurée, export RGPD, anonymisation
+- **WAF** : Protection anti-DDOS, filtrage IP, détection d’anomalies
+- **RGPD** : Consentement explicite, droit à l’oubli, portabilité
+- **SEO** : Métadonnées, sitemap, robots.txt, logs structurés
+- **i18n** : Détection automatique, fallback, accessibilité multilingue
+- **Plugins** : Chargement dynamique, sandbox, auditabilité
+- **Multitenancy** : Isolation stricte, logs séparés, export par tenant
+- **Fallback IA** : Repli automatique sur IA open source en cas d’erreur
+- **Documentation** : Intégrée, multilingue, versionnée
+- **Logs** : Structurés, exportables, auditables
+- **Export/Anonymisation** : RGPD, portabilité, suppression sécurisée
+- **CI/CD** : Tests, audit, déploiement automatisé
 
-## Beispielregeln
-- Gäste dürfen keine Bestellungen anlegen/ändern/löschen
-- Kunden dürfen eigene Bestellungen verwalten
-- Shop-Besitzer dürfen ihren Shop verwalten
-- Admins dürfen alles verwalten, exportieren, auditieren
+## Exemples de règles
+- Un invité ne peut pas créer/modifier/supprimer une alerte
+- Un opérateur peut gérer ses propres alertes
+- Un admin peut tout gérer, exporter, auditer
 
 ---
-© 2024 Dihya Coding. Open Source. GDPR-konform.
+© 2025 Dihya Coding. Open Source. RGPD-compliant.

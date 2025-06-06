@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "nom": "Zone humide protégée",
+  "description": "Exemple de zone environnementale pour les tests (RGPD, audit, multilingue, plugins, CI/CD).",
+  "type": "zone",
+  "statut": "actif",
+  "date_creation": "2025-06-02T00:00:00Z",
+  "date_modification": "2025-06-02T00:00:00Z",
+  "audit": {
+    "created_by": "test_admin",
+    "created_at": "2025-06-02T00:00:00Z",
+    "rgpd": true,
+    "plugins": [
+      "sample_plugin"
+    ],
+    "i18n": [
+      "fr",
+      "en",
+      "ar"
+    ]
+  }
+}

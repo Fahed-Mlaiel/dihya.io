@@ -1,6 +1,6 @@
-# Recherche – Politique de sécurité et conformité (Dihya Coding)
+# Environnement – Politique de sécurité et conformité (Dihya Coding)
 
-- **RBAC** : Accès par rôle (admin, chercheur, invité)
+- **RBAC** : Accès par rôle (admin, opérateur, invité)
 - **JWT** : Authentification forte, expiration courte, rotation
 - **CORS** : Origines restreintes, headers stricts
 - **Validation** : Schémas stricts, anti-injection, anti-XSS
@@ -18,8 +18,8 @@
 - **CI/CD** : Tests, audit, déploiement automatisé
 
 ## Exemples de règles
-- Un invité ne peut pas lancer de recherche avancée
-- Un chercheur peut gérer ses propres recherches
+- Un invité ne peut pas créer/modifier/supprimer une alerte
+- Un opérateur peut gérer ses propres alertes
 - Un admin peut tout gérer, exporter, auditer
 
 ---

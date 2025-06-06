@@ -1,0 +1,55 @@
+{
+  "description": "Services de test pour le métier Agriculture (ultra avancé, multilingue, RGPD, audit, CI/CD)",
+  "services": [
+    {
+      "id": 1,
+      "nom": {
+        "fr": "Exploitation Demo",
+        "en": "Demo Farm",
+        "ar": "مزرعة تجريبية"
+      },
+      "type": "bio",
+      "superficie": 42.5,
+      "localisation": "Kabylie",
+      "cultures": [
+        "blé",
+        "olives"
+      ],
+      "propriétaire": "user1",
+      "date_creation": "2025-05-01T10:00:00Z",
+      "audit": {
+        "created_by": "admin",
+        "created_at": "2025-05-01T10:00:00Z"
+      },
+      "rgpd": {
+        "consentement": true,
+        "anonymise": false
+      }
+    },
+    {
+      "id": 2,
+      "nom": {
+        "fr": "Exploitation IA",
+        "en": "AI Farm",
+        "ar": "مزرعة الذكاء الاصطناعي"
+      },
+      "type": "intensive",
+      "superficie": 120.0,
+      "localisation": "Oran",
+      "cultures": [
+        "tomates",
+        "fraises"
+      ],
+      "propriétaire": "user2",
+      "date_creation": "2025-05-02T11:00:00Z",
+      "audit": {
+        "created_by": "admin",
+        "created_at": "2025-05-02T11:00:00Z"
+      },
+      "rgpd": {
+        "consentement": true,
+        "anonymise": false
+      }
+    }
+  ]
+}

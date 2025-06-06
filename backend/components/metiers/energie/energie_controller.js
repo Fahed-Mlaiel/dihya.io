@@ -16,42 +16,71 @@
  */
 
 import { v4 as uuidv4 } from 'uuid';
-
-/**
- * @typedef {Object} EnergieProject
- * @property {string} id - Identifiant unique du projet
- * @property {string} name - Nom du projet
- * @property {string} description - Description multilingue
- * @property {string} type - Type de projet
- * @property {string} owner - ID du propriétaire
- * @property {string} tenant - ID du tenant
- * @property {string} createdAt - Date ISO de création
- * @property {string} updatedAt - Date ISO de modification
- * @property {Object} [aiMetadata] - Métadonnées IA (optionnel)
- */
+import { accessibilityCheck, aiSuggest, anonymize, auditLog, exportData, i18n, pluginHook, rbacCheck, seoLog, tenantCheck, validateInput } from '../../../../middleware/ultra_advanced.js';
 
 const projects = [];
 
+/**
+ * Liste tous les projets Energie (avec audit, i18n, accessibilité, SEO, plugins)
+ */
 export async function getEnergieProjects(req, res) {
-  res.json({ projects });
+  auditLog('energie_list', req.user, req.tenant);
+  accessibilityCheck(req, 'energie_list');
+  seoLog('energie_list', req);
+  pluginHook('beforeList', req, projects);
+  res.json({ projects: projects.map(p => i18n(p, req.lang)) });
 }
 
+/**
+ * Crée un projet Energie (validation, RGPD, plugins, audit, IA, multitenancy)
+ */
 export async function createEnergieProject(req, res) {
-  const project = { id: uuidv4(), ...req.body };
+  rbacCheck(req.user, ['admin', 'ingénieur']);
+  tenantCheck(req.user, req.body.tenant);
+  validateInput(req.body, 'EnergieProject');
+  const aiMeta = aiSuggest('energie', req.body);
+  const project = { id: uuidv4(), ...req.body, aiMetadata: aiMeta, createdAt: new Date().toISOString(), updatedAt: new Date().toISOString() };
   projects.push(project);
-  res.status(201).json({ project });
+  auditLog('energie_create', req.user, req.tenant, project);
+  pluginHook('afterCreate', req, project);
+  res.status(201).json({ project: i18n(project, req.lang) });
 }
 
+/**
+ * Met à jour un projet Energie (validation, RGPD, plugins, audit, multitenancy)
+ */
 export async function updateEnergieProject(req, res) {
+  rbacCheck(req.user, ['admin', 'ingénieur']);
+  tenantCheck(req.user, req.body.tenant);
+  validateInput(req.body, 'EnergieProject');
   const idx = projects.findIndex(p => p.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Not found' });
-  projects[idx] = { ...projects[idx], ...req.body };
-  res.json({ project: projects[idx] });
+  projects[idx] = { ...projects[idx], ...req.body, updatedAt: new Date().toISOString() };
+  auditLog('energie_update', req.user, req.tenant, projects[idx]);
+  pluginHook('afterUpdate', req, projects[idx]);
+  res.json({ project: i18n(projects[idx], req.lang) });
 }
 
+/**
+ * Supprime un projet Energie (audit, RGPD, anonymisation, plugins)
+ */
 export async function deleteEnergieProject(req, res) {
+  rbacCheck(req.user, ['admin']);
   const idx = projects.findIndex(p => p.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Not found' });
-  const deleted = projects.splice(idx, 1);
+  const deleted = anonymize(projects.splice(idx, 1)[0]);
+  auditLog('energie_delete', req.user, req.tenant, deleted);
+  pluginHook('afterDelete', req, deleted);
   res.json({ deleted });
+}
+
+/**
+ * Exporte les projets Energie (RGPD, audit, plugins)
+ */
+export async function exportEnergieProjects(req, res) {
+  rbacCheck(req.user, ['admin', 'ingénieur']);
+  auditLog('energie_export', req.user, req.tenant);
+  const data = exportData(projects, req.lang);
+  pluginHook('afterExport', req, data);
+  res.attachment('energie_projects.json').json(data);
 }

@@ -1,47 +1,26 @@
-# Politique de sécurité avancée pour Dihya Coding
+# Environnement – Politique de sécurité et conformité (Dihya Coding)
 
-## Objectif
-Garantir la sécurité maximale des modules métiers IA, VR, AR, etc. selon les standards internationaux (OWASP, RGPD, NIST).
-
-## Principes
-- CORS strict, JWT, validation forte, audit, WAF, anti-DDOS, logs structurés.
-- Séparation des rôles (admin, user, invité), multitenancy.
-- Conformité RGPD, anonymisation, exportabilité.
-- Plugins de sécurité extensibles (API/CLI).
+- **RBAC** : Accès par rôle (admin, opérateur, invité)
+- **JWT** : Authentification forte, expiration courte, rotation
+- **CORS** : Origines restreintes, headers stricts
+- **Validation** : Schémas stricts, anti-injection, anti-XSS
+- **Audit** : Journalisation structurée, export RGPD, anonymisation
+- **WAF** : Protection anti-DDOS, filtrage IP, détection d’anomalies
+- **RGPD** : Consentement explicite, droit à l’oubli, portabilité
+- **SEO** : Métadonnées, sitemap, robots.txt, logs structurés
+- **i18n** : Détection automatique, fallback, accessibilité multilingue
+- **Plugins** : Chargement dynamique, sandbox, auditabilité
+- **Multitenancy** : Isolation stricte, logs séparés, export par tenant
+- **Fallback IA** : Repli automatique sur IA open source en cas d’erreur
+- **Documentation** : Intégrée, multilingue, versionnée
+- **Logs** : Structurés, exportables, auditables
+- **Export/Anonymisation** : RGPD, portabilité, suppression sécurisée
+- **CI/CD** : Tests, audit, déploiement automatisé
 
 ## Exemples de règles
-- Accès API : JWT + RBAC + IP whitelisting.
-- Audit : journalisation horodatée, export CSV/JSON.
-- Validation : schémas JSON, anti-injection, anti-XSS.
-- Fallback IA : isolation, sandboxing, monitoring.
-
-## Internationalisation
-- Politique traduite (fr, en, ar, de, zh, ja, ko, nl, he, fa, hi, es, amazigh).
-
-## Mise à jour
-- Revue trimestrielle, audit externe annuel.
+- Un invité ne peut pas créer/modifier/supprimer une alerte
+- Un opérateur peut gérer ses propres alertes
+- Un admin peut tout gérer, exporter, auditer
 
 ---
-
-# Advanced Security Policy for Dihya Coding
-
-## Purpose
-Ensure maximum security for business modules (AI, VR, AR, etc.) according to international standards (OWASP, GDPR, NIST).
-
-## Principles
-- Strict CORS, JWT, strong validation, audit, WAF, anti-DDOS, structured logs.
-- Role separation (admin, user, guest), multitenancy.
-- GDPR compliance, anonymization, exportability.
-- Extensible security plugins (API/CLI).
-
-## Example Rules
-- API access: JWT + RBAC + IP whitelisting.
-- Audit: timestamped logging, CSV/JSON export.
-- Validation: JSON schemas, anti-injection, anti-XSS.
-- AI fallback: isolation, sandboxing, monitoring.
-
-## Internationalization
-- Policy translated (fr, en, ar, de, zh, ja, ko, nl, he, fa, hi, es, amazigh).
-
-## Update
-- Quarterly review, annual external audit.
+© 2025 Dihya Coding. Open Source. RGPD-compliant.

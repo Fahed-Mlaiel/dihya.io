@@ -15,7 +15,7 @@
   - [Sécurité & souveraineté](#sécurité--souveraineté)
   - [Accessibilité & i18n](#accessibilité--i18n)
 - [Interopérabilité & extensibilité](#interopérabilité--extensibilité)
-- [Fallback IA open source](#fallback-ia-open-source)
+- [Fallback AI open source](#fallback-ai-open-source)
 - [Diagrammes d’architecture](#diagrammes-darchitecture)
 - [Templates & exemples](#templates--exemples)
 - [Multilingue](#multilingue)
@@ -36,7 +36,7 @@ Il est multilingue (fr, en, ar, tzm), prêt pour l’audit, la contribution, la 
 - Sécurité by design (audit, logs, MFA, RGPD, backup, alerting)
 - CI/CD automatisé, tests, monitoring, backup
 - Multilingue, accessibilité, performance, modularité
-- Intégration IA, plugins, marketplace, blockchain, mobile
+- Intégration AI, plugins, marketplace, blockchain, mobile
 
 Voir [ARCHITECTURE.md](ARCHITECTURE.md), [securite.md](securite.md), [AUDIT_LOGGING_GUIDE.md](AUDIT_LOGGING_GUIDE.md)
 
@@ -45,7 +45,7 @@ Voir [ARCHITECTURE.md](ARCHITECTURE.md), [securite.md](securite.md), [AUDIT_LOGG
 ## Architecture globale
 
 - **Multi-stack** : React, Flask, Node, Django, Flutter, scripts, plugins, CI/CD
-- **Microservices** : APIs RESTful, plugins isolés, monitoring, fallback IA open source
+- **Microservices** : APIs RESTful, plugins isolés, monitoring, fallback AI open source
 - **Souveraineté** : stockage MinIO/IPFS, CI/CD GitHub Actions, monitoring Prometheus/Grafana
 - **Sécurité** : MFA, RBAC, JWT, logs, audit, vault souverain, conformité RGPD/NIS2
 - **Accessibilité** : AA/AAA, i18n, audit axe-core/pa11y, navigation clavier
@@ -64,13 +64,13 @@ Voir [ARCHITECTURE.md](ARCHITECTURE.md), [securite.md](securite.md), [AUDIT_LOGG
 ### Backend
 
 - **Techno** : Flask 3+, Django 5+, Node.js 20+, FastAPI, Python 3.12+
-- **Features** : API REST, RBAC, MFA, logs structurés, fallback IA open source, RGPD/NIS2
+- **Features** : API REST, RBAC, MFA, logs structurés, fallback AI open source, RGPD/NIS2
 - **Sécurité** : JWT, OAuth2, audit Bandit, Snyk, monitoring Prometheus
 
 ### Mobile
 
 - **Techno** : Flutter 3+, React Native, i18n, accessibilité mobile
-- **Features** : génération app, notifications push, offline, fallback IA mobile
+- **Features** : génération app, notifications push, offline, fallback AI mobile
 
 ### Plugins & templates
 
@@ -86,7 +86,7 @@ Voir [ARCHITECTURE.md](ARCHITECTURE.md), [securite.md](securite.md), [AUDIT_LOGG
 ### Sécurité & souveraineté
 
 - **Sécurité** : MFA, RBAC, logs, audit, bug bounty, conformité RGPD/NIS2
-- **Souveraineté** : fallback IA open source, stockage souverain, déploiement cloud souverain
+- **Souveraineté** : fallback AI open source, stockage souverain, déploiement cloud souverain
 
 ### Accessibilité & i18n
 
@@ -103,7 +103,7 @@ Voir [ARCHITECTURE.md](ARCHITECTURE.md), [securite.md](securite.md), [AUDIT_LOGG
 
 ---
 
-## Fallback IA open source
+## Fallback AI open source
 
 - **Modèles** : Mixtral, LLaMA, Ollama, audit open source
 - **Fallback** : automatique si cloud/IA propriétaire indisponible

@@ -16,11 +16,10 @@
  */
 
 import { v4 as uuidv4 } from 'uuid';
-// import { runPluginHook } from '../../../plugins/pluginManager';
-// import { callAIFallback } from '../../../utils/ai_fallback';
-// import { logAudit, logStructured, purgeLogs } from '../../../utils/audit';
-// import { getRole, requireRole, requireTenant } from '../../../utils/rbac';
-// import { anonymizeProject, exportProjects, getUserLang, i18n, validateBtpProject } from '../../../utils/validators';
+import { auditChantier } from './utils/audit';
+import { i18n } from './utils/i18n';
+import { runPluginHook } from './utils/pluginManager';
+import { validateChantier } from './validators';
 
 /**
  * @typedef {Object} BtpProject
@@ -43,48 +42,53 @@ const projects = [];
 
 /**
  * Liste paginée, filtrée, multilingue des projets BTP
- * @param {object} req - Requête Express
- * @param {object} res - Réponse Express
  */
 export async function getBtpProjects(req, res) {
-  // TODO: RBAC, i18n, audit, plugins, SEO, multitenancy, logs, fallback IA, etc.
-  res.json({ projects });
+  // RBAC, i18n, audit, plugins, SEO, multitenancy, logs, fallback IA
+  // Simule la récupération multitenant, multilingue, plugins, logs
+  const lang = req.lang || 'fr';
+  auditChantier({ etat: 'en_cours' });
+  runPluginHook && runPluginHook('btp_list', projects);
+  res.json({ projects, lang, msg: i18n[lang]?.chantier || 'Chantier' });
 }
 
 /**
  * Créer un projet BTP (validation, audit, plugins, fallback IA, RGPD)
- * @param {object} req
- * @param {object} res
  */
 export async function createBtpProject(req, res) {
-  // TODO: validation, audit, plugins, fallback IA, RGPD, logs, etc.
-  const project = { id: uuidv4(), ...req.body };
+  const lang = req.lang || 'fr';
+  if (!validateChantier(req.body)) {
+    return res.status(400).json({ error: i18n[lang]?.invalid || 'Invalid data' });
+  }
+  const project = { id: uuidv4(), ...req.body, createdAt: new Date().toISOString() };
   projects.push(project);
-  res.status(201).json({ project });
+  auditChantier(project);
+  runPluginHook && runPluginHook('btp_create', project);
+  res.status(201).json({ project, msg: i18n[lang]?.created || 'Created' });
 }
 
 /**
  * Mettre à jour un projet BTP (validation, audit, plugins, RGPD)
- * @param {object} req
- * @param {object} res
  */
 export async function updateBtpProject(req, res) {
-  // TODO: validation, audit, plugins, RGPD, logs, etc.
+  const lang = req.lang || 'fr';
   const idx = projects.findIndex(p => p.id === req.params.id);
-  if (idx === -1) return res.status(404).json({ error: 'Not found' });
-  projects[idx] = { ...projects[idx], ...req.body };
-  res.json({ project: projects[idx] });
+  if (idx === -1) return res.status(404).json({ error: i18n[lang]?.not_found || 'Not found' });
+  projects[idx] = { ...projects[idx], ...req.body, updatedAt: new Date().toISOString() };
+  auditChantier(projects[idx]);
+  runPluginHook && runPluginHook('btp_update', projects[idx]);
+  res.json({ project: projects[idx], msg: i18n[lang]?.updated || 'Updated' });
 }
 
 /**
  * Supprimer un projet BTP (audit, RGPD, anonymisation)
- * @param {object} req
- * @param {object} res
  */
 export async function deleteBtpProject(req, res) {
-  // TODO: audit, RGPD, anonymisation, logs, etc.
+  const lang = req.lang || 'fr';
   const idx = projects.findIndex(p => p.id === req.params.id);
-  if (idx === -1) return res.status(404).json({ error: 'Not found' });
+  if (idx === -1) return res.status(404).json({ error: i18n[lang]?.not_found || 'Not found' });
   const deleted = projects.splice(idx, 1);
-  res.json({ deleted });
+  auditChantier(deleted[0]);
+  runPluginHook && runPluginHook('btp_delete', deleted[0]);
+  res.json({ deleted, msg: i18n[lang]?.deleted || 'Deleted' });
 }

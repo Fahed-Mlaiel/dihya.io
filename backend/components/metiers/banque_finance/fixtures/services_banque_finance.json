@@ -1,0 +1,48 @@
+[
+  {
+    "service": "gestion_compte",
+    "description": {
+      "fr": "Gestion des comptes bancaires",
+      "en": "Bank account management",
+      "ar": "إدارة الحسابات البنكية"
+    },
+    "plugins": [
+      "audit",
+      "rgpd"
+    ],
+    "audit": {
+      "event": "service_access",
+      "timestamp": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "service": "analyse_risque",
+    "description": {
+      "fr": "Analyse de risque crédit",
+      "en": "Credit risk analysis",
+      "ar": "تحليل مخاطر الائتمان"
+    },
+    "plugins": [
+      "accessibility"
+    ],
+    "audit": {
+      "event": "service_access",
+      "timestamp": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "service": "export_rgpd",
+    "description": {
+      "fr": "Export RGPD des données bancaires",
+      "en": "GDPR export of banking data",
+      "ar": "تصدير بيانات البنك وفق RGPD"
+    },
+    "plugins": [
+      "rgpd"
+    ],
+    "audit": {
+      "event": "export",
+      "timestamp": "2025-06-01T00:00:00Z"
+    }
+  }
+]

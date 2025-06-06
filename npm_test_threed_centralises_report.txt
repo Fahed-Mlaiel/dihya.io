@@ -1,0 +1,13 @@
+
+> test
+> jest --config jest.config.js --runInBand --detectOpenHandles --forceExit --silent
+
+Error: Can't find a root directory while resolving a config file path.
+Provided path to resolve: jest.config.js
+cwd: /workspaces/dihya.io
+    at resolveConfigPath (/workspaces/dihya.io/node_modules/jest-config/build/resolveConfigPath.js:123:11)
+    at readInitialOptions (/workspaces/dihya.io/node_modules/jest-config/build/index.js:386:55)
+    at readConfig (/workspaces/dihya.io/node_modules/jest-config/build/index.js:147:54)
+    at readConfigs (/workspaces/dihya.io/node_modules/jest-config/build/index.js:424:32)
+    at runCLI (/workspaces/dihya.io/node_modules/@jest/core/build/cli/index.js:152:29)
+    at Object.run (/workspaces/dihya.io/node_modules/jest-cli/build/run.js:130:62)

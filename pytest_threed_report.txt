@@ -1,0 +1,42 @@
+/usr/local/python/3.12.1/lib/python3.12/site-packages/pytest_asyncio/plugin.py:217: PytestDeprecationWarning: The configuration option "asyncio_default_fixture_loop_scope" is unset.
+The event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: "function", "class", "module", "package", "session"
+
+  warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
+============================= test session starts ==============================
+platform linux -- Python 3.12.1, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/python/3.12.1/bin/python3
+cachedir: .pytest_cache
+django: version: 5.2.2, settings: backend.django.settings (from ini)
+rootdir: /workspaces/dihya.io
+configfile: pytest.ini
+plugins: anyio-4.9.0, asyncio-0.26.0, django-4.11.1, flask-1.3.0, cov-6.1.1, mock-3.14.0
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 26 items
+
+backend/components/metiers/threed/fixtures/helpers/helpers/test_helpers.py::test_import_helpers_py PASSED [  3%]
+backend/components/metiers/threed/fixtures/helpers/helpers/test_helpers.py::test_import_validators_py PASSED [  7%]
+backend/components/metiers/threed/fixtures/helpers/validators/test_validators.py::test_is_valid_3d_model PASSED [ 11%]
+backend/components/metiers/threed/fixtures/helpers/validators/test_validators.py::test_is_valid_user PASSED [ 15%]
+backend/components/metiers/threed/fixtures/helpers/validators/test_validators.py::test_is_fixture_accessible PASSED [ 19%]
+backend/components/metiers/threed/tests/api/test_api.py::test_list_threeds PASSED [ 23%]
+backend/components/metiers/threed/tests/api/test_api.py::test_create_threed PASSED [ 26%]
+backend/components/metiers/threed/tests/guides/test_guides.py::test_guides_presence PASSED [ 30%]
+backend/components/metiers/threed/tests/guides/test_guides.py::test_guides_content PASSED [ 34%]
+backend/components/metiers/threed/tests/legacy/test_legacy.py::test_legacy_migration PASSED [ 38%]
+backend/components/metiers/threed/tests/legacy/test_legacy.py::test_legacy_alert PASSED [ 42%]
+backend/components/metiers/threed/tests/rgpd/test_rgpd.py::test_anonymisation_export PASSED [ 46%]
+backend/components/metiers/threed/tests/rgpd/test_rgpd.py::test_consentement PASSED [ 50%]
+backend/components/metiers/threed/tests/samples/sample_test.py::test_api_service_ping PASSED [ 53%]
+backend/components/metiers/threed/tests/samples/sample_test.py::test_service_audit_action PASSED [ 57%]
+backend/components/metiers/threed/tests/security/test_accessibility.py::test_accessibility_labels PASSED [ 61%]
+backend/components/metiers/threed/tests/security/test_accessibility.py::test_accessibility_alt_text PASSED [ 65%]
+backend/components/metiers/threed/tests/security/test_security.py::test_rbac_admin PASSED [ 69%]
+backend/components/metiers/threed/tests/security/test_security.py::test_rbac_guest PASSED [ 73%]
+backend/components/metiers/threed/tests/security/test_security.py::test_injection_protection PASSED [ 76%]
+backend/components/metiers/threed/tests/services/test_services.py::test_services_threed_structure PASSED [ 80%]
+backend/components/metiers/threed/tests/services/test_services.py::test_services_threed_sample PASSED [ 84%]
+backend/components/metiers/threed/tests/templates/test_templates.py::test_templates_exist PASSED [ 88%]
+backend/components/metiers/threed/tests/templates/test_templates.py::test_template_rendering PASSED [ 92%]
+backend/components/metiers/threed/views/router/test_router.py::test_list_threeds PASSED [ 96%]
+backend/components/metiers/threed/views/router/test_router.py::test_create_threed PASSED [100%]
+
+======================== 26 passed, 3 warnings in 0.85s ========================

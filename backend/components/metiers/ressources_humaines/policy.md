@@ -1,5 +1,6 @@
-# RH – Politique de sécurité et conformité (Dihya Coding)
-- **RBAC** : Accès par rôle (admin, RH, invité)
+# Environnement – Politique de sécurité et conformité (Dihya Coding)
+
+- **RBAC** : Accès par rôle (admin, opérateur, invité)
 - **JWT** : Authentification forte, expiration courte, rotation
 - **CORS** : Origines restreintes, headers stricts
 - **Validation** : Schémas stricts, anti-injection, anti-XSS
@@ -15,9 +16,11 @@
 - **Logs** : Structurés, exportables, auditables
 - **Export/Anonymisation** : RGPD, portabilité, suppression sécurisée
 - **CI/CD** : Tests, audit, déploiement automatisé
+
 ## Exemples de règles
-- Un invité ne peut pas créer/modifier/supprimer un employé
-- Un RH peut gérer ses propres employés
+- Un invité ne peut pas créer/modifier/supprimer une alerte
+- Un opérateur peut gérer ses propres alertes
 - Un admin peut tout gérer, exporter, auditer
+
 ---
 © 2025 Dihya Coding. Open Source. RGPD-compliant.

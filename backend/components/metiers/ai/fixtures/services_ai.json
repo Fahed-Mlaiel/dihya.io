@@ -1,0 +1,97 @@
+{
+  "services": [
+    {
+      "name": "ai_service_1",
+      "desc": "Service IA exemple 1",
+      "lang": [
+        "fr",
+        "en",
+        "ar"
+      ],
+      "rgpd": true,
+      "plugins": [
+        "audit",
+        "anonymisation"
+      ],
+      "audit": {
+        "enabled": true,
+        "level": "full"
+      },
+      "tenant": "org1",
+      "monitoring": {
+        "prometheus": true,
+        "grafana": true
+      },
+      "fallback": "llama2",
+      "hooks": [
+        "onCreate",
+        "onExport",
+        "onAnonymize"
+      ]
+    },
+    {
+      "name": "ai_service_2",
+      "desc": "Service IA exemple 2",
+      "lang": [
+        "fr",
+        "en"
+      ],
+      "rgpd": true,
+      "plugins": [
+        "reporting"
+      ],
+      "audit": {
+        "enabled": true,
+        "level": "partial"
+      },
+      "tenant": "org2",
+      "monitoring": {
+        "prometheus": false,
+        "grafana": true
+      },
+      "fallback": "gpt-j",
+      "hooks": [
+        "onExport"
+      ]
+    },
+    {
+      "name": "ai_service_3",
+      "desc": "Service IA ultra avancé, multitenant, multilingue, RGPD, plugins, audit, extension, monitoring, fallback, hooks métier.",
+      "lang": [
+        "fr",
+        "en",
+        "ar",
+        "tzm",
+        "de"
+      ],
+      "rgpd": true,
+      "plugins": [
+        "audit",
+        "anonymisation",
+        "reporting",
+        "seo",
+        "accessibility"
+      ],
+      "audit": {
+        "enabled": true,
+        "level": "full",
+        "export": true
+      },
+      "tenant": "org3",
+      "monitoring": {
+        "prometheus": true,
+        "grafana": true,
+        "custom": true
+      },
+      "fallback": "custom_open_source_model",
+      "hooks": [
+        "onCreate",
+        "onExport",
+        "onAnonymize",
+        "onPluginRun",
+        "onAudit",
+        "onSEO"
+      ]
+    }
+  ]
+}

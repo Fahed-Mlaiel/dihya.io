@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.1, pytest-8.4.0, pluggy-1.6.0 -- /usr/local/python/3.12.1/bin/python3
+cachedir: .pytest_cache
+django: version: 5.2.1, settings: backend.django.settings (from ini)
+rootdir: /workspaces/dihya.io
+configfile: pytest.ini
+plugins: anyio-4.9.0, django-4.11.1
+collecting ... collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+_ ERROR collecting backend/components/metiers/threed/tests/templates/test_templates.py _
+ImportError while importing test module '/workspaces/dihya.io/backend/components/metiers/threed/tests/templates/test_templates.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/local/python/3.12.1/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend/components/metiers/threed/tests/__init__.py:5: in <module>
+    from . import api, fixtures, guides, integration, legacy, plugins, rgpd, security, services, templates, utils
+backend/components/metiers/threed/tests/utils/__init__.py:6: in <module>
+    from .core import core_utils
+backend/components/metiers/threed/tests/utils/core/__init__.py:2: in <module>
+    from .core_utils import *
+E   ModuleNotFoundError: No module named 'threed.tests.utils.core.core_utils'
+=========================== short test summary info ============================
+ERROR backend/components/metiers/threed/tests/templates/test_templates.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.46s ===============================

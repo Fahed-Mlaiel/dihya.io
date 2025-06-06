@@ -22,6 +22,7 @@ import uuid
 import datetime
 
 from .base import ThreeDPluginBase, plugin_manager
+from .industrie_plugin import Industrie3DPlugin
 
 PLUGINS: Dict[str, Any] = {}
 PLUGINS_LOCK = threading.Lock()
@@ -71,6 +72,29 @@ def plugin_info(name: str, lang: str = 'fr') -> Dict[str, Any]:
             'created_at': plugin['created_at'],
             'uuid': plugin['uuid']
         }
+
+# Endpoint API pour lister et exécuter dynamiquement les plugins 3D
+from django.http import JsonResponse
+from django.views.decorators.http import require_GET, require_POST
+from django.views.decorators.csrf import csrf_exempt
+import json
+
+@require_GET
+def list_plugins(request):
+    from . import PLUGINS
+    return JsonResponse({'plugins': list(PLUGINS.keys())})
+
+@csrf_exempt
+@require_POST
+def run_plugin(request):
+    data = json.loads(request.body)
+    plugin_name = data.get('plugin')
+    params = data.get('params', {})
+    plugin = get_plugin(plugin_name)
+    if not plugin:
+        return JsonResponse({'error': 'Plugin not found'}, status=404)
+    result = plugin.process(params, user=str(request.user), lang=request.LANGUAGE_CODE)
+    return JsonResponse({'result': result})
 
 # Exemple de plugin ultra avancé (template)
 class Base3DPlugin:

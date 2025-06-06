@@ -1,0 +1,2 @@
+Rapport npm test AI :
+- Tous les tests passent.

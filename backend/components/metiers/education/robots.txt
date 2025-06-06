@@ -1,4 +1,4 @@
-# robots.txt – Education (Dihya Coding)
+# robots.txt – Environnement (SEO multitenant, multilingue)
 User-agent: *
 Disallow:
-Sitemap: /backend/components/metiers/education/sitemap.xml
+Sitemap: /backend/components/metiers/environnement/sitemap.xml

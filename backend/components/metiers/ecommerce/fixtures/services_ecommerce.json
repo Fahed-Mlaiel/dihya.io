@@ -1,0 +1,14 @@
+{
+  "services": [
+    "paiement",
+    "livraison",
+    "catalogue",
+    "panier",
+    "commande",
+    "audit",
+    "rgpd",
+    "plugins",
+    "export",
+    "ia_fallback"
+  ]
+}

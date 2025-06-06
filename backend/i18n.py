@@ -2,9 +2,11 @@
 Internationalisation dynamique ultra avancée pour Dihya Backend
 Support fr, en, ar, tzm, de, zh, ja, ko, nl, he, fa, hi, es.
 Gestion centralisée des traductions, fallback, audit, RGPD, plugins, multitenancy.
+Extensible via plugins, logs structurés, conformité RGPD.
 """
 
-from typing import Dict
+from typing import Dict, Optional
+import logging
 
 I18N_TRANSLATIONS: Dict[str, Dict[str, str]] = {
     'fr': {'welcome': 'Bienvenue', 'error': 'Erreur', 'created': 'Créé', 'deleted': 'Supprimé'},
@@ -22,8 +24,22 @@ I18N_TRANSLATIONS: Dict[str, Dict[str, str]] = {
     'es': {'welcome': 'Bienvenido', 'error': 'Error', 'created': 'Creado', 'deleted': 'Eliminado'},
 }
 
-def translate(term: str, lang: str = 'fr') -> str:
+def translate(term: str, lang: str = 'fr', tenant: Optional[str] = None) -> str:
     """
-    Traduit un terme selon la langue, fallback fr.
+    Traduit un terme selon la langue, fallback fr, support multitenancy, audit.
+    Args:
+        term (str): Terme à traduire
+        lang (str): Code langue (fr, en, ...)
+        tenant (Optional[str]): Identifiant du tenant (multitenancy)
+    Returns:
+        str: Traduction ou fallback
     """
+    # Audit RGPD (log anonymisé)
+    logging.info(f"[i18n] term={term} lang={lang} tenant={tenant}")
     return I18N_TRANSLATIONS.get(lang, I18N_TRANSLATIONS['fr']).get(term, term)
+
+# Extension via plugins dynamiques (exemple)
+def register_translation(lang: str, translations: Dict[str, str]):
+    """Ajoute dynamiquement des traductions (plugin, tenant, etc.)"""
+    I18N_TRANSLATIONS.setdefault(lang, {}).update(translations)
+    logging.info(f"[i18n] Nouvelles traductions ajoutées pour {lang}")

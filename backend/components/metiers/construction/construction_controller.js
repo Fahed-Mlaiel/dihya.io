@@ -55,3 +55,21 @@ export async function deleteConstructionProject(req, res) {
   const deleted = projects.splice(idx, 1);
   res.json({ deleted });
 }
+
+// Controller Construction ultra avancé (REST, sécurité, i18n, plugins, audit, RGPD, multitenancy)
+const { listChantiers, createChantier, deleteChantier } = require('./api');
+
+exports.getChantier = (req, res) => {
+  // RBAC, audit, plugins, i18n
+  return listChantiers(req, res);
+};
+
+exports.createChantier = (req, res) => {
+  // Validation, audit, plugins, RGPD
+  return createChantier(req, res);
+};
+
+exports.deleteChantier = (req, res) => {
+  // Audit, RGPD, plugins
+  return deleteChantier(req, res);
+};

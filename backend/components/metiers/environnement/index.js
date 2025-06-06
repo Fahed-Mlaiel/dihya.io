@@ -1,9 +1,6 @@
 /*
- * Dihya Coding – Environnement Module
- * Ultra secure, multilingual, extensible, production-ready.
- * Features: REST/GraphQL, CORS, JWT, RBAC, i18n, plugins, AI, SEO, RGPD, audit, tests, CI/CD.
- * Languages: fr, en, ar, amazigh, de, zh, ja, ko, nl, he, fa, hi, es
- *
+ * Dihya Coding – Environnement Module (Ultra avancé, clé en main)
+ * Ultra secure, multilingual, extensible, production-ready, RGPD, audit, plugins, i18n, multitenancy, CI/CD, accessibilité, tests, extension dynamique.
  * @module environnement
  * @author Dihya Team
  * @license AGPL-3.0
@@ -17,13 +14,11 @@ import { createEnvAlert, deleteEnvAlert, getEnvData, updateEnvAlert } from './se
 
 const router = express.Router();
 
-// Middleware sécurité, i18n, audit
+// Middlewares sécurité, i18n, audit, RGPD, multitenancy
 router.use(corsOptions);
 router.use(checkJwt);
 router.use(i18nMiddleware);
 router.use(auditLog);
-
-// RBAC: admin, opérateur, invité
 router.use(rbac(['admin', 'operator', 'guest']));
 
 /**
@@ -76,10 +71,20 @@ router.post('/alerts/ai-detect', async (req, res) => {
   res.json({ anomaly });
 });
 
-// Plugins dynamiques (IoT, open data, analytics)
+// Plugins dynamiques (IoT, open data, analytics, extension métier)
 pluginManager.registerRoutes(router, 'environnement');
 
-// GraphQL endpoint (exemple)
-// ...existing code...
-
+// Export du routeur pour intégration CI/CD, tests, extension, audit
 export default router;
+
+// index.js – Module ultra avancé Environnement (Dihya Coding)
+const api = require('./api');
+const controller = require('./environnement_controller.js');
+const plugin = require('./sample_plugin.js');
+
+module.exports = {
+  api,
+  controller,
+  plugin,
+  // Documentation, i18n, sécurité, RGPD, plugins, multitenancy, audit, accessibilité
+};

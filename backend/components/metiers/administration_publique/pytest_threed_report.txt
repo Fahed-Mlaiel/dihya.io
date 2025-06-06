@@ -1,0 +1,95 @@
+.FFF......F....F..FFF.F.....                                             [100%]
+=================================== FAILURES ===================================
+________________________________ test_create_d3 ________________________________
+
+    def test_create_d3():
+        data = {"nom": "Test 3D", "description": "desc", "type": "objet"}
+        response = client.post("/3d", json=data)
+>       assert response.status_code == 201
+E       assert 200 == 201
+E        +  where 200 = <Response [200 OK]>.status_code
+
+tests/api/test_api.py:19: AssertionError
+_____________________________ test_guides_presence _____________________________
+
+    def test_guides_presence():
+        guides_dir = os.path.dirname(__file__).replace('tests', 'guides')
+>       guides = [f for f in os.listdir(guides_dir) if f.endswith('.md')]
+                             ^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/workspaces/dihya.io/backend/components/metiers/threed/guides/guides'
+
+tests/guides/test_guides.py:9: FileNotFoundError
+_____________________________ test_guides_content ______________________________
+
+    def test_guides_content():
+        guides_dir = os.path.dirname(__file__).replace('tests', 'guides')
+        for guide in ['ACCESSIBILITY_GUIDE.md', 'PLUGINS_GUIDE.md', 'RGPD_GUIDE.md']:
+>           with open(os.path.join(guides_dir, guide)) as f:
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           FileNotFoundError: [Errno 2] No such file or directory: '/workspaces/dihya.io/backend/components/metiers/threed/guides/guides/ACCESSIBILITY_GUIDE.md'
+
+tests/guides/test_guides.py:17: FileNotFoundError
+____________________________ test_api_service_ping _____________________________
+
+    def test_api_service_ping():
+>       api = ApiService(options={"mode": "test"})
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: ApiService() takes no arguments
+
+tests/samples/sample_test.py:7: TypeError
+_______________________________ test_rbac_guest ________________________________
+
+    def test_rbac_guest():
+>       assert check_permission('guest', 'read')
+E       AssertionError: assert False
+E        +  where False = check_permission('guest', 'read')
+
+tests/security/test_security.py:14: AssertionError
+_________________________ test_services_threed_sample __________________________
+
+    def test_services_threed_sample():
+>       assert any('threed' in s['name'].lower() or 'threed' in s['environment'].lower() for s in services)
+E       assert False
+E        +  where False = any(<generator object test_services_threed_sample.<locals>.<genexpr> at 0x77d0bc43ac20>)
+
+tests/services/test_services.py:15: AssertionError
+_____________________________ test_templates_exist _____________________________
+
+    def test_templates_exist():
+        templates = list_templates()
+>       assert len(templates) > 0
+E       assert 0 > 0
+E        +  where 0 = len([])
+
+tests/templates/test_templates.py:13: AssertionError
+___________________________ test_template_rendering ____________________________
+
+    def test_template_rendering():
+        env = jinja2.Environment(loader=jinja2.FileSystemLoader(get_templates_dir()))
+>       for tpl_name in os.listdir(get_templates_dir()):
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/workspaces/dihya.io/backend/components/metiers/threed/templates/templates'
+
+tests/templates/test_templates.py:19: FileNotFoundError
+__________________________________ test_i18n ___________________________________
+
+    def test_i18n():
+        assert '[FR]' in i18n('Test', 'fr')
+        assert '[EN]' in i18n('Test', 'en')
+>       assert '[DE]' in i18n('Test', 'de')
+E       AssertionError: assert '[DE]' in 'Test'
+E        +  where 'Test' = i18n('Test', 'de')
+
+tests/utils/core/test_utils.py:19: AssertionError
+=========================== short test summary info ============================
+FAILED tests/api/test_api.py::test_create_d3 - assert 200 == 201
+FAILED tests/guides/test_guides.py::test_guides_presence - FileNotFoundError:...
+FAILED tests/guides/test_guides.py::test_guides_content - FileNotFoundError: ...
+FAILED tests/samples/sample_test.py::test_api_service_ping - TypeError: ApiSe...
+FAILED tests/security/test_security.py::test_rbac_guest - AssertionError: ass...
+FAILED tests/services/test_services.py::test_services_threed_sample - assert ...
+FAILED tests/templates/test_templates.py::test_templates_exist - assert 0 > 0
+FAILED tests/templates/test_templates.py::test_template_rendering - FileNotFo...
+FAILED tests/utils/core/test_utils.py::test_i18n - AssertionError: assert '[D...
+9 failed, 19 passed in 0.57s
+[INFO] PYTHONPATH=/workspaces/dihya.io/backend/components/metiers/threed/tests:

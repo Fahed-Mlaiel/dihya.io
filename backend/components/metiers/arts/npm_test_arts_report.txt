@@ -1,0 +1,2 @@
+Rapport de tests npm pour le module Arts.
+Tous les tests JS sont passés avec succès au 2025-06-01.

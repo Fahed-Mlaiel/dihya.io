@@ -1,0 +1,41 @@
+
+/workspaces/dihya.io/backend/components/metiers/threed/api/db/db.js
+  6:12  warning  'table' is defined but never used  no-unused-vars
+  6:19  warning  'id' is defined but never used     no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/api/hooks/hooks.js
+  2:23  warning  'action' is defined but never used  no-unused-vars
+  2:31  warning  'entity' is defined but never used  no-unused-vars
+  6:22  warning  'action' is defined but never used  no-unused-vars
+  6:30  warning  'entity' is defined but never used  no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/migrations/migration_tools.js
+  7:35  warning  'migrationId' is defined but never used  no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/services/core/controllers/services_controller.js
+  3:7  warning  'service' is assigned a value but never used  no-unused-vars
+  4:7  warning  'helper' is assigned a value but never used   no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/tests/utils/core/__init__.js
+  1:9   warning  'auditLog' is assigned a value but never used      no-unused-vars
+  1:19  warning  'generateId' is assigned a value but never used    no-unused-vars
+  1:31  warning  'deepClone' is assigned a value but never used     no-unused-vars
+  1:42  warning  'isValidEmail' is assigned a value but never used  no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/utils/helpers/fallback/fallback.js
+  13:12  warning  'e' is defined but never used  no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/utils/js/fallback/fallback.js
+  13:12  warning  'e' is defined but never used  no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/utils/validators/fallback/fallback.js
+  9:28  warning  'value' is defined but never used  no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/utils/views/index.js
+  15:14  warning  'e' is defined but never used  no-unused-vars
+
+/workspaces/dihya.io/backend/components/metiers/threed/views/samples/sample_helpers.test.js
+  2:7  warning  'helpers' is assigned a value but never used  no-unused-vars
+
+✖ 18 problems (0 errors, 18 warnings)
+

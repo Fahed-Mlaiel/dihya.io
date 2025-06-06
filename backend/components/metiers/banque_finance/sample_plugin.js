@@ -1,32 +1,23 @@
-"use strict";
-/**
- * @file sample_plugin.js
- * @module backend/components/metiers/banque_finance/sample_plugin
- * @description Exemple de plugin Banque & Finance pour Dihya Coding (audit, i18n, RGPD, extensibilité, sécurité, hooks).
- * @author Dihya Team
- * @license AGPL-3.0
- */
-
-export default {
-  name: 'SampleBanqueFinancePlugin',
-  description: {
-    fr: 'Plugin exemple pour Banque & Finance (audit, RGPD, logs, hooks)',
-    en: 'Sample plugin for Banking & Finance (audit, RGPD, logs, hooks)'
-  },
+// Sample Plugin ultra avancé pour Environnement – Dihya Coding
+module.exports = {
+  name: 'sample-environnement-plugin',
   hooks: {
-    beforeCreate: async (project, req) => {
-      // Exemple : enrichir le projet avec une métadonnée plugin
-      project.pluginNote = 'Ajouté par SampleBanqueFinancePlugin';
+    beforeCreate: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_before_create', ctx });
     },
-    beforeList: async (projects, req) => {
-      // Exemple : filtrer ou enrichir la liste
-      return projects;
+    afterCreate: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_after_create', ctx });
     },
-    beforeUpdate: async (project, req) => {
-      // Exemple : log ou validation supplémentaire
+    beforeDelete: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_before_delete', ctx });
     },
-    beforeDelete: async (project, req) => {
-      // Exemple : audit RGPD avant suppression
-    }
-  }
+    afterDelete: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_after_delete', ctx });
+    },
+  },
+  i18n: ['fr', 'en', 'ar', 'de', 'zh', 'ja', 'ko', 'nl', 'he', 'fa', 'hi', 'es', 'amazigh'],
+  audit: true,
+  rgpd: true,
+  extensible: true,
+  multitenant: true
 };

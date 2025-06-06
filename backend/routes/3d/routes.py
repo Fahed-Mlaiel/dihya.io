@@ -15,6 +15,9 @@ from .plugins import *
 from .audit import *
 from .i18n import *
 from .permissions import *
+from django.http import JsonResponse
+from .i18n import THREED_I18N
+from django.views.decorators.http import require_GET
 
 # RESTful API
 router = DefaultRouter()
@@ -25,6 +28,7 @@ urlpatterns = [
     path('', include(router.urls)),
     # GraphQL endpoint (à brancher sur la stack GraphQL du projet)
     # path('graphql/', GraphQLView.as_view(graphiql=True)),
+    path('threed-locales/', threed_locales, name='threed-locales'),
 ]
 
 # Sécurité avancée, CORS, JWT, audit, WAF, anti-DDOS, RBAC, i18n, RGPD, plugins, multitenancy sont gérés dans les middlewares globaux du projet et dans chaque ViewSet.
@@ -40,3 +44,8 @@ urlpatterns = [
 # RGPD : endpoints d’export/anonymisation disponibles via les permissions et les plugins RGPD.
 
 # Pour toute extension, voir la documentation plugins et la docstring de chaque ViewSet.
+
+# Endpoint pour exposer dynamiquement toutes les langues supportées
+@require_GET
+def threed_locales(request):
+    return JsonResponse({'locales': list(THREED_I18N.keys())})

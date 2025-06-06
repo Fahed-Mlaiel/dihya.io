@@ -1,4 +1,4 @@
-# robots.txt – Science (SEO multitenant, multilingue)
+# robots.txt – Environnement (SEO multitenant, multilingue)
 User-agent: *
 Disallow:
-Sitemap: /backend/components/metiers/science/sitemap.xml
+Sitemap: /backend/components/metiers/environnement/sitemap.xml

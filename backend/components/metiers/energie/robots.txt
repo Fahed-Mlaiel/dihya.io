@@ -1,4 +1,4 @@
-# robots.txt – Energie (Dihya Coding)
+# robots.txt – Environnement (SEO multitenant, multilingue)
 User-agent: *
 Disallow:
-Sitemap: /backend/components/metiers/energie/sitemap.xml
+Sitemap: /backend/components/metiers/environnement/sitemap.xml
