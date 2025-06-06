@@ -1,14 +1,23 @@
-// Sample Plugin pour Sante – Dihya Coding
-export default {
-  name: 'sample-sante-plugin',
+// Sample Plugin ultra avancé pour Environnement – Dihya Coding
+module.exports = {
+  name: 'sample-environnement-plugin',
   hooks: {
-    beforeCreate: async (ctx) => {/* audit, validation, RGPD */},
-    afterCreate: async (ctx) => {/* SEO, logs, IA fallback */},
-    beforeDelete: async (ctx) => {/* audit, anonymisation */},
-    afterDelete: async (ctx) => {/* export, logs */},
+    beforeCreate: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_before_create', ctx });
+    },
+    afterCreate: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_after_create', ctx });
+    },
+    beforeDelete: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_before_delete', ctx });
+    },
+    afterDelete: async (ctx) => {
+      ctx.audit && ctx.audit.log({ event: 'plugin_after_delete', ctx });
+    },
   },
-  i18n: ['fr', 'en', 'ar', 'de', 'zh', 'ja', 'ko', 'nl', 'he', 'fa', 'hi', 'es', 'ber'],
+  i18n: ['fr', 'en', 'ar', 'de', 'zh', 'ja', 'ko', 'nl', 'he', 'fa', 'hi', 'es', 'amazigh'],
   audit: true,
   rgpd: true,
-  extensible: true
+  extensible: true,
+  multitenant: true
 };

@@ -1,4 +1,0 @@
-# robots.txt – Intelligence Artificielle (SEO multitenant, multilingue)
-User-agent: *
-Disallow:
-Sitemap: /backend/components/metiers/intelligence_artificielle/sitemap.xml

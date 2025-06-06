@@ -26,3 +26,5 @@ python3 manage.py db upgrade
 ---
 
 Pour toute question, contacter l’équipe data.
+
+# (Aucune occurrence IA/ai à remplacer, harmonisation du style si besoin)

@@ -1,0 +1,28 @@
+[
+  {
+    "service": "Souscription",
+    "description": "Gestion de la souscription d'un contrat d'assurance.",
+    "lang": [
+      "fr",
+      "en",
+      "ar"
+    ]
+  },
+  {
+    "service": "Sinistre",
+    "description": "Déclaration et gestion des sinistres.",
+    "lang": [
+      "fr",
+      "en",
+      "ar"
+    ]
+  },
+  {
+    "service": "Export RGPD",
+    "description": "Export des données clients pour conformité RGPD.",
+    "lang": [
+      "fr",
+      "en"
+    ]
+  }
+]

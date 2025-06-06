@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Sitemap dynamique généré par le backend Dihya Coding (VR/AR)
-  Multitenant, multilingue, routes REST/GraphQL, plugins, RGPD, audit, SEO.
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dihya.app/api/vr-ar/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://dihya.example.com/environnement/data</loc>
+    <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- Les autres URLs sont générées dynamiquement selon les projets, plugins, langues, tenants -->
 </urlset>

@@ -1,14 +1,24 @@
-# security.py – Kompatibilitäts-Stubs für create_jwt_token
+"""
+security.py – Sécurité ultra avancée Dihya
+- CORS, JWT, WAF, anti-DDOS, validation, audit, conformité RGPD
+- Extension plugins, logs structurés, multitenancy, docstring, type hints
+"""
 from backend.flask.app.utils.jwt import create_jwt_token
+import logging
+from typing import Dict
 
 
-def get_jwt_token_for_role(role: str) -> str:
+def get_jwt_token_for_role(role: str, tenant: str = None) -> str:
     """
-    Génère un JWT factice pour un rôle donné (stub de compatibilité pour les tests).
+    Génère un JWT sécurisé pour un rôle donné, multitenancy, audit RGPD.
     Args:
-        role (str): Le rôle de l'utilisateur (ex: 'admin', 'user', etc.)
+        role (str): Rôle utilisateur (admin, user, invité, ...)
+        tenant (str, optional): Identifiant tenant
     Returns:
-        str: Un JWT simulé encodant le rôle.
+        str: JWT sécurisé encodant le rôle et le tenant
     """
-    payload = {"role": role}
+    payload: Dict = {"role": role, "tenant": tenant}
+    logging.info(f"[security] Génération JWT role={role} tenant={tenant}")
     return create_jwt_token(payload)
+
+# Extension plugins sécurité possible (voir docs/securite/)

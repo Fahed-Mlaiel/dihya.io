@@ -3,7 +3,7 @@
 # Guide de Sécurité API – Dihya Coding
 
 ## Objectifs
-- Sécurité maximale (CORS, JWT, validation, audit, WAF, anti-DDOS, monitoring, backup, logging, RBAC, multitenancy, plugins, fallback IA, RGPD, auditabilité)
+- Sécurité maximale (CORS, JWT, validation, audit, WAF, anti-DDOS, monitoring, backup, logging, RBAC, multitenancy, plugins, fallback AI, RGPD, auditabilité)
 - Accessibilité, SEO backend, internationalisation dynamique (13+ langues)
 - Documentation intégrée, conformité CI/CD
 

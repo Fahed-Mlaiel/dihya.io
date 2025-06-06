@@ -1,4 +1,4 @@
-# robots.txt – E-commerce (Dihya Coding)
+# robots.txt – Environnement (SEO multitenant, multilingue)
 User-agent: *
 Disallow:
-Sitemap: /backend/components/metiers/ecommerce/sitemap.xml
+Sitemap: /backend/components/metiers/environnement/sitemap.xml

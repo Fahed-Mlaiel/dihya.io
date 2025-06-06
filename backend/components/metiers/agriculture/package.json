@@ -1,0 +1,17 @@
+{
+  "name": "agriculture-metier",
+  "version": "1.0.0",
+  "description": "Composants avancés pour le métier Agriculture.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "Dihya.io",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

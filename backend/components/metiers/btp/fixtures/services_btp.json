@@ -1,0 +1,40 @@
+[
+  {
+    "service": "Planification",
+    "description": "Gestion avancée de la planification des chantiers.",
+    "lang": "fr",
+    "rgpd": true,
+    "plugins": [
+      "audit",
+      "seo"
+    ]
+  },
+  {
+    "service": "Suivi",
+    "description": "Suivi en temps réel des travaux et des ressources.",
+    "lang": "fr",
+    "rgpd": true,
+    "plugins": [
+      "accessibility"
+    ]
+  },
+  {
+    "service": "AI Monitoring",
+    "description": "AI-powered monitoring and predictive analytics for construction sites.",
+    "lang": "en",
+    "rgpd": true,
+    "plugins": [
+      "ai_fallback",
+      "audit"
+    ]
+  },
+  {
+    "service": "Export RGPD",
+    "description": "Exportation et anonymisation des données pour la conformité RGPD.",
+    "lang": "fr",
+    "rgpd": true,
+    "plugins": [
+      "rgpd"
+    ]
+  }
+]

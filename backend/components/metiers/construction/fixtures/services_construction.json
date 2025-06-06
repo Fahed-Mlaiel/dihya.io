@@ -1,0 +1,29 @@
+[
+  {
+    "service": "planification",
+    "description": "Gestion avancée de la planification des chantiers (multi-projets, multitenant, plugins, audit, RGPD).",
+    "plugins": [
+      "calendar",
+      "notifications"
+    ],
+    "accessibilite": true
+  },
+  {
+    "service": "suivi",
+    "description": "Suivi en temps réel des travaux (IoT, mobile, reporting, audit, RGPD).",
+    "plugins": [
+      "iot",
+      "reporting"
+    ],
+    "accessibilite": true
+  },
+  {
+    "service": "export_rgpd",
+    "description": "Export des données projets pour conformité RGPD (anonymisation, audit, logs).",
+    "plugins": [
+      "rgpd",
+      "audit"
+    ],
+    "accessibilite": false
+  }
+]
