@@ -1,0 +1,1 @@
+// Init JS Audit helpers

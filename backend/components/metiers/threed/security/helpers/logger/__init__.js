@@ -1,0 +1,1 @@
+// Init JS logger helpers

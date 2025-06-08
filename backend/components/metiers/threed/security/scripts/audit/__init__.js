@@ -1,0 +1,1 @@
+// Init JS audit scripts

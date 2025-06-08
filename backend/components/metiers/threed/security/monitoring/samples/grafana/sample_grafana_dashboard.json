@@ -1,0 +1,11 @@
+{
+  "dashboard": {
+    "title": "Exemple Dashboard Sécurité",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "CPU Usage"
+      }
+    ]
+  }
+}

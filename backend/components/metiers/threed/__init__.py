@@ -1,5 +1,7 @@
 """
-Initialisation du module Threed (Dihya Coding).
+__init__.py – Initialisation avancée du module Threed (Python)
+
+Ce module permet l’import dynamique des sous-modules, l’auto-discovery, et l’intégration CI/CD.
 - Gestion CRUD, API, plugins, audit, RGPD, multilingue, accessibilité, extension, CI/CD, tests, production ready.
 - Auto-discovery, hooks, extension dynamique, auditabilité, logs, validation, multitenancy, i18n, plugins, tests, doc intégrée.
 """

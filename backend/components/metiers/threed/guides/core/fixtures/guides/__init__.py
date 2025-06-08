@@ -1,2 +1,0 @@
-# __init__.py – Point d’entrée Python du sous-module guides fixtures
-from .guide_fixtures import get_fixtures_guide

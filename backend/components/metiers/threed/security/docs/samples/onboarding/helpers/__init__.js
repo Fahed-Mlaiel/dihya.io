@@ -1,0 +1,1 @@
+// Init JS helpers onboarding

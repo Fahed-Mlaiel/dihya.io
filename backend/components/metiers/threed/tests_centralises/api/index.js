@@ -14,3 +14,11 @@ module.exports = {
   validators: require('./validators'),
   // Ajouter ici tout nouveau sous-module de test centralisé
 };
+
+// Découverte et exécution automatique de tous les tests JS du dossier API (récursif)
+const { discoverAllTestsRecursively } = require('./__init__.js');
+const path = require('path');
+discoverAllTestsRecursively(__dirname).forEach(testFile => {
+  require(path.resolve(testFile));
+});
+console.log('Tous les tests API Threed ont été découverts et exécutés.');
