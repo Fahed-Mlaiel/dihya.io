@@ -1,12 +1,12 @@
-# Dihya Coding – Threed Module (Ultra avancé)
+# threed – Module ultra avancé (clé en main)
 
 ---
 
 ## 🇫🇷 Présentation
-Ce module gère toutes les fonctionnalités métier liées à la 3D : API REST/GraphQL, sécurité, RGPD, audit, plugins, AI, multilingue, accessibilité, multitenancy, CI/CD, extension dynamique, tests, documentation intégrée.
+Ce module gère toutes les fonctionnalités métier liées à la 3D : API, sécurité, RGPD, audit, plugins, AI, multilingue, accessibilité, multitenancy, CI/CD, extension dynamique, tests, documentation intégrée.
 
 ## 🇬🇧 Overview
-This module manages all 3D business features: REST/GraphQL API, security, GDPR, audit, plugins, AI, multilingual, accessibility, multitenancy, CI/CD, dynamic extension, tests, integrated documentation.
+This module manages all 3D business features: API, security, GDPR, audit, plugins, AI, multilingual, accessibility, multitenancy, CI/CD, dynamic extension, tests, integrated documentation.
 
 ---
 
@@ -40,22 +40,24 @@ This module manages all 3D business features: REST/GraphQL API, security, GDPR, 
 
 ## Structure du module / Module structure
 
-- `index.js` : Point d’entrée global JS (exporte api, services, templates, views)
-- `init.js` : Point d’entrée JS alternatif (ESM, exporte api, services, templates, views)
-- `__init__.js` : Point d’entrée Node.js (CommonJS, exporte API et contrôleur)
-- `__init__.py` : Point d’entrée global Python (importe api, services, templates, views)
-- `index.py` : Point d’entrée Python (optionnel, import global)
-- `init.py` : Point d’entrée Python (optionnel, import global)
-- `index.test.py`, `init.test.py`, `init.test.js` : Tests d’intégration des points d’entrée
-- `api/` : API ultra avancée (Express/JS, FastAPI/Python, synchronisation, tests, RGPD, accessibilité, audit, hooks)
-- `services/` : Services métier, helpers, core, fallback, tests, documentation
-- `templates/` : Templates Jinja2, helpers, statiques, tests, documentation
-- `views/` : Vues métier, helpers, core, tests, documentation, samples structurés par domaine (`views/samples/admin/`, `views/samples/api/`, etc.)
+- `index.js` : point d’entrée unique, auto-discovery, exports dynamiques JS ultra avancé
+- `__init__.js` : initialisation continue, découverte automatique des modules JS
+- `__init__.py` : initialisation continue, découverte automatique des modules Python
+- Sous-dossiers : chaque sous-module (api, plugins, views, utils, etc.) est centralisé et extensible
+
+Respecte la logique métier, la structure modulaire et le cahier des charges Dihya.
+Synchronisation JS/Python, documentation automatique, auditabilité CI/CD, extension facile, documentation à chaque niveau.
+
+- `api/` : API ultra avancée (Express/JS, FastAPI/Python, synchronisation, tests, RGPD, accessibilité, audit, hooks)
+- `plugins/` : plugins, extensions, hooks, tests
+- `views/` : vues, templates, accessibilité, tests
+- `utils/` : utilitaires, helpers, tests, synchronisation JS/Python
+- ... autres sous-modules centralisés
 
 ---
 
 ## Points d’entrée globaux / Entrypoints
-- `index.js`, `init.js`, `__init__.js`, `__init__.py`, `index.py`, `init.py` : permettent l’import global du module Threed dans tous les environnements (Node.js, ESM, Python)
+- `index.js`, `__init__.js`, `__init__.py` : permettent l’import global du module Threed dans tous les environnements (Node.js, ESM, Python)
 - Tests d’intégration associés pour chaque point d’entrée (clé en main, ultra avancé)
 
 ---

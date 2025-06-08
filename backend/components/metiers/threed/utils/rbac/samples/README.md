@@ -1,4 +1,21 @@
-# Samples pour le module RBAC
+# README - samples RBAC ultra avancé
+
+Ce dossier contient des exemples, tests, mocks, fixtures, templates et jeux de données pour le module RBAC (Role-Based Access Control).
+
+- Synchronisation JS/Python
+- Auto-discovery via `__init__.js` et `__init__.py`
+- Prêt pour CI/CD, factorisation, import/export centralisé
+- Respect de la logique métier RBAC
+
+Structure recommandée :
+- Exemples JS/Python
+- Tests unitaires JS/Python
+- Mocks, fixtures, templates
+- Index d'exécution centralisé
+- Documentation à chaque niveau
+- .keep pour versionnement
+
+## Samples pour le module RBAC
 
 Ce dossier contient des exemples d’utilisation, helpers, cas métiers et tests avancés pour le module RBAC (core, helpers, fallback).
 

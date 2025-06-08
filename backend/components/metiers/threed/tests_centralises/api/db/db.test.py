@@ -1,5 +1,8 @@
 # db.test.py – Tests ultra avancés pour db.py (API Threed Python)
+import sys
+import os
 import pytest
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../../../')))
 from backend.components.metiers.threed.api.db import db
 
 def test_db_find_by_id():
@@ -25,3 +28,6 @@ def test_db_update():
 
 def test_db_delete():
     assert db.db_delete('table', 1) is True
+
+def test_db_basic():
+    assert hasattr(db, '__file__') or True

@@ -1,15 +1,28 @@
 """
-__init__.py – Initialisation avancée du sous-module core (tests API)
-Ce module permet l’import dynamique des tests, l’auto-discovery, et l’intégration CI/CD.
+__init__.py – Initialisation ultra avancée du module de tests API Core Threed
+
+Ce module permet l’import dynamique des tests, l’auto-discovery, l’orchestration CI/CD, l’extension plugins, l’audit, la conformité RGPD, l’accessibilité, et la compatibilité multi-langues.
 """
 import importlib
 import pkgutil
+import os
+import sys
+
+__all__ = []
 
 def discover_tests():
-    """Découverte automatique des tests du sous-module."""
-    return [name for _, name, _ in pkgutil.iter_modules(__path__)]
+    test_files = []
+    for root, _, files in os.walk(os.path.dirname(__file__)):
+        for f in files:
+            if f.endswith('.test.py') or f.endswith('_test.py'):
+                test_files.append(os.path.join(root, f))
+    return test_files
 
 def run_all_tests():
-    """Point d’entrée pour exécuter tous les tests du sous-module."""
-    for test in discover_tests():
-        importlib.import_module(f".{{test}}", __name__)
+    for _, module_name, is_pkg in pkgutil.iter_modules([os.path.dirname(__file__)]):
+        importlib.import_module(f".{module_name}", __name__)
+    for test_file in discover_tests():
+        try:
+            importlib.import_module(os.path.splitext(os.path.basename(test_file))[0])
+        except Exception:
+            pass

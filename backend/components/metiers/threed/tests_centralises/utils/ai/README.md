@@ -1,9 +1,25 @@
-# Tests avancés – Utils AI
+# utils/ai – Tests ultra avancés
 
-Ce dossier contient les tests ultra avancés pour le module métier `utils/ai` (JS & Python).
+Ce dossier regroupe tous les tests ultra avancés pour les utilitaires d’IA du module Threed.
 
-- Respecte la logique métier et le cahier des charges
-- Prêt à être répliqué sur d’autres modules
+- Parité JS/Python à chaque niveau (core, fallback, helpers, samples)
+- Découverte automatique des tests via `__init__.js`, `__init__.py`, `index.js`
+- Exécution centralisée des tests JS (index.js) et Python (pytest)
+- Prêt pour CI/CD, documentation automatique, structure modulaire exhaustive
 
-## Découverte automatique & CI/CD
-- Les fichiers d'initialisation (__init__.js, __init__.py) permettent la découverte automatique des tests et l'intégration dans les pipelines CI/CD.
+## Structure
+- `core/` : logique IA principale
+- `fallback/` : gestion des cas de repli IA
+- `helpers/` : helpers IA
+- `samples/` : jeux de données/tests IA
+
+## Exécution
+- **JS** : `npm test` ou exécution via Jest/Mocha
+- **Python** : `pytest`
+
+## CI/CD
+- Intégration directe dans les pipelines (GitHub Actions, GitLab CI, etc.)
+- Génération automatique de rapports JS/Python
+
+## Logique métier
+- Respect du cahier des charges, structure modulaire, imports/exports, documentation à chaque sous-niveau

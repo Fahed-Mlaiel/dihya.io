@@ -1,14 +1,30 @@
 // __init__.js – Initialisation avancée du module de tests RGPD Threed (JS)
 // Découverte automatique des tests, helpers, intégration CI/CD
-const fs = require('fs');
-const path = require('path');
+module.exports = require('require-directory')(module);
 
-function discoverTests() {
-  return fs.readdirSync(__dirname).filter(f => f.endsWith('.test.js'));
-}
+// Commenté car non fonctionnel dans le contexte actuel
+// const fs = require('fs');
+// const path = require('path');
 
-function runAllTests() {
-  discoverTests().forEach(test => require(path.join(__dirname, test)));
-}
+// function discoverTests() {
+//   return fs.readdirSync(__dirname).filter(f => f.endsWith('.test.js'));
+// }
 
-module.exports = { discoverTests, runAllTests };
+// function runAllTests() {
+//   discoverTests().forEach(test => require(path.join(__dirname, test)));
+// }
+
+// function discoverAllTestsRecursively(dir) {
+//   let results = [];
+//   fs.readdirSync(dir).forEach(file => {
+//     const filePath = path.join(dir, file);
+//     if (fs.statSync(filePath).isDirectory()) {
+//       results = results.concat(discoverAllTestsRecursively(filePath));
+//     } else if (file.endsWith('.test.js')) {
+//       results.push(filePath);
+//     }
+//   });
+//   return results;
+// }
+
+// module.exports = { discoverTests, runAllTests, discoverAllTestsRecursively };

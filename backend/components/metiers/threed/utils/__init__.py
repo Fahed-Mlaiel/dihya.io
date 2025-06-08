@@ -5,7 +5,7 @@ Initialisation avancée du package utils pour Threed.
 - Chargement automatique des helpers, plugins, validators, exporters, etc.
 - Documentation intégrée pour audit et conformité
 """
-from .ai.ai_fallback import *
+from .ai.fallback.ai_fallback import *
 from .audit.audit import *
 from .exporter.exporter import *
 from .helpers.utils_helper import *
