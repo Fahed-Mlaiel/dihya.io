@@ -2,6 +2,8 @@
 audit.py – Logique ultra avancée d’audit API Threed (Python)
 Inclut : log, conformité, hooks, audit trail
 """
+
+
 def audit_entity(entity, action):
     if not entity or not action:
         return False

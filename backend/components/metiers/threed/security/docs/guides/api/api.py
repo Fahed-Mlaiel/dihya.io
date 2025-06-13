@@ -1,6 +1,10 @@
-# api.py – API Security 3D advanced integration logic
-from .API_INTEGRATION_GUIDE import *
+# api.py – API Security threed advanced integration logic
+from .API_INTEGRATION_GUIDE import API_INTEGRATION_GUIDE
+
 
 def get_api_integration_guide():
     return API_INTEGRATION_GUIDE
-# Ajoutez ici des fonctions d’exemple d’intégration API, middlewares, helpers, etc.
+
+
+# Ajoutez ici des fonctions d’exemple d’intégration API, middlewares,
+# helpers, etc.

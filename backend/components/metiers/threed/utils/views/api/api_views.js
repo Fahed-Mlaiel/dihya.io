@@ -7,7 +7,7 @@ const router = express.Router();
  * @swagger
  * /api/threed/render:
  *   post:
- *     summary: Rendu 3D via API
+ *     summary: Rendu threed via API
  *     tags: [Threed]
  *     requestBody:
  *       required: true
@@ -24,7 +24,7 @@ const router = express.Router();
  *                 type: string
  *     responses:
  *       200:
- *         description: Vue 3D rendue
+ *         description: Vue threed rendue
  */
 router.post('/threed/render', (req, res) => {
   const { nom, statut, details = '' } = req.body;

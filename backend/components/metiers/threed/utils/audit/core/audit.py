@@ -1,7 +1,8 @@
 """
 Fonctions d'audit avancées pour Threed.
-Permet d'évaluer la conformité, la performance et la sécurité des entités 3D.
+Permet d'évaluer la conformité, la performance et la sécurité des entités threed.
 """
+
 
 def audit_threed(data):
     """
@@ -10,11 +11,16 @@ def audit_threed(data):
     """
     score = 97.0 if data.get("status") == "active" else 65.0
     details = "Audit Threed réussi." if score > 90 else "Non conforme."
-    recommandations = "Poursuivre les bonnes pratiques." if score > 90 else "Corriger les non-conformités."
+    recommandations = (
+        "Poursuivre les bonnes pratiques."
+        if score > 90
+        else "Corriger les non-conformités."
+    )
     return {
         "score": score,
         "details": details,
-        "recommandations": recommandations
+        "recommandations": recommandations,
     }
+
 
 auditThreed = audit_threed

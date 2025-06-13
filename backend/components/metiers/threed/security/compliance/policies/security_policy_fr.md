@@ -1,7 +1,7 @@
 # security_policy_fr.md – Politique de sécurité (exemple)
 
 ## Objectif
-Garantir la sécurité, la confidentialité et l’intégrité des données 3D.
+Garantir la sécurité, la confidentialité et l’intégrité des données threed.
 
 ## Principes
 - Accès restreint par rôles (RBAC)

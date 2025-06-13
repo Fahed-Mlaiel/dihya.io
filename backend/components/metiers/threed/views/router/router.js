@@ -4,11 +4,11 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/3d', (req, res) => {
+router.get('/threed', (req, res) => {
   res.json({ d3s: [], total: 0 });
 });
 
-router.post('/3d', (req, res) => {
+router.post('/threed', (req, res) => {
   const { nom = '', description = '', type = 'objet' } = req.body || {};
   res.status(201).json({ nom, description, type });
 });

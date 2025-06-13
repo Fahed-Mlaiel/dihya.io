@@ -1,5 +1,7 @@
 # Helpers legacy du module Threed
 
+
 def legacy_helper():
-    # TODO: Implémentation helper legacy
-    return 'legacy helper'
+    """Helper legacy simulé pour compatibilité ascendante."""
+    # Exemple : retourne une valeur par défaut ou effectue une opération minimale
+    return {"status": "ok", "message": "Legacy helper exécuté (mode compatibilité)"}

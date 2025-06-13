@@ -1,4 +1,4 @@
-# api_helper.py – Helper Python pour intégration API sécurité 3D
+# api_helper.py – Helper Python pour intégration API sécurité threed
 def secure_api_request(request):
     """Middleware d’authentification avancée (JWT, OAuth, MFA)"""
     # ... logique métier ...

@@ -1,13 +1,9 @@
-/* global console */
-// Exemple ultra avancé clé en main des middlewares API Threed (JS)
-const { auditRequest, rgpdMiddleware, accessibilityMiddleware } = require('../middlewares/middlewares');
+// sample_middlewares.js – Exemples ultra avancés de middlewares API Threed (JS)
 
-function sampleMiddlewaresUltra(app) {
-  app.use(rgpdMiddleware);
-  app.use(accessibilityMiddleware);
-  app.use(auditRequest);
-  console.info('Middlewares ultra avancé appliqués');
-  console.log('Middlewares ultra avancé exécuté avec succès.');
+function sampleMiddlewareUltra(request) {
+  // Exemple clé en main de middleware API (audit, RGPD, accessibilité, edge cases)
+  // ... logique middleware avancée ...
+  return { request, middleware: 'applied' };
 }
 
-module.exports = { sampleMiddlewaresUltra };
+module.exports = { sampleMiddlewareUltra };

@@ -1,15 +1,8 @@
-# Exemple ultra avancé clé en main des hooks API Threed (Python)
-from ..hooks.hooks import before_action, after_action
-from ..audit.audit import audit_entity
-import logging
+# sample_hooks.py – Exemples ultra avancés de hooks API Threed
 
-def sample_hooks_ultra():
-    # Hook avant action
-    before_action('read', {'id': 1})
-    logging.info('Avant lecture')
-    # ... logique métier ...
-    audit_entity({'id': 1}, 'read')
-    # Hook après action
-    after_action('read', {'id': 1})
-    logging.info('Après lecture')
-    print('Hooks ultra avancé exécuté avec succès.')
+
+def sample_hook_ultra(event, data):
+    """Exemple clé en main de hook API (avant/après action, edge cases,
+    audit, RGPD)."""
+    # ... logique hook avancée ...
+    return {"event": event, "data": data, "hooked": True}

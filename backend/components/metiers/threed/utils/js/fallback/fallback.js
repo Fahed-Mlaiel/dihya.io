@@ -7,12 +7,10 @@
  * @param {*} defaultValue
  * @returns {*}
  */
-// eslint-disable-next-line no-unused-vars
 function jsFallback(fn, defaultValue) {
   try {
     return fn();
-  } catch (e) {
-    // eslint-disable-next-line no-unused-vars
+  } catch {
     return defaultValue;
   }
 }

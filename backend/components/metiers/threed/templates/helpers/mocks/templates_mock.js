@@ -3,7 +3,7 @@
 
 module.exports = {
   mockRapportAudit: { date: '2025-06-03', result: 'OK' },
-  mockEmailNotification: { details: 'Nouvelle scène 3D créée' },
+  mockEmailNotification: { details: 'Nouvelle scène threed créée' },
   mockAccessibiliteAudit: { date: '2025-06-03' },
   mockServiceExport: { date: '2025-06-03' }
 };

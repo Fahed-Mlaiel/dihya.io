@@ -1,6 +1,6 @@
 {
   "dashboard": {
-    "title": "Sécurité 3D – Monitoring",
+    "title": "Sécurité threed – Monitoring",
     "panels": [
       {
         "type": "graph",

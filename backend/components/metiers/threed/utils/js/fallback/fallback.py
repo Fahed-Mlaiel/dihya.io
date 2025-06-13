@@ -1,5 +1,5 @@
-# fallback.py
-# Mécanismes de secours JS (équivalent Python, clé en main, ultra avancé)
+"""Mécanismes de secours JS (équivalent Python, clé en main, ultra avancé)"""
+
 
 def fallback_value(value, default=None):
     """

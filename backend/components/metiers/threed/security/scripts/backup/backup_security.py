@@ -12,12 +12,16 @@ Date de création : 2025-06-08
 
 import argparse
 
+
 def main():
-    parser = argparse.ArgumentParser(description="Sauvegarde de sécurité automatisée.")
+    parser = argparse.ArgumentParser(
+        description="Sauvegarde de sécurité automatisée."
+    )
     # Ajouter ici les arguments nécessaires
-    args = parser.parse_args()
+    parser.parse_args()
     print("[INFO] Lancement de la sauvegarde de sécurité…")
     # Logique de sauvegarde à implémenter
+
 
 if __name__ == "__main__":
     main()

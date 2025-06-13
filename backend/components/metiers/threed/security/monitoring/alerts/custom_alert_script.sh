@@ -6,5 +6,5 @@ LOGFILE="/workspaces/dihya.io/backend/components/metiers/threed/security/audit/a
 THRESHOLD=5
 COUNT=$(grep -c "Accès refusé" "$LOGFILE" || true)
 if [ "$COUNT" -ge "$THRESHOLD" ]; then
-  echo "[ALERTE] Trop d’accès refusés détectés ($COUNT) !" | mail -s "Alerte Sécurité 3D" admin@dihya.io
+  echo "[ALERTE] Trop d’accès refusés détectés ($COUNT) !" | mail -s "Alerte Sécurité threed" admin@dihya.io
 fi

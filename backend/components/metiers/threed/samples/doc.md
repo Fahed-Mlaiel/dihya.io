@@ -1,6 +1,6 @@
 # Documentation samples
 
-Ce dossier contient des exemples ultra avancés pour chaque module métier 3D, organisés par thématique : access, audit, compliance, helpers, monitoring, policy, rbac, rgpd, scripts, validators.
+Ce dossier contient des exemples ultra avancés pour chaque module métier threed, organisés par thématique : access, audit, compliance, helpers, monitoring, policy, rbac, rgpd, scripts, validators.
 
 Chaque sous-dossier est prêt à l’industrialisation et contient :
 - Exemples Node.js et Python

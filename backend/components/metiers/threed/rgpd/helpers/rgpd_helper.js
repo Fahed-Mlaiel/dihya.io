@@ -3,7 +3,9 @@
  * Exemple de helper RGPD
  */
 function maskPII(data) {
-  // TODO: Implémenter la logique de masquage RGPD
+  if (data === null || data === undefined) {
+    throw new Error('Data cannot be null or undefined');
+  }
   return { ...data, masked: true };
 }
 

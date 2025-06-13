@@ -4,7 +4,7 @@ module.exports = {
   renderHome: () => '<h1>Bienvenue sur Threed</h1>',
   renderModel: (model) => `<div>Modèle: ${model.name}</div>`,
   /**
-   * Vue avancée pour Threed (3D)
+   * Vue avancée pour Threed (threed)
    */
   renderThreedView: (data) => {
     return {

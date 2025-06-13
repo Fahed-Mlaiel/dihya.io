@@ -3,6 +3,7 @@ Validateurs avancés pour Threed.
 Permet de garantir la conformité des entités métier.
 """
 
+
 def validate_threed(data):
     """
     Valide les données d'une entité Threed.

@@ -2,6 +2,6 @@
 
 module.exports = {
   formatDate: (date) => new Date(date).toISOString(),
-  isObject: (obj) => obj && typeof obj === 'object' && !Array.isArray(obj),
+  isObject: (obj) => obj !== null && typeof obj === 'object' && !Array.isArray(obj),
   deepClone: (obj) => JSON.parse(JSON.stringify(obj))
 };

@@ -1,1 +1,0 @@
-// Init JS samples RBAC

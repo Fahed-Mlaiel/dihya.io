@@ -1,5 +1,5 @@
 // compliance_helper.js – Node.js helper pour conformité RGPD
-function checkCompliance(data) {
+function checkCompliance() {
   // ... logique de vérification RGPD ...
   return true;
 }

@@ -1,5 +1,0 @@
-{
-  "roles": ["admin", "user", "guest"],
-  "permissions": ["read", "write", "delete"],
-  "assignments": [{"role": "admin", "permissions": ["read", "write", "delete"]}]
-}

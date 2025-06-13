@@ -1,8 +1,0 @@
-# Exemple de règles Prometheus
-ALERT DiskSpaceLow
-  IF node_filesystem_free_bytes < 1000000000
-  FOR 10m
-  LABELS { severity = "warning" }
-  ANNOTATIONS {
-    summary = "Espace disque faible sur l’instance"
-  }

@@ -1,7 +1,7 @@
 // views_helper.js - Fonctions utilitaires avancées pour les vues Threed (JS)
 
 function formatThreedDetails(details) {
-  return `[3D] ${details}`;
+  return `[threed] ${details}`;
 }
 
 module.exports = {

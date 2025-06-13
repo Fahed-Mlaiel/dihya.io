@@ -1,9 +1,0 @@
-// Template Model JS – Ultra avancé
-module.exports = {
-  getTemplateModel: () => ({
-    type: 'model',
-    description: 'Modèle de sample réutilisable',
-    fields: ['id', 'name', 'created'],
-    valid: true
-  })
-};

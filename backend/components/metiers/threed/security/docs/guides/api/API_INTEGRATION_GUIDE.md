@@ -1,9 +1,9 @@
-# Guide d’intégration API Sécurité 3D
+# Guide d’intégration API Sécurité threed
 
 Voir aussi les exemples dans `integration/`.
 
 ---
 
-# 3D Security API Integration Guide (EN)
+# threed Security API Integration Guide (EN)
 
 See integration folder for code samples.

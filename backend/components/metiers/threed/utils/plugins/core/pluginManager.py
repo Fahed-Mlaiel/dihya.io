@@ -2,6 +2,7 @@
 pluginManager.py – Gestionnaire de plugins pour Threed (Python)
 """
 
+
 class PluginManager:
     def __init__(self):
         self.plugins = []
@@ -14,6 +15,7 @@ class PluginManager:
         for plugin in self.plugins:
             results.append(plugin(*args, **kwargs))
         return results
+
 
 pluginManager = PluginManager()
 

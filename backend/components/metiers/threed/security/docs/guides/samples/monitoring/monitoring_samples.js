@@ -1,6 +1,6 @@
 // monitoring_samples.js – Exemples de monitoring (Node.js)
 function sampleDashboard() {
-  return 'Dashboard sécurité 3D – Grafana';
+  return 'Dashboard sécurité threed – Grafana';
 }
 function sampleAlert() {
   return 'Alerte sécurité générée';

@@ -12,12 +12,16 @@ Date de création : 2025-06-08
 
 import argparse
 
+
 def main():
-    parser = argparse.ArgumentParser(description="Audit de sécurité automatisé.")
+    parser = argparse.ArgumentParser(
+        description="Audit de sécurité automatisé."
+    )
     # Ajouter ici les arguments nécessaires
-    args = parser.parse_args()
+    parser.parse_args()
     print("[INFO] Lancement de l’audit de sécurité…")
     # Logique d’audit à implémenter
+
 
 if __name__ == "__main__":
     main()

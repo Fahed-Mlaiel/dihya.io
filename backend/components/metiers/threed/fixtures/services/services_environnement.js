@@ -5,7 +5,7 @@ module.exports = {
     env: process.env.NODE_ENV || 'test',
     status: 'ok',
     timestamp: new Date().toISOString(),
-    features: ['3d', 'audit', 'plugins', 'multitenancy']
+    features: ['threed', 'audit', 'plugins', 'multitenancy']
   }),
   mockEnv: {
     NODE_ENV: 'test',

@@ -3,6 +3,6 @@ function sampleAuditLog() {
   return '[2025-06-08 10:00:00] [INFO] Audit démarré';
 }
 function sampleAuditReport() {
-  return 'Rapport d’audit sécurité 3D – conforme RGPD';
+  return 'Rapport d’audit sécurité threed – conforme RGPD';
 }
 module.exports = { sampleAuditLog, sampleAuditReport };

@@ -1,5 +1,5 @@
 // Exemple avancé moteur RBAC (Node.js)
-function checkAccess(user, resource, action) {
+function checkAccess(user) {
   // Logique RBAC avancée
   return user === 'admin';
 }

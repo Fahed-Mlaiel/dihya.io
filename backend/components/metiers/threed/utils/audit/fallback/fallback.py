@@ -4,6 +4,7 @@ from datetime import datetime
 
 fallback_logs = []
 
+
 def audit_fallback(action, details=None):
     """
     Fallback minimal : log d'audit en mémoire si la persistance échoue
@@ -11,9 +12,9 @@ def audit_fallback(action, details=None):
     if details is None:
         details = {}
     log = {
-        'timestamp': datetime.utcnow().isoformat() + 'Z',
-        'action': action,
-        **details
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "action": action,
+        **details,
     }
     fallback_logs.append(log)
     return log

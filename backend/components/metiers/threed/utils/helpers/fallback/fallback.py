@@ -1,6 +1,7 @@
 # fallback.py
 # Fallback helper Python pour Threed – exemple clé en main
 
+
 def fallback_helper(fn, default_value):
     """
     Fallback minimal : retourne une valeur par défaut si la fonction échoue

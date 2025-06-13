@@ -1,8 +1,0 @@
-# Exemple de règle Prometheus pour alertes
-ALERT HighCPUUsage
-  IF process_cpu_seconds_total > 80
-  FOR 5m
-  LABELS { severity = "critical" }
-  ANNOTATIONS {
-    summary = "CPU usage élevé sur l’instance"
-  }

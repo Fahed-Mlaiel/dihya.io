@@ -1,5 +1,5 @@
 // Exemple avancé d’audit (Node.js)
-function generateAuditReport(logs) {
+function generateAuditReport() {
   // Analyse avancée des logs
   return { status: 'ok', anomalies: [] };
 }

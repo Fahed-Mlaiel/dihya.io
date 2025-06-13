@@ -22,13 +22,13 @@ print(render_title('Titre'))
 
 ```js
 const { renderThreedView } = require('./index');
-const data = { name: 'Objet3D', status: 'active' };
+const data = { name: 'Objetthreed', status: 'active' };
 console.log(renderThreedView(data));
 ```
 
 ## Accessibilité
 - Toujours fournir des labels explicites
-- Prévoir des alternatives textuelles pour les rendus 3D
+- Prévoir des alternatives textuelles pour les rendus threed
 
 ## Bonnes pratiques
 - Séparer la logique de rendu et les helpers

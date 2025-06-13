@@ -1,5 +1,5 @@
-# FAQ Sécurité 3D – Questions fréquentes
+# FAQ Sécurité threed – Questions fréquentes
 
 ---
 
-# 3D Security FAQ (EN)
+# threed Security FAQ (EN)

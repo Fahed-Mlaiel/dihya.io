@@ -2,7 +2,7 @@
 
 function getPolicyModel() {
   return {
-    name: 'Sécurité 3D',
+    name: 'Sécurité threed',
     version: '1.0',
     rules: [
       'Accès restreint par rôles',

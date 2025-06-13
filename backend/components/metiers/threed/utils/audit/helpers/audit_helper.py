@@ -2,6 +2,7 @@
 # Helper d'audit Python pour Threed – exemple clé en main
 from datetime import datetime
 
+
 def generate_audit_log(action, details=None):
     """
     Génère un log d'audit structuré pour une action métier
@@ -9,7 +10,7 @@ def generate_audit_log(action, details=None):
     if details is None:
         details = {}
     return {
-        'timestamp': datetime.utcnow().isoformat() + 'Z',
-        'action': action,
-        **details
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "action": action,
+        **details,
     }

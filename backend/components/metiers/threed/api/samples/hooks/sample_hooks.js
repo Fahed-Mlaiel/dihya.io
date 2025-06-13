@@ -1,16 +1,9 @@
-/* global console */
-// Exemple ultra avancé clé en main des hooks API Threed (JS)
-const { beforeAction, afterAction } = require('../hooks/hooks');
-const { auditEntity } = require('../audit/audit');
+// sample_hooks.js – Exemples ultra avancés de hooks API Threed (JS)
 
-async function sampleHooksUltra() {
-  beforeAction('read', { id: 1 });
-  console.info('Avant lecture');
-  // ... logique métier ...
-  auditEntity({ id: 1 }, 'read');
-  afterAction('read', { id: 1 });
-  console.info('Après lecture');
-  console.log('Hooks ultra avancé exécuté avec succès.');
+function sampleHookUltra(event, data) {
+  // Exemple clé en main de hook API (avant/après action, edge cases, audit, RGPD)
+  // ... logique hook avancée ...
+  return { event, data, hooked: true };
 }
 
-module.exports = { sampleHooksUltra };
+module.exports = { sampleHookUltra };

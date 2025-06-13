@@ -1,4 +1,4 @@
-// onboarding_helper.js – Node.js helper pour onboarding sécurité 3D
+// onboarding_helper.js – Node.js helper pour onboarding sécurité threed
 function onboardingChecklist(user) {
   return [
     'Compte créé',

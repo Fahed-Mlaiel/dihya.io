@@ -1,4 +1,4 @@
-// pluginManager.js – Gestionnaire de plugins avancé pour Threed (3D)
+// pluginManager.js – Gestionnaire de plugins avancé pour Threed (threed)
 // Fichier déplacé dans samples/pluginManager.js
 class PluginManager {
   constructor() {

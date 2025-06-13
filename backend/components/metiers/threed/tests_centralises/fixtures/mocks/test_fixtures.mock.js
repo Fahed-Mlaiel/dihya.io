@@ -1,5 +1,5 @@
 // test_fixtures.mock.js – Tests ultra avancés pour les mocks fixtures (JS)
-const { mockRequest, mockResponse } = require('./fixtures.mock');
+const { mockRequest, mockResponse } = require('../../fixtures/mocks/fixtures.mock');
 
 test('mockRequest retourne une requête mockée', () => {
   const req = mockRequest({ foo: 'bar' });

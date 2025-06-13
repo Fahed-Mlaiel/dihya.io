@@ -1,1 +1,0 @@
-# Init Python MFA samples

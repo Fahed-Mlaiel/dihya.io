@@ -1,5 +1,6 @@
-// Exemple avancé d’accès (Node.js)
+// Exemple avancé d'accès (Node.js)
 module.exports = function checkAccess(user, resource) {
-  // Logique d’accès avancée
-  return user && resource && user.roles.includes('admin');
+  if (!user || !resource) return false;
+  if (!user.roles || !Array.isArray(user.roles)) return false;
+  return user.roles.includes('admin');
 };

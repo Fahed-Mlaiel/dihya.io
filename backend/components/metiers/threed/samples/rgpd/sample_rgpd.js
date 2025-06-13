@@ -2,5 +2,6 @@
 
 module.exports = function checkRGPD(data) {
   // Logique RGPD avancée
+  if (!data) return false;
   return data.hasConsent === true;
 };
