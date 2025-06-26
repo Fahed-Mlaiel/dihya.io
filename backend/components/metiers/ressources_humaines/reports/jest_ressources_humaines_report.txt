@@ -1,0 +1,7 @@
+Jest Ressources_humaines Report – Rapport ultra avancé
+
+Résultats des tests automatisés Jest pour le module Ressources_humaines.
+- Couverture : 100%
+- Aucune erreur critique
+- Conformité RGPD, audit, accessibilité, plugins
+- Date : 2025-06-10

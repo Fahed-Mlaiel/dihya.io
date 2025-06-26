@@ -1,5 +1,5 @@
 // ai_helper.js
-// Helper IA JS pour Threed – exemple clé en main
+// Helper IA JS pour administration_publique – exemple clé en main
 
 /**
  * Nettoie et normalise un texte pour l'IA (suppression espaces, accents, etc.)

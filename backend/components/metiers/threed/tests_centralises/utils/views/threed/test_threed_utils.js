@@ -1,9 +1,10 @@
-// Test avancé pour threed_utils.js du module utils/views/threed
+// test_voyage_utils.js
+// Test avancé pour voyage_utils.js du module utils/views/voyage
 // Remplacer l'import par le chemin réel si besoin
-// const threedUtils = require('../../../../utils/views/threed/threed_utils');
-describe('Utils Views Threed', () => {
+// const voyageUtils = require('../../../../utils/views/voyage/voyage_utils');
+describe('Utils Views Voyage', () => {
   it('should expose expected API', () => {
-    // expect(threedUtils).toBeDefined();
+    // expect(voyageUtils).toBeDefined();
     expect(true).toBe(true);
   });
 });

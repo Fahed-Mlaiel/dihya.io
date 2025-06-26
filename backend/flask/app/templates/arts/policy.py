@@ -1,2 +1,0 @@
-# Stub für ARTS_POLICIES
-ARTS_POLICIES = {}

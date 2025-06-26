@@ -1,3 +1,0 @@
-// Tests unitaires pour le dossier constants
-// Vérifie sécurité, i18n, RGPD, plugins, audit, etc.
-// ...tests complets à implémenter...

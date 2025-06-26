@@ -1,0 +1,23 @@
+{
+  "name": "Services à la personne",
+  "sector": "Services à la personne",
+  "description": "Template services à la personne (clients, prestations, planning, paiement, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des clients",
+    "Gestion des prestations",
+    "Planning et interventions",
+    "Paiement sécurisé",
+    "Advanced reporting",
+    "Support plugins (export, IA, paiement)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

@@ -1,0 +1,54 @@
+# Fichier .dockerignore pour le module métier "blockchain"
+
+# Ignorer les fichiers de configuration de l'environnement local
+.env
+.env.local
+.env.*.local
+
+# Ignorer les répertoires de dépendances
+**/node_modules/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+
+# Ignorer les fichiers de logs et fichiers temporaires
+*.log
+*.tmp
+*.temp
+
+# Ignorer les fichiers de développement et de test
+**/tests/
+**/spec/
+**/test/
+**/*.spec.*
+**/*.test.*
+
+# Ignorer les fichiers et dossiers de configuration de l'IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorer les fichiers de build et de compilation
+dist/
+build/
+coverage/
+
+# Ignorer les fichiers de documentation et de design
+**/docs/
+**/design/
+*.md
+
+# Ignorer les fichiers de cache et de sauvegarde
+*.tar
+*.gz
+*.rar
+*.zip
+*.bak
+*.swp
+*.swo
+
+# Ignorer les fichiers spécifiques à la blockchain qui ne doivent pas être inclus
+# Par exemple, les clés privées, les fichiers de configuration spécifiques, etc.
+**/blockchain/keys/
+**/blockchain/configs/*.conf

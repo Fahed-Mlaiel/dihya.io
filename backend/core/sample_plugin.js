@@ -1,3 +1,0 @@
-// Exemple de plugin pour le dossier core
-// Extension, sécurité, audit, RGPD, i18n, multitenancy, etc.
-// ...implémentation complète...

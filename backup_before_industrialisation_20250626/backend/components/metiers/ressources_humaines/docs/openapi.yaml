@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Ressources Humaines
+  version: 1.0.0
+paths:
+  /ressources_humaines/:
+    get:
+      summary: Liste des ressources Ressources Humaines
+      responses:
+        '200':
+          description: Succès

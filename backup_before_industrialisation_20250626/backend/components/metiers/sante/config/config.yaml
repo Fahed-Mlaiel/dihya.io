@@ -1,0 +1,10 @@
+# Configuration Santé
+nom: sante
+plugins:
+  - analytics
+  - rgpd
+  - paiement
+dependances:
+  - pandas
+  - flask-health
+rgpd: True

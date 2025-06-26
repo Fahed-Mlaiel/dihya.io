@@ -1,2 +1,0 @@
-Rapport de tests pytest pour le module Arts.
-Tous les tests Python sont passés avec succès au 2025-06-01.

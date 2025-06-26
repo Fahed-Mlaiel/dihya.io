@@ -1,5 +1,5 @@
 // i18n_helper.js
-// Helper i18n JS pour Threed – exemple clé en main
+// Helper i18n JS pour administration_publique – exemple clé en main
 
 /**
  * Transforme une clé i18n en format lisible (ex: 'HELLO_WORLD' => 'Hello world')

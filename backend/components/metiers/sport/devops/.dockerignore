@@ -1,0 +1,55 @@
+# Fichier .dockerignore pour le module métier "sport"
+
+# Ignore les fichiers de configuration et les fichiers sensibles
+**/.env
+**/.env.local
+**/.env.*.local
+**/.git
+**/.gitignore
+**/.dockerignore
+**/Dockerfile
+**/docker-compose*.yml
+
+# Ignore les dépendances installées localement
+**/node_modules
+**/bower_components
+**/vendor
+
+# Ignore les fichiers de cache et de logs
+**/npm-debug.log
+**/yarn-error.log
+**/.cache
+**/.next/cache
+**/logs
+**/tmp
+
+# Ignore les fichiers de développement/test
+**/*test*
+**/*spec*
+**/*mock*
+**/coverage
+**/.nyc_output
+
+# Ignore les fichiers de documentation et les fichiers markdown non nécessaires
+**/README.md
+**/CHANGELOG.md
+**/LICENSE.md
+**/docs
+**/mkdocs.yml
+**/.markdownlint.json
+
+# Ignore les fichiers de build et les artefacts
+**/dist
+**/build
+**/out
+**/release
+
+# Ignore les fichiers spécifiques à l'IDE et à l'éditeur
+**/.idea
+**/*.sublime*
+**/.vscode
+**/*.iml
+
+# Ignore les fichiers de configuration spécifiques au système d'exploitation
+**/.DS_Store
+**/Thumbs.db

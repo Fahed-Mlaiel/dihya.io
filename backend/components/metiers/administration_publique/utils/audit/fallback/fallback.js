@@ -1,5 +1,5 @@
 // fallback.js
-// Fallback d'audit JS pour Threed – exemple clé en main
+// Fallback d'audit JS pour administration_publique – exemple clé en main
 
 /**
  * Fallback minimal : log d'audit en mémoire si la persistance échoue

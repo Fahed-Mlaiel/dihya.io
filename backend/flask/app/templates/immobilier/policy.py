@@ -1,2 +1,0 @@
-# Stub für IMMO_POLICIES
-IMMO_POLICIES = {}

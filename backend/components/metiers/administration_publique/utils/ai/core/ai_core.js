@@ -1,5 +1,5 @@
 // ai_core.js
-// Logique métier IA principale pour Threed – exemple clé en main
+// Logique métier IA principale pour administration_publique – exemple clé en main
 
 /**
  * Simule une prédiction IA (dummy)

@@ -1,4 +1,5 @@
-# README – Tests unitaires des templates Threed
+/* global console */
+# README – Tests unitaires des templates administration_publique
 
 Ce dossier contient des tests unitaires pour tous les templates Jinja2, HTML, JSON, XML, JS.
 
@@ -8,7 +9,7 @@ import pytest
 from jinja2 import Environment, FileSystemLoader
 
 def test_rapport_audit_template():
-    env = Environment(loader=FileSystemLoader('backend/components/metiers/threed/templates'))
+    env = Environment(loader=FileSystemLoader('backend/components/metiers/administration_publique/templates'))
     template = env.get_template('rapport_audit.html.j2')
     result = template.render(date='2025-06-03', result='OK')
     assert '2025-06-03' in result

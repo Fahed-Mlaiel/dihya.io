@@ -1,0 +1,15 @@
+{
+  "Dockerfile.frontend": "./Dockerfile.frontend",
+  "README.md": "./README.md",
+  "README_CI.md": "./README_CI.md",
+  "README_EXEMPLES.md": "./README_EXEMPLES.md",
+  "README_ARCHITECTURE.md": "./README_ARCHITECTURE.md",
+  "backup.sh": "./backup.sh",
+  "ci.yml": "./ci.yml",
+  "deploy.sh": "./deploy.sh",
+  "deployment.yaml": "./deployment.yaml",
+  "main.tf": "./main.tf",
+  "maintenance.sh": "./maintenance.sh",
+  "restore.sh": "./restore.sh",
+  "seed.sh": "./seed.sh"
+}

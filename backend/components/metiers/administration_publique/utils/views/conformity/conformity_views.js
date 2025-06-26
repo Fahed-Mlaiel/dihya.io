@@ -1,4 +1,4 @@
-// conformity_views.js – Helpers conformité avancés pour le module threed
+// conformity_views.js – Helpers conformité avancés pour le module administration_publique
 // RGPD, accessibilité, audit, SEO, souveraineté numérique, sécurité, i18n
 function checkRGPD(data) {
   const forbidden = Object.keys(data).filter(k => ["password", "ssn", "credit_card"].includes(k));

@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Recherche
+  version: 1.0.0
+paths:
+  /recherche/:
+    get:
+      summary: Liste des ressources Recherche
+      responses:
+        '200':
+          description: Succès

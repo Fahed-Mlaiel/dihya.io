@@ -5,6 +5,7 @@
 'use strict';
 
 const logger = require('console');
+const path = require('path');
 
 /**
  * Point d’entrée principal du module.
@@ -15,11 +16,11 @@ const logger = require('console');
  */
 function main(...args) {
   try {
-    logger.info(`[${__filename}] initialisé avec args=`, args);
+    logger.info(`[${path.resolve(__dirname, 'nom_du_fichier')}] initialisé avec args=`, args);
     // TODO: Implémenter la logique métier ici
     return true;
   } catch (e) {
-    logger.error(`[${__filename}] Erreur:`, e);
+    logger.error(`[${path.resolve(__dirname, 'nom_du_fichier')}] Erreur:`, e);
     throw e;
   }
 }

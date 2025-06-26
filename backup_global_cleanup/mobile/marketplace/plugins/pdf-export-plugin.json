@@ -1,0 +1,21 @@
+{
+  "name": "Export PDF Ultra",
+  "type": "export",
+  "description": "Plugin d’export PDF professionnel (multi-template, branding, RGPD, audit, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Export PDF multi-template",
+    "Branding personnalisé",
+    "Support multilingue",
+    "Audit RGPD",
+    "Intégration CI/CD",
+    "Logs et reporting"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

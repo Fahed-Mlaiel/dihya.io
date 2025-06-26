@@ -1,4 +1,4 @@
-# README – Tests unitaires des fixtures Threed (Python & JS, synchronisés)
+# README – Tests unitaires des fixtures administration_publique (Python & JS, synchronisés)
 
 Ce dossier contient des tests unitaires pour tous les helpers, mocks et validateurs de fixtures Python et JavaScript, synchronisés et conformes au cahier des charges Dihya.
 

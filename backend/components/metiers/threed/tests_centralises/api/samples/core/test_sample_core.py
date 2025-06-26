@@ -1,5 +1,5 @@
 import unittest
-from backend.components.metiers.threed.api.samples.core import sample_core_logic
+from threed.api.samples.core import sample_core_logic
 
 
 class TestSampleCore(unittest.TestCase):

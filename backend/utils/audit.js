@@ -1,5 +1,27 @@
-// Mock avancé pour audit métier, RGPD, sécurité, CI/CD
-function logAudit(op, user, details) { return { op, user, details, ts: new Date().toISOString() }; }
-function logSecurity(user, action, route) { return { user, action, route, ts: new Date().toISOString() }; }
-function logOps(op, details) { return { op, details, ts: new Date().toISOString() }; }
-module.exports = { logAudit, logSecurity, logOps };
+/**
+ * 🚀 DIHYA.IO - UTILITAIRES D'AUDIT
+ * Logging des actions sensibles pour conformité
+ */
+
+/**
+ * Log d'audit pour actions sensibles
+ */
+const logAudit = (action, userId, details = {}) => {
+  const auditLog = {
+    timestamp: new Date().toISOString(),
+    action,
+    userId,
+    details,
+    ip: details.ip || 'unknown',
+    userAgent: details.userAgent || 'unknown'
+  };
+
+  // En production : envoyer vers un service de logging sécurisé
+  console.log('🔍 AUDIT:', JSON.stringify(auditLog));
+
+  // TODO: Intégrer avec un vrai système d'audit (Splunk, ELK, etc.)
+};
+
+module.exports = {
+  logAudit
+};

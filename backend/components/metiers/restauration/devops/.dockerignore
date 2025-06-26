@@ -1,0 +1,47 @@
+# Fichiers de configuration et d'environnement
+.env
+.env.local
+.env.*.local
+.dockerenv
+
+# Répertoires de dépendances
+**/node_modules/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+
+# Fichiers de build et de compilation
+**/dist/
+**/build/
+**/target/
+**/*.pyc
+**/*.pyo
+**/*.class
+
+# Fichiers de logs et de données
+**/logs/
+**/*.log
+**/data/
+**/temp/
+
+# Fichiers et répertoires de développement
+**/.git/
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+**/.DS_Store
+**/Thumbs.db
+
+# Fichiers de test et de documentation
+**/tests/
+**/coverage/
+**/*.md
+
+# Fichiers spécifiques au métier "restauration" qui ne doivent pas être inclus
+# (à adapter en fonction des spécificités du module métier "restauration")
+restauration/secrets/
+restauration/examples/
+restauration/simulation_data/
+restauration/design_docs/

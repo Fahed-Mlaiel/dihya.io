@@ -1,0 +1,10 @@
+# Configuration Énergie
+nom: energie
+plugins:
+  - analytics
+  - iot
+  - monitoring
+dependances:
+  - flask
+  - pandas
+rgpd: True

@@ -1,0 +1,11 @@
+groups:
+- name: security_alerts
+  rules:
+  - alert: SuspiciousAccessPattern
+    expr: increase(security_access_denied_total[5m]) > 10
+    for: 5m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Trop d’échecs d’accès sécurité en 5 min"
+      description: "Plus de 10 accès refusés détectés en 5 minutes."

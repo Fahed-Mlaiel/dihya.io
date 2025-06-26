@@ -1,4 +1,0 @@
-
-> test
-> jest --config jest.config.js --runInBand --detectOpenHandles --forceExit --maxWorkers=2 --ci --reporters=default
-

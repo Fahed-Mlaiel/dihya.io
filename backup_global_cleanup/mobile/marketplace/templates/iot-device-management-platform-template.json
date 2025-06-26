@@ -1,0 +1,23 @@
+{
+  "name": "IoT Device Management Platform",
+  "sector": "IoT/Objets connectés",
+  "description": "Template pour gestion d'objets connectés (devices, monitoring, alertes, API, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "IoT",
+      "devices",
+      "monitoring",
+      "alertes",
+      "API",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

@@ -1,0 +1,55 @@
+# Fichier .dockerignore pour le module métier "beaute"
+
+# Ignore les fichiers de configuration de l'environnement de développement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore les dossiers de dépendances
+**/node_modules/
+**/bower_components/
+
+# Ignore les fichiers de cache et de logs
+**/.cache
+**/.npm
+**/logs
+**/*.log
+
+# Ignore les fichiers de configuration spécifiques aux éditeurs
+**/.vscode
+**/.idea
+**/*.sublime-project
+**/*.sublime-workspace
+
+# Ignore les fichiers de build et de compilation
+/dist/
+/build/
+/tmp/
+/out/
+
+# Ignore les fichiers de tests et de documentation
+**/__tests__
+**/__mocks__
+**/test/
+**/tests/
+**/coverage/
+**/*.md
+
+# Ignore les fichiers de sauvegarde et temporaires
+**/*.bak
+**/*.tmp
+**/*.swp
+
+# Ignore les fichiers spécifiques au système d'exploitation
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore les fichiers de secrets qui ne doivent jamais être inclus
+**/*.pem
+**/*.key
+**/*.crt
+**/*.cert
+**/secrets/

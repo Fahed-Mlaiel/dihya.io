@@ -1,0 +1,46 @@
+# Fichier .dockerignore pour le module métier seo
+
+# Ignore les fichiers de configuration et les fichiers sensibles
+**/.env
+**/.env.*
+**/.git
+**/.gitignore
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+**/.editorconfig
+
+# Ignore les dépendances installées localement qui seront réinstallées dans le container
+**/node_modules
+**/bower_components
+
+# Ignore les fichiers de cache et de logs
+**/npm-debug.log
+**/yarn-error.log
+**/.cache
+**/.next/cache
+**/logs
+**/temp
+
+# Ignore les fichiers de développement et de test
+**/*test*
+**/*spec*
+**/*mock*
+**/coverage
+**/.nyc_output
+**/.vscode
+**/*.md
+
+# Ignore les fichiers spécifiques aux systèmes d'exploitation
+**/.DS_Store
+**/Thumbs.db
+
+# Ignore les fichiers de build et les artefacts
+**/build
+**/dist
+**/out
+**/export
+
+# Ignore les fichiers de documentation, sauf le README principal
+**/docs
+!README.md

@@ -1,0 +1,56 @@
+# Dihya – .gitignore principal (synchronisation Codespaces vers Git, hors backups)
+
+# Exclure tous les fichiers de backup et logs de backup
+backup_*.tar.gz
+backup_*.log
+backup_realtime.log
+/backups/
+/scripts/backup_realtime.sh
+/scripts/backup.sh
+/scripts/restore.sh
+
+# Python, build, coverage, etc.
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.DS_Store
+*.sqlite3
+*.db
+*.log
+
+# Dossiers temporaires, artefacts CI/CD
+coverage/
+dist/
+build/
+.cache/
+.tox/
+
+# Exemples spécifiques Dihya
+/frontend/node_modules/
+/frontend/build/
+/backend/__pycache__/
+/backend/.pytest_cache/
+/mobile/build/
+/mobile/.dart_tool/
+/docs/site/
+/docs/build/
+
+# Secrets (jamais versionnés)
+.env*
+.envrc*
+
+# Fichiers de test, dumps, exports
+*.dump
+*.export
+*.snapshot
+
+# Fichiers de configuration locaux
+*.local
+*.bak
+
+# Fichiers générés par l’application (exports, backups, dumps, snapshots)
+backups/
+dihya_backup.log
+node_modules

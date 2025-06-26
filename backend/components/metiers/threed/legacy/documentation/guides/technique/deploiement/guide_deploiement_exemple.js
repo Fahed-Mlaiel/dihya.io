@@ -1,3 +1,5 @@
+const console = require('console');
+
 // Guide déploiement automatisé legacy Threed (JS)
 // Ultra avancé, clé en main, conforme au cahier des charges
 function guideDeploiementExemple() {

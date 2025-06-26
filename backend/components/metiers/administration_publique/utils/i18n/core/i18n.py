@@ -1,6 +1,7 @@
 """
-Internationalisation et traduction pour Threed.
+Internationalisation et traduction pour administration_publique.
 """
+
 
 def translate(text, lang="fr"):
     """
@@ -9,8 +10,9 @@ def translate(text, lang="fr"):
     translations = {
         "fr": f"[FR] {text}",
         "en": f"[EN] {text}",
-        "de": f"[DE] {text}"
+        "de": f"[DE] {text}",
     }
     return translations.get(lang, text)
+
 
 i18n = translate

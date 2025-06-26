@@ -1,5 +1,0 @@
-# test_legacy_report.txt
-Rapport de tests legacy pour le module crypto.
-- Tous les tests legacy sont passés.
-- Aucun échec critique détecté.
-- Couverture : 100% legacy.

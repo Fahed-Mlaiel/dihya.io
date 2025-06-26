@@ -1,0 +1,27 @@
+{
+  "Navbar": [
+    "navigation",
+    "header",
+    "menu"
+  ],
+  "Footer": [
+    "footer",
+    "légal",
+    "info"
+  ],
+  "NotificationCenter": [
+    "notification",
+    "alerte",
+    "dashboard"
+  ],
+  "ChatAssistant": [
+    "ia",
+    "support",
+    "chat"
+  ],
+  "ThemeSwitcher": [
+    "thème",
+    "accessibilité",
+    "ui"
+  ]
+}

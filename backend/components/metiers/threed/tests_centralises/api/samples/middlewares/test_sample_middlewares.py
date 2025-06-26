@@ -1,5 +1,5 @@
 import unittest
-from backend.components.metiers.threed.api.samples.middlewares import sample_middleware_ultra
+from threed.api.samples.middlewares import sample_middleware_ultra
 
 
 class TestSampleMiddlewares(unittest.TestCase):

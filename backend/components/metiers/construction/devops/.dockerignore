@@ -1,0 +1,54 @@
+# Fichiers de configuration et d'environnement
+**/.env
+**/.env.local
+**/.env.example
+
+# Répertoires de dépendances
+**/node_modules
+**/bower_components
+**/vendor
+
+# Fichiers de cache et logs
+**/.cache
+**/.npm
+**/logs
+**/*.log
+
+# Fichiers de développement/test
+**/*_test.go
+**/*.spec.*
+**/*.test.*
+**/test
+**/tests
+**/testing
+**/coverage
+
+# Fichiers et dossiers de l'éditeur
+**/.vscode
+**/.idea
+**/*.sublime-*
+**/.DS_Store
+
+# Fichiers de build et de compilation
+**/dist
+**/build
+**/tmp
+**/out
+**/release
+
+# Fichiers et dossiers divers
+**/.git
+**/.github
+**/.gitlab-ci.yml
+**/.gitignore
+**/Dockerfile*
+**/docker-compose*
+**/Makefile
+**/README.md
+**/LICENSE
+**/CONTRIBUTING.md
+
+# Fichiers spécifiques au métier "construction" qui ne sont pas nécessaires pour le build
+construction/specific_unused_file.ext
+construction/temporary_files/
+construction/design_docs/

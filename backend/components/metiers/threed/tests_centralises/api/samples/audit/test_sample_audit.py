@@ -1,7 +1,7 @@
 import unittest
 import importlib
 
-sample_audit = importlib.import_module("backend.components.metiers.threed.api.samples.audit.sample_audit")
+sample_audit = importlib.import_module("threed.api.samples.audit.sample_audit")
 audit_sample_action = sample_audit.audit_sample_action
 
 

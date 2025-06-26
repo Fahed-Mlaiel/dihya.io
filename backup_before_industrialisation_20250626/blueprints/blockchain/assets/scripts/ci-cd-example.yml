@@ -1,0 +1,31 @@
+# Exemple de pipeline CI/CD pour la gestion des assets de sécurité blockchain
+name: Security Assets CI
+
+on:
+  push:
+    paths:
+      - 'blueprints/blockchain/assets/images/security/**'
+      - 'blueprints/blockchain/assets/scripts/**'
+  pull_request:
+    paths:
+      - 'blueprints/blockchain/assets/images/security/**'
+      - 'blueprints/blockchain/assets/scripts/**'
+
+jobs:
+  validate-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installer les dépendances
+        run: sudo apt-get update && sudo apt-get install -y python3 python3-pip
+      - name: Valider les assets
+        run: |
+          cd blueprints/blockchain/assets/scripts
+          chmod +x validate_assets.sh
+          ./validate_assets.sh
+      - name: Optimiser et auditer
+        run: |
+          python3 optimize_and_audit.py
+      - name: Générer les textes alternatifs
+        run: |
+          python3 generate_alt_texts.py

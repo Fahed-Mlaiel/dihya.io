@@ -1,0 +1,23 @@
+{
+  "README.md": [
+    "doc",
+    "exemples",
+    "conventions"
+  ],
+  "README_EXEMPLES.md": [
+    "doc",
+    "exemples",
+    "intégration"
+  ],
+  "README_ARCHITECTURE.md": [
+    "doc",
+    "architecture",
+    "schema"
+  ],
+  "fullUserFlow.js": [
+    "exemple",
+    "flux",
+    "utilisateur",
+    "métier"
+  ]
+}

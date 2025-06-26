@@ -1,6 +1,6 @@
 # Test ultra avancé pour fixtures/core/models (Python)
 import pytest
-from backend.components.metiers.threed.fixtures.core.models.fixtures import (
+from threed.fixtures.core.models.fixtures import (
     sample_threed_asset,
     advanced_threed_model,
     asset_texture,

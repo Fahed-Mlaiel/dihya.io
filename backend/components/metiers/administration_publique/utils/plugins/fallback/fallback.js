@@ -1,5 +1,5 @@
 // fallback.js
-// Fallback plugin JS pour Threed – exemple clé en main
+// Fallback plugin JS pour administration_publique – exemple clé en main
 
 /**
  * Fallback minimal : plugin de secours qui log l'appel

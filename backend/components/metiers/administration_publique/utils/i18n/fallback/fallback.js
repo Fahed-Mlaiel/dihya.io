@@ -1,5 +1,5 @@
 // fallback.js
-// Fallback i18n JS pour Threed – exemple clé en main
+// Fallback i18n JS pour administration_publique – exemple clé en main
 
 /**
  * Retourne une traduction par défaut si la clé n'est pas trouvée

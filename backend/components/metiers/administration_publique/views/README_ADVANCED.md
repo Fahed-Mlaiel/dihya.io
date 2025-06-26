@@ -1,4 +1,5 @@
-# Vues Threed – Documentation Ultra Avancée
+/* global console */
+# Vues administration_publique – Documentation Ultra Avancée
 
 Ce dossier contient :
 - Helpers JS et Python pour le rendu de vues
@@ -16,19 +17,19 @@ from .views_helper import render_title
 print(render_title('Titre'))
 ```
 
-# Vues Threed – Guide Avancé
+# Vues administration_publique – Guide Avancé
 
 ## Exemples d'utilisation
 
 ```js
-const { renderThreedView } = require('./index');
-const data = { name: 'Objet3D', status: 'active' };
-console.log(renderThreedView(data));
+const { renderadministration_publiqueView } = require('./index');
+const data = { name: 'Objetadministration_publique', status: 'active' };
+console.log(renderadministration_publiqueView(data));
 ```
 
 ## Accessibilité
 - Toujours fournir des labels explicites
-- Prévoir des alternatives textuelles pour les rendus 3D
+- Prévoir des alternatives textuelles pour les rendus administration_publique
 
 ## Bonnes pratiques
 - Séparer la logique de rendu et les helpers

@@ -1,3 +1,4 @@
+/* global console */
 # Vues Threed – Documentation Ultra Avancée
 
 Ce dossier contient :

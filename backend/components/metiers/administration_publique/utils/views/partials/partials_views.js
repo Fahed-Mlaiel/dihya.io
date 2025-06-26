@@ -1,4 +1,4 @@
-// partials_views.js – Helpers et fragments réutilisables (partials) pour le module threed
+// partials_views.js – Helpers et fragments réutilisables (partials) pour le module administration_publique
 // Widgets, composants, conformité RGPD, accessibilité, audit, i18n
 function renderWidget(name, data) {
   return `<div class='widget widget-${name}'>${data}</div>`;

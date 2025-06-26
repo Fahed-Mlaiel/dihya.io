@@ -1,0 +1,8 @@
+# Liste des tests orphelins à supprimer (Lead Dev)
+# Généré automatiquement le 21/06/2025
+
+# Sont considérés comme orphelins :
+# - Les tests qui importent des modules JS inexistants dans /blueprints/blockchain
+# - Les tests qui importent des fonctions non exportées ou dont le code métier n’existe pas
+
+# Cette liste est utilisée pour suppression massive et traçabilité.

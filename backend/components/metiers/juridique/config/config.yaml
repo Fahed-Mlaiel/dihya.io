@@ -1,0 +1,10 @@
+# Configuration Juridique
+nom: juridique
+plugins:
+  - juridique
+  - analytics
+  - visualisation
+dependances:
+  - three.js
+  - flask
+rgpd: True

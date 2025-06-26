@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Santé (EN)
+  version: 1.0.0
+paths:
+  /health/:
+    get:
+      summary: Liste des ressources Santé (EN)
+      responses:
+        '200':
+          description: Succès

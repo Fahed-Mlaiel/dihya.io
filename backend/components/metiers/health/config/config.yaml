@@ -1,0 +1,10 @@
+# Configuration Santé (EN)
+nom: health
+plugins:
+  - rgpd
+  - notifications
+  - analytics
+dependances:
+  - flask
+  - pandas
+rgpd: True

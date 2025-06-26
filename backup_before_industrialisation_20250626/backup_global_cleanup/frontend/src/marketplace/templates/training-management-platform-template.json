@@ -1,0 +1,23 @@
+{
+  "name": "Gestion de la formation",
+  "sector": "Formation",
+  "description": "Template gestion de la formation (stagiaires, sessions, contenus, évaluations, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des stagiaires",
+    "Gestion des sessions",
+    "Gestion des contenus",
+    "Évaluations",
+    "Advanced reporting",
+    "Support plugins (export, IA, certification)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

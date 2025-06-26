@@ -1,5 +1,6 @@
 # fallback.py
-# Fallback validator Python pour Threed – exemple clé en main
+# Fallback validator Python pour administration_publique – exemple clé en main
+
 
 def validator_fallback(value):
     """

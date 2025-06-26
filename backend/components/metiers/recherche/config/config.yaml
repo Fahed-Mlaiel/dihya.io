@@ -1,0 +1,10 @@
+# Configuration Recherche
+nom: recherche
+plugins:
+  - analytics
+  - collab
+  - publication
+dependances:
+  - flask
+  - pandas
+rgpd: True

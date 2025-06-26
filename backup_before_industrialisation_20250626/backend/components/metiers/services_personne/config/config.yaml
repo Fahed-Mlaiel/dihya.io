@@ -1,0 +1,10 @@
+# Configuration Services à la personne
+nom: services_personne
+plugins:
+  - booking
+  - analytics
+  - crm
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

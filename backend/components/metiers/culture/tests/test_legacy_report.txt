@@ -1,7 +1,0 @@
-Rapport de tests legacy ultra avancé pour Culture :
-- Audit : OK
-- RGPD : OK
-- Accessibilité : OK
-- Multilingue : OK
-- CI/CD : OK
-Tous les tests legacy sont passés avec succès.

@@ -1,4 +1,4 @@
-// i18n.js – Internationalisation et traduction pour Threed (Node.js)
+// i18n.js – Internationalisation et traduction pour administration_publique (Node.js)
 module.exports = function translate(text, lang = 'fr') {
   const translations = {
     fr: `[FR] ${text}`,

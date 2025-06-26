@@ -1,0 +1,22 @@
+{
+  "name": "Maintenance",
+  "sector": "Maintenance",
+  "description": "Template maintenance (équipements, interventions, planning, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des équipements",
+    "Gestion des interventions",
+    "Planning et maintenance préventive",
+    "Advanced reporting",
+    "Support plugins (export, IA, IoT)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

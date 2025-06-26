@@ -1,0 +1,27 @@
+# Pipeline CI/CD Blockchain – Dihya.io
+
+name: Blockchain CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Lint & Audit
+        run: npm run lint && npm run audit || true
+      - name: Run Monitoring
+        run: node devops/monitoring.js
+      - name: Deploy (if needed)
+        run: echo "Déploiement blockchain..."

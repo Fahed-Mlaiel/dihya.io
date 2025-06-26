@@ -1,8 +1,9 @@
 # fallback.py
-# Fallback d'export Python pour Threed – exemple clé en main
+# Fallback d'export Python pour administration_publique – exemple clé en main
 from datetime import datetime
 
 fallback_exports = []
+
 
 def export_fallback(data=None):
     """
@@ -10,9 +11,6 @@ def export_fallback(data=None):
     """
     if data is None:
         data = {}
-    export_obj = {
-        'timestamp': datetime.utcnow().isoformat() + 'Z',
-        **data
-    }
+    export_obj = {"timestamp": datetime.utcnow().isoformat() + "Z", **data}
     fallback_exports.append(export_obj)
     return export_obj

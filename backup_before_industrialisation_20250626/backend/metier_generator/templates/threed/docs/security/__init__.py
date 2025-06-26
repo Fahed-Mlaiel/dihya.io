@@ -1,0 +1,3 @@
+"""
+Initialisation sécurité threed (Python)
+"""

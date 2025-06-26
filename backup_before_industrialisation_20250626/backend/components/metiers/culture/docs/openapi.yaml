@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Culture
+  version: 1.0.0
+paths:
+  /culture/:
+    get:
+      summary: Liste des ressources Culture
+      responses:
+        '200':
+          description: Succès

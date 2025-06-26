@@ -1,5 +1,5 @@
 import unittest
-from backend.components.metiers.threed.api.samples.rgpd import sample_rgpd_sanitize
+from threed.api.samples.rgpd import sample_rgpd_sanitize
 
 
 class TestSampleRGPD(unittest.TestCase):

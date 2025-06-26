@@ -1,0 +1,59 @@
+# Fichier .dockerignore pour le module métier "education"
+
+# Ignore les fichiers de configuration et les fichiers sensibles
+**/.env
+**/.env.local
+**/.env.*.local
+**/config/*.json
+**/secrets/
+**/credentials/
+**/.git
+**/.gitignore
+**/.gitattributes
+**/.github
+**/.gitlab-ci.yml
+
+# Ignore les fichiers de développement et de test
+**/node_modules/
+**/bower_components/
+**/coverage/
+**/tests/
+**/test-results/
+**/*.log
+**/*.test.js
+**/*.spec.js
+**/*.benchmark.js
+
+# Ignore les fichiers de documentation et les fichiers inutiles
+**/README.md
+**/CHANGELOG.md
+**/LICENSE
+**/docs/
+**/mkdocs.yml
+**/site/
+**/*.md
+
+# Ignore les fichiers de build et les dépendances temporaires
+**/dist/
+**/build/
+**/temp/
+**/cache/
+**/out/
+**/npm-debug.log
+**/yarn-error.log
+**/yarn-debug.log
+**/package-lock.json
+**/yarn.lock
+
+# Ignore les fichiers spécifiques aux éditeurs et aux systèmes d'exploitation
+**/.DS_Store
+**/.idea/
+**/*.sublime-*
+**/*.swp
+**/*.swo
+**/*.sln
+**/*.user
+**/*.userprefs
+**/*.unity
+**/*.vscode
+**/Thumbs.db

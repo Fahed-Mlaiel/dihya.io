@@ -1,0 +1,39 @@
+openapi: 3.0.0
+info:
+  title: Threed API
+  version: 1.0.0
+paths:
+  /assets:
+    get:
+      summary: Liste les assets 3D
+      responses:
+        '200':
+          description: Liste des assets
+    post:
+      summary: Crée un nouvel asset 3D
+      responses:
+        '200':
+          description: Asset créé
+  /assets/{id}:
+    get:
+      summary: Récupère un asset 3D
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Asset trouvé
+    delete:
+      summary: Supprime un asset 3D
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Asset supprimé

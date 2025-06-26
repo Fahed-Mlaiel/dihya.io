@@ -1,0 +1,42 @@
+{
+  "README.md": [
+    "doc",
+    "sommaire",
+    "conventions"
+  ],
+  "README_EXEMPLES.md": [
+    "doc",
+    "exemples",
+    "intégration"
+  ],
+  "README_ARCHITECTURE.md": [
+    "doc",
+    "architecture",
+    "schema"
+  ],
+  "USER_GUIDE.md": [
+    "guide",
+    "utilisateur",
+    "usage"
+  ],
+  "INTEGRATION_GUIDE.md": [
+    "guide",
+    "intégration",
+    "flux"
+  ],
+  "dev_guide.md": [
+    "guide",
+    "développeur",
+    "conventions"
+  ],
+  "architecture.md": [
+    "schema",
+    "architecture",
+    "diagramme"
+  ],
+  "openapi.yaml": [
+    "api",
+    "openapi",
+    "documentation"
+  ]
+}

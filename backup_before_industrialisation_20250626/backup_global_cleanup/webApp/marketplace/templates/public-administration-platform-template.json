@@ -1,0 +1,23 @@
+{
+  "name": "Administration publique",
+  "sector": "Administration",
+  "description": "Template administration publique (usagers, démarches, documents, paiements, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des usagers",
+    "Gestion des démarches",
+    "Gestion des documents",
+    "Paiements en ligne",
+    "Advanced reporting",
+    "Support plugins (export, IA, paiement)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

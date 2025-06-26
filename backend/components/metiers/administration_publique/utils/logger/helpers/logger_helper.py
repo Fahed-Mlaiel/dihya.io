@@ -1,6 +1,7 @@
 # logger_helper.py
-# Helper logger Python pour Threed – exemple clé en main
+# Helper logger Python pour administration_publique – exemple clé en main
 from datetime import datetime
+
 
 def format_log(level, message):
     """

@@ -3,7 +3,7 @@
  * Exemple de fonction RGPD cœur métier
  */
 function anonymizeData(data) {
-  // TODO: Implémenter la logique d’anonymisation RGPD
+  if (typeof data !== 'object' || data === null) throw new TypeError('Entrée invalide pour anonymizeData');
   return { ...data, anonymized: true };
 }
 

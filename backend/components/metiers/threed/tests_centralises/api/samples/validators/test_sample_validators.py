@@ -1,5 +1,5 @@
 import unittest
-from backend.components.metiers.threed.api.samples.validators import sample_validator_ultra
+from threed.api.samples.validators import sample_validator_ultra
 
 
 class TestSampleValidators(unittest.TestCase):

@@ -1,5 +1,5 @@
 import unittest
-from backend.components.metiers.threed.api.samples.db import sample_db_ultra
+from threed.api.samples.db import sample_db_ultra
 
 
 class TestSampleDB(unittest.TestCase):

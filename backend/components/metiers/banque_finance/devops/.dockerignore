@@ -1,0 +1,67 @@
+# Fichiers de configuration et environnements locaux
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+
+# Dossiers de dépendances
+**/node_modules
+**/venv
+**/__pycache__
+**/.pytest_cache
+
+# Fichiers de logs et de données temporaires
+**/logs
+**/*.log
+**/temp
+
+# Fichiers et dossiers de développement
+**/*.md
+**/.git
+**/.gitignore
+**/.github
+**/.vscode
+**/.idea
+**/*.json
+**/Dockerfile
+**/docker-compose.yml
+**/Makefile
+**/LICENSE
+**/CONTRIBUTING.md
+
+# Fichiers de tests et de couverture
+**/tests
+**/coverage
+**/.coverage
+**/cypress
+**/cypress.json
+**/.nyc_output
+
+# Fichiers de build et artefacts
+**/build
+**/dist
+**/out
+**/*.tar.gz
+**/*.zip
+
+# Fichiers spécifiques aux éditeurs et systèmes
+**/*.sublime-*
+**/*.DS_Store
+**/Thumbs.db
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+**/*.temp
+
+# Autres fichiers et dossiers non nécessaires
+**/examples
+**/sample
+**/demo
+**/docs
+**/doc
+**/documentation
+**/CHANGELOG.md
+**/README.md
+**/CONTRIBUTORS.md

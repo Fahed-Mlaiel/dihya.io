@@ -1,0 +1,54 @@
+# Fichiers de configuration et d'environnement
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Dossiers de dépendances
+**/node_modules
+**/bower_components
+**/__pycache__
+**/.pytest_cache
+**/venv
+**/build
+**/dist
+
+# Fichiers de logs et de sessions
+**/logs
+**/*.log
+**/npm-debug.log
+**/yarn-error.log
+
+# Fichiers et dossiers de développement
+**/.git
+**/.gitignore
+**/.github
+**/.vscode
+**/*.md
+**/Dockerfile*
+**/*.dockerignore
+**/Makefile
+**/LICENSE
+**/docker-compose*.yml
+**/test
+**/tests
+**/spec
+**/coverage
+
+# Fichiers spécifiques à l'OS ou à l'éditeur
+**/.DS_Store
+**/Thumbs.db
+**/*.sublime*
+**/*.idea
+**/*.swp
+**/*.swo
+**/*.tmp
+
+# Autres fichiers et dossiers qui ne devraient pas être inclus
+**/secrets
+**/migrations
+**/data
+**/tmp
+**/assets
+**/scripts
+**/examples
+**/demo

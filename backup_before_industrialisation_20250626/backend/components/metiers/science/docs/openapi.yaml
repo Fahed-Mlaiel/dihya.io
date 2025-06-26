@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Science
+  version: 1.0.0
+paths:
+  /science/:
+    get:
+      summary: Liste des ressources Science
+      responses:
+        '200':
+          description: Succès

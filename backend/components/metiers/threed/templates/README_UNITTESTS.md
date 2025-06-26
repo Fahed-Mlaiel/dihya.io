@@ -1,3 +1,4 @@
+/* global console */
 # README – Tests unitaires des templates Threed
 
 Ce dossier contient des tests unitaires pour tous les templates Jinja2, HTML, JSON, XML, JS.

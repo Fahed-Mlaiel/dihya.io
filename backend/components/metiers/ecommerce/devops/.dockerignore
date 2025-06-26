@@ -1,0 +1,46 @@
+# Fichier .dockerignore pour le module métier "ecommerce"
+
+# Ignore les fichiers de configuration et d'environnement locaux
+.env
+.env.local
+.env.*.local
+
+# Ignore les dossiers de dépendances
+**/node_modules/
+**/bower_components/
+
+# Ignore les fichiers de logs et de cache
+**/logs/
+**/cache/
+*.log
+
+# Ignore les fichiers de développement et de test
+**/__tests__/
+**/__mocks__/
+*.spec.js
+*.test.js
+coverage/
+*.coverage
+cypress/
+*.config.js
+
+# Ignore les fichiers et dossiers de l'éditeur
+**/.vscode/
+**/.idea/
+**/*.sublime-*
+
+# Ignore les fichiers de build et de compilation
+dist/
+build/
+tmp/
+
+# Ignore les fichiers de documentation et de markdown inutiles dans l'image
+*.md
+LICENSE
+*.txt
+docs/
+*.docx
+
+# Ignore les fichiers spécifiques au système d'exploitation
+.DS_Store
+Thumbs.db

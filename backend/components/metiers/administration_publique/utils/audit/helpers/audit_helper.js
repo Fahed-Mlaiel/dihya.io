@@ -1,5 +1,5 @@
 // audit_helper.js
-// Helper d'audit JS pour Threed – exemple clé en main
+// Helper d'audit JS pour administration_publique – exemple clé en main
 
 /**
  * Génère un log d'audit structuré pour une action métier

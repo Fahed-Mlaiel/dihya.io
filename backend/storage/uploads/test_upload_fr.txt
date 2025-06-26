@@ -1,3 +1,0 @@
-Fichier de test upload (français) – Dihya
-# Test upload file (fr)
-# Usage : test d’upload, conforme RGPD

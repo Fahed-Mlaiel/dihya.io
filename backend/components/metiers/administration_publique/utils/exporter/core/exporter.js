@@ -1,4 +1,4 @@
-// exporter.js – Export CSV/JSON, anonymisation, RGPD, audit pour Threed (3D)
+// exporter.js – Export CSV/JSON, anonymisation, RGPD, audit pour administration_publique (administration_publique)
 const fs = require('fs');
 
 module.exports = {

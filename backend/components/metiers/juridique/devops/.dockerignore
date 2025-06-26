@@ -1,0 +1,56 @@
+# Fichier .dockerignore pour le module métier juridique
+
+# Ignorer les fichiers de configuration et les fichiers sensibles
+**/.env
+**/.env.*
+**/config/*
+**/secrets/
+**/*.pem
+**/*.key
+**/*.crt
+
+# Ignorer les répertoires de dépendances
+**/node_modules/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/dist/
+**/build/
+**/coverage/
+
+# Ignorer les fichiers de développement et de test
+**/*.log
+**/*.sql
+**/test/
+**/tests/
+**/*.test.*
+**/*.spec.*
+**/mocks/
+
+# Ignorer les fichiers et dossiers de l'éditeur
+**/.idea/
+**/.vscode/
+**/*.sublime-*
+**/*.swp
+**/*.swo
+**/*~
+
+# Ignorer les fichiers de documentation et de markdown qui ne sont pas nécessaires à l'exécution
+**/README.md
+**/CHANGELOG.md
+**/LICENSE
+**/docs/
+
+# Ignorer les fichiers spécifiques aux systèmes d'exploitation
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorer les fichiers de sauvegarde et temporaires
+**/*.bak
+**/*.tmp
+**/*.temp
+
+# Ignorer les fichiers de logs et de données qui ne devraient pas être inclus
+**/logs/
+**/data/

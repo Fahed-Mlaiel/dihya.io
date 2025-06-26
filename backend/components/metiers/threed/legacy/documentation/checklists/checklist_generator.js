@@ -1,3 +1,5 @@
+const console = require('console');
+
 // Script JS pour générer automatiquement des checklists de documentation legacy Threed
 // Conforme au cahier des charges, extensible, prêt à l’emploi
 function generateChecklist(items) {

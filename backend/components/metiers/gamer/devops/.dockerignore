@@ -1,0 +1,54 @@
+# Fichiers de configuration et d'environnement
+**/.env
+**/.env.*
+**/.env.local
+
+# Répertoires de dépendances
+**/node_modules
+**/bower_components
+
+# Fichiers de logs et de cache
+**/logs
+**/*.log
+**/npm-debug.log
+**/yarn-error.log
+**/.cache
+**/.next/cache
+
+# Fichiers de développement/test
+**/*test*
+**/*spec*
+**/*mock*
+**/coverage
+**/.nyc_output
+
+# Fichiers et répertoires de build
+**/build
+**/dist
+**/out
+**/.next
+
+# Fichiers de configuration spécifiques aux IDE et éditeurs
+**/.idea
+**/.vscode
+**/*.sublime*
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.orig
+
+# Fichiers et répertoires temporaires
+**/tmp
+**/temp
+**/.tmp
+**/.temp
+
+# Autres fichiers et répertoires non nécessaires
+**/.git
+**/.github
+**/.gitignore
+**/.DS_Store
+**/Thumbs.db
+**/.hg
+**/.svn
+**/CVS

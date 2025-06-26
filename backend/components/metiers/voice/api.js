@@ -1,3 +1,0 @@
-// API-Routen für das Modul 'voice'
-// REST & GraphQL, Multitenancy, Security, i18n, Audit, RGPD, SEO, Plugins, etc.
-// ... vollständige Implementierung ...

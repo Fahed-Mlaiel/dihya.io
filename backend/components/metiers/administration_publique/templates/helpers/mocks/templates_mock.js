@@ -1,9 +1,9 @@
-// templates_mock.js – Mocks pour tests unitaires et intégration des templates Threed (JS)
+// templates_mock.js – Mocks pour tests unitaires et intégration des templates administration_publique (JS)
 // Inclut : scénarios spécifiques, edge cases, CI/CD, audit, accessibilité
 
 module.exports = {
   mockRapportAudit: { date: '2025-06-03', result: 'OK' },
-  mockEmailNotification: { details: 'Nouvelle scène 3D créée' },
+  mockEmailNotification: { details: 'Nouvelle scène administration_publique créée' },
   mockAccessibiliteAudit: { date: '2025-06-03' },
   mockServiceExport: { date: '2025-06-03' }
 };

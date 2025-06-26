@@ -1,0 +1,53 @@
+# Fichiers de configuration et d'environnement locaux
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+
+# Dossiers de dépendances
+**/node_modules/
+**/bower_components/
+**/vendor/
+
+# Fichiers de cache et logs
+**/.cache
+**/.npm
+**/logs
+**/*.log
+
+# Fichiers et dossiers de développement
+**/.git
+**/.github
+**/.gitignore
+**/.gitattributes
+**/.vscode
+**/*.md
+**/LICENSE
+**/Dockerfile*
+**/*Dockerfile
+**/docker-compose*
+**/*docker-compose.yml
+
+# Fichiers de tests et de couverture
+**/tests
+**/coverage
+**/.nyc_output
+
+# Fichiers de build et de production
+**/dist
+**/build
+**/temp
+**/out
+**/export
+
+# Fichiers spécifiques aux éditeurs et systèmes d'exploitation
+**/.DS_Store
+**/Thumbs.db
+**/*.sublime*
+**/*.idea
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+**/*.temp

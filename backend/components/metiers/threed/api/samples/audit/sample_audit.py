@@ -23,3 +23,8 @@ def main(*args, **kwargs) -> Any:
     except Exception as e:
         logger.error("Erreur dans %s: %s", __name__, e, exc_info=True)
         raise
+
+def audit_sample_action(user, action):
+    """Action d'audit simulée pour les tests unitaires."""
+    logger.info(f"Audit action: user={user}, action={action}")
+    return {"status": "ok", "user": user, "action": action}

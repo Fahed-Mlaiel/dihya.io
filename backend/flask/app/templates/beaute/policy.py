@@ -1,2 +1,0 @@
-# Stub für BEAUTE_POLICIES
-BEAUTE_POLICIES = {}

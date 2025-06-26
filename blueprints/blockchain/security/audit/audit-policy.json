@@ -1,0 +1,16 @@
+{
+  "logRotation": "7d",
+  "logLevel": "info",
+  "fields": [
+    "timestamp",
+    "type",
+    "user",
+    "ip",
+    "details"
+  ],
+  "retention": "90d",
+  "alertOn": [
+    "critical",
+    "security_breach"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Amazon-like Marketplace Platform",
+  "sector": "E-commerce/Marketplace",
+  "description": "Template pour marketplace type Amazon (multi-vendeurs, catalogue, paiement, livraison, avis, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "amazon",
+      "marketplace",
+      "multi-vendeurs",
+      "catalogue",
+      "paiement",
+      "livraison",
+      "avis",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

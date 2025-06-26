@@ -1,5 +1,5 @@
 // exporter_helper.js
-// Helper d'export JS pour Threed – exemple clé en main
+// Helper d'export JS pour administration_publique – exemple clé en main
 
 /**
  * Formate les données à exporter en JSON compacté

@@ -1,0 +1,22 @@
+{
+  "name": "Gestion viager immobilier",
+  "sector": "Immobilier",
+  "description": "Template viager immobilier (biens, contrats, paiements, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des biens en viager",
+    "Gestion des contrats",
+    "Paiements",
+    "Advanced reporting",
+    "Support plugins (export, IA, paiement)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

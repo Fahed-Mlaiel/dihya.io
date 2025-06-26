@@ -1,0 +1,65 @@
+# Fichier .dockerignore pour le module métier "environnement"
+
+# Ignorer les fichiers de configuration de l'éditeur
+.editorconfig
+.git/
+.gitignore
+.vscode/
+
+# Ignorer les fichiers de dépendances
+node_modules/
+bower_components/
+
+# Ignorer les fichiers de logs et de cache
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.pyc
+__pycache__/
+
+# Ignorer les fichiers spécifiques à l'environnement de développement
+.env
+.env.development
+.env.local
+.env.example
+
+# Ignorer les fichiers de test et de couverture
+coverage/
+*.test.js
+*.spec.js
+tests/
+cypress/
+.e2e/
+
+# Ignorer les fichiers de build et de distribution
+dist/
+build/
+out/
+
+# Ignorer les fichiers et dossiers temporaires
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorer les fichiers de documentation et de design
+*.md
+docs/
+design/
+*.sketch
+*.psd
+*.ai
+
+# Ignorer les fichiers de sauvegarde
+*.bak
+*.swp
+*.swo
+
+# Ignorer les fichiers de configuration spécifiques aux dépendances
+*.lock
+package-lock.json
+yarn.lock

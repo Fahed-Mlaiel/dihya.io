@@ -1,7 +1,0 @@
-.env
-.env.example
-.env.production
-.env.test
-.envrc
-.envrc.example
-node_modules

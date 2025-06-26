@@ -1,7 +1,7 @@
-// fixtures_validator.js - Validation avancée des fixtures Threed
+// fixtures_validator.js - Validation avancée des fixtures administration_publique
 
 module.exports = {
-  isValid3DModel: (model) => {
+  isValidadministration_publiqueModel: (model) => {
     return model && typeof model.id === 'string' && Array.isArray(model.vertices) && Array.isArray(model.faces);
   },
   isValidUser: (user) => {

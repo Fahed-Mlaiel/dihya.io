@@ -1,0 +1,23 @@
+{
+  "name": "Gestion hôtellerie",
+  "sector": "Hôtellerie",
+  "description": "Template gestion hôtellerie (chambres, réservations, clients, paiement, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des chambres",
+    "Gestion des réservations",
+    "Gestion des clients",
+    "Paiement sécurisé",
+    "Advanced reporting",
+    "Support plugins (export, IA, paiement)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

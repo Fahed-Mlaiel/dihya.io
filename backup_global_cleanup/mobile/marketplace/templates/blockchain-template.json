@@ -1,0 +1,22 @@
+{
+  "name": "Blockchain",
+  "sector": "Blockchain",
+  "description": "Template blockchain (wallets, transactions, smart contracts, audit, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des wallets",
+    "Gestion des transactions",
+    "Smart contracts",
+    "Audit et logs blockchain",
+    "Support plugins (export, IA, sécurité)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

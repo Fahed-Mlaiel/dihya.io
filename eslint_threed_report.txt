@@ -1,1 +1,0 @@
-bash: eslint: command not found

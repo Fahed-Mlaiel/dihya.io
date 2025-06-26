@@ -1,0 +1,10 @@
+# Configuration Sécurité
+nom: securite
+plugins:
+  - analytics
+  - audit
+  - firewall
+dependances:
+  - flask
+  - cryptography
+rgpd: True

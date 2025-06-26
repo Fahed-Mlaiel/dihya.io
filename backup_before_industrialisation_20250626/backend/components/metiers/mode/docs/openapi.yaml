@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Mode
+  version: 1.0.0
+paths:
+  /mode/:
+    get:
+      summary: Liste des ressources Mode
+      responses:
+        '200':
+          description: Succès

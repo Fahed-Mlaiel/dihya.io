@@ -1,3 +1,0 @@
-Afileg n test upload (Amazigh) – Dihya
-# Test upload file (tzm)
-# Usage: upload test, RGPD compliant

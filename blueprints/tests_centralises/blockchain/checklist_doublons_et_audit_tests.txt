@@ -1,0 +1,12 @@
+# Checklist exhaustive des doublons et audit des tests (Lead Dev)
+
+- [x] Audit SHA1 de tous les fichiers effectué
+- [x] Doublons de locales linguistiques détectés (à enrichir, pas à supprimer)
+- [x] Doublons de tests détectés et enrichis
+- [x] Fichiers vides/parasites détectés et enrichis
+- [x] Scripts de synchronisation désactivés
+- [x] Nettoyage automatisé validé
+- [x] Tous les tests vides remplis avec logique métier réelle
+- [x] Prêt pour audit final et CI/CD
+
+Pour chaque fichier, voir la liste détaillée dans l’historique d’audit.

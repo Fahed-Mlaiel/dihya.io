@@ -1,0 +1,10 @@
+# Configuration Science
+nom: science
+plugins:
+  - analytics
+  - lab
+  - results
+dependances:
+  - flask
+  - pandas
+rgpd: True

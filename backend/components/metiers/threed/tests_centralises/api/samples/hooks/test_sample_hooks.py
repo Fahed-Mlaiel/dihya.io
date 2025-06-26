@@ -1,5 +1,5 @@
 import unittest
-from backend.components.metiers.threed.api.samples.hooks import sample_hook_ultra
+from threed.api.samples.hooks import sample_hook_ultra
 
 
 class TestSampleHooks(unittest.TestCase):

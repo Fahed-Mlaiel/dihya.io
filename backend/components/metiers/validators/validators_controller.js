@@ -1,3 +1,0 @@
-// Controller für das Modul 'validators'
-// Security, i18n, Multitenancy, RGPD, Audit, SEO, Plugins, Fallback AI, Logging, etc.
-// ... vollständige Implementierung ...

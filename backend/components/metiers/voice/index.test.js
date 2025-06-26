@@ -1,3 +1,0 @@
-// Unit- und Integrationstests für das Modul 'voice'
-// Testet Security, i18n, Multitenancy, RGPD, Audit, SEO, Plugins, Fallback AI, Logging, etc.
-// ... vollständige Testimplementierung ...

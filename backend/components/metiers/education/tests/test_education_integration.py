@@ -1,1 +1,0 @@
-# Test d'intégration Education

@@ -1,3 +1,0 @@
-// AI Integration Test
-// Fichier fusionné depuis intelligence_artificielle/test_intelligence_artificielle.js
-// ...existing code...

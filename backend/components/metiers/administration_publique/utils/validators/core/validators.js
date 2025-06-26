@@ -1,8 +1,16 @@
-// validators.js – Validateurs avancés pour Threed (Node.js)
-module.exports = function validateThreed(data) {
-  if (!data.name) throw new Error('Nom requis');
-  if (!['active', 'inactive', 'archived', undefined, null].includes(data.status)) {
-    throw new Error('Statut invalide');
-  }
+// validators.js – Validateurs avancés pour administration_publique (Node.js)
+function isValidModel(data) {
+  if (!data || typeof data !== 'object') return false;
+  if (!data.nom) return false;
+  if (!['actif', 'inactif', 'archive', undefined, null].includes(data.statut)) return false;
   return true;
+}
+
+function validateRequired(val) {
+  return val !== undefined && val !== null && val !== '';
+}
+
+module.exports = {
+  isValidModel,
+  validateRequired
 };

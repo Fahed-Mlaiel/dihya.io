@@ -1,0 +1,61 @@
+# Fichiers de configuration et d'environnement
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+
+# Dossiers de dépendances
+**/node_modules
+**/venv
+**/__pycache__
+**/.pytest_cache
+
+# Fichiers de logs et de données temporaires
+**/logs
+**/*.log
+**/tmp
+
+# Fichiers et dossiers de développement
+**/.git
+**/.gitignore
+**/.github
+**/.vscode
+**/*.md
+**/tests
+**/coverage
+**/.DS_Store
+
+# Fichiers spécifiques à l'IDE et au système d'exploitation
+**/*.sublime-*
+**/Thumbs.db
+**/.idea
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+
+# Dossiers de build et de distribution
+/dist
+/build
+/out
+
+# Fichiers de cache de l'éditeur
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Autres fichiers et dossiers non nécessaires
+**/npm-debug.log
+**/yarn-error.log
+Dockerfile*
+*.dockerignore
+*docker-compose*
+*README*
+*LICENSE*
+*CHANGELOG*
+*AUTHORS*
+*CONTRIBUTORS*

@@ -1,5 +1,5 @@
 // generic_helper.js
-// Helper générique JS pour Threed – exemple clé en main
+// Helper générique JS pour administration_publique – exemple clé en main
 
 /**
  * Capitalise la première lettre d'une chaîne

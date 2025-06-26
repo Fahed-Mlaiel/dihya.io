@@ -1,12 +1,12 @@
-// views.js - Vues/metiers pour threed (exemple)
+// views.js - Vues/metiers pour administration_publique (exemple)
 
 module.exports = {
-  renderHome: () => '<h1>Bienvenue sur Threed</h1>',
+  renderHome: () => '<h1>Bienvenue sur administration_publique</h1>',
   renderModel: (model) => `<div>Modèle: ${model.name}</div>`,
   /**
-   * Vue avancée pour Threed (3D)
+   * Vue avancée pour administration_publique (administration_publique)
    */
-  renderThreedView: (data) => {
+  renderadministration_publiqueView: (data) => {
     return {
       name: data.name,
       status: data.status,

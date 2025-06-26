@@ -1,0 +1,10 @@
+# Configuration Administration Publique
+nom: administration_publique
+plugins:
+  - rgpd
+  - workflow
+  - archive
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

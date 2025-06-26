@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Transport
+  version: 1.0.0
+paths:
+  /transport/:
+    get:
+      summary: Liste des ressources Transport
+      responses:
+        '200':
+          description: Succès

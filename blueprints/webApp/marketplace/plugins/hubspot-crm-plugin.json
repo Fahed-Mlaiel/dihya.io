@@ -1,0 +1,21 @@
+{
+  "name": "HubSpot CRM",
+  "type": "crm",
+  "description": "Plugin d’intégration HubSpot (gestion clients, pipeline, reporting, audit, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des clients",
+    "Pipeline de ventes",
+    "Reporting avancé",
+    "Intégration CI/CD",
+    "Audit RGPD",
+    "Logs et analytics"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

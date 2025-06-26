@@ -2,7 +2,7 @@
 test___init__.py – Tests ultra avancés pour les mocks fixtures (Python)
 """
 
-from backend.components.metiers.threed.fixtures.mocks.fixtures_mock import (
+from threed.fixtures.mocks.fixtures_mock import (
     mock_request,
     mock_response,
 )

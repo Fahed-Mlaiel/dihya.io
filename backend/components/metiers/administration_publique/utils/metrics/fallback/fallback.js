@@ -1,5 +1,5 @@
 // fallback.js
-// Fallback metrics JS pour Threed – exemple clé en main
+// Fallback metrics JS pour administration_publique – exemple clé en main
 
 /**
  * Fallback minimal : stocke une métrique en mémoire si la persistance échoue

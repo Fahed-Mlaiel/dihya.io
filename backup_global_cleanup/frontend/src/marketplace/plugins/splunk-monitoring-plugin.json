@@ -1,0 +1,23 @@
+{
+  "name": "Splunk Monitoring",
+  "type": "monitoring",
+  "description": "Splunk-Integration: Logs, Metriken, Tracing, Alerts, Dashboards, Audit- und CI/CD-ready.",
+  "version": "1.0.0",
+  "author": "LeadDev",
+  "date": "2025-06-19",
+  "features": [
+    "Log- und Metrik-Integration",
+    "Distributed Tracing",
+    "Alerting und Incident Management",
+    "Dashboards und Visualisierung",
+    "API- und Webhook-Support",
+    "Audit-Logging",
+    "CI/CD-Deployment",
+    "DSGVO/GDPR-konform"
+  ],
+  "audit_status": "audited",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

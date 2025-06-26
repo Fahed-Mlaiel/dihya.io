@@ -1,0 +1,10 @@
+# Configuration Banque/Finance
+nom: banque_finance
+plugins:
+  - paiement
+  - analytics
+  - rgpd
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

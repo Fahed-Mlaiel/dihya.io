@@ -1,0 +1,49 @@
+# Fichiers de configuration et d'environnement
+**/.env
+**/.env.local
+**/.env.example
+
+# Dossiers de dépendances
+**/node_modules/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/dist/
+**/build/
+**/out/
+
+# Fichiers de logs et de données
+**/logs/
+**/*.log
+**/*.sqlite
+
+# Fichiers et dossiers de développement
+**/.git/
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+**/npm-debug.log*
+**/yarn-error.log*
+
+# Fichiers spécifiques aux tests
+**/tests/
+**/*.spec.*
+**/*.test.*
+**/coverage/
+**/.nyc_output/
+
+# Fichiers de documentation et de lecture
+**/README.md
+**/LICENSE
+**/docs/
+**/mkdocs.yml
+**/CHANGELOG.md
+
+# Autres fichiers non nécessaires
+**/.DS_Store
+**/Thumbs.db
+.dockerignore
+Dockerfile
+*.md

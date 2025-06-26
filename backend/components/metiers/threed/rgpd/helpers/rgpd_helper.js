@@ -3,8 +3,8 @@
  * Exemple de helper RGPD
  */
 function maskPII(data) {
-  if (data === null || data === undefined) {
-    throw new Error('Data cannot be null or undefined');
+  if (typeof data !== 'object' || data === null) {
+    throw new Error('Data must be a non-null object');
   }
   return { ...data, masked: true };
 }

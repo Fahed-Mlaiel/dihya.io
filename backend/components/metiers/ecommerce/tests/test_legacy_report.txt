@@ -1,8 +1,0 @@
-Rapport de tests legacy eCommerce (Dihya Coding)
-
-- Test legacy API : OK
-- Test compatibilité RGPD : OK
-- Test auditabilité : OK
-- Test extension plugins : OK
-
-Tous les tests legacy sont conformes au CDC et à la souveraineté numérique.

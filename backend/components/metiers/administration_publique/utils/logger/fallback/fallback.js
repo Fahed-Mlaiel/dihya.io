@@ -1,5 +1,5 @@
 // fallback.js
-// Fallback logger JS pour Threed – exemple clé en main
+// Fallback logger JS pour administration_publique – exemple clé en main
 
 /**
  * Fallback minimal : log en mémoire si la persistance échoue

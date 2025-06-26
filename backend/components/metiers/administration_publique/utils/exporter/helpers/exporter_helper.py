@@ -1,6 +1,7 @@
 # exporter_helper.py
-# Helper d'export Python pour Threed – exemple clé en main
+# Helper d'export Python pour administration_publique – exemple clé en main
 import json
+
 
 def format_export_json(data):
     """

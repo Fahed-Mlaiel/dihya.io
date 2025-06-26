@@ -1,0 +1,37 @@
+{
+  "README.md": [
+    "doc",
+    "docs",
+    "feature"
+  ],
+  "README_EXEMPLES.md": [
+    "doc",
+    "exemples",
+    "docs"
+  ],
+  "README_INTEGRATION.md": [
+    "doc",
+    "exemples",
+    "docs"
+  ],
+  "README_ARCHITECTURE.md": [
+    "doc",
+    "architecture",
+    "docs"
+  ],
+  "DocPage.jsx": [
+    "composant",
+    "docs",
+    "page"
+  ],
+  "GuideIntegration.jsx": [
+    "composant",
+    "docs",
+    "guide"
+  ],
+  "OpenAPIViewer.jsx": [
+    "composant",
+    "docs",
+    "openapi"
+  ]
+}

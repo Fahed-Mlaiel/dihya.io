@@ -1,3 +1,5 @@
+const console = require('console');
+
 // Script d’analyse avancée des logs d’audit legacy Threed (JS)
 function analyseAuditLogs(logs) {
   const stats = {};

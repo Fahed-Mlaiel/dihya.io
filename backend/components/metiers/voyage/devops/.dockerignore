@@ -1,0 +1,48 @@
+# Fichier .dockerignore pour le module métier "voyage"
+
+# Ignorer les fichiers de configuration et les fichiers sensibles
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+**/.git
+**/.gitignore
+**/.dockerignore
+**/Dockerfile
+**/docker-compose.yml
+
+# Ignorer les dépendances installées localement
+**/node_modules
+**/vendor
+**/__pycache__
+**/*.pyc
+**/*.pyo
+
+# Ignorer les fichiers de logs et les fichiers temporaires
+**/logs
+**/*.log
+**/temp
+**/tmp
+
+# Ignorer les fichiers de tests et de documentation
+**/tests
+**/coverage
+**/*.md
+
+# Ignorer les fichiers spécifiques aux éditeurs de texte
+**/.vscode
+**/.idea
+**/*.sublime-*
+
+# Ignorer les fichiers de build et les artefacts
+**/dist
+**/build
+**/out
+
+# Ignorer les fichiers et dossiers spécifiques au module "voyage"
+voyage/specific_data
+voyage/example_outputs
+voyage/local_configs
+
+# Ajouter d'autres fichiers/dossiers spécifiques à ignorer si nécessaire

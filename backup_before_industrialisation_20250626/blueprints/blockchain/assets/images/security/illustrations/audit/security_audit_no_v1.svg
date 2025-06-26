@@ -1,0 +1,11 @@
+<!--
+  security_audit_no_v1.svg
+  Illustrasjon av sikkerhetsrevisjon (norsk)
+-->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#e8f0f7"/>
+  <g>
+    <circle cx="100" cy="100" r="80" fill="#7e9ed9"/>
+    <text x="100" y="110" font-size="28" text-anchor="middle" fill="#222">Revisjon</text>
+  </g>
+</svg>

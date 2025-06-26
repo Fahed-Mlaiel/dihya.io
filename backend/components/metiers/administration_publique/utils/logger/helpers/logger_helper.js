@@ -1,5 +1,5 @@
 // logger_helper.js
-// Helper logger JS pour Threed – exemple clé en main
+// Helper logger JS pour administration_publique – exemple clé en main
 
 /**
  * Formate un message de log avec niveau et timestamp

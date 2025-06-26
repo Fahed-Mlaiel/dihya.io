@@ -1,0 +1,10 @@
+# Configuration Construction
+nom: construction
+plugins:
+  - analytics
+  - planning
+  - iot
+dependances:
+  - flask
+  - pandas
+rgpd: True

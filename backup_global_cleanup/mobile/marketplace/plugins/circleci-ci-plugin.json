@@ -1,0 +1,22 @@
+{
+  "name": "CircleCI CI/CD",
+  "type": "ci-cd",
+  "description": "CircleCI-Integration: Build, Test, Deploy, Workflows, Webhooks, Audit- und Multi-Project-ready.",
+  "version": "1.0.0",
+  "author": "LeadDev",
+  "date": "2025-06-19",
+  "features": [
+    "Build- und Deployment-Pipelines",
+    "Automatisierte Tests und Workflows",
+    "Multi-Project Support",
+    "Webhooks und Benachrichtigungen",
+    "Audit-Logging",
+    "DSGVO/GDPR-konform",
+    "CI/CD-Deployment"
+  ],
+  "audit_status": "audited",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

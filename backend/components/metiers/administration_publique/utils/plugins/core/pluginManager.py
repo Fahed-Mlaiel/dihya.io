@@ -1,6 +1,7 @@
 """
-pluginManager.py – Gestionnaire de plugins pour Threed (Python)
+pluginManager.py – Gestionnaire de plugins pour administration_publique (Python)
 """
+
 
 class PluginManager:
     def __init__(self):
@@ -14,6 +15,7 @@ class PluginManager:
         for plugin in self.plugins:
             results.append(plugin(*args, **kwargs))
         return results
+
 
 pluginManager = PluginManager()
 

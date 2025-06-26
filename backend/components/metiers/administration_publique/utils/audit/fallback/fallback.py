@@ -1,8 +1,9 @@
 # fallback.py
-# Fallback d'audit Python pour Threed – exemple clé en main
+# Fallback d'audit Python pour administration_publique – exemple clé en main
 from datetime import datetime
 
 fallback_logs = []
+
 
 def audit_fallback(action, details=None):
     """
@@ -11,9 +12,9 @@ def audit_fallback(action, details=None):
     if details is None:
         details = {}
     log = {
-        'timestamp': datetime.utcnow().isoformat() + 'Z',
-        'action': action,
-        **details
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "action": action,
+        **details,
     }
     fallback_logs.append(log)
     return log

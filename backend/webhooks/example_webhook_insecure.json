@@ -1,8 +1,0 @@
-{
-  "name": "test_insecure",
-  "url": "http://webhook.dihya.ai/test",
-  "method": "POST",
-  "headers": {},
-  "payload": {"event": "test"}
-}
-

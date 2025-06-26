@@ -1,0 +1,23 @@
+{
+  "name": "Gestion pharmacie",
+  "sector": "Health",
+  "description": "Template gestion pharmacie (médicaments, stocks, ordonnances, ventes, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des médicaments",
+    "Gestion des stocks",
+    "Gestion des ordonnances",
+    "Gestion des ventes",
+    "Advanced reporting",
+    "Plugin support (export, AI, compliance)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

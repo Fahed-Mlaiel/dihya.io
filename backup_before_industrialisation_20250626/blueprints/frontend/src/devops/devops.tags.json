@@ -1,0 +1,70 @@
+{
+  "Dockerfile.frontend": [
+    "docker",
+    "build",
+    "deploy",
+    "nginx"
+  ],
+  "README.md": [
+    "doc",
+    "devops",
+    "infrastructure"
+  ],
+  "README_CI.md": [
+    "doc",
+    "ci",
+    "cd",
+    "workflow"
+  ],
+  "README_EXEMPLES.md": [
+    "doc",
+    "exemples",
+    "scripts"
+  ],
+  "README_ARCHITECTURE.md": [
+    "doc",
+    "architecture",
+    "schema"
+  ],
+  "backup.sh": [
+    "script",
+    "backup",
+    "sauvegarde"
+  ],
+  "ci.yml": [
+    "ci",
+    "cd",
+    "github",
+    "actions"
+  ],
+  "deploy.sh": [
+    "script",
+    "deploy",
+    "automatisation"
+  ],
+  "deployment.yaml": [
+    "k8s",
+    "kubernetes",
+    "deploy"
+  ],
+  "main.tf": [
+    "terraform",
+    "iac",
+    "infra"
+  ],
+  "maintenance.sh": [
+    "script",
+    "maintenance",
+    "qualité"
+  ],
+  "restore.sh": [
+    "script",
+    "restore",
+    "restauration"
+  ],
+  "seed.sh": [
+    "script",
+    "seed",
+    "init"
+  ]
+}

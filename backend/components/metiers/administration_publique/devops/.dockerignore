@@ -1,0 +1,54 @@
+# .dockerignore pour le module métier "administration_publique"
+
+# Ignore les fichiers de configuration et les environnements virtuels
+**/__pycache__
+**/.env
+**/.venv
+**/env/
+**/venv/
+
+# Ignore les fichiers de développement et de test
+**/*.log
+**/*.pid
+**/*.pyc
+**/node_modules/
+**/coverage/
+**/.git
+**/.vscode
+**/tests/
+**/test-results/
+
+# Ignore les fichiers spécifiques à l'OS ou à l'éditeur
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Ignore les fichiers de build et les dépendances compilées
+dist/
+build/
+*.egg-info/
+*.whl
+
+# Ignore les fichiers de documentation et de markdown qui ne sont pas nécessaires en production
+README.md
+LICENSE
+docs/
+*.md
+
+# Ignore les fichiers de configuration spécifiques aux outils de CI/CD
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+.jenkins/
+.github/
+
+# Ignore les fichiers de sauvegarde et temporaires
+*.bak
+*.tmp
+*.temp
+
+# Ignore les fichiers de cache de dépendances (si applicable)
+.pip-cache/
+.npm/
+.yarn-cache/

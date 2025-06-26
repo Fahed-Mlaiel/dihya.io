@@ -1,6 +1,6 @@
 // Diese Datei wurde in generators/fixtures.generator.js verschoben.
 
-// fixtures.generator.js - Générateur dynamique de fixtures pour Threed
+// fixtures.generator.js - Générateur dynamique de fixtures pour administration_publique
 
 module.exports = {
   generateModel: (name = 'DynamicModel', vertices = 8, faces = 12) => ({

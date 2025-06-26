@@ -1,5 +1,5 @@
 // fallback.js
-// Fallback helper JS pour Threed – exemple clé en main
+// Fallback helper JS pour administration_publique – exemple clé en main
 
 /**
  * Fallback minimal : retourne une valeur par défaut si la fonction échoue
@@ -10,7 +10,7 @@
 function fallbackHelper(fn, defaultValue) {
   try {
     return fn();
-  } catch (e) {
+  } catch {
     return defaultValue;
   }
 }

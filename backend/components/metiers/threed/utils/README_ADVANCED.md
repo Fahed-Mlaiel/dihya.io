@@ -1,3 +1,4 @@
+/* global console */
 # Utils Threed – Documentation Ultra Avancée
 
 Ce dossier contient :

@@ -6,7 +6,7 @@ Respecte le cahier des charges Dihya, sécurité, conformité, robustesse.
 
 def get_mapping_version():
     """Retourne la version actuelle du mapping de migration."""
-    return "2.0.0"  # Version avancée, à synchroniser avec la documentation
+    return "1.0.0"  # Version avancée, à synchroniser avec la documentation
 
 
 def map_fields(old_data):

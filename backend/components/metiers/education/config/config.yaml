@@ -1,0 +1,10 @@
+# Configuration Éducation
+nom: education
+plugins:
+  - analytics
+  - elearning
+  - notes
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True
