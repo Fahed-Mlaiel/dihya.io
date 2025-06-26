@@ -1,6 +1,0 @@
-ESLint Video Report – Rapport ultra avancé
-
-Résultats de l’analyse ESLint pour le module Video.
-- 0 erreur, 0 warning
-- Code conforme, audit, RGPD, accessibilité, plugins
-- Date : 2025-06-10

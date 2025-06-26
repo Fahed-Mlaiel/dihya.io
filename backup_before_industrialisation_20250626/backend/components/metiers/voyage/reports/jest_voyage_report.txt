@@ -1,7 +1,0 @@
-Jest Voyage Report – Rapport ultra avancé
-
-Résultats des tests automatisés Jest pour le module Voyage.
-- Couverture : 100%
-- Aucune erreur critique
-- Conformité RGPD, audit, accessibilité, plugins
-- Date : 2025-06-10

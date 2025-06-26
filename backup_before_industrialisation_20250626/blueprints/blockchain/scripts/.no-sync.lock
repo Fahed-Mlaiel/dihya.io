@@ -1,5 +1,0 @@
-# VERROUILLAGE ANTI-DOUBLONS
-# Ce fichier empêche la création automatique de doublons
-# Date: 2025-06-25T21:58:40.271Z
-# Lead Dev: Protection définitive contre les scripts de sync
-DO_NOT_DELETE=true

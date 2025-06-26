@@ -1,9 +1,0 @@
-# Configuration Blockchain
-nom: blockchain
-plugins:
-  - crypto
-  - wallet
-dependances:
-  - web3
-  - solidity
-rgpd: False

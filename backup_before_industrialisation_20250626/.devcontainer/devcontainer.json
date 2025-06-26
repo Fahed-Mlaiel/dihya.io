@@ -1,7 +1,0 @@
-{
-  "name": "Codespace Premium 128GB/32vCPU",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "codespaces": {
-    "machine": "premium"
-  }
-}

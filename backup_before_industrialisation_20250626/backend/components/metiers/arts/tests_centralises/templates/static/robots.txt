@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: /backend/components/metiers/arts/tests_centralises/templates/static/sitemap.xml
-# Règles SEO, sécurité, audit, RGPD, CI/CD (clé en main)

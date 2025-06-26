@@ -1,3 +1,0 @@
-"""
-Initialisation tutoriels threed (Python)
-"""

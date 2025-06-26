@@ -1,1 +1,0 @@
-# Tests centralisés pour administration_publique\n\nCe dossier contient les tests unitaires et d'intégration ultra avancés pour le métier administration_publique.\n- Couverture RGPD, sécurité, logique métier, accessibilité, i18n, etc.\n- Synchronisation automatique avec la source de vérité et la CI/CD.\n

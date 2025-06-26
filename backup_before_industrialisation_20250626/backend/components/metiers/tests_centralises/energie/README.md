@@ -1,1 +1,0 @@
-# Tests centralisés pour energie\n\nCe dossier contient les tests unitaires et d'intégration ultra avancés pour le métier energie.\n- Couverture RGPD, sécurité, logique métier, accessibilité, i18n, etc.\n- Synchronisation automatique avec la source de vérité et la CI/CD.\n

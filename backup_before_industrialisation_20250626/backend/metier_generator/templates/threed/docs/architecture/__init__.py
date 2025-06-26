@@ -1,3 +1,0 @@
-"""
-Initialisation architecture threed (Python)
-"""

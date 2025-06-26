@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-pandas
-flask-health
-pytest
-httpx
-python-jose
-passlib
-python-multipart

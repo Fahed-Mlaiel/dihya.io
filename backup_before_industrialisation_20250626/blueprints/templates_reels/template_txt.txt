@@ -1,2 +1,0 @@
-Dihya.io - Plateforme modulaire, blockchain, webapp, mobile, devops, sécurité.
-Document technique ou fonctionnel conforme au cahier des charges.

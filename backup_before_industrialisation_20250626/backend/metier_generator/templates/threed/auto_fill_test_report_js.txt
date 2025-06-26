@@ -1,5 +1,0 @@
-npm error Missing script: "test"
-npm error
-npm error To see a list of scripts, run:
-npm error   npm run
-npm error A complete log of this run can be found in: /home/vscode/.npm/_logs/2025-06-16T18_34_04_116Z-debug-0.log

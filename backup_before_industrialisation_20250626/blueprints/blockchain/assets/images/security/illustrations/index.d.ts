@@ -1,1 +1,0 @@
-// Exemple métier avancé à compléter pour ce module (index.d.ts)
