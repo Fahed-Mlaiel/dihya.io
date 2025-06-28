@@ -1,0 +1,17 @@
+{# advanced_report.j2 – Template Jinja2 ultra avancé pour reporting métier sante #}
+<html>
+  <head>
+    <title>Rapport sante – {{ service }}</title>
+  </head>
+  <body>
+    <h1>Rapport d'audit sante</h1>
+    <ul>
+      <li>Service : {{ service }}</li>
+      <li>Date : {{ date }}</li>
+      <li>Score : {{ score }}</li>
+      <li>Détails : {{ details }}</li>
+      <li>Recommandations : {{ recommandations }}</li>
+    </ul>
+    <footer>Généré automatiquement – Dihya Coding</footer>
+  </body>
+</html>

@@ -1,0 +1,807 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.5, pluggy-1.5.0
+rootdir: /workspaces/dihya.io
+configfile: pyproject.toml
+plugins: anyio-4.9.0, asyncio-0.26.0, flask-1.3.0, cov-6.1.1, mock-3.14.0
+asyncio: mode=strict, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 660 items / 1 error
+
+==================================== ERRORS ====================================
+_ ERROR collecting backend/components/metiers/sante/tests_centralises/api/samples/audit/test_sample_audit.py _
+ImportError while importing test module '/workspaces/dihya.io/backend/components/metiers/sante/tests_centralises/api/samples/audit/test_sample_audit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+backend/components/metiers/sante/tests_centralises/api/samples/audit/test_sample_audit.py:2: in <module>
+    from backend.components.metiers.sante.api.samples.audit import audit_sample_action
+E   ImportError: cannot import name 'audit_sample_action' from 'backend.components.metiers.sante.api.samples.audit' (/workspaces/dihya.io/backend/components/metiers/sante/api/samples/audit/__init__.py)
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.10.12-final-0 _______________
+
+Name                                                                                                                                        Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+backend/components/metiers/sante/__init__.py                                                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/__init__.py                                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/accessibility/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/accessibility/accessibility.py                                                                            6      5      4      0    10%   8-14
+backend/components/metiers/sante/api/audit/__init__.py                                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/audit/audit.py                                                                                            4      3      2      0    17%   8-12
+backend/components/metiers/sante/api/controllers/__init__.py                                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/controllers/sante_controller.py                                                                         55     30      2      0    44%   19-27, 32-37, 42-47, 52-56, 68, 72, 76, 80
+backend/components/metiers/sante/api/core/__init__.py                                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/core/api.py                                                                                              39     24      2      0    37%   17-25, 30-34, 39-43, 48-52
+backend/components/metiers/sante/api/db/__init__.py                                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/db/db.py                                                                                                  8      4      0      0    50%   8, 12, 16, 20
+backend/components/metiers/sante/api/hooks/__init__.py                                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/hooks/hooks.py                                                                                            4      2      0      0    50%   9, 14
+backend/components/metiers/sante/api/middlewares/__init__.py                                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/middlewares/middlewares.py                                                                               12      9      0      0    25%   8-12, 16-20, 24-28
+backend/components/metiers/sante/api/rgpd/__init__.py                                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/rgpd/rgpd.py                                                                                              2      1      0      0    50%   9
+backend/components/metiers/sante/api/samples/__init__.py                                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/accessibility/__init__.py                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/accessibility/sample_accessibility.py                                                             4      3      2      0    17%   9-11
+backend/components/metiers/sante/api/samples/audit/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/controllers/sample_controllers.py                                                                 3      2      0      0    33%   7-14
+backend/components/metiers/sante/api/samples/core/__init__.py                                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/core/sample_core.py                                                                               2      1      0      0    50%   8
+backend/components/metiers/sante/api/samples/db/__init__.py                                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/db/sample_db.py                                                                                   2      1      0      0    50%   8
+backend/components/metiers/sante/api/samples/hooks/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/hooks/sample_hooks.py                                                                             2      1      0      0    50%   8
+backend/components/metiers/sante/api/samples/middlewares/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/middlewares/sample_middlewares.py                                                                 2      1      0      0    50%   8
+backend/components/metiers/sante/api/samples/rgpd/__init__.py                                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/rgpd/sample_rgpd.py                                                                               2      1      0      0    50%   8
+backend/components/metiers/sante/api/samples/validators/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/samples/validators/sample_validators.py                                                                   2      1      0      0    50%   8
+backend/components/metiers/sante/api/validators/__init__.py                                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/api/validators/validators.py                                                                                  6      5      4      0    10%   8-13
+backend/components/metiers/sante/fixtures/__init__.py                                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/fixtures/core/__init__.py                                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/fixtures/core/models/__init__.py                                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/fixtures/core/models/fixtures.py                                                                             13      4      0      0    69%   12, 23, 35, 45
+backend/components/metiers/sante/fixtures/core/validators/__init__.py                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/fixtures/core/validators/fixtures_validator.py                                                                4      2      0      0    50%   15, 32
+backend/components/metiers/sante/fixtures/generators/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/fixtures/generators/fixtures_generator.py                                                                     4      2      0      0    50%   7, 13
+backend/components/metiers/sante/fixtures/helpers/accessibility/helper_accessibility.py                                                        2      1      0      0    50%   4
+backend/components/metiers/sante/fixtures/helpers/audit/helper_audit.py                                                                        2      1      0      0    50%   4
+backend/components/metiers/sante/fixtures/helpers/core/helper_core.py                                                                          2      1      0      0    50%   4
+backend/components/metiers/sante/fixtures/helpers/formatters/helper_formatters.py                                                              2      1      0      0    50%   4
+backend/components/metiers/sante/fixtures/helpers/rgpd/helper_rgpd.py                                                                          2      1      0      0    50%   4
+backend/components/metiers/sante/fixtures/helpers/security/helper_security.py                                                                  3      2      0      0    33%   4-6
+backend/components/metiers/sante/fixtures/helpers/transformers/helper_transformers.py                                                          2      1      0      0    50%   4
+backend/components/metiers/sante/fixtures/helpers/validators/helper_validators.py                                                              3      2      0      0    33%   4-6
+backend/components/metiers/sante/fixtures/mocks/__init__.py                                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/fixtures/mocks/fixtures_mock.py                                                                              14      9      0      0    36%   10, 19-28
+backend/components/metiers/sante/fixtures/samples/sample_fixture.py                                                                            4      1      0      0    75%   10
+backend/components/metiers/sante/fixtures/services/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/fixtures/services/services_environnement.py                                                                   4      1      0      0    75%   11
+backend/components/metiers/sante/guides/__init__.py                                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/guides/audit/__init__.py                                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/guides/rgpd/__init__.py                                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/guides/security/__init__.py                                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/guides/technical/__init__.py                                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/__init__.py                                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/api/__init__.py                                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/api/integration_api.py                                                                            7      5      0      0    29%   11, 17-20
+backend/components/metiers/sante/integration/external_connectors/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/external_connectors/integration_external.py                                                       6      3      0      0    50%   10, 16, 22
+backend/components/metiers/sante/integration/monitoring/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/monitoring/integration_monitoring.py                                                              4      2      0      0    50%   11, 17
+backend/components/metiers/sante/integration/pipelines/__init__.py                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/pipelines/integration_pipelines.py                                                                4      2      0      0    50%   11, 17
+backend/components/metiers/sante/integration/plugins/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/plugins/integration_plugins.py                                                                    4      2      0      0    50%   11, 17
+backend/components/metiers/sante/integration/samples/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/integration/samples/integration_sample_python.py                                                              2      1      0      0    50%   9
+backend/components/metiers/sante/legacy/__init__.py                                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/audit/__init__.py                                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/audit/scripts/__init__.py                                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/audit/scripts/analyse/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/audit/scripts/analyse/audit_analyse.py                                                                28     20     10      0    21%   10-15, 25-44, 64-66, 70-71
+backend/components/metiers/sante/legacy/audit/scripts/export/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/audit/scripts/export/audit_export.py                                                                  31     22      6      1    27%   22-45, 52-54, 59
+backend/components/metiers/sante/legacy/audit/scripts/report/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/audit/scripts/report/audit_report.py                                                                   6      3      2      1    50%   11-12, 16
+backend/components/metiers/sante/legacy/samples/__init__.py                                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/access/__init__.py                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/access/access_sample.py                                                                        2      1      0      0    50%   7
+backend/components/metiers/sante/legacy/samples/compliance/__init__.py                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/compliance/compliance_sample.py                                                                2      1      0      0    50%   7
+backend/components/metiers/sante/legacy/samples/helpers/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/helpers/helper_sample.py                                                                       2      1      0      0    50%   7
+backend/components/metiers/sante/legacy/samples/monitoring/__init__.py                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/monitoring/monitoring_sample.py                                                                2      1      0      0    50%   7
+backend/components/metiers/sante/legacy/samples/policy/__init__.py                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/policy/policy_sample.py                                                                        2      1      0      0    50%   7
+backend/components/metiers/sante/legacy/samples/rbac/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/rbac/rbac_sample.py                                                                            2      1      0      0    50%   7
+backend/components/metiers/sante/legacy/samples/rgpd/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/rgpd/rgpd_sample.py                                                                            3      2      0      0    33%   7-9
+backend/components/metiers/sante/legacy/samples/scripts/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/scripts/script_sample.py                                                                       2      1      0      0    50%   7
+backend/components/metiers/sante/legacy/samples/validators/__init__.py                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/legacy/samples/validators/validator_sample.py                                                                 2      1      0      0    50%   7
+backend/components/metiers/sante/migrations/__init__.py                                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/checklists/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/checklists/post_migration/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/checklists/post_migration/post_migration_checklist.py                                       6      3      0      0    50%   10, 16, 22
+backend/components/metiers/sante/migrations/guides/checklists/pre_migration/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/checklists/pre_migration/pre_migration_checklist.py                                         6      3      0      0    50%   10, 16, 22
+backend/components/metiers/sante/migrations/guides/procedures/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/procedures/rollback/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/procedures/rollback/rollback_procedure.py                                                   6      3      0      0    50%   10, 16, 22
+backend/components/metiers/sante/migrations/guides/procedures/standard/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/procedures/standard/standard_procedure.py                                                   6      3      0      0    50%   10, 16, 22
+backend/components/metiers/sante/migrations/guides/templates/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/templates/documentation/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/guides/templates/documentation/documentation_template.py                                           2      1      0      0    50%   10
+backend/components/metiers/sante/migrations/models/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/models/mapping/__init__.py                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/models/mapping/mapping_model.py                                                                    4      2      0      0    50%   10, 16
+backend/components/metiers/sante/migrations/models/schema/__init__.py                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/models/schema/schema_model.py                                                                      4      2      0      0    50%   10, 16
+backend/components/metiers/sante/migrations/samples/__init__.py                                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/scripts/__init__.py                                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/scripts/data/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/scripts/data/data_migration_script.py                                                              2      1      0      0    50%   10
+backend/components/metiers/sante/migrations/scripts/rollback/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/migrations/scripts/rollback/rollback_script.py                                                                2      1      0      0    50%   10
+backend/components/metiers/sante/samples/__init__.py                                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/samples/validators/__init__.py                                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/samples/validators/input/__init__.py                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/samples/validators/input/sample_input.py                                                                      2      1      0      0    50%   3
+backend/components/metiers/sante/samples/validators/rgpd/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/samples/validators/rgpd/sample_rgpd.py                                                                        2      1      0      0    50%   3
+backend/components/metiers/sante/security/__init__.py                                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/security/compliance/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/security/compliance/checklists/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/security/compliance/checklists/rgpd_checklist.py                                                             16     14     14      0     7%   10-24
+backend/components/metiers/sante/security/compliance/purge/purge_data_script.py                                                               46     36     16      1    18%   30-48, 53-58, 66-67, 71-75, 79-92
+backend/components/metiers/sante/security/core/__init__.py                                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/security/core/policy/__init__.py                                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/security/core/policy/policy.py                                                                               21     18     16      0     8%   10-27, 30-34
+backend/components/metiers/sante/services/__init__.py                                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/services/core/__init__.py                                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/services/core/api/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/services/core/impl/__init__.py                                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/services/core/impl/service_sante.py                                                                         35     24      8      0    26%   11-13, 16-18, 21-31, 34, 43, 47-49, 53, 57-59, 63-65
+backend/components/metiers/sante/templates/__init__.py                                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/core/__init__.py                                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/core/template_sante.py                                                                            31     27     24      0     7%   17-40, 48, 55-62
+backend/components/metiers/sante/templates/helpers/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/helpers/core/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/helpers/impl/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/helpers/mocks/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/helpers/utils/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/helpers/validators/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/templates/helpers/validators/templates_validator.py                                                           5      2      0      0    60%   10, 17
+backend/components/metiers/sante/tests_centralises/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/__init__.py                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/accessibility/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/accessibility/test_accessibility.py                                                    12      8      0      0    33%   6-9, 12-16
+backend/components/metiers/sante/tests_centralises/api/audit/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/audit/test_audit.py                                                                     8      5      0      0    38%   6-7, 11-13
+backend/components/metiers/sante/tests_centralises/api/controllers/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/controllers/test_sante_controller.py                                                  49     38      0      0    22%   12, 16, 20, 24, 29-32, 37-52, 57-61, 66-75, 80-84, 89
+backend/components/metiers/sante/tests_centralises/api/core/__init__.py                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/core/test_api.py                                                                        5      1      0      0    80%   9
+backend/components/metiers/sante/tests_centralises/api/db/__init__.py                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/db/test_db.py                                                                          19     11      0      0    42%   15-17, 21-24, 28-30, 34
+backend/components/metiers/sante/tests_centralises/api/hooks/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/hooks/test_hooks.py                                                                     5      2      0      0    60%   5, 9
+backend/components/metiers/sante/tests_centralises/api/middlewares/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/middlewares/test_middlewares.py                                                        16     12      0      0    25%   9-13, 17-21, 25-29
+backend/components/metiers/sante/tests_centralises/api/rgpd/__init__.py                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/rgpd/test_rgpd.py                                                                       5      3      0      0    40%   5-7
+backend/components/metiers/sante/tests_centralises/api/samples/__init__.py                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/accessibility/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/accessibility/test_sample_accessibility.py                                     17     11      0      0    35%   10-13, 17-20, 24-26
+backend/components/metiers/sante/tests_centralises/api/samples/audit/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/audit/test_sample_audit.py                                                     11      9      0      0    18%   5-17
+backend/components/metiers/sante/tests_centralises/api/samples/controllers/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/controllers/test_sample_controllers.py                                         15      5      0      0    67%   16-19, 25
+backend/components/metiers/sante/tests_centralises/api/samples/core/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/core/test_sample_core.py                                                       10      4      0      0    60%   8, 12, 15-16
+backend/components/metiers/sante/tests_centralises/api/samples/db/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/db/test_sample_db.py                                                           10      4      0      0    60%   8, 12, 15-16
+backend/components/metiers/sante/tests_centralises/api/samples/hooks/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/hooks/test_sample_hooks.py                                                     10      4      0      0    60%   9, 13, 16-17
+backend/components/metiers/sante/tests_centralises/api/samples/middlewares/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/middlewares/test_sample_middlewares.py                                         10      4      0      0    60%   8, 12, 15-16
+backend/components/metiers/sante/tests_centralises/api/samples/rgpd/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/rgpd/test_sample_rgpd.py                                                       10      4      0      0    60%   8, 12, 15-16
+backend/components/metiers/sante/tests_centralises/api/samples/validators/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/samples/validators/test_sample_validators.py                                           10      4      0      0    60%   8, 12, 15-16
+backend/components/metiers/sante/tests_centralises/api/validators/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/api/validators/test_validators.py                                                          10      6      0      0    40%   6-7, 11-14
+backend/components/metiers/sante/tests_centralises/fixtures/__init__.py                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/core/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/core/models/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/core/models/test_fixtures.py                                                      16      9      0      0    44%   11, 14-15, 18-19, 22-23, 26-27
+backend/components/metiers/sante/tests_centralises/fixtures/core/validators/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/core/validators/test_fixtures_validator.py                                        10      4      0      0    60%   18-19, 23-24
+backend/components/metiers/sante/tests_centralises/fixtures/generators/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/generators/test_fixtures_generator.py                                             28     21      0      0    25%   7-12, 18, 22-27, 31-36, 40-44, 48-52
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/accessibility/__init__.py                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/accessibility/test_helper_accessibility.py                                 9      3      0      0    67%   14-17
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/audit/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/audit/test_helper_audit.py                                                 9      3      0      0    67%   14-16
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/core/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/core/test_helper_core.py                                                   7      1      0      0    86%   12
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/formatters/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/formatters/test_helper_formatters.py                                       9      3      0      0    67%   13-16
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/rgpd/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/rgpd/test_helper_rgpd.py                                                   9      3      0      0    67%   15-17
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/security/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/security/test_helper_security.py                                           7      1      0      0    86%   12
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/transformers/__init__.py                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/transformers/test_helper_transformers.py                                   7      1      0      0    86%   12
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/validators/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/helpers/validators/test_helper_validators.py                                       8      2      0      0    75%   12-13
+backend/components/metiers/sante/tests_centralises/fixtures/mocks/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/mocks/test_fixtures_mock.py                                                       12      8      0      0    33%   12-13, 17-20, 24-25
+backend/components/metiers/sante/tests_centralises/fixtures/samples/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/samples/test_samples.py                                                           21      8      0      0    62%   18, 21-24, 27-29
+backend/components/metiers/sante/tests_centralises/fixtures/services/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/fixtures/services/test_services_environnement.py                                           13      6      0      0    54%   12, 16-17, 21-23
+backend/components/metiers/sante/tests_centralises/guides/__init__.py                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/accessibility/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/accessibility/test_guide_accessibilite.py                                            2      1      0      0    50%   3
+backend/components/metiers/sante/tests_centralises/guides/audit/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/audit/test_guide_audit.py                                                           11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/guides/best_practices/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/best_practices/test_guide_bonnes_pratiques.py                                        2      1      0      0    50%   3
+backend/components/metiers/sante/tests_centralises/guides/functional/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/functional/test_guide_fonctionnel.py                                                 7      5      0      0    29%   4, 7-10
+backend/components/metiers/sante/tests_centralises/guides/integration/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/integration/test_guide_integration.py                                                7      5      0      0    29%   3, 6-9
+backend/components/metiers/sante/tests_centralises/guides/rgpd/__init__.py                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/rgpd/test_guide_rgpd.py                                                             11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/guides/samples/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/samples/test_guide_sample.py                                                         7      5      0      0    29%   3, 6-9
+backend/components/metiers/sante/tests_centralises/guides/security/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/security/test_guide_securite.py                                                     11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/guides/technical/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/guides/technical/test_guide_technique.py                                                   11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/integration/__init__.py                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/integration/api/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/integration/api/test_api_integration.py                                                    53     38      2      1    29%   11->13, 17, 21-26, 30-35, 39-46, 51-56, 61-67, 80-83
+backend/components/metiers/sante/tests_centralises/integration/external_connectors/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/integration/external_connectors/test_external_connectors_integration.py                    48     31      2      1    36%   10->12, 16, 20-22, 26-30, 34-38, 44-46, 50-54, 58-62, 72-75
+backend/components/metiers/sante/tests_centralises/integration/monitoring/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/integration/monitoring/test_monitoring_integration.py                                      48     31      4      1    35%   10->12, 16-19, 23-26, 32-34, 38-42, 46-51, 55-58, 68-71, 76
+backend/components/metiers/sante/tests_centralises/integration/pipelines/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/integration/pipelines/test_integration_pipelines.py                                        37     26      0      0    30%   13, 17-20, 24-27, 39-41, 45-50, 54-57, 69-72
+backend/components/metiers/sante/tests_centralises/integration/plugins/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/integration/plugins/test_plugins_integration.py                                            39     28      0      0    28%   13, 17-20, 24-27, 39-41, 45-50, 54-59, 71-74
+backend/components/metiers/sante/tests_centralises/integration/samples/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/integration/samples/test_sample_integration.py                                             13      7      0      0    46%   13, 17-19, 26-28
+backend/components/metiers/sante/tests_centralises/legacy/__init__.py                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/exemples/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/exemples/test_guide_exemple.py                                          4      2      0      0    50%   9, 14
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/technique/__init__.py                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/technique/bonnes_pratiques/__init__.py                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/technique/bonnes_pratiques/test_audit_bonnes_pratiques.py               4      2      0      0    50%   9, 14
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/technique/checklists/__init__.py                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/technique/checklists/test_audit_checklist_professionnelle.py            4      2      0      0    50%   9, 14
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/technique/guides/__init__.py                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/guides/technique/guides/test_audit_guide.py                                    4      2      0      0    50%   9, 14
+backend/components/metiers/sante/tests_centralises/legacy/audit/models/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/models/test_models.py                                                         27     22      0      0    19%   9, 14, 18-26, 30-35, 39-49
+backend/components/metiers/sante/tests_centralises/legacy/audit/scripts/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/scripts/analyse/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/scripts/analyse/test_analyse_data.py                                          36     28      0      0    22%   13, 18, 22-33, 37-43, 48-55, 59-64
+backend/components/metiers/sante/tests_centralises/legacy/audit/scripts/export/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/scripts/export/test_export_data.py                                            49     38      0      0    22%   17, 22, 30-45, 50-61, 66-70, 75-79
+backend/components/metiers/sante/tests_centralises/legacy/audit/scripts/report/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/scripts/report/test_report_generator.py                                       29     21      4      0    24%   17, 22, 29-38, 43-54
+backend/components/metiers/sante/tests_centralises/legacy/audit/services/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/audit/services/test_api_service.py                                                  29     24      0      0    17%   9, 14, 18-26, 30-38, 42-46
+backend/components/metiers/sante/tests_centralises/legacy/documentation/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/checklists/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/checklists/test_checklist_generator.py                                 2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/fonctionnelle/__init__.py                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/fonctionnelle/test_guide_fonctionnel_exemple.py                 9      7      0      0    22%   7, 11-19
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/__init__.py                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/api/__init__.py                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/api/test_guide_api.py                                 2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/architecture/__init__.py                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/architecture/test_guide_architecture_exemple.py       2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/deploiement/__init__.py                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/deploiement/test_guide_deploiement.py                 2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/maintenance/__init__.py                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/maintenance/test_guide_maintenance.py                 2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/securite/__init__.py                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/guides/technique/securite/test_guide_securite.py                       2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/documentation/models/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/models/exemples/__init__.py                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/models/exemples/test_model_exemple.py                                  2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/documentation/models/technique/__init__.py                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/documentation/models/technique/test_model_technique.py                               2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/migration/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/migration/guides/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/migration/guides/test_guide_migration.py                                             2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/migration/models/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/migration/models/test_model_migration.py                                            23     19      0      0    17%   7, 11-18, 22-26, 30-37
+backend/components/metiers/sante/tests_centralises/legacy/migration/scripts/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/migration/scripts/test_script_migration.py                                           2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/legacy/samples/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/access/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/access/test_access_sample.py                                                 5      2      0      0    60%   9, 13
+backend/components/metiers/sante/tests_centralises/legacy/samples/compliance/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/compliance/test_compliance_sample.py                                         5      2      0      0    60%   11, 15
+backend/components/metiers/sante/tests_centralises/legacy/samples/helpers/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/helpers/test_helper_sample.py                                                3      1      0      0    67%   9
+backend/components/metiers/sante/tests_centralises/legacy/samples/monitoring/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/monitoring/test_monitoring_sample.py                                         5      2      0      0    60%   11, 15
+backend/components/metiers/sante/tests_centralises/legacy/samples/policy/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/policy/test_policy_sample.py                                                 5      2      0      0    60%   9, 13
+backend/components/metiers/sante/tests_centralises/legacy/samples/rbac/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/rbac/test_rbac_sample.py                                                    13      7      0      0    46%   9, 13, 17-18, 22-23, 27
+backend/components/metiers/sante/tests_centralises/legacy/samples/rgpd/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/rgpd/test_rgpd_sample.py                                                    20     15      0      0    25%   9-12, 16-19, 23-26, 30-34
+backend/components/metiers/sante/tests_centralises/legacy/samples/scripts/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/scripts/test_script_sample.py                                                3      1      0      0    67%   9
+backend/components/metiers/sante/tests_centralises/legacy/samples/validators/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/legacy/samples/validators/test_validator_sample.py                                          5      2      0      0    60%   9, 13
+backend/components/metiers/sante/tests_centralises/migrations/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/checklists/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/checklists/post_migration/__init__.py                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/checklists/post_migration/test_post_migration_checklist.py               14      9      0      0    36%   11-13, 17-19, 23-27
+backend/components/metiers/sante/tests_centralises/migrations/guides/checklists/pre_migration/__init__.py                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/checklists/pre_migration/test_pre_migration_checklist.py                 14      9      0      0    36%   11-13, 17-19, 23-27
+backend/components/metiers/sante/tests_centralises/migrations/guides/procedures/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/procedures/rollback/__init__.py                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/procedures/rollback/test_rollback_procedure.py                           13      9      0      0    31%   10-12, 16-18, 22-26
+backend/components/metiers/sante/tests_centralises/migrations/guides/procedures/standard/__init__.py                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/procedures/standard/test_standard_procedure.py                           13      9      0      0    31%   10-12, 16-18, 22-26
+backend/components/metiers/sante/tests_centralises/migrations/guides/templates/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/templates/data_migration/__init__.py                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/templates/data_migration/test_data_migration_template.py                  4      2      0      0    50%   8, 12
+backend/components/metiers/sante/tests_centralises/migrations/guides/templates/documentation/__init__.py                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/guides/templates/documentation/test_documentation_template.py                   20     15      0      0    25%   10, 14-19, 24-26, 31-36
+backend/components/metiers/sante/tests_centralises/migrations/models/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/models/mapping/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/models/mapping/test_mapping_model.py                                            18     14      0      0    22%   11-19, 24-33
+backend/components/metiers/sante/tests_centralises/migrations/models/schema/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/models/schema/test_schema_model.py                                              17     13      0      0    24%   11-19, 24-32
+backend/components/metiers/sante/tests_centralises/migrations/samples/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/samples/test_samples_advanced.py                                                11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/migrations/scripts/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/scripts/data/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/scripts/data/test_data_migration.py                                             15      7      0      0    53%   8, 12, 17, 21, 26-27, 32
+backend/components/metiers/sante/tests_centralises/migrations/scripts/rollback/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/migrations/scripts/rollback/test_rollback_script.py                                        11      5      0      0    55%   7, 10, 14, 18-19
+backend/components/metiers/sante/tests_centralises/plugins/__init__.py                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/plugins/config/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/plugins/config/test_config.py                                                              39     32      4      0    16%   8, 12-16, 20-25, 29-35, 39-49, 53-58, 62-65
+backend/components/metiers/sante/tests_centralises/plugins/docs/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/plugins/docs/test_docs.py                                                                  31     24      2      0    21%   8, 12-14, 18-20, 24-27, 31-41, 45-50, 54-57
+backend/components/metiers/sante/tests_centralises/plugins/examples/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/plugins/examples/test_examples.py                                                          31     24      2      0    21%   8, 12-14, 18-20, 24-27, 31-41, 45-50, 54-57
+backend/components/metiers/sante/tests_centralises/plugins/helpers/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/plugins/helpers/test_helpers.py                                                            31     24      2      0    21%   8, 12-14, 18-21, 25-29, 33-43, 47-53, 57-61
+backend/components/metiers/sante/tests_centralises/plugins/samples/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/plugins/samples/test_samples.py                                                            31     24      2      0    21%   8, 15-17, 21-23, 27-30, 34-44, 48-53, 57-60
+backend/components/metiers/sante/tests_centralises/plugins/structure/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/plugins/structure/test_structure.py                                                        58     47      6      0    17%   8, 12-16, 20-25, 29-35, 39-49, 53-56, 60-62, 66-68, 72-75, 79-89, 93-96
+backend/components/metiers/sante/tests_centralises/rgpd/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/rgpd/core/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/rgpd/core/test_rgpd_core.py                                                                34     26      2      0    22%   6-10, 13, 16-21, 24-25, 28-30, 33-38, 41-43
+backend/components/metiers/sante/tests_centralises/rgpd/helpers/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/rgpd/helpers/test_rgpd_helper.py                                                           34     26      2      0    22%   5-9, 14, 17-22, 25-26, 29-31, 34-39, 42-44
+backend/components/metiers/sante/tests_centralises/rgpd/samples/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/rgpd/samples/test_sample_rgpd.py                                                           20     12      2      0    36%   13, 16-20, 25-27, 32-35
+backend/components/metiers/sante/tests_centralises/samples/__init__.py                                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/access/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/access/test_access.py                                                               4      2      0      0    50%   7, 12
+backend/components/metiers/sante/tests_centralises/samples/audit/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/audit/test_audit.py                                                                 2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/compliance/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/compliance/test_compliance.py                                                       2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/helpers/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/helpers/logger/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/helpers/logger/test_logger.py                                                       2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/helpers/utils/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/helpers/utils/test_utils.py                                                         2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/monitoring/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/monitoring/alerts/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/monitoring/alerts/test_alerts.py                                                    2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/monitoring/grafana/__init__.py                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/monitoring/grafana/test_grafana.py                                                  2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/monitoring/prometheus/__init__.py                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/monitoring/prometheus/test_prometheus.py                                            2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/policy/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/policy/test_policy.py                                                               2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/samples/rbac/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/rbac/permissions/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/rbac/permissions/test_permissions.py                                                2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/rbac/roles/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/rbac/roles/test_roles.py                                                            2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/rgpd/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/rgpd/test_rgpd.py                                                                   2      1      0      0    50%   6
+backend/components/metiers/sante/tests_centralises/samples/validators/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/validators/input/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/validators/input/test_input_validators.py                                           7      3      0      0    57%   9, 13, 17
+backend/components/metiers/sante/tests_centralises/samples/validators/rgpd/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/samples/validators/rgpd/test_rgpd_validators.py                                            14      8      0      0    43%   13-14, 18-20, 24-27
+backend/components/metiers/sante/tests_centralises/security/__init__.py                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/audit/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/audit/log_examples/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/audit/log_examples/test_log_examples.py                                            2      1      0      0    50%   8
+backend/components/metiers/sante/tests_centralises/security/audit/policies/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/audit/policies/test_policies.py                                                    2      1      0      0    50%   8
+backend/components/metiers/sante/tests_centralises/security/audit/report_templates/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/audit/report_templates/test_report_templates.py                                    2      1      0      0    50%   8
+backend/components/metiers/sante/tests_centralises/security/compliance/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/compliance/anonymisation/__init__.py                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/compliance/anonymisation/test_anonymisation_script.py                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/compliance/checklists/__init__.py                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/compliance/checklists/test_checklists.py                                          21     11      0      0    48%   12-18, 22-23, 27-28, 32-33, 37, 41-42
+backend/components/metiers/sante/tests_centralises/security/compliance/policies/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/compliance/policies/test_policies.py                                              19     11      0      0    42%   10-16, 20-21, 25-26, 30-31, 35, 39-40
+backend/components/metiers/sante/tests_centralises/security/compliance/purge/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/compliance/purge/test_purge.py                                                    40     23      2      0    40%   19-22, 26-31, 35-37, 41-42, 46-47, 51-52, 56-59
+backend/components/metiers/sante/tests_centralises/security/core/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/core/access_control/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/core/access_control/test_access_control.py                                         4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/core/crypto/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/core/crypto/test_crypto.py                                                         4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/core/policy/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/core/policy/test_policy.py                                                         4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/api/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/api/test_api.py                                                        4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/guides/audit/__init__.py                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/audit/test_audit.py                                                    4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/guides/compliance/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/compliance/test_compliance.py                                          4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/guides/faq/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/faq/test_faq.py                                                        4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/guides/monitoring/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/monitoring/test_monitoring.py                                          4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/guides/onboarding/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/onboarding/test_onboarding.py                                          4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/guides/rbac/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/guides/rbac/test_rbac.py                                                      4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/integration/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/__init__.py                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/api/__init__.py                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/api/test_api_helper.py                                     4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/audit/__init__.py                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/audit/test_audit.py                                        4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/compliance/__init__.py                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/compliance/test_compliance.py                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/monitoring/__init__.py                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/monitoring/test_monitoring.py                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/onboarding/__init__.py                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/onboarding/test_onboarding.py                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/rbac/__init__.py                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/nodejs/rbac/test_rbac.py                                          4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/__init__.py                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/api/__init__.py                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/api/test_api_helper.py                                     4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/audit/__init__.py                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/audit/test_audit.py                                        4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/compliance/__init__.py                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/compliance/test_compliance.py                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/monitoring/__init__.py                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/monitoring/test_monitoring.py                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/onboarding/__init__.py                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/onboarding/test_onboarding.py                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/rbac/__init__.py                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/integration/python/rbac/test_rbac.py                                          4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/policies/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/policies/access/__init__.py                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/policies/access/test_access.py                                                4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/policies/audit/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/policies/audit/test_audit.py                                                  4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/docs/policies/rgpd/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/docs/policies/rgpd/test_rgpd.py                                                    4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/helpers/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/helpers/logger/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/helpers/logger/test_logger.py                                                      4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/helpers/utils/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/helpers/utils/test_utils.py                                                        4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/monitoring/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/monitoring/alerts/__init__.py                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/monitoring/alerts/test_alerts.py                                                   4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/monitoring/grafana/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/monitoring/grafana/test_grafana.py                                                 4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/monitoring/prometheus/__init__.py                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/monitoring/prometheus/test_prometheus.py                                           4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/policy/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/policy/model/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/policy/model/test_policy_model.py                                                  4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/policy/utils/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/policy/utils/test_utils.py                                                         4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/rbac/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/rbac/engine/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/rbac/engine/test_engine.py                                                         4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/rbac/permissions/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/rbac/permissions/test_permissions.py                                               4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/rbac/roles/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/rbac/roles/test_roles.py                                                           4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/samples/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/access/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/access/test_sample_access.py                                               4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/audit/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/audit/test_sample_audit.py                                                 4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/samples/compliance/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/compliance/test_compliance.py                                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/helpers/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/helpers/logger/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/helpers/logger/test_logger.py                                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/helpers/utils/__init__.py                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/helpers/utils/test_utils.py                                                4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/samples/monitoring/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/monitoring/alerts/__init__.py                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/monitoring/alerts/test_alerts.py                                           4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/monitoring/grafana/__init__.py                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/monitoring/grafana/test_grafana.py                                         4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/monitoring/prometheus/__init__.py                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/monitoring/prometheus/test_prometheus.py                                   4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/policy/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/policy/test_policy.py                                                      4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/rbac/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/rbac/engine/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/rbac/engine/test_engine.py                                                 4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/rbac/permissions/__init__.py                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/rbac/permissions/test_permissions.py                                       4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/rbac/roles/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/rbac/roles/test_roles.py                                                   4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/samples/rgpd/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/rgpd/test_rgpd.py                                                          4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/audit/__init__.py                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/audit/test_audit.py                                                4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/backup/__init__.py                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/backup/test_sample_backup.py                                       4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/compliance/__init__.py                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/compliance/test_compliance.py                                      4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/restore/__init__.py                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/scripts/restore/test_restore.py                                            4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/samples/validators/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/validators/input/__init__.py                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/validators/input/test_input.py                                             4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/samples/validators/rgpd/__init__.py                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/samples/validators/rgpd/test_rgpd.py                                               4      1      0      0    75%   18
+backend/components/metiers/sante/tests_centralises/security/scripts/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/scripts/audit/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/scripts/audit/test_audit.py                                                        4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/scripts/backup/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/scripts/backup/test_backup.py                                                      4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/scripts/compliance/__init__.py                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/scripts/compliance/test_compliance.py                                              4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/scripts/restore/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/scripts/restore/test_restore.py                                                    4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/validators/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/validators/input/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/validators/input/test_input.py                                                     4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/security/validators/rgpd/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/security/validators/rgpd/test_rgpd.py                                                       4      1      0      0    75%   19
+backend/components/metiers/sante/tests_centralises/services/__init__.py                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/core/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/core/api/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/core/api/test_api_service.py                                                      11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/services/core/controllers/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/core/controllers/test_controllers.py                                              40     32      0      0    20%   10, 14-23, 27-35, 41, 45-54, 58-67
+backend/components/metiers/sante/tests_centralises/services/core/helpers/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/core/helpers/test_helpers.py                                                      26     22      0      0    15%   4, 7-15, 18-25, 28-31
+backend/components/metiers/sante/tests_centralises/services/core/impl/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/core/impl/test_service_sante.py                                                  45     33      0      0    27%   18, 22-25, 29-33, 37-40, 44-47, 51-53, 57-59, 63-67, 71-74
+backend/components/metiers/sante/tests_centralises/services/fallback/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/fallback/test_fallback_service.py                                                  2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/services/helpers/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/helpers/test_helpers.py                                                            2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/services/samples/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/services/samples/test_samples.py                                                            2      1      0      0    50%   7
+backend/components/metiers/sante/tests_centralises/templates/__init__.py                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/core/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/core/test_template_sante.py                                                     49     37      0      0    24%   8-9, 13-22, 26-28, 32-37, 41-43, 47-48, 52-53, 57-58, 62-65, 69-71
+backend/components/metiers/sante/tests_centralises/templates/helpers/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/helpers/core/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/helpers/core/test_core_helpers.py                                                11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/templates/helpers/impl/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/helpers/impl/test_impl_helpers.py                                                11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/templates/helpers/mocks/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/helpers/mocks/test_mocks_helpers.py                                              11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/templates/helpers/utils/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/helpers/utils/test_utils_helpers.py                                              11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/templates/helpers/validators/__init__.py                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/helpers/validators/test_templates_validator.py                                   20     14      0      0    30%   8-16, 19-26
+backend/components/metiers/sante/tests_centralises/templates/j2/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/j2/test_j2_helpers.py                                                             5      3      0      0    40%   5, 9-11
+backend/components/metiers/sante/tests_centralises/templates/static/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/static/test_static_helpers.py                                                     5      3      0      0    40%   5, 9-11
+backend/components/metiers/sante/tests_centralises/templates/templates/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/templates/templates/test_templates_helpers.py                                               5      3      0      0    40%   5, 9-11
+backend/components/metiers/sante/tests_centralises/utils/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/ai/__init__.py                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/ai/core/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/ai/core/test_ai_core.py                                                              11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/ai/fallback/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/ai/fallback/test_ai_fallback.py                                                      11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/ai/helpers/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/ai/helpers/test_ai_helpers_advanced.py                                               11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/audit/__init__.py                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/audit/core/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/audit/core/test_audit_core_advanced.py                                               11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/audit/fallback/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/audit/fallback/test_fallback.py                                                      11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/audit/helpers/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/audit/helpers/test_audit_helpers_advanced.py                                         11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/core/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/core/test_core_utils_advanced.py                                                     11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/exporter/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/exporter/core/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/exporter/core/test_exporter_core_advanced.py                                         11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/exporter/fallback/__init__.py                                                        16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/exporter/fallback/test_fallback.py                                                   11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/exporter/helpers/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/exporter/helpers/test_exporter_helpers_advanced.py                                   11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/fallback/__init__.py                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/fallback/test_fallback_utils_advanced.py                                             32     20      0      0    38%   6, 11, 15-17, 21-23, 27-29, 33-35, 39-41, 45-47, 51-53, 57-59, 63-65
+backend/components/metiers/sante/tests_centralises/utils/helpers/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/helpers/core/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/helpers/core/test_utils_helper_advanced.py                                           34     23      0      0    32%   8-12, 15-17, 20-21, 24-27, 30-35, 38, 41-42
+backend/components/metiers/sante/tests_centralises/utils/helpers/fallback/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/helpers/fallback/test_fallback_helper_advanced.py                                    19     10      0      0    47%   7-9, 12-14, 17, 20, 23, 26
+backend/components/metiers/sante/tests_centralises/utils/helpers/helpers/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/helpers/helpers/test_generic_helper_advanced.py                                      21     13      0      0    38%   6-11, 14-15, 18, 21-22, 25, 28
+backend/components/metiers/sante/tests_centralises/utils/helpers/impl/test_advanced_impl_helper_advanced.py                                   22     16      0      0    27%   6-11, 14-16, 19-22, 25-27
+backend/components/metiers/sante/tests_centralises/utils/helpers/mocks/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/helpers/mocks/test_mock_helper_advanced.py                                           16     12      0      0    25%   5-11, 14-15, 18-20
+backend/components/metiers/sante/tests_centralises/utils/i18n/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/i18n/core/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/i18n/core/test_i18n_advanced.py                                                      11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/i18n/fallback/__init__.py                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/i18n/fallback/test_fallback.py                                                       11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/i18n/helpers/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/i18n/helpers/test_helpers_advanced.py                                                11      5      0      0    55%   5-6, 9, 12, 16
+backend/components/metiers/sante/tests_centralises/utils/js/__init__.py                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/js/core/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/js/core/test_js_core.py                                                               4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/js/fallback/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/js/fallback/test_fallback.py                                                          4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/js/helpers/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/js/helpers/test_helpers_utils_advanced.py                                             4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/legacy/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/legacy/core/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/legacy/core/test_legacy_core_advanced.py                                              4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/legacy/fallback/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/legacy/fallback/test_legacy_fallback_advanced.py                                      4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/legacy/helpers/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/legacy/helpers/test_legacy_helpers_advanced.py                                        4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/logger/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/logger/core/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/logger/core/test_logger_core_advanced.py                                              4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/logger/fallback/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/logger/fallback/test_fallback.py                                                      4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/logger/helpers/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/logger/helpers/test_logger_helpers_advanced.py                                        4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/metrics/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/metrics/core/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/metrics/core/test_metrics_core_advanced.py                                            4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/metrics/fallback/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/metrics/fallback/test_fallback.py                                                     4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/metrics/helpers/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/metrics/helpers/test_metrics_helper.py                                                4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/plugins/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/plugins/core/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/plugins/core/test_plugins_core_advanced.py                                            4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/plugins/fallback/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/plugins/fallback/test_fallback.py                                                     4      2      0      0    50%   4, 9
+backend/components/metiers/sante/tests_centralises/utils/plugins/helpers/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/plugins/helpers/test_plugins_helpers_advanced.py                                      4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/rbac/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/rbac/core/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/rbac/core/test_rbac_utils.py                                                         30     24      0      0    20%   9-15, 18-22, 25-30, 33-38
+backend/components/metiers/sante/tests_centralises/utils/rbac/helpers/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/rbac/helpers/test_rbac_helpers_advanced.py                                            4      2      0      0    50%   3, 8
+backend/components/metiers/sante/tests_centralises/utils/validators/__init__.py                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/validators/core/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/validators/core/test_validators_core_advanced.py                                     22     14      0      0    36%   7-8, 11-13, 16-18, 21-22, 25-26, 29-30
+backend/components/metiers/sante/tests_centralises/utils/validators/fallback/__init__.py                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/validators/fallback/test_validators_fallback_advanced.py                             14     11      0      0    21%   3-5, 8-10, 14-20
+backend/components/metiers/sante/tests_centralises/utils/validators/helpers/__init__.py                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/validators/helpers/test_validators_helpers_advanced.py                               18     13      0      0    28%   6-7, 10-11, 14-22
+backend/components/metiers/sante/tests_centralises/utils/views/__init__.py                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/admin/__init__.py                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/admin/test_admin_utils.py                                                      28     19      0      0    32%   11-13, 16-20, 23-27, 32-36, 40
+backend/components/metiers/sante/tests_centralises/utils/views/api/__init__.py                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/api/test_api_utils.py                                                          24     16      0      0    33%   9-11, 16, 20-24, 28-30, 34-37
+backend/components/metiers/sante/tests_centralises/utils/views/conformity/__init__.py                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/conformity/test_conformity_utils.py                                            25     19      0      0    24%   11, 15-18, 22-25, 29-34, 38-43
+backend/components/metiers/sante/tests_centralises/utils/views/partials/__init__.py                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/partials/test_partials_utils.py                                                14     10      0      0    29%   8, 12-15, 19-23
+backend/components/metiers/sante/tests_centralises/utils/views/public/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/public/test_public_utils.py                                                    15     10      0      0    33%   8, 12-14, 18-19, 23-26
+backend/components/metiers/sante/tests_centralises/utils/views/templates/__init__.py                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/templates/test_templates_utils.py                                              16     11      0      0    31%   7, 11-14, 18-21, 25-27
+backend/components/metiers/sante/tests_centralises/utils/views/sante/__init__.py                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/utils/views/sante/test_sante_utils.py                                                    17     12      0      0    29%   8, 12-15, 19-21, 25-28
+backend/components/metiers/sante/tests_centralises/views/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/views/core/__init__.py                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/views/core/test_core.py                                                                     9      6      0      0    33%   7, 11-13, 17-20
+backend/components/metiers/sante/tests_centralises/views/helpers/__init__.py                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/views/helpers/test_helpers.py                                                              14     10      0      0    29%   7, 11-14, 18-21, 25-28
+backend/components/metiers/sante/tests_centralises/views/router/__init__.py                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/tests_centralises/views/router/test_router.py                                                                55     48      0      0    13%   5, 9-11, 15-24, 28-37, 41-51, 55-64, 68-76
+backend/components/metiers/sante/utils/__init__.py                                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/ai/__init__.py                                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/ai/core/__init__.py                                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/ai/fallback/__init__.py                                                                                16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/ai/helpers/__init__.py                                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/audit/__init__.py                                                                                      16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/audit/core/__init__.py                                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/audit/fallback/__init__.py                                                                             16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/audit/helpers/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/core/__init__.py                                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/exporter/__init__.py                                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/exporter/core/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/exporter/fallback/__init__.py                                                                          16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/exporter/helpers/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/fallback/__init__.py                                                                                   16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/helpers/__init__.py                                                                                    16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/helpers/core/__init__.py                                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/helpers/core/utils_helper.py                                                                            8      3      0      0    62%   10, 14, 18
+backend/components/metiers/sante/utils/helpers/fallback/__init__.py                                                                           16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/helpers/fallback/fallback.py                                                                            5      4      0      0    20%   9-12
+backend/components/metiers/sante/utils/helpers/helpers/__init__.py                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/helpers/helpers/generic_helper.py                                                                       4      3      2      0    17%   9-11
+backend/components/metiers/sante/utils/helpers/impl/__init__.py                                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/helpers/impl/advanced_impl_helper.py                                                                    5      4      0      0    20%   8-11
+backend/components/metiers/sante/utils/helpers/mocks/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/helpers/mocks/mock_helper.py                                                                            3      2      0      0    33%   7-8
+backend/components/metiers/sante/utils/i18n/__init__.py                                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/i18n/core/__init__.py                                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/i18n/fallback/__init__.py                                                                              16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/i18n/helpers/__init__.py                                                                               16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/logger/__init__.py                                                                                     16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/logger/fallback/__init__.py                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/logger/fallback/fallback.py                                                                             6      3      0      0    50%   12-17
+backend/components/metiers/sante/utils/rbac/__init__.py                                                                                       16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/rbac/core/__init__.py                                                                                  16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/rbac/core/rbac_utils.py                                                                                 9      4      0      0    56%   10, 14, 18, 27
+backend/components/metiers/sante/utils/validators/__init__.py                                                                                 16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/validators/core/__init__.py                                                                            16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/validators/core/validators.py                                                                           6      5      4      0    10%   12-16
+backend/components/metiers/sante/utils/validators/helpers/__init__.py                                                                         16      6      2      0    56%   13, 17-19, 24, 29
+backend/components/metiers/sante/utils/validators/helpers/validators_helper.py                                                                 5      3      2      0    29%   11-13
+backend/components/metiers/sante/utils/views/__init__.py                                                                                      16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/admin/__init__.py                                                                                16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/admin/admin_views.py                                                                             13      3      2      0    67%   24-28
+backend/components/metiers/sante/utils/views/api/__init__.py                                                                                  16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/api/api_views.py                                                                                 11      1      0      0    91%   24
+backend/components/metiers/sante/utils/views/conformity/__init__.py                                                                           16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/conformity/conformity_views.py                                                                    9      7      4      0    15%   10-16, 21-23
+backend/components/metiers/sante/utils/views/partials/__init__.py                                                                             16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/partials/partials_views.py                                                                        2      1      0      0    50%   9
+backend/components/metiers/sante/utils/views/public/__init__.py                                                                               16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/public/public_views.py                                                                            2      1      0      0    50%   6
+backend/components/metiers/sante/utils/views/templates/__init__.py                                                                            16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/templates/templates_views.py                                                                     12      7      4      0    31%   19-25
+backend/components/metiers/sante/utils/views/sante/__init__.py                                                                               16      6      2      0    56%   15, 22-24, 32, 38
+backend/components/metiers/sante/utils/views/sante/sante_views.py                                                                            2      1      0      0    50%   6
+gen_doc_metiers.py                                                                                                                             69     69     20      0     0%   16-225
+gen_readme_metiers.py                                                                                                                          71     71     22      0     0%   16-188
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                                       10699   4896   1108      6    49%
+
+2 files skipped due to complete coverage.
+=========================== short test summary info ============================
+ERROR backend/components/metiers/sante/tests_centralises/api/samples/audit/test_sample_audit.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 4.96s ===============================

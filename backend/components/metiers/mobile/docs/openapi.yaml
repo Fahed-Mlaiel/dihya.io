@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Mobile
+  version: 1.0.0
+paths:
+  /mobile/:
+    get:
+      summary: Liste des ressources Mobile
+      responses:
+        '200':
+          description: Succès

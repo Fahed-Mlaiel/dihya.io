@@ -1,0 +1,10 @@
+# Configuration Mode
+nom: mode
+plugins:
+  - analytics
+  - marketplace
+  - cms
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

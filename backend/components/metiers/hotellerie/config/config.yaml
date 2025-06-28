@@ -1,0 +1,10 @@
+# Configuration Hôtellerie
+nom: hotellerie
+plugins:
+  - booking
+  - analytics
+  - room
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

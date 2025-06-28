@@ -1,0 +1,10 @@
+# Configuration Restauration
+nom: restauration
+plugins:
+  - analytics
+  - booking
+  - menu
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

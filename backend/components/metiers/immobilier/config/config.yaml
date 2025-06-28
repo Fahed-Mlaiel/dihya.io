@@ -1,0 +1,10 @@
+# Configuration Immobilier
+nom: immobilier
+plugins:
+  - immobilier
+  - analytics
+  - visualisation
+dependances:
+  - three.js
+  - flask
+rgpd: True

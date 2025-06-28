@@ -1,0 +1,4 @@
+
+> lint
+> eslint src/ --ext .js,.jsx,.ts,.tsx
+

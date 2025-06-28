@@ -1,0 +1,39 @@
+/* global console */
+# Utils A_I – Documentation Ultra Avancée
+
+Ce dossier contient :
+- Helpers JS et Python (formatage, clone, validation)
+- Exemples d’utilisation avancée
+
+## Exemples JS
+```js
+const { formatDate } = require('./utils_helper');
+console.log(formatDate(Date.now()));
+```
+
+## Exemples Python
+```python
+from .utils_helper import format_date
+print(format_date('2025-06-03T12:00:00'))
+```
+
+# Utils A_I – Guide Avancé
+
+## Exemples d'utilisation
+
+```python
+from .audit import auditA_I
+from .metrics import record_metric
+```
+
+## Extension
+- Ajouter de nouveaux utilitaires selon les besoins
+- Documenter chaque fonction
+
+## Sécurité
+- Valider toutes les entrées
+- Logger les accès critiques
+
+## Bonnes pratiques
+- Séparer les responsabilités
+- Tester chaque utilitaire

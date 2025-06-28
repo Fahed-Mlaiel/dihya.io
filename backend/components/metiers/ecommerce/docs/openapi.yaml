@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API E-commerce
+  version: 1.0.0
+paths:
+  /ecommerce/:
+    get:
+      summary: Liste des ressources E-commerce
+      responses:
+        '200':
+          description: Succès

@@ -1,0 +1,10 @@
+# Configuration Culture
+nom: culture
+plugins:
+  - events
+  - billetterie
+  - analytics
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

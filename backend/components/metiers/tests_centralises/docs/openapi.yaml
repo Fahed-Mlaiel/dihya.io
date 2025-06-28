@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Tests Centralisés
+  version: 1.0.0
+paths:
+  /tests_centralises/:
+    get:
+      summary: Liste des ressources Tests Centralisés
+      responses:
+        '200':
+          description: Succès
