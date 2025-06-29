@@ -1,0 +1,58 @@
+CHECKLIST_STRUCTURE_SVG_PATTERNS.txt
+
+# Checklist professionnelle – Structure exhaustive du dossier svg (patterns)
+
+Ce dossier doit contenir tous les fichiers, templates, manifestes, scripts et exemples nécessaires à l’industrialisation, la configuration et l’extension du projet patterns pour la gestion des assets SVG, selon les standards Lead Dev/Architecte.
+
+## 1. Points d’entrée et documentation
+- README.md : Présentation, usage, structure, conventions, contacts
+- index.js : Point d’entrée JS pour import/export dynamique des assets SVG
+- svg_manifest.json : Manifestes des assets, conventions, métadonnées
+- conventions_svg.md : Conventions de nommage, structure, bonnes pratiques SVG
+- changelog.md : Historique des évolutions du dossier svg
+- integration_guide.md : Guide d’intégration multi-stack (React, Node.js, API, etc.)
+
+## 2. Assets métiers et exemples réels (exhaustif)
+- assets/ : Dossier contenant tous les fichiers SVG métiers (classés par secteur, usage, thème, etc.)
+- template_webApp.svg : Exemple d’asset SVG pour application web
+- template_backendApi.svg : Exemple d’asset SVG pour API backend
+- template_mobileApp.svg : Exemple d’asset SVG pour application mobile
+- template_plugin.svg : Exemple d’asset SVG pour plugin
+- template_analytics.svg : Exemple d’asset SVG pour analytics
+- template_seo.svg : Exemple d’asset SVG pour SEO
+- template_auth.svg : Exemple d’asset SVG pour auth
+- template_roles.svg : Exemple d’asset SVG pour gestion des rôles
+- template_permissions.svg : Exemple d’asset SVG pour gestion des permissions
+- template_notifications.svg : Exemple d’asset SVG pour notifications
+- template_middleware.svg : Exemple d’asset SVG pour middlewares
+- template_validators.svg : Exemple d’asset SVG pour validation
+- template_crypto.svg : Exemple d’asset SVG pour chiffrement
+- template_rgpd.svg : Exemple d’asset SVG pour RGPD
+- template_audit.svg : Exemple d’asset SVG pour audit/logs
+- template_monitoring.svg : Exemple d’asset SVG pour monitoring
+- template_scheduler.svg : Exemple d’asset SVG pour tâches planifiées
+- template_migration.svg : Exemple d’asset SVG pour migrations
+
+## 3. Scripts et utilitaires avancés
+- autoGenerateSvg.py : Génération automatique de templates SVG
+- svg_utils.js : Fonctions utilitaires JS pour gestion des assets SVG
+
+## 4. Accessibilité & DevOps
+- accessibility_guide.md : Guide accessibilité SVG (structure, fallback, ARIA)
+- devops_guide.md : Intégration CI/CD, validation, linting SVG
+
+## 5. Guides utilisateurs et développeurs
+- user_guide_fr.md, user_guide_en.md, user_guide_ar.md, user_guide_ber.md, user_guide_de.md, user_guide_es.md, user_guide_it.md, user_guide_pt.md, user_guide_ru.md, user_guide_pl.md, user_guide_tr.md, user_guide_zh.md, user_guide_ja.md, user_guide_ko.md, user_guide_hi.md, user_guide_sw.md, user_guide_uk.md, user_guide_nl.md
+- user_guide_fr_ca.md, user_guide_en_gb.md, user_guide_en_us.md, user_guide_ar_ma.md, user_guide_ar_tn.md, user_guide_ar_dz.md, user_guide_ar_eg.md, user_guide_ber_kab.md, user_guide_ber_rif.md, user_guide_ber_tzm.md, user_guide_ber_cha.md, user_guide_ber_tou.md, user_guide_ber_tac.md, etc.
+- dev_guide.md : Guide développeur SVG patterns
+
+## 6. Autres fichiers métiers
+- LICENSE
+- .gitkeep (si besoin pour forcer la présence du dossier assets/)
+
+# Remarques professionnelles
+- Tous les fichiers d’assets SVG doivent être classés dans le dossier assets/ par secteur, usage ou thème.
+- Les fichiers d’index (index.js) et d’initialisation (__init__.py si besoin pour Python) doivent être présents uniquement si le dossier est utilisé comme module ou point d’entrée.
+- Les scripts de génération et d’utilitaires doivent être documentés et testés.
+- Les guides doivent être adaptés à chaque langue et variante régionale pertinente pour l’industrialisation et l’accessibilité.
+- Les fichiers de test sont à centraliser dans un dossier dédié (tests/) à une étape ultérieure.

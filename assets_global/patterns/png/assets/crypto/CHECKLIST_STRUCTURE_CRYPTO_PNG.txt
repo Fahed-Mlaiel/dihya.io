@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_CRYPTO_PNG.txt
+
+# Checklist professionnelle – Dossier crypto/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour le chiffrement et la sécurité du projet patterns.
+
+## 1. Exemples d’usages
+- crypto_icon.png : Icône de chiffrement
+- crypto_schema.png : Schéma de sécurité
+- crypto_key.png : Illustration de clé de chiffrement
+- crypto_custom_v1.png : Asset personnalisé crypto
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : crypto_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés au chiffrement/sécurité

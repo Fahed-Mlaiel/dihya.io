@@ -1,0 +1,20 @@
+CHECKLIST STRUCTURE /audit (2025)
+
+1. README.md — Présentation du dossier, conventions d’audit, usages (sécurité, RGPD, accessibilité, logs, etc.)
+2. index.js — Point d’entrée JS pour automatisations ou scripts d’audit
+3. __init__.py — Point d’entrée Python pour automatisations ou scripts d’audit
+4. audit.log — Journal d’audit centralisé (logs structurés, sécurité, RGPD)
+5. structured_logger.py — Logger structuré Python pour l’audit
+6. audit_report_template.md — Modèle de rapport d’audit (template)
+7. audit_checklist_professionnelle.js — Checklist professionnelle d’audit (exemple JS)
+8. audit_checklist_professionnelle.py — Checklist professionnelle d’audit (exemple Python)
+9. audit_checklist_professionnelle.txt — Checklist professionnelle d’audit (exemple texte)
+10. scripts/ — Scripts d’automatisation d’audit (avec README, index.js, __init__.py)
+11. reports/ — Rapports d’audit générés (avec README)
+12. (optionnel) accessibilite_audit.md — Rapport d’audit accessibilité
+13. (optionnel) rgpd_audit.md — Rapport d’audit RGPD
+14. (optionnel) securite_audit.md — Rapport d’audit sécurité
+
+Chaque fichier doit être présent, bien nommé, et contenir un exemple métier réel ou un template prêt à l’emploi.
+
+# Checklist validée pour une gestion d’audit professionnelle, industrialisable et maintenable.

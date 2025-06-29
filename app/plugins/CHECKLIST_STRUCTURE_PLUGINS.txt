@@ -1,0 +1,21 @@
+CHECKLIST STRUCTURE /app/plugins (2025)
+
+1. README.md — Présentation du dossier, conventions de développement de plugins, structure attendue, exemples d’utilisation
+2. index.js — Point d’entrée JS pour l’enregistrement, l’import et la gestion des plugins (pattern factory/loader)
+3. __init__.py — Point d’entrée Python pour la gestion ou génération de plugins Python
+4. plugin.config.js — Fichier de configuration global des plugins (activation, options, etc.)
+5. examplePlugin/ — Exemple de plugin complet (voir structure ci-dessous)
+   ├── README.md — Présentation du plugin
+   ├── index.js — Point d’entrée JS du plugin
+   ├── __init__.py — Point d’entrée Python du plugin (si besoin)
+   ├── plugin.config.js — Config locale du plugin
+   ├── plugin.json — Métadonnées du plugin (nom, version, description, author, etc.)
+   ├── assets/ — Assets spécifiques au plugin (icônes, images, etc.)
+   ├── components/ — Composants React/JS spécifiques au plugin
+   ├── services/ — Services ou hooks métiers du plugin
+   ├── scripts/ — Scripts d’automatisation ou d’intégration
+   └── docs/ — Documentation dédiée au plugin
+
+Chaque plugin doit être isolé dans son propre dossier, avec un point d’entrée JS et/ou Python, une config, des assets, des composants, des services, des scripts et une documentation dédiée.
+
+# Checklist validée pour une gestion de plugins professionnelle, industrialisable et maintenable.

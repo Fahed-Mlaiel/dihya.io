@@ -1,0 +1,21 @@
+{
+  "name": "DocuWare DMS Integration",
+  "type": "document-management",
+  "description": "DocuWare-Integration: Dokumentenmanagement, Workflows, E-Signatur, Webhooks, Audit- und CI/CD-ready.",
+  "version": "1.0.0",
+  "author": "LeadDev",
+  "date": "2025-06-19",
+  "features": [
+    "Dokumentenmanagement und E-Signatur",
+    "Workflows und Automatisierung",
+    "Webhooks und Benachrichtigungen",
+    "Audit-Logging",
+    "CI/CD-Deployment",
+    "DSGVO/GDPR-konform"
+  ],
+  "audit_status": "audited",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

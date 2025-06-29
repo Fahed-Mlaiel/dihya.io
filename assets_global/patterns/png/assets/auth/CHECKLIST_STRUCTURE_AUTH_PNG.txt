@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_AUTH_PNG.txt
+
+# Checklist professionnelle – Dossier auth/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour l’authentification du projet patterns.
+
+## 1. Exemples d’usages
+- auth_icon.png : Icône d’authentification
+- auth_badge.png : Badge d’authentification
+- auth_illustration.png : Illustration pour page d’authentification
+- auth_custom_v1.png : Asset personnalisé auth
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : auth_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés à l’authentification

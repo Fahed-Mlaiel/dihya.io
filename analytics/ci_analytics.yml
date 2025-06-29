@@ -1,0 +1,72 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  PYTHON_IMAGE: python:3.9
+  NODE_IMAGE: node:14
+
+build_backend:
+  stage: build
+  image: $PYTHON_IMAGE
+  script:
+    - pip install -r requirements.txt
+    - python setup.py build
+  artifacts:
+    paths:
+      - dist/
+
+build_frontend:
+  stage: build
+  image: $NODE_IMAGE
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - build/
+
+test_backend:
+  stage: test
+  image: $PYTHON_IMAGE
+  script:
+    - pip install -r requirements.txt
+    - pytest tests/
+
+test_frontend:
+  stage: test
+  image: $NODE_IMAGE
+  script:
+    - npm install
+    - npm test
+
+deploy:
+  stage: deploy
+  image: $PYTHON_IMAGE
+  script:
+    - pip install -r requirements.txt
+    - python deploy.py
+  only:
+    - master
+  environment:
+    name: production
+    url: https://analytics.example.com
+
+i18n_sync:
+  stage: build
+  image: $NODE_IMAGE
+  script:
+    - npm install
+    - npm run i18n:extract
+    - npm run i18n:sync
+  artifacts:
+    paths:
+      - src/i18n/messages/
+
+accessibility_check:
+  stage: test
+  image: $NODE_IMAGE
+  script:
+    - npm install
+    - npm run accessibility:check

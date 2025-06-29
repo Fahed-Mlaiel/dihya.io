@@ -1,0 +1,18 @@
+CHECKLIST_STRUCTURE_AI_BLUEPRINTS_DOCS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/ai_blueprints/docs (Docs Blueprints IA)
+
+1. blueprints_guide_fr.md – Guide d’utilisation des blueprints (français)
+2. blueprints_guide_en.md – Guide d’utilisation des blueprints (anglais)
+3. blueprints_api.md – Documentation API d’intégration des blueprints
+4. README.md – Présentation, conventions, index des docs blueprints
+5. index.js – (si besoin d’exporter des helpers JS pour la doc)
+6. __init__.py – (si besoin d’outils Python pour la doc)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Guides fr/en et doc API toujours présents.
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés à la doc.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

@@ -1,0 +1,21 @@
+CHECKLIST_STRUCTURE_AI_MODELS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/models (Modèles IA)
+
+1. model.py – Modèle ML/IA principal (exemple PyTorch/TensorFlow)
+2. model_config.json – Config modèle (hyperparamètres, archi)
+3. tokenizer.json – Tokenizer ou vocabulaire (NLP)
+4. model.onnx – Modèle exporté au format ONNX
+5. model_weights.h5 – Poids du modèle (HDF5, Keras/TensorFlow)
+6. model_card.md – Documentation métier du modèle (description, usages, limites)
+7. README.md – Présentation, conventions, index des modèles IA
+8. index.js – (export JS des modèles)
+9. __init__.py – (outils Python pour les modèles)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type de modèle/fichier listé.
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux modèles.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

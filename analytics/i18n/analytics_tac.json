@@ -1,0 +1,59 @@
+{
+  "en": {
+    "title": "Analytics Terms and Conditions",
+    "introduction": "By using the analytics features, you agree to the following terms...",
+    "dataCollection": {
+      "title": "Data Collection",
+      "description": "We collect data regarding your usage to improve our services..."
+    },
+    "dataUsage": {
+      "title": "Data Usage",
+      "description": "The data collected will be used to provide insights and enhance user experience..."
+    },
+    "dataProtection": {
+      "title": "Data Protection",
+      "description": "We are committed to protecting your data and adhere to the latest security standards..."
+    },
+    "consent": {
+      "title": "Consent",
+      "description": "By continuing to use our services, you consent to the data practices described in these terms..."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "description": "We reserve the right to modify these terms at any time. Please review them regularly..."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about these terms, please contact us at..."
+    }
+  },
+  "fr": {
+    "title": "Conditions d'utilisation des services d'analytique",
+    "introduction": "En utilisant les fonctionnalités d'analytique, vous acceptez les termes suivants...",
+    "dataCollection": {
+      "title": "Collecte de données",
+      "description": "Nous collectons des données concernant votre utilisation pour améliorer nos services..."
+    },
+    "dataUsage": {
+      "title": "Utilisation des données",
+      "description": "Les données collectées seront utilisées pour fournir des insights et améliorer l'expérience utilisateur..."
+    },
+    "dataProtection": {
+      "title": "Protection des données",
+      "description": "Nous nous engageons à protéger vos données et adhérons aux dernières normes de sécurité..."
+    },
+    "consent": {
+      "title": "Consentement",
+      "description": "En continuant à utiliser nos services, vous consentez aux pratiques de données décrites dans ces termes..."
+    },
+    "changes": {
+      "title": "Modifications des termes",
+      "description": "Nous nous réservons le droit de modifier ces termes à tout moment. Veuillez les consulter régulièrement..."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Si vous avez des questions concernant ces termes, veuillez nous contacter à..."
+    }
+  }
+  // Additional languages can be added here following the same structure
+}

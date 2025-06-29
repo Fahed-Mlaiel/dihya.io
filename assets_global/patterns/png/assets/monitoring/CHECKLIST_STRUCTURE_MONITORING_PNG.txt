@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_MONITORING_PNG.txt
+
+# Checklist professionnelle – Dossier monitoring/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour le monitoring du projet patterns.
+
+## 1. Exemples d’usages
+- monitoring_dashboard.png : Dashboard de monitoring
+- monitoring_icon.png : Icône monitoring
+- monitoring_alert.png : Icône d’alerte monitoring
+- monitoring_custom_v1.png : Asset personnalisé monitoring
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : monitoring_dashboard_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés au monitoring

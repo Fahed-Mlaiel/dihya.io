@@ -1,0 +1,11 @@
+CHECKLIST STRUCTURE /app/plugins/examplePlugin/services (2025)
+
+1. README.md — Présentation du dossier, conventions de nommage, usage des services/hooks
+2. exampleService.js — Exemple de service métier JS prêt à l’emploi
+3. exampleHook.js — Exemple de hook React prêt à l’emploi
+4. index.js — Point d’entrée pour exporter tous les services/hooks du plugin
+5. __init__.py — Point d’entrée Python pour automatisations ou génération de services (optionnel)
+
+Chaque service ou hook doit être réutilisable, documenté et conforme aux standards du projet.
+
+# Checklist validée pour une gestion de services de plugin professionnelle, industrialisable et maintenable.

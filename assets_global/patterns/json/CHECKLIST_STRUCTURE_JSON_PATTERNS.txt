@@ -1,0 +1,56 @@
+CHECKLIST_STRUCTURE_JSON_PATTERNS.txt
+
+# Checklist professionnelle – Structure exhaustive du dossier json (patterns)
+
+Ce dossier doit contenir tous les fichiers, templates, manifestes et exemples métiers JSON nécessaires à l’industrialisation, la configuration et l’extension du projet patterns, selon les standards Lead Dev/Architecte.
+
+## 1. Points d’entrée et documentation
+- README.md : Présentation, usage, structure, conventions, contacts
+- index.js : Point d’entrée JS pour import/export dynamique des templates JSON
+- json_manifest.json : Manifestes des templates, conventions, métadonnées
+- conventions_json.md : Conventions de nommage, structure, bonnes pratiques JSON
+- changelog.md : Historique des évolutions du dossier json
+- integration_guide.md : Guide d’intégration multi-stack (React, Node.js, API, etc.)
+
+## 2. Templates métiers et exemples réels (exhaustif)
+- template_webApp.json : Template JSON pour génération d’applications web
+- template_backendApi.json : Template JSON pour génération d’API backend
+- template_mobileApp.json : Template JSON pour génération d’applications mobiles
+- template_plugin.json : Template JSON pour génération de plugins
+- template_analytics.json : Template JSON pour configuration analytics
+- template_seo.json : Template JSON pour configuration SEO
+- template_auth.json : Template JSON pour configuration auth
+- template_roles.json : Template JSON pour gestion des rôles
+- template_permissions.json : Template JSON pour gestion des permissions
+- template_notifications.json : Template JSON pour notifications
+- template_middleware.json : Template JSON pour middlewares
+- template_validators.json : Template JSON pour validation
+- template_crypto.json : Template JSON pour chiffrement
+- template_rgpd.json : Template JSON pour RGPD
+- template_audit.json : Template JSON pour audit/logs
+- template_monitoring.json : Template JSON pour monitoring
+- template_scheduler.json : Template JSON pour tâches planifiées
+- template_migration.json : Template JSON pour migrations
+
+## 3. Scripts et utilitaires avancés
+- autoGenerateJson.py : Génération automatique de templates JSON
+- json_utils.js : Fonctions utilitaires JS pour gestion des templates JSON
+
+## 4. Accessibilité & DevOps
+- accessibility_guide.md : Guide accessibilité JSON (structure, fallback, ARIA)
+- devops_guide.md : Intégration CI/CD, validation, linting JSON
+
+## 5. Guides utilisateurs et développeurs
+- user_guide_fr.md, user_guide_en.md, user_guide_ar.md, user_guide_ber.md, user_guide_de.md, user_guide_es.md, user_guide_it.md, user_guide_pt.md, user_guide_ru.md, user_guide_pl.md, user_guide_tr.md, user_guide_zh.md, user_guide_ja.md, user_guide_ko.md, user_guide_hi.md, user_guide_sw.md, user_guide_uk.md, user_guide_nl.md
+- user_guide_fr_ca.md, user_guide_en_gb.md, user_guide_en_us.md, user_guide_ar_ma.md, user_guide_ar_tn.md, user_guide_ar_dz.md, user_guide_ar_eg.md, user_guide_ber_kab.md, user_guide_ber_rif.md, user_guide_ber_tzm.md, user_guide_ber_cha.md, user_guide_ber_tou.md, user_guide_ber_tac.md, etc.
+- dev_guide.md : Guide développeur JSON patterns
+
+## 6. Autres fichiers métiers
+- LICENSE
+- .gitkeep (si besoin pour forcer la présence du dossier)
+
+# Règles
+- Aucun fichier optionnel : tout doit exister, même vide ou avec un exemple métier.
+- Respecter la structure, la nomenclature et les conventions métiers.
+- Ignorer les tests (centralisés ailleurs).
+- Adapter la structure si de nouveaux besoins métiers apparaissent.

@@ -1,0 +1,15 @@
+# Documentation du dossier assets/doc
+
+Ce dossier contient la documentation métier, technique et d’intégration pour les assets de patterns.
+
+## Structure recommandée
+- `README.md` : Présentation et guide d’utilisation des assets.
+- `integration_guide.md` : Guide d’intégration des assets dans les projets.
+- `conventions.md` : Conventions de nommage, d’organisation et de contribution.
+- `assets_doc_fr.md` : Documentation fonctionnelle en français.
+- `assets_doc_en.md` : Documentation fonctionnelle en anglais.
+- `assets_doc_ar.md` : Documentation fonctionnelle en arabe.
+- `assets_doc_ber.md` : Documentation fonctionnelle en berbère.
+- `CHANGELOG.md` : Historique des modifications de la documentation.
+
+Chaque fichier doit exister et être maintenu à jour pour garantir l’industrialisation et la réutilisabilité des assets.

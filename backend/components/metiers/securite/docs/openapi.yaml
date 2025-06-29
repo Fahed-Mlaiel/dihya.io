@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Sécurité
+  version: 1.0.0
+paths:
+  /securite/:
+    get:
+      summary: Liste des ressources Sécurité
+      responses:
+        '200':
+          description: Succès

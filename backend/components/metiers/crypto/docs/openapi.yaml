@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Crypto
+  version: 1.0.0
+paths:
+  /crypto/:
+    get:
+      summary: Liste des ressources Crypto
+      responses:
+        '200':
+          description: Succès

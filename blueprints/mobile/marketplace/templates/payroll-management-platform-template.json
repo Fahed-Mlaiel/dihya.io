@@ -1,0 +1,22 @@
+{
+  "name": "Gestion de la paie",
+  "sector": "RH",
+  "description": "Template gestion de la paie (salariés, bulletins, déclarations, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des salariés",
+    "Gestion des bulletins de paie",
+    "Déclarations sociales",
+    "Advanced reporting",
+    "Plugin support (export, AI, compliance)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

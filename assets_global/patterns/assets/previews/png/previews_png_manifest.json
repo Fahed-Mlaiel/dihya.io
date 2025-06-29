@@ -1,0 +1,18 @@
+{
+  "name": "previews_png_manifest",
+  "description": "Manifeste des PNGs de preview pour les assets de patterns.",
+  "pngs": [
+    {
+      "file": "preview1.png",
+      "usage": "Aperçu d’un composant UI illustré.",
+      "accessibility": "Alternatives textuelles multilingues.",
+      "languages": ["fr", "en", "ar", "ber", "es", "de", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl"]
+    },
+    {
+      "file": "preview2.png",
+      "usage": "Aperçu d’un branding illustré.",
+      "accessibility": "Alternatives textuelles multilingues.",
+      "languages": ["fr", "en", "ar", "ber", "es", "de", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<!--
+  security_audit_es_v1.svg
+  Ilustración de auditoría de seguridad blockchain (español)
+-->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f7e8e8"/>
+  <g>
+    <circle cx="100" cy="100" r="80" fill="#e27e7e"/>
+    <text x="100" y="110" font-size="28" text-anchor="middle" fill="#fff">Auditoría</text>
+  </g>
+</svg>

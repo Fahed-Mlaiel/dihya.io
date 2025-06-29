@@ -1,0 +1,10 @@
+# Configuration Médias
+nom: medias
+plugins:
+  - analytics
+  - cms
+  - streaming
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

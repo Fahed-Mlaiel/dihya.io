@@ -1,0 +1,19 @@
+CHECKLIST_STRUCTURE_AI_SCRIPTS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/scripts (Scripts IA)
+
+1. generate_ai_project.py – Script génération projet IA
+2. train_model.py – Script entraînement modèle ML/IA
+3. infer.py – Script inférence modèle IA
+4. preprocess.py – Script prétraitement données IA
+5. README.md – Présentation, conventions, index des scripts IA
+6. index.js – (export JS des scripts)
+7. __init__.py – (outils Python pour les scripts)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque script listé.
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux scripts.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

@@ -1,0 +1,16 @@
+CHECKLIST STRUCTURE /app/services (2025)
+
+1. README.md — Présentation du dossier, conventions de nommage, usage des services métiers (backend, frontend, hooks, etc.)
+2. index.js — Point d’entrée pour exporter tous les services du dossier
+3. __init__.py — Point d’entrée Python pour automatisations ou génération de services (optionnel)
+4. analyticsService.js — Service d’analytics (tracking, reporting)
+5. authService.js — Service d’authentification (JWT, OAuth, gestion des rôles)
+6. monitoringService.js — Service de monitoring et healthcheck
+7. notifications.js — Service de notifications UI (mail, toast, etc.)
+8. onDownloadReport.js — Génération et gestion des rapports
+9. seoService.js — Service SEO (balises, sitemap, robots.txt)
+10. (optionnel) autres services métiers (ex: backupService.js, pluginService.js, etc.)
+
+Chaque service doit être réutilisable, documenté et conforme aux standards du projet.
+
+# Checklist validée pour une gestion de services d’application professionnelle, industrialisable et maintenable.

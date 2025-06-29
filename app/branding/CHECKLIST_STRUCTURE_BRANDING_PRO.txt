@@ -1,0 +1,25 @@
+# CHECKLIST_STRUCTURE_BRANDING_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /app/branding pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+branding/
+
+# Fichiers recommandés à la racine de branding
+README.md               # Documentation sur la gestion du branding, conventions, droits d'utilisation, usages
+index.js                # Export centralisé des éléments de branding (JS/React)
+__init__.py             # (optionnel) Permet l'import Python
+brandingConfig.json     # Config globale du branding (couleurs, polices, logos, thèmes)
+charte_graphique.pdf    # Charte graphique officielle
+palette_couleurs.json   # Palette de couleurs officielle
+logo_branding.svg       # Logo branding principal
+logo_branding_light.svg # Variante light
+logo_branding_dark.svg  # Variante dark
+favicon.svg             # Favicon branding
+
+# Bonnes pratiques :
+# - Toujours documenter la provenance et l'usage de chaque élément de branding
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)
+# - Ne jamais stocker d'assets inutiles ou non libres de droits

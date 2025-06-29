@@ -1,0 +1,14 @@
+CHECKLIST STRUCTURE /assets (2025)
+
+1. README.md — Présentation du dossier, conventions d’organisation, types d’assets acceptés (images, icônes, SVG, logos, etc.)
+2. index.js — Point d’entrée JS pour la gestion/import des assets globaux
+3. __init__.py — Point d’entrée Python pour automatisations ou gestion d’assets globaux
+4. icons/ — Dossier pour les icônes SVG/PNG (avec README, index.js, __init__.py)
+5. images/ — Dossier pour les images génériques (avec README, index.js, __init__.py)
+6. logos/ — Dossier pour les logos (avec README, index.js, __init__.py)
+7. svg/ — Dossier pour les SVG métiers (avec README, index.js, __init__.py)
+8. (optionnel) autres sous-dossiers métiers (ex: backgrounds/, patterns/, illustrations/, etc.)
+
+Chaque asset doit être clairement nommé, documenté et utilisable dans l’application ou la documentation.
+
+# Checklist validée pour une gestion d’assets globale professionnelle, industrialisable et maintenable.

@@ -1,0 +1,16 @@
+{
+  "illustrations": [
+    {"name": "welcome", "file": "illustration_welcome.svg", "description": "Illustration page d’accueil"},
+    {"name": "error", "file": "illustration_error.svg", "description": "Illustration page d’erreur"},
+    {"name": "empty", "file": "illustration_empty.svg", "description": "Illustration état vide"},
+    {"name": "success", "file": "illustration_success.svg", "description": "Illustration succès"},
+    {"name": "maintenance", "file": "illustration_maintenance.svg", "description": "Illustration maintenance"},
+    {"name": "ai", "file": "illustration_ai.svg", "description": "Illustration intelligence artificielle"},
+    {"name": "security", "file": "illustration_security.svg", "description": "Illustration sécurité"},
+    {"name": "marketplace", "file": "illustration_marketplace.svg", "description": "Illustration marketplace"},
+    {"name": "backup", "file": "illustration_backup.svg", "description": "Illustration backup"},
+    {"name": "notification", "file": "illustration_notification.svg", "description": "Illustration notification"},
+    {"name": "upload", "file": "illustration_upload.svg", "description": "Illustration upload"},
+    {"name": "download", "file": "illustration_download.svg", "description": "Illustration download"}
+  ]
+}

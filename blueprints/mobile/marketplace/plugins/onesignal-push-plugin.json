@@ -1,0 +1,21 @@
+{
+  "name": "OneSignal Push",
+  "type": "notification",
+  "description": "Plugin d’intégration OneSignal (push notifications, analytics, audit, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Notifications push",
+    "Analytics notifications",
+    "Intégration CI/CD",
+    "Audit RGPD",
+    "Logs et reporting",
+    "Support multilingue"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

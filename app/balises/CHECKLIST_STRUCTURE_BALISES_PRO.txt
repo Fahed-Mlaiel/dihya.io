@@ -1,0 +1,47 @@
+# CHECKLIST_STRUCTURE_BALISES_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /balises pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+balises/
+
+# Fichiers recommandés à la racine de balises
+README.md               # Documentation sur la gestion des balises (SEO, accessibilité, OpenGraph, microdata, etc.), conventions, usages
+index.js                # (optionnel) Export centralisé des balises pour import facilité dans le code (React, Node.js)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Sous-dossiers types (à adapter selon besoins réels du projet)
+seo/                    # Balises SEO (title, meta, canonical, etc.)
+open_graph/             # Balises OpenGraph (partage réseaux sociaux)
+microdata/              # Microdonnées (schema.org, rich snippets)
+accessibility/          # Balises ARIA, accessibilité, navigation clavier
+custom/                 # Balises personnalisées, extensions, plugins
+
+# Détail par sous-dossier
+
+seo/
+    README.md           # Documentation sur les balises SEO, conventions, usages
+    (exemples de balises SEO, templates)
+
+open_graph/
+    README.md           # Documentation sur les balises OpenGraph, conventions, usages
+    (exemples de balises OG, templates)
+
+microdata/
+    README.md           # Documentation sur les microdonnées, conventions, usages
+    (exemples de microdata, templates)
+
+accessibility/
+    README.md           # Documentation sur les balises d’accessibilité, conventions, usages
+    (exemples de balises ARIA, templates)
+
+custom/
+    README.md           # Documentation sur les balises personnalisées, conventions, usages
+    (exemples de balises custom, templates)
+
+# Bonnes pratiques :
+# - Centraliser la documentation et les templates pour chaque type de balise
+# - Respecter les standards SEO, accessibilité, OpenGraph, schema.org
+# - Faciliter l’import et la réutilisation dans le code (index.js)
+# - Adapter la structure selon les besoins métiers et stacks utilisées

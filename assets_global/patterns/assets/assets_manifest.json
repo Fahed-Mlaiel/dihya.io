@@ -1,0 +1,20 @@
+{
+  "assets": [
+    {
+      "id": "pattern1",
+      "filename": "pattern1.svg",
+      "type": "svg",
+      "tags": ["géométrique", "moderne"],
+      "preview": "previews/pattern1_preview.png",
+      "thumbnail": "thumbnails/pattern1_thumb.svg"
+    },
+    {
+      "id": "pattern2",
+      "filename": "pattern2.png",
+      "type": "png",
+      "tags": ["organique", "coloré"],
+      "preview": "previews/pattern2_preview.svg",
+      "thumbnail": "thumbnails/pattern2_thumb.png"
+    }
+  ]
+}

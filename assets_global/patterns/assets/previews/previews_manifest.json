@@ -1,0 +1,12 @@
+{
+  "name": "previews_manifest",
+  "description": "Manifeste des fichiers de preview pour les assets de patterns.",
+  "formats": ["svg", "png", "jpg", "gif", "webp"],
+  "examples": {
+    "svg": "svg/preview1.svg",
+    "png": "png/preview1.png",
+    "jpg": "jpg/preview1.jpg",
+    "gif": "gif/preview1.gif",
+    "webp": "webp/preview1.webp"
+  }
+}

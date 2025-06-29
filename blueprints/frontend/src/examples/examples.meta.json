@@ -1,0 +1,22 @@
+[
+  {
+    "name": "README.md",
+    "type": "doc",
+    "usage": "Sommaire et conventions des exemples"
+  },
+  {
+    "name": "README_EXEMPLES.md",
+    "type": "doc",
+    "usage": "Exemples d’intégration métier"
+  },
+  {
+    "name": "README_ARCHITECTURE.md",
+    "type": "doc",
+    "usage": "Schéma et conventions d’architecture des exemples"
+  },
+  {
+    "name": "fullUserFlow.js",
+    "type": "exemple",
+    "usage": "Flux utilisateur complet (login, dashboard, génération, export, audit)"
+  }
+]

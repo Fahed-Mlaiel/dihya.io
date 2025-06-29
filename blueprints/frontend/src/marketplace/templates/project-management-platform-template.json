@@ -1,0 +1,23 @@
+{
+  "name": "Project Management Platform",
+  "sector": "Gestion de projet",
+  "description": "Template pour gestion de projet (kanban, Gantt, tâches, notifications, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "projet",
+      "kanban",
+      "Gantt",
+      "tâches",
+      "notifications",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "AuthContext",
+    "type": "auth",
+    "usage": "Gestion globale de l’authentification"
+  },
+  {
+    "name": "ThemeContext",
+    "type": "theme",
+    "usage": "Gestion du thème global (dark/light)"
+  },
+  {
+    "name": "LangContext",
+    "type": "i18n",
+    "usage": "Gestion de la langue globale"
+  }
+]

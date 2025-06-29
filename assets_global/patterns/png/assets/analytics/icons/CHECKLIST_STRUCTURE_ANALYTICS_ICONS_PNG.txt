@@ -1,0 +1,17 @@
+CHECKLIST_STRUCTURE_ANALYTICS_ICONS_PNG.txt
+
+# Checklist professionnelle – Dossier icons/ (analytics PNG)
+
+Ce dossier accueille tous les fichiers PNG d’icônes analytics (statistiques, tendances, etc.) pour le projet patterns.
+
+## 1. Exemples d’usages
+- icon_stats.png : Icône statistiques
+- icon_trend_up.png : Icône tendance haussière
+- icon_trend_down.png : Icône tendance baissière
+- icon_dashboard.png : Icône dashboard
+- icon_custom_v1.png : Icône personnalisée
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : icon_stats_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG d’icônes analytics

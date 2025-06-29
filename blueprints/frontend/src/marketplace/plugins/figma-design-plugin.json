@@ -1,0 +1,21 @@
+{
+  "name": "Figma Design",
+  "type": "design",
+  "description": "Plugin d’intégration Figma (design system, assets, collaboration, audit, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Import design system",
+    "Gestion des assets",
+    "Collaboration temps réel",
+    "Intégration CI/CD",
+    "Audit RGPD",
+    "Logs et reporting"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

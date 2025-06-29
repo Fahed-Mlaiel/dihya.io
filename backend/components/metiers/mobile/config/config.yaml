@@ -1,0 +1,10 @@
+# Configuration Mobile
+nom: mobile
+plugins:
+  - push
+  - analytics
+  - notifications
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

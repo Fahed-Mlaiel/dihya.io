@@ -1,0 +1,60 @@
+{
+  "analytics": {
+    "dashboard": {
+      "title": "Analytics Dashboard",
+      "visitors": "Visitors",
+      "pageViews": "Page Views",
+      "userEngagement": "User Engagement",
+      "timeOnSite": "Time on Site",
+      "bounceRate": "Bounce Rate",
+      "trafficSources": "Traffic Sources",
+      "trafficOverview": "Traffic Overview",
+      "contentPerformance": "Content Performance",
+      "geoDistribution": "Geographic Distribution",
+      "deviceUsage": "Device Usage",
+      "realTimeData": "Real-Time Data"
+    },
+    "reports": {
+      "title": "Reports",
+      "customReports": "Custom Reports",
+      "exportData": "Export Data",
+      "scheduleReports": "Schedule Reports",
+      "emailReports": "Email Reports"
+    },
+    "settings": {
+      "title": "Settings",
+      "profile": "Profile",
+      "privacy": "Privacy",
+      "notifications": "Notifications",
+      "language": "Language",
+      "dataRetention": "Data Retention",
+      "integrations": "Integrations"
+    },
+    "help": {
+      "title": "Help",
+      "documentation": "Documentation",
+      "support": "Support",
+      "communityForums": "Community Forums",
+      "feedback": "Feedback"
+    },
+    "login": {
+      "signIn": "Sign In",
+      "signOut": "Sign Out",
+      "username": "Username",
+      "password": "Password",
+      "rememberMe": "Remember Me",
+      "forgotPassword": "Forgot Password?",
+      "createAccount": "Create an Account"
+    },
+    "errors": {
+      "notFound": "The requested resource was not found.",
+      "unauthorized": "You are not authorized to view this content.",
+      "serverError": "An internal server error has occurred.",
+      "requestFailed": "The request failed. Please try again."
+    },
+    "confirmation": {
+      "delete": "Are you sure you want to delete this item?",
+      "logout": "Are you sure you want to log out?"
+    }
+  }
+}

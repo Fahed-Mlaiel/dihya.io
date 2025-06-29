@@ -1,0 +1,24 @@
+{
+  "name": "Threed",
+  "sector": "Technologie 3D",
+  "description": "Template clé en main pour plateforme 3D (visualisation, modélisation, plugins, gestion assets, utilisateurs, paiement, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "3D",
+      "visualisation",
+      "modélisation",
+      "plateforme",
+      "assets",
+      "utilisateurs",
+      "paiement",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

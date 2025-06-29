@@ -1,0 +1,10 @@
+# Configuration SEO
+nom: seo
+plugins:
+  - seo
+  - analytics
+  - traffic
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

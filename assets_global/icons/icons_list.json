@@ -1,0 +1,22 @@
+{
+  "icons": [
+    {"name": "app", "file": "icon_app.svg", "description": "Icône principale de l’application"},
+    {"name": "user", "file": "icon_user.svg", "description": "Icône utilisateur"},
+    {"name": "admin", "file": "icon_admin.svg", "description": "Icône admin"},
+    {"name": "plugin", "file": "icon_plugin.svg", "description": "Icône plugin"},
+    {"name": "notification", "file": "icon_notification.svg", "description": "Icône notification"},
+    {"name": "success", "file": "icon_success.svg", "description": "Icône succès"},
+    {"name": "error", "file": "icon_error.svg", "description": "Icône erreur"},
+    {"name": "warning", "file": "icon_warning.svg", "description": "Icône avertissement"},
+    {"name": "info", "file": "icon_info.svg", "description": "Icône information"},
+    {"name": "download", "file": "icon_download.svg", "description": "Icône téléchargement"},
+    {"name": "upload", "file": "icon_upload.svg", "description": "Icône upload"},
+    {"name": "settings", "file": "icon_settings.svg", "description": "Icône paramètres"},
+    {"name": "search", "file": "icon_search.svg", "description": "Icône recherche"},
+    {"name": "language", "file": "icon_language.svg", "description": "Icône langue"},
+    {"name": "theme", "file": "icon_theme.svg", "description": "Icône thème"},
+    {"name": "logout", "file": "icon_logout.svg", "description": "Icône déconnexion"},
+    {"name": "home", "file": "icon_home.svg", "description": "Icône accueil"},
+    {"name": "marketplace", "file": "icon_marketplace.svg", "description": "Icône marketplace"}
+  ]
+}

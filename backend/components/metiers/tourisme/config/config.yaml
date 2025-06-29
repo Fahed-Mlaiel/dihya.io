@@ -1,0 +1,10 @@
+# Configuration Tourisme
+nom: tourisme
+plugins:
+  - analytics
+  - marketplace
+  - booking
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

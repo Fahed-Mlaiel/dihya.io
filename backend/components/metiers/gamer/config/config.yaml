@@ -1,0 +1,10 @@
+# Configuration Gamer
+nom: gamer
+plugins:
+  - analytics
+  - leaderboard
+  - profile
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

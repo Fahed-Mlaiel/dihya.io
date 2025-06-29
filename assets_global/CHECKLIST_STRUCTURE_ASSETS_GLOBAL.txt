@@ -1,0 +1,14 @@
+CHECKLIST STRUCTURE /assets_global (2025)
+
+1. README.md — Présentation du dossier, conventions d’organisation, usage des assets partagés multi-stack (frontend, backend, mobile, etc.)
+2. index.js — Point d’entrée JS pour la gestion/import des assets globaux partagés
+3. __init__.py — Point d’entrée Python pour automatisations ou gestion d’assets globaux partagés
+4. icons/ — Dossier pour les icônes partagées (avec README, index.js, __init__.py)
+5. images/ — Dossier pour les images partagées (avec README, index.js, __init__.py)
+6. logos/ — Dossier pour les logos partagés (avec README, index.js, __init__.py)
+7. svg/ — Dossier pour les SVG partagés (avec README, index.js, __init__.py)
+8. (optionnel) autres sous-dossiers métiers (ex: backgrounds/, patterns/, illustrations/, etc.)
+
+Chaque asset doit être clairement nommé, documenté et utilisable dans tous les modules du projet.
+
+# Checklist validée pour une gestion d’assets partagés professionnelle, industrialisable et maintenable.

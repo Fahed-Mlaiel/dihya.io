@@ -1,0 +1,9 @@
+{
+  "blueprints": [
+    {"name": "webApp", "file": "webApp.js", "description": "Blueprint webApp IA"},
+    {"name": "backendApi", "file": "backendApi.js", "description": "Blueprint backend API IA"},
+    {"name": "mobileApp", "file": "mobileApp.js", "description": "Blueprint mobile IA"},
+    {"name": "plugin", "file": "plugin.js", "description": "Blueprint plugin IA"},
+    {"name": "custom", "file": "custom_blueprint.js", "description": "Blueprint custom métier IA"}
+  ]
+}

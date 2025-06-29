@@ -1,0 +1,11 @@
+{
+  "languages": [
+    "fr", "en", "ar", "de", "ber", "es", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl",
+    "fr_ca", "en_gb", "en_us", "ar_ma", "ar_tn", "ar_dz", "ar_eg", "ber_kab", "ber_rif", "ber_tzm", "ber_cha", "ber_tou", "ber_tac"
+  ],
+  "meta": {
+    "project": "patterns",
+    "type": "i18n",
+    "description": "Manifestes des langues, dialectes, conventions et métadonnées pour l’i18n patterns."
+  }
+}

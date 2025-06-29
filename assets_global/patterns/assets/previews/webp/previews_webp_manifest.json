@@ -1,0 +1,18 @@
+{
+  "name": "previews_webp_manifest",
+  "description": "Manifeste des WEBPs de preview pour les assets de patterns.",
+  "webps": [
+    {
+      "file": "preview1.webp",
+      "usage": "Aperçu d’un composant UI illustré.",
+      "accessibility": "Alternatives textuelles multilingues.",
+      "languages": ["fr", "en", "ar", "ber", "es", "de", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl"]
+    },
+    {
+      "file": "preview2.webp",
+      "usage": "Aperçu d’un branding illustré.",
+      "accessibility": "Alternatives textuelles multilingues.",
+      "languages": ["fr", "en", "ar", "ber", "es", "de", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl"]
+    }
+  ]
+}

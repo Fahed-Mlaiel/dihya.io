@@ -1,0 +1,21 @@
+{
+  "name": "Hotjar Analytics",
+  "type": "analytics",
+  "description": "Plugin d’intégration Hotjar (heatmaps, analytics, reporting, audit, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Heatmaps utilisateurs",
+    "Analytics comportemental",
+    "Reporting avancé",
+    "Intégration CI/CD",
+    "Audit RGPD",
+    "Logs et reporting"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

@@ -1,0 +1,10 @@
+# Configuration E-commerce
+nom: ecommerce
+plugins:
+  - paiement
+  - catalogue
+  - analytics
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

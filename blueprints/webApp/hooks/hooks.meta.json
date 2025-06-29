@@ -1,0 +1,28 @@
+{
+  "domain": "hooks",
+  "description": "Hooks métiers typés, documentés, testés, pour chaque domaine clé (auth, thème, i18n, analytics, RGPD, notifications, plugins, onboarding, monitoring, édition collaborative, logs, modals)",
+  "exports": [
+    "useAuth",
+    "useTheme",
+    "useTranslation",
+    "useVoiceInput",
+    "useMarketplace",
+    "useNotification",
+    "useAnalytics",
+    "useModal",
+    "useMonitoring",
+    "useCollaborativeEdit",
+    "usePluginManager",
+    "useRGPD",
+    "useLogs",
+    "useOnboarding"
+  ],
+  "conventions": [
+    "typé",
+    "documenté",
+    "testé",
+    "export index.js",
+    "clé en main"
+  ],
+  "lastUpdate": "2025-06-19"
+}

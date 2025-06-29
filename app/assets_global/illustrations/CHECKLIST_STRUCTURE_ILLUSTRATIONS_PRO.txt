@@ -1,0 +1,33 @@
+# CHECKLIST_STRUCTURE_ILLUSTRATIONS_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global/illustrations pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+illustrations/
+
+# Fichiers recommandés à la racine de illustrations
+README.md               # Documentation sur la gestion des illustrations globales, conventions, droits d'utilisation, usages
+index.js                # (optionnel) Export centralisé des illustrations pour import facilité dans le code (React, Node.js)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Sous-dossiers types (à adapter selon besoins réels du projet)
+svg/                    # Illustrations vectorielles globales (SVG)
+png/                    # Illustrations bitmap globales (PNG, webp)
+
+# Détail par sous-dossier
+
+svg/
+    README.md           # Documentation sur les SVG, droits, usages
+    (illustrations vectorielles .svg)
+
+png/
+    README.md           # Documentation sur les PNG, droits, usages
+    (illustrations bitmap .png, .webp)
+
+# Bonnes pratiques :
+# - Ne jamais stocker d'illustrations inutiles, non utilisées ou non libres de droits
+# - Toujours documenter la provenance et l'usage de chaque illustration
+# - Préférer les formats optimisés (webp, SVG, PNG compressé)
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)

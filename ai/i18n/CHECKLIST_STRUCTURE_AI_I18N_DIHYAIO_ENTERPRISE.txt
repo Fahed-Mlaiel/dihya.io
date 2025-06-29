@@ -1,0 +1,46 @@
+CHECKLIST_STRUCTURE_AI_I18N_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/i18n (Internationalisation IA)
+
+1. ai_fr.json – Traductions français
+2. ai_en.json – Traductions anglais
+3. ai_ar.json – Traductions arabe
+4. ai_ber.json – Traductions berbère
+5. ai_de.json – Traductions allemand
+6. ai_es.json – Traductions espagnol
+7. ai_it.json – Traductions italien
+8. ai_ru.json – Traductions russe
+9. ai_zh.json – Traductions chinois
+10. ai_ja.json – Traductions japonais
+11. ai_pt.json – Traductions portugais
+12. ai_tr.json – Traductions turc
+13. ai_hi.json – Traductions hindi
+14. ai_sw.json – Traductions swahili
+15. ai_ko.json – Traductions coréen
+16. ai_nl.json – Traductions néerlandais
+17. ai_pl.json – Traductions polonais
+18. ai_uk.json – Traductions ukrainien
+19. ai_ar_dz.json – Traductions arabe algérien
+20. ai_ar_ma.json – Traductions arabe marocain
+21. ai_ar_tn.json – Traductions arabe tunisien
+22. ai_ar_eg.json – Traductions arabe égyptien
+23. ai_fr_ca.json – Traductions français canadien
+24. ai_en_us.json – Traductions anglais US
+25. ai_en_gb.json – Traductions anglais UK
+26. ai_ber_tzm.json – Traductions tamazight
+27. ai_ber_kab.json – Traductions kabyle
+28. ai_ber_rif.json – Traductions rifain
+29. ai_ber_cha.json – Traductions chaoui
+30. ai_ber_tac.json – Traductions tachlhit
+31. ai_ber_tou.json – Traductions touareg
+32. README.md – Présentation, conventions, index des fichiers i18n
+33. index.js – (export JS des fichiers i18n)
+34. __init__.py – (outils Python pour i18n)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque langue/dialecte listé.
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés à l’i18n.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

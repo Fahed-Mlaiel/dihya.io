@@ -1,0 +1,6 @@
+# Dockerfile avancé pour la plateforme dihya.io
+FROM node:20-alpine
+WORKDIR /app
+COPY . .
+RUN npm ci --production
+CMD ["node", "index.js"]

@@ -1,0 +1,12 @@
+Checklist exhaustive des doublons métiers (hors langues/dialectes)
+============================================================
+
+Ce fichier liste tous les fichiers strictement doublons (même SHA1) détectés dans blueprints/blockchain et blueprints/tests_centralises/blockchain, hors cas linguistiques légitimes (fr_*, pt_*, en_*). Pour chaque doublon, une analyse métier et une action recommandée seront ajoutées.
+
+Format :
+SHA1 | Fichier 1 | Fichier 2 | ... | Analyse métier | Action recommandée
+
+---
+
+e7c2850ccc40bc98839e3134a5c78ac6ae8604d8 | blueprints/tests_centralises/blockchain/web3/config/env/test_config_env.js | blueprints/tests_centralises/blockchain/web3/config/env/test___init__.js | Doublon strict : les deux fichiers sont identiques, tous deux sont des tests d'environnement. Un seul fichier de test est nécessaire pour la couverture métier. | Supprimer test___init__.js (garder test_config_env.js comme référence unique)
+

@@ -1,0 +1,5 @@
+Checklist professionnelle d’audit :
+- Vérification des accès
+- Contrôle des logs
+- Validation des exports
+- Conformité des scripts

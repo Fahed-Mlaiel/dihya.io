@@ -1,0 +1,21 @@
+{
+  "name": "Webhook Manager",
+  "type": "webhook",
+  "description": "Plugin de gestion de webhooks (CRM, ERP, CI/CD, paiement, notification, audit)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des webhooks CRM/ERP",
+    "Intégration CI/CD",
+    "Notifications temps réel",
+    "Logs et reporting",
+    "Audit RGPD",
+    "Support plugins externes"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

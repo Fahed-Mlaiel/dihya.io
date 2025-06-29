@@ -1,0 +1,17 @@
+{
+  "domain": "i18n",
+  "description": "Internationalisation dynamique, multilingue, typée, documentée, testée, avec support des dialectes et automatisation des traductions.",
+  "exports": [
+    "t",
+    "setLanguage",
+    "autoTranslate",
+    "dialectSupport",
+    "localeUtils"
+  ],
+  "conventions": [
+    "fichiers de langue dans locales/",
+    "helpers exportés via index.js",
+    "clé en main"
+  ],
+  "lastUpdate": "2025-06-19"
+}

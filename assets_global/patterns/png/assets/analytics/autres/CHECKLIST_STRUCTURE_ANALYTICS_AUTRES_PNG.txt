@@ -1,0 +1,15 @@
+CHECKLIST_STRUCTURE_ANALYTICS_AUTRES_PNG.txt
+
+# Checklist professionnelle – Dossier autres/ (analytics PNG)
+
+Ce dossier accueille tout fichier PNG analytics spécifique non classé dans dashboards, icons ou reports.
+
+## 1. Exemples d’usages
+- PNG pour analytics personnalisés (ex : heatmaps, cartes, diagrammes spéciaux)
+- PNG pour intégrations externes analytics
+- PNG pour prototypes ou expérimentations analytics
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : heatmap_marketing_v1.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que les PNG analytics non classables ailleurs

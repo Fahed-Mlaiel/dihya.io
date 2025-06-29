@@ -1,0 +1,53 @@
+# CHECKLIST_STRUCTURE_ASSETS_GLOBAL_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+assets_global/
+
+# Fichiers recommandés à la racine d'assets_global
+README.md               # Documentation sur la gestion des assets globaux, conventions, droits d'utilisation, usages cross-stack
+index.js                # (optionnel) Export centralisé des assets globaux pour import facilité dans le code
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Sous-dossiers types (à adapter selon besoins réels du projet)
+logos/                  # Logos institutionnels, branding global, favicon, etc.
+backgrounds/            # Images de fond, patterns globaux
+illustrations/          # Illustrations transverses, assets vectoriels globaux
+fonts/                  # Polices personnalisées, fichiers .woff/.ttf/.otf
+videos/                 # Vidéos institutionnelles, démos, onboarding
+json/                   # Fichiers JSON globaux (ex: templates, configs, données statiques)
+
+# Détail par sous-dossier
+
+logos/
+    README.md           # Documentation sur les logos, droits, usages, conventions
+    (logos au format SVG, PNG, webp, etc.)
+
+backgrounds/
+    README.md           # Documentation sur les backgrounds, droits, usages
+    (images de fond, patterns)
+
+illustrations/
+    README.md           # Documentation sur les illustrations, droits, usages
+    (illustrations vectorielles, assets globaux)
+
+fonts/
+    README.md           # Documentation sur les polices, droits, usages
+    (fichiers .woff, .ttf, .otf)
+
+videos/
+    README.md           # Documentation sur les vidéos, droits, usages
+    (vidéos institutionnelles, démos)
+
+json/
+    README.md           # Documentation sur les fichiers JSON globaux, conventions, usages
+    (fichiers .json)
+
+# Bonnes pratiques :
+# - Ne jamais stocker d'assets inutiles, non utilisés ou non libres de droits
+# - Toujours documenter la provenance et l'usage de chaque asset
+# - Préférer les formats optimisés (webp, SVG, PNG compressé)
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)

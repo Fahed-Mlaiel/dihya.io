@@ -1,0 +1,21 @@
+CHECKLIST_STRUCTURE_ANALYTICS_PNG.txt
+
+# Checklist professionnelle – Structure du dossier analytics/ (PNG patterns)
+
+Ce dossier doit contenir tous les fichiers PNG nécessaires à l’analytics du projet patterns, classés par usage métier.
+
+## 1. Organisation par usage
+- dashboards/ : Graphiques, dashboards, visualisations PNG
+- icons/ : Icônes analytics (statistiques, tendances, etc.)
+- reports/ : Illustrations et assets pour rapports analytics
+- autres/ : Pour tout autre usage analytics spécifique
+
+## 2. Fichiers d’indexation et documentation
+- README.md : Présentation, structure, conventions de classement des assets analytics PNG
+- index.js : Point d’entrée JS pour import/export dynamique des assets analytics PNG
+- .gitkeep : Pour forcer la présence du dossier si vide
+
+## 3. Bonnes pratiques
+- Les fichiers PNG doivent être nommés de façon explicite et versionnés si besoin (ex: dashboard_v1.png)
+- Ne pas stocker d’autres types de fichiers (SVG, JPG, etc.) dans ce dossier (réserver à PNG)
+- Les assets non utilisés ou obsolètes doivent être archivés ou supprimés régulièrement

@@ -1,0 +1,5 @@
+{
+  "title": "Guia do usuário Patterns (PT)",
+  "description": "Este guia explica como usar patterns na interface, integrá-los em seus projetos e as melhores práticas.",
+  "sections": ["Navegação", "Integração", "Exemplos de uso"]
+}

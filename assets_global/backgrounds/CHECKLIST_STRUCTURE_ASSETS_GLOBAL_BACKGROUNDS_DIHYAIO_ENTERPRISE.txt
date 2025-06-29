@@ -1,0 +1,21 @@
+CHECKLIST_STRUCTURE_ASSETS_GLOBAL_BACKGROUNDS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /assets_global/backgrounds (Fonds d’écran globaux)
+
+1. backgrounds_list.json – Index/description de tous les backgrounds
+2. bg_default.jpg – Fond d’écran par défaut (JPG)
+3. bg_dark.jpg – Fond d’écran mode sombre (JPG)
+4. bg_light.jpg – Fond d’écran mode clair (JPG)
+5. bg_pattern.svg – Motif SVG réutilisable
+6. bg_gradient.png – Dégradé PNG
+7. README.md – Présentation, conventions, index des backgrounds
+8. index.js – (export JS des backgrounds)
+9. __init__.py – (outils Python pour les backgrounds)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type de background (JPG, SVG, PNG, JSON)
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux backgrounds.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

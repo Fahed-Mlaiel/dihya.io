@@ -1,0 +1,24 @@
+{
+  "name": "Online Course Platform",
+  "sector": "Éducation/Formation",
+  "description": "Template pour plateforme de cours en ligne (vidéo, audio, quiz, gestion utilisateurs, paiement, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "cours",
+      "en ligne",
+      "vidéo",
+      "audio",
+      "quiz",
+      "paiement",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

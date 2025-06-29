@@ -1,0 +1,21 @@
+{
+  "name": "Segment Analytics",
+  "type": "analytics",
+  "description": "Plugin d’intégration Segment (tracking multi-source, dashboard, reporting, RGPD, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Tracking multi-source",
+    "Dashboard analytics",
+    "Reporting avancé",
+    "Audit RGPD",
+    "Intégration CI/CD",
+    "Alertes personnalisées"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

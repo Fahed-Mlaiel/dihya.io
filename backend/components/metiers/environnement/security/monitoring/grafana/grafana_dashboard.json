@@ -1,0 +1,25 @@
+{
+  "dashboard": {
+    "title": "Sécurité environnement – Monitoring",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Accès refusés",
+        "targets": [
+          {
+            "expr": "security_access_denied_total"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "Audit logs",
+        "targets": [
+          {
+            "expr": "audit_log_events_total"
+          }
+        ]
+      }
+    ]
+  }
+}

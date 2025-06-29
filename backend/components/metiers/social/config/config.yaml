@@ -1,0 +1,10 @@
+# Configuration Social
+nom: social
+plugins:
+  - analytics
+  - moderation
+  - feed
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

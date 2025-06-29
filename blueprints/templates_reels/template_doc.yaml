@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: Dihya API
+  version: 1.0.0
+paths:
+  /users:
+    get:
+      summary: Liste des utilisateurs
+      responses:
+        '200':
+          description: Succès

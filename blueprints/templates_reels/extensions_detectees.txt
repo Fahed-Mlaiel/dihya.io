@@ -1,0 +1,14 @@
+Liste des extensions détectées dans les fichiers vides restants :
+
+.md
+.mdx
+.png
+.svg
+.d.ts
+.json
+.sh
+.sol
+.yaml
+.txt
+.tf
+.Dockerfile

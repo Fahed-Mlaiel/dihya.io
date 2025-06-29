@@ -1,0 +1,24 @@
+{
+  "name": "Gestion école informatique",
+  "sector": "Education",
+  "description": "Template école informatique (élèves, enseignants, cours, projets, hackathons, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Student management",
+    "Gestion des enseignants",
+    "Gestion des cours",
+    "Gestion des projets",
+    "Gestion des hackathons",
+    "Advanced reporting",
+    "Plugin support (export, AI, compliance)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

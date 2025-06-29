@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_SEO_PNG.txt
+
+# Checklist professionnelle – Dossier seo/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour le SEO du projet patterns.
+
+## 1. Exemples d’usages
+- seo_icon.png : Icône SEO
+- seo_schema.png : Schéma SEO
+- seo_badge.png : Badge SEO
+- seo_custom_v1.png : Asset personnalisé SEO
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : seo_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés au SEO

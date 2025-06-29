@@ -1,0 +1,10 @@
+# Configuration Voix
+nom: voice
+plugins:
+  - speech
+  - analytics
+  - nlp
+dependances:
+  - flask
+  - speechrecognition
+rgpd: True

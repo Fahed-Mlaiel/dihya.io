@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API IA Générative
+  version: 1.0.0
+paths:
+  /a_i/:
+    get:
+      summary: Liste des ressources IA Générative
+      responses:
+        '200':
+          description: Succès

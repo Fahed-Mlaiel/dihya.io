@@ -1,0 +1,47 @@
+{
+  "README.md": [
+    "doc",
+    "dashboard",
+    "feature"
+  ],
+  "README_EXEMPLES.md": [
+    "doc",
+    "exemples",
+    "dashboard"
+  ],
+  "README_INTEGRATION.md": [
+    "doc",
+    "exemples",
+    "dashboard"
+  ],
+  "README_ARCHITECTURE.md": [
+    "doc",
+    "architecture",
+    "dashboard"
+  ],
+  "DashboardHome.jsx": [
+    "composant",
+    "dashboard",
+    "home"
+  ],
+  "AnalyticsPanel.jsx": [
+    "composant",
+    "dashboard",
+    "analytics"
+  ],
+  "DashboardStats.jsx": [
+    "composant",
+    "dashboard",
+    "stats"
+  ],
+  "DashboardSettings.jsx": [
+    "composant",
+    "dashboard",
+    "settings"
+  ],
+  "NotificationPanel.jsx": [
+    "composant",
+    "dashboard",
+    "notifications"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "CardUser": [
+    "utilisateur",
+    "dashboard",
+    "profil"
+  ],
+  "CardPlugin": [
+    "plugin",
+    "marketplace"
+  ],
+  "CardProject": [
+    "projet",
+    "gestion",
+    "équipe"
+  ],
+  "FormField": [
+    "formulaire",
+    "champ",
+    "validation"
+  ],
+  "List": [
+    "liste",
+    "navigation",
+    "dashboard"
+  ]
+}

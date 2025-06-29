@@ -1,0 +1,14 @@
+# Checklist professionnelle previews assets/patterns
+
+Ce dossier doit contenir :
+- Un fichier de checklist de structure (ce fichier)
+- Un README.md explicatif
+- Un point d’entrée JS (`index.js`) et Python (`__init__.py`)
+- Un fichier de manifeste des previews (`previews_manifest.json`)
+- Un fichier de conventions (`previews_conventions.md`)
+- Un fichier de changelog (`CHANGELOG.md`)
+- Un fichier de documentation d’intégration (`integration_guide.md`)
+- Un sous-dossier par format de preview (ex : `svg/`, `png/`, `jpg/`, `gif/`, `webp/`)
+- Au moins un exemple réel par format (ex : `preview1.svg`, `preview1.png`, etc.)
+
+Aucun fichier ne doit être optionnel. Toute structure doit être présente pour l’industrialisation.

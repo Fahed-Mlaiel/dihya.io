@@ -1,0 +1,84 @@
+CHECKLIST_STRUCTURE_AI_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai (IA)
+
+1. README.md – Présentation, usages, conventions IA
+2. index.js – Point d’entrée JS universel (scripts, API, plugins IA)
+3. __init__.py – Initialisation Python (scripts, modules IA)
+4. ai.config.js – Configuration IA (paramètres, providers, modèles)
+5. main.py – Point d’entrée Python IA (orchestration, CLI, batch)
+6. ai_service.py – Service principal IA (API, logique métier)
+7. ai_utils.py – Fonctions utilitaires IA (pré/post-traitement, helpers)
+8. ai_blueprints/
+   └─ webApp.js – Blueprint génération webApp IA
+   └─ backendApi.js – Blueprint génération backend API IA
+   └─ mobileApp.js – Blueprint génération mobile IA
+   └─ plugin.js – Blueprint génération plugin IA
+9. scripts/
+   └─ generate_ai_project.py – Script génération projet IA
+   └─ train_model.py – Script entraînement modèle ML/IA
+   └─ infer.py – Script inférence modèle IA
+   └─ preprocess.py – Script prétraitement données IA
+10. models/
+    └─ model.py – Modèle ML/IA principal (exemple PyTorch/TensorFlow)
+    └─ model_config.json – Config modèle (hyperparamètres, archi)
+    └─ tokenizer.json – Tokenizer ou vocabulaire (NLP)
+11. data/
+    └─ sample_data.csv – Exemple de données d’entraînement
+    └─ sample_data.json – Exemple de données structurées
+12. providers/
+    └─ openai_provider.py – Provider OpenAI (API, prompts)
+    └─ huggingface_provider.py – Provider HuggingFace
+    └─ azure_provider.py – Provider Azure AI
+13. plugins/
+    └─ analytics_plugin.py – Plugin analytics IA
+    └─ cms_plugin.py – Plugin CMS IA
+    └─ stripe_plugin.py – Plugin Stripe IA
+14. docs/
+    └─ ai_guide_fr.md – Guide IA (français)
+    └─ ai_guide_en.md – Guide IA (anglais)
+    └─ openapi_ai.yaml – Documentation OpenAPI IA
+    └─ architecture_ai.md – Architecture IA
+15. assets/
+    └─ ai_logo.svg – Logo IA
+    └─ ai_icon.png – Icône IA
+16. i18n/
+    └─ ai_fr.json – Traductions FR
+    └─ ai_en.json – Traductions EN
+    └─ ai_ar.json – Traductions AR
+    └─ ai_ber.json – Traductions Berbère
+    └─ ai_de.json – Traductions Allemand
+    └─ ai_es.json – Traductions Espagnol
+    └─ ai_it.json – Traductions Italien
+    └─ ai_ru.json – Traductions Russe
+    └─ ai_zh.json – Traductions Chinois
+    └─ ai_ja.json – Traductions Japonais
+    └─ ai_pt.json – Traductions Portugais
+    └─ ai_tr.json – Traductions Turc
+    └─ ai_hi.json – Traductions Hindi
+    └─ ai_sw.json – Traductions Swahili
+    └─ ai_ko.json – Traductions Coréen
+    └─ ai_nl.json – Traductions Néerlandais
+    └─ ai_pl.json – Traductions Polonais
+    └─ ai_uk.json – Traductions Ukrainien
+    └─ ai_ar_dz.json – Traductions Arabe Algérien
+    └─ ai_ar_ma.json – Traductions Arabe Marocain
+    └─ ai_ar_tn.json – Traductions Arabe Tunisien
+    └─ ai_ar_eg.json – Traductions Arabe Égyptien
+    └─ ai_fr_ca.json – Traductions Français Canadien
+    └─ ai_en_us.json – Traductions Anglais US
+    └─ ai_en_gb.json – Traductions Anglais UK
+    └─ ai_ber_tzm.json – Traductions Tamazight
+    └─ ai_ber_kab.json – Traductions Kabyle
+    └─ ai_ber_rif.json – Traductions Rifain
+    └─ ai_ber_cha.json – Traductions Chaoui
+    └─ ai_ber_tac.json – Traductions Tachlhit
+    └─ ai_ber_tou.json – Traductions Touareg
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- Points d’entrée (index.js, __init__.py, main.py) obligatoires.
+- Un README.md et une doc métier (fr/en) toujours présents.
+- Un exemple métier réel pour chaque type de fichier (script, modèle, asset, config, provider, plugin, i18n…)
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

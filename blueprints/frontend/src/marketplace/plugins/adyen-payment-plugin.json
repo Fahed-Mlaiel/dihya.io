@@ -1,0 +1,23 @@
+{
+  "name": "Adyen Payment",
+  "type": "payment",
+  "description": "Adyen-Zahlungsintegration: Checkout, Subscriptions, Refunds, Webhooks, Multi-Currency, Audit- und CI/CD-ready.",
+  "version": "1.0.0",
+  "author": "LeadDev",
+  "date": "2025-06-19",
+  "features": [
+    "Checkout- und Zahlungsabwicklung",
+    "Abonnements und wiederkehrende Zahlungen",
+    "Refunds und Dispute Management",
+    "Webhooks und Benachrichtigungen",
+    "Multi-Currency Support",
+    "Audit-Logging",
+    "CI/CD-Deployment",
+    "DSGVO/GDPR-konform"
+  ],
+  "audit_status": "audited",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

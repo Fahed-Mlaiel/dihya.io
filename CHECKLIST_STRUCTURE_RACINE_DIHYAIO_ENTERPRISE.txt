@@ -1,0 +1,79 @@
+CHECKLIST STRUCTURE RACINE /workspaces/dihya.io — INDUSTRIALISATION ENTERPRISE (2025)
+
+# 1. Documentation & Guides
+- README.md
+- README_fr.md
+- README_en.md
+- README_ar.md
+- user_guide.md
+- dev_guide.md
+- architecture.md
+- charte_graphique.md
+- openapi.yaml
+
+# 2. Configuration & Qualité
+- .env
+- .env.example
+- .gitignore
+- .editorconfig
+- .prettierrc
+- .eslintrc.js
+- docker-compose.yml
+
+# 3. Générateurs & Scripts d’industrialisation
+- generate_app_structure_from_checklist.py
+- generate_app_structure_from_checklist_pro.py
+- generate_root_structure_from_checklist.py
+- generate_structure_from_checklist.py
+- enrich_analytics_with_openai.py
+- test_write_app.py
+
+# 4. Modules Métiers & Techniques
+- analytics/                # Analytics multi-stack (frontend, backend, scripts)
+- app/                      # Application principale (frontend, context, plugins, assets, etc.)
+- assets/                   # Assets globaux (images, icônes, logos, svg, etc.)
+- assets_global/            # Assets partagés multi-stack
+- audit/                    # Audit, logs, checklists, rapports, scripts
+- backend/                  # Backend principal (API, services, plugins, docs)
+- blockchain/               # Blockchain (contrats, scripts, docs)
+- blueprints/               # Blueprints métiers (génération de code, templates)
+- branding/                 # Branding global (charte, logos, palettes)
+- devops/                   # DevOps (Docker, K8s, Terraform, CI/CD)
+- docs/                     # Documentation globale (guides, API, architecture)
+- i18n/                     # Internationalisation globale
+- incident_handler/         # Gestion des incidents
+- linting/                  # Linting, Prettier, ESLint, Stylelint
+- marketplace/              # Marketplace de plugins/templates
+- migrations/               # Migrations globales
+- mobile/                   # Application mobile (Flutter, React Native)
+- monitoring/               # Monitoring global
+- notification/             # Notifications globales
+- plugins/                  # Plugins globaux
+- rgpd/                     # RGPD, conformité, scripts
+- roles_permissions/        # Gestion des rôles et permissions
+- scheduler/                # Tâches planifiées globales
+- scripts/                  # Scripts utilitaires globaux
+- security/                 # Sécurité globale (middleware, scripts, docs)
+- seo/                      # SEO global (balises, sitemap, robots.txt)
+- templates/                # Templates métiers globaux
+
+# 5. Points d’entrée & Fichiers techniques
+- index.js                  # Point d’entrée JS global (si besoin)
+- __init__.py               # Point d’entrée Python global (si besoin)
+
+# 6. Dossiers & fichiers avancés (à adapter selon besoins réels)
+- backup/                   # Scripts et docs de backup/restore
+- test/ ou tests/           # Centralisation des tests (unitaires, intégration, E2E)
+- .pytest_cache/            # Cache tests Python
+
+# 7. (Optionnel) Modules IA, NLP, ML, Data Science
+- ai/                       # Intelligence Artificielle (scripts, modèles, notebooks)
+- nlp/                      # Traitement du langage naturel
+- ml/                       # Machine Learning
+- data/                     # Jeux de données, scripts ETL
+
+# 8. (Optionnel) Extensions, intégrations, legacy
+- extensions/               # Extensions VSCode, plugins externes
+- legacy/                   # Code ou docs legacy à migrer
+
+# Structure validée pour un projet d’entreprise, sans oubli, sans optionnel caché, prête à l’industrialisation et à la scalabilité.

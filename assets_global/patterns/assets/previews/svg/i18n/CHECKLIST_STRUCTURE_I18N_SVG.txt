@@ -1,0 +1,13 @@
+# Checklist i18n SVG Previews
+
+Ce dossier doit contenir :
+- Un fichier de checklist (ce fichier)
+- Un README.md explicatif
+- Un point d’entrée JS (`index.js`) et Python (`__init__.py`)
+- Un manifeste i18n (`i18n_svg_manifest.json`)
+- Un fichier de conventions i18n (`i18n_svg_conventions.md`)
+- Un changelog (`CHANGELOG.md`)
+- Un guide d’intégration (`integration_guide.md`)
+- Un fichier de traduction des métadonnées pour chaque langue/dialecte supporté (ex : `i18n_fr.json`, `i18n_en.json`, `i18n_ar.json`, etc.)
+
+Aucun fichier ne doit être optionnel. Toute langue présente dans l’i18n du projet doit avoir son fichier ici.

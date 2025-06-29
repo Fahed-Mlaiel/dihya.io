@@ -1,0 +1,93 @@
+openapi: 3.0.3
+info:
+  title: Analytics API
+  description: API for analytics module generation including backend, frontend, plugins, documentation, and internationalization.
+  version: 1.0.0
+  termsOfService: 'http://analyticsapi.example.com/terms/'
+  contact:
+    name: Analytics API Support
+    url: 'http://analyticsapi.example.com/support'
+    email: support@analyticsapi.example.com
+  license:
+    name: Apache 2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
+
+servers:
+  - url: 'https://api.analyticsapi.example.com/v1'
+    description: Production server
+
+tags:
+  - name: analytics
+    description: Operations related to analytics modules
+
+paths:
+  /analytics:
+    get:
+      tags:
+        - analytics
+      summary: List all analytics modules
+      operationId: listAnalyticsModules
+      parameters:
+        - name: lang
+          in: query
+          description: Language code for internationalization
+          required: false
+          schema:
+            type: string
+            default: 'en'
+      responses:
+        '200':
+          description: A list of analytics modules
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AnalyticsModule'
+        '400':
+          description: Invalid request
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    AnalyticsModule:
+      type: object
+      required:
+        - id
+        - name
+        - version
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: Unique identifier for the analytics module
+        name:
+          type: string
+          description: Name of the analytics module
+        version:
+          type: string
+          description: Version of the analytics module
+        description:
+          type: string
+          description: Description of the analytics module
+        enabled:
+          type: boolean
+          description: Whether the module is enabled or not
+        config:
+          type: object
+          additionalProperties: true
+          description: Configuration settings for the module
+
+security:
+  - ApiKeyAuth: []
+
+securitySchemes:
+  ApiKeyAuth:
+    type: apiKey
+    in: header
+    name: X-API-KEY
+
+externalDocs:
+  description: Find more info here
+  url: 'http://analyticsapi.example.com/docs'

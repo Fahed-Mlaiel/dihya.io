@@ -1,0 +1,19 @@
+CHECKLIST_STRUCTURE_AI_DATA_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/data (Données IA)
+
+1. sample_data.csv – Exemple de données d’entraînement (CSV)
+2. sample_data.json – Exemple de données structurées (JSON)
+3. data_description.md – Documentation sur la structure et l’usage des données
+4. data_schema.json – Schéma de validation des données (JSON Schema)
+5. README.md – Présentation, conventions, index des jeux de données IA
+6. index.js – (si besoin d’exporter des jeux de données JS)
+7. __init__.py – (si besoin d’outils Python pour les données)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type de données (CSV, JSON, doc, schéma)
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux données.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

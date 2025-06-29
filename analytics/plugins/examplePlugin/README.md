@@ -1,0 +1,1 @@
+git clone https://github.com/your-repository/example-analytics-plugin.git

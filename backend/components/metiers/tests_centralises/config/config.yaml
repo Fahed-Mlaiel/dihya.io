@@ -1,0 +1,9 @@
+# Configuration Tests Centralisés
+nom: tests_centralises
+plugins:
+  - test
+  - analytics
+dependances:
+  - pytest
+  - jest
+rgpd: False

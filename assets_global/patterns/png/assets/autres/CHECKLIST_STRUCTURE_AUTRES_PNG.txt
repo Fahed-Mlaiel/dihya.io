@@ -1,0 +1,15 @@
+CHECKLIST_STRUCTURE_AUTRES_PNG.txt
+
+# Checklist professionnelle – Dossier autres/ (PNG patterns)
+
+Ce dossier accueille tout fichier PNG métier spécifique non classé dans les autres catégories du projet patterns.
+
+## 1. Exemples d’usages
+- PNG pour usages métiers spécifiques (ex : branding, prototypes, assets temporaires)
+- PNG pour intégrations externes
+- PNG pour expérimentations ou assets non catégorisés
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : branding_logo_v1.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que les PNG métiers non classables ailleurs

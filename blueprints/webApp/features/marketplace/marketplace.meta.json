@@ -1,0 +1,37 @@
+[
+  {
+    "name": "README.md",
+    "type": "doc",
+    "usage": "Documentation de la feature Marketplace"
+  },
+  {
+    "name": "README_EXEMPLES.md",
+    "type": "doc",
+    "usage": "Exemples d’intégration Marketplace"
+  },
+  {
+    "name": "README_INTEGRATION.md",
+    "type": "doc",
+    "usage": "Exemples d’intégration Marketplace"
+  },
+  {
+    "name": "README_ARCHITECTURE.md",
+    "type": "doc",
+    "usage": "Schéma et conventions d’architecture Marketplace"
+  },
+  {
+    "name": "MarketplaceList.jsx",
+    "type": "composant",
+    "usage": "Liste des items de la marketplace"
+  },
+  {
+    "name": "MarketplaceItem.jsx",
+    "type": "composant",
+    "usage": "Détail d’un item de la marketplace"
+  },
+  {
+    "name": "MarketplaceAdmin.jsx",
+    "type": "composant",
+    "usage": "Gestion admin de la marketplace"
+  }
+]

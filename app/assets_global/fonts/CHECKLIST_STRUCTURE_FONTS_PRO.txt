@@ -1,0 +1,38 @@
+# CHECKLIST_STRUCTURE_FONTS_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global/fonts pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+fonts/
+
+# Fichiers recommandés à la racine de fonts
+README.md               # Documentation sur la gestion des polices, conventions, droits d'utilisation, usages
+index.js                # (optionnel) Export centralisé des polices pour import facilité dans le code (React, Node.js)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Sous-dossiers types (à adapter selon besoins réels du projet)
+woff/                   # Polices au format WOFF/WOFF2
+truetype/               # Polices au format TTF
+opentype/               # Polices au format OTF
+
+# Détail par sous-dossier
+
+woff/
+    README.md           # Documentation sur les WOFF, droits, usages
+    (fichiers .woff, .woff2)
+
+truetype/
+    README.md           # Documentation sur les TTF, droits, usages
+    (fichiers .ttf)
+
+opentype/
+    README.md           # Documentation sur les OTF, droits, usages
+    (fichiers .otf)
+
+# Bonnes pratiques :
+# - Ne jamais stocker de polices inutiles, non utilisées ou non libres de droits
+# - Toujours documenter la provenance et l'usage de chaque police
+# - Préférer les formats optimisés (WOFF2, TTF, OTF)
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)

@@ -1,0 +1,19 @@
+CHECKLIST_STRUCTURE_AI_DOCS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/docs (Documentation IA)
+
+1. ai_guide_fr.md – Guide IA (français)
+2. ai_guide_en.md – Guide IA (anglais)
+3. openapi_ai.yaml – Documentation OpenAPI IA
+4. architecture_ai.md – Architecture technique IA
+5. README.md – Présentation, conventions, index des docs IA
+6. index.js – (si besoin d’exporter des helpers JS pour la doc)
+7. __init__.py – (si besoin d’outils Python pour la doc)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Guides fr/en, doc OpenAPI et architecture toujours présents.
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés à la doc.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

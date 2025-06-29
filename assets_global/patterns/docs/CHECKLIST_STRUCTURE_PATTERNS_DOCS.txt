@@ -1,0 +1,21 @@
+# Checklist professionnelle pour `/assets_global/patterns/docs`
+
+Ce dossier doit contenir :
+
+- `CHECKLIST_STRUCTURE_PATTERNS_DOCS.txt` : Cette checklist détaillée.
+- `README.md` : Présentation du dossier, usage, structure, liens vers les autres docs.
+- `index.js` : Point d’entrée JS pour accéder à la documentation patterns.
+- `__init__.py` : Point d’entrée Python pour accéder à la documentation patterns.
+- `patterns_reference.md` : Référence technique et fonctionnelle des patterns (déjà présent).
+- `integration_guide.md` : Guide d’intégration patterns multi-stack (déjà présent).
+- `architecture.md` : Documentation d’architecture patterns (schémas, choix techniques, etc.).
+- `openapi_patterns.yaml` : Spécification OpenAPI pour l’API patterns (si applicable).
+- `user_guide_fr.md` : Guide utilisateur patterns (français).
+- `user_guide_en.md` : Guide utilisateur patterns (anglais).
+- `user_guide_ar.md` : Guide utilisateur patterns (arabe).
+- `user_guide_ber.md` : Guide utilisateur patterns (berbère).
+- `CHANGELOG.md` : Historique des modifications de la documentation.
+- `CONTRIBUTING.md` : Guide de contribution à la documentation patterns.
+- `i18n/` : Dossier pour les fichiers de traduction des guides et métadonnées docs (ex : `i18n_fr.json`, `i18n_en.json`, etc.).
+
+Aucun fichier ne doit être optionnel. Toute structure doit être présente pour l’industrialisation.

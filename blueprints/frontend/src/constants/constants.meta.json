@@ -1,0 +1,22 @@
+[
+  {
+    "name": "routes",
+    "type": "navigation",
+    "usage": "Toutes les routes de l’application"
+  },
+  {
+    "name": "regex",
+    "type": "validation",
+    "usage": "Regex globales pour la validation"
+  },
+  {
+    "name": "actions",
+    "type": "redux",
+    "usage": "Clés d’action globales (Redux, context, etc.)"
+  },
+  {
+    "name": "messages",
+    "type": "texte",
+    "usage": "Messages d’erreur ou de validation réutilisables"
+  }
+]

@@ -1,0 +1,119 @@
+openapi: 3.0.0
+info:
+  title: Analytics Module API
+  description: API for generating and retrieving analytics data.
+  version: 1.0.0
+servers:
+  - url: https://api.yourdomain.com/v1
+    description: Production server (uses live data)
+
+paths:
+  /analytics/events:
+    post:
+      summary: Record a new analytics event
+      operationId: recordAnalyticsEvent
+      tags:
+        - Analytics
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AnalyticsEvent'
+      responses:
+        '201':
+          description: Event recorded successfully
+        '400':
+          description: Invalid input
+        '500':
+          description: Internal server error
+
+  /analytics/reports/{reportType}:
+    get:
+      summary: Retrieve analytics report
+      operationId: getAnalyticsReport
+      tags:
+        - Analytics
+      parameters:
+        - name: reportType
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [daily, weekly, monthly]
+          description: The type of report to retrieve
+        - name: startDate
+          in: query
+          schema:
+            type: string
+            format: date
+          description: Start date for the report
+        - name: endDate
+          in: query
+          schema:
+            type: string
+            format: date
+          description: End date for the report
+      responses:
+        '200':
+          description: Report data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnalyticsReport'
+        '400':
+          description: Invalid request parameters
+        '404':
+          description: Report not found
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    AnalyticsEvent:
+      type: object
+      required:
+        - eventType
+        - timestamp
+      properties:
+        eventType:
+          type: string
+          description: The type of event being recorded
+        timestamp:
+          type: string
+          format: date-time
+          description: The time at which the event occurred
+        metadata:
+          type: object
+          additionalProperties: true
+          description: Additional metadata about the event
+
+    AnalyticsReport:
+      type: object
+      properties:
+        reportType:
+          type: string
+          description: The type of report
+        startDate:
+          type: string
+          format: date
+          description: Start date for the report
+        endDate:
+          type: string
+          format: date
+          description: End date for the report
+        data:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+          description: The data points for the report
+
+security:
+  - ApiKeyAuth: []
+
+securitySchemes:
+  ApiKeyAuth:
+    type: apiKey
+    in: header
+    name: X-API-KEY

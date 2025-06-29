@@ -1,0 +1,19 @@
+# Checklist professionnelle pour `/assets_global/patterns/assets/previews/webp`
+
+Ce dossier doit contenir :
+
+- `CHECKLIST_STRUCTURE_ASSETS_PREVIEWS_WEBP.txt` : Cette checklist détaillée.
+- `README.md` : Présentation du dossier, usage, formats supportés, conventions.
+- `index.js` : Point d’entrée JS pour accéder aux WEBPs de preview.
+- `__init__.py` : Point d’entrée Python pour accéder aux WEBPs de preview.
+- `previews_webp_manifest.json` : Manifeste listant tous les WEBPs de preview, leurs usages, métadonnées, langues, accessibilité, etc.
+- `previews_webp_conventions.md` : Conventions de nommage, d’organisation, d’accessibilité, de contribution.
+- `CHANGELOG.md` : Historique des modifications du dossier.
+- `integration_guide.md` : Guide d’intégration des WEBPs de preview dans tous les contextes (web, mobile, API, plugins, etc.).
+- `preview1.webp` : Exemple réel de WEBP (aperçu d’un asset métier, branding, UI, etc.).
+- `preview2.webp` : Exemple réel supplémentaire (autre usage, autre style, etc.).
+- `i18n/` : Dossier pour les fichiers de traduction des métadonnées des WEBPs (ex : `i18n_fr.json`, `i18n_en.json`, `i18n_ar.json`, etc.).
+
+Chaque fichier/dossier listé est obligatoire pour l’industrialisation, la conformité métier, l’intégration multi-stack, l’accessibilité et la documentation.
+
+Aucun fichier ne doit être optionnel. Les tests sont à centraliser ailleurs.

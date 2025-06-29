@@ -1,0 +1,10 @@
+# Configuration Crypto
+nom: crypto
+plugins:
+  - wallet
+  - analytics
+  - crypto
+dependances:
+  - web3
+  - solidity
+rgpd: False

@@ -1,0 +1,11 @@
+CHECKLIST STRUCTURE /app/plugins/examplePlugin/scripts (2025)
+
+1. README.md — Présentation du dossier, conventions d’écriture des scripts, usages (automatisation, intégration, génération, etc.)
+2. generate_plugin_assets.js — Script d’automatisation pour générer ou mettre à jour les assets du plugin
+3. sync_plugin_config.py — Script Python pour synchroniser la config du plugin avec l’application principale
+4. index.js — Point d’entrée JS pour exécuter ou regrouper les scripts du dossier
+5. __init__.py — Point d’entrée Python pour exécuter ou regrouper les scripts Python du dossier
+
+Chaque script doit être documenté, prêt à l’emploi et conforme aux standards d’industrialisation.
+
+# Checklist validée pour une gestion de scripts de plugin professionnelle, industrialisable et maintenable.

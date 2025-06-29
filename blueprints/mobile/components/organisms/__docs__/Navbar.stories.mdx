@@ -1,0 +1,7 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs';
+import { Navbar } from '../../Navbar';
+<Meta title="Organisms/Navbar" component={Navbar} />
+# Navbar
+Barre de navigation principale, gestion rôles, notifications temps réel, responsive.
+<Canvas><Story name="Standard"><Navbar userRole="admin" notifications={3} /></Story></Canvas>
+<ArgsTable story="Standard" />

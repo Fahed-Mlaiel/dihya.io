@@ -1,0 +1,15 @@
+CHECKLIST_STRUCTURE_MIGRATION_PNG.txt
+
+# Checklist professionnelle – Dossier migration/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour les migrations du projet patterns.
+
+## 1. Exemples d’usages
+- migration_schema.png : Schéma de migration
+- migration_icon.png : Icône migration
+- migration_custom_v1.png : Asset personnalisé migration
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : migration_schema_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux migrations

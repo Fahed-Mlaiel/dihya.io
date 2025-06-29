@@ -1,0 +1,8 @@
+{
+  "model": "Net",
+  "framework": "PyTorch",
+  "input_dim": 10,
+  "output_dim": 1,
+  "epochs": 10,
+  "batch_size": 32
+}

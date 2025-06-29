@@ -1,0 +1,23 @@
+{
+  "name": "Culture",
+  "sector": "Culture",
+  "description": "Template culture (événements, artistes, billetterie, contenus, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des événements culturels",
+    "Gestion des artistes",
+    "Billetterie",
+    "Gestion des contenus",
+    "Advanced reporting",
+    "Support plugins (export, IA, paiement)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

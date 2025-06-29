@@ -1,0 +1,10 @@
+# Configuration Sport
+nom: sport
+plugins:
+  - analytics
+  - stats
+  - team
+dependances:
+  - flask
+  - pandas
+rgpd: True

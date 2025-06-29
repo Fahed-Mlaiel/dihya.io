@@ -1,0 +1,10 @@
+# Configuration 3D
+nom: threed
+plugins:
+  - 3d
+  - analytics
+  - visualisation
+dependances:
+  - three.js
+  - flask
+rgpd: True

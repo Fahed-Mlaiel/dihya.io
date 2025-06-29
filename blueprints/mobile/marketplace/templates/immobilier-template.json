@@ -1,0 +1,23 @@
+{
+  "name": "Immobilier",
+  "sector": "Immobilier",
+  "description": "Template immobilier (biens, visites, contrats, paiement, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des biens",
+    "Gestion des visites",
+    "Contrats et documents",
+    "Paiement sécurisé",
+    "Advanced reporting",
+    "Support plugins (export, IA, paiement)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

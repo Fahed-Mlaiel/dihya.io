@@ -1,0 +1,65 @@
+[
+  {
+    "type": "mapping",
+    "key": "appConfig",
+    "file": "appConfig.js",
+    "exists": true
+  },
+  {
+    "type": "mapping",
+    "key": "envConfig",
+    "file": "envConfig.js",
+    "exists": true
+  },
+  {
+    "type": "mapping",
+    "key": "branding",
+    "file": "branding.js",
+    "exists": true
+  },
+  {
+    "type": "meta",
+    "name": "appConfig",
+    "inMapping": true
+  },
+  {
+    "type": "tags",
+    "name": "appConfig",
+    "tags": [
+      "global",
+      "langue",
+      "thème",
+      "options"
+    ]
+  },
+  {
+    "type": "meta",
+    "name": "envConfig",
+    "inMapping": true
+  },
+  {
+    "type": "tags",
+    "name": "envConfig",
+    "tags": [
+      "environnement",
+      "api",
+      "clé",
+      "sécurité"
+    ]
+  },
+  {
+    "type": "meta",
+    "name": "branding",
+    "inMapping": true
+  },
+  {
+    "type": "tags",
+    "name": "branding",
+    "tags": [
+      "logo",
+      "couleur",
+      "police",
+      "identité"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+CHECKLIST STRUCTURE /app/docs/templates (2025)
+
+1. README.md — Présentation du dossier, conventions d’utilisation des templates
+2. doc_template.md — Modèle de documentation générique (structure, sections, exemples)
+3. template_guide_utilisateur.md — Modèle de guide utilisateur (structure, exemples)
+4. template_guide_developpeur.md — Modèle de guide développeur (structure, exemples)
+5. template_changelog.md — Modèle de changelog (format standardisé)
+6. template_api_reference.md — Modèle de documentation API (endpoints, schémas, exemples)
+7. (optionnel) template_contribution.md — Modèle de guide de contribution
+8. (optionnel) template_architecture.md — Modèle de documentation d’architecture
+
+Chaque template doit être prêt à l’emploi, commenté, et adapté à l’industrialisation documentaire du projet.
+
+# Checklist validée pour une gestion de templates documentaire professionnelle, industrialisable et maintenable.

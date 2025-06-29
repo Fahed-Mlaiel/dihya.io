@@ -1,0 +1,10 @@
+# Configuration Publicité
+nom: publicite
+plugins:
+  - analytics
+  - ads
+  - campaign
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

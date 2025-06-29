@@ -1,0 +1,26 @@
+CHECKLIST_STRUCTURE_AI_BLUEPRINTS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/ai_blueprints (Blueprints IA)
+
+1. README.md – Présentation, usages, conventions des blueprints IA
+2. index.js – Point d’entrée JS pour l’export/import de tous les blueprints
+3. __init__.py – Initialisation Python (si blueprints Python à terme)
+4. webApp.js – Blueprint génération webApp IA (React, Next.js, etc.)
+5. backendApi.js – Blueprint génération backend API IA (Flask, Node.js, FastAPI, etc.)
+6. mobileApp.js – Blueprint génération mobile IA (Flutter, React Native, etc.)
+7. plugin.js – Blueprint génération plugin IA (analytics, CMS, Stripe, custom)
+8. custom_blueprint.js – Exemple de blueprint custom métier (ex : secteur santé, finance, etc.)
+9. blueprints.json – Fichier d’indexation/description de tous les blueprints disponibles
+10. docs/
+    └─ blueprints_guide_fr.md – Guide d’utilisation des blueprints (français)
+    └─ blueprints_guide_en.md – Guide d’utilisation des blueprints (anglais)
+    └─ blueprints_api.md – Documentation API d’intégration des blueprints
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- Points d’entrée (index.js, __init__.py) obligatoires.
+- Un README.md et une doc métier (fr/en) toujours présents.
+- Un exemple métier réel pour chaque type de blueprint (web, backend, mobile, plugin, custom)
+- Fichier d’indexation blueprints.json pour l’UI/API
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

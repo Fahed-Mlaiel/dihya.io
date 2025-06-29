@@ -1,0 +1,5 @@
+{
+  "title": "Guía de usuario de patrones (ES)",
+  "description": "Esta guía explica cómo usar patrones en la interfaz, integrarlos en tus proyectos y las mejores prácticas.",
+  "sections": ["Navegación", "Integración", "Ejemplos de uso"]
+}

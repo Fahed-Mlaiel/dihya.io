@@ -1,0 +1,10 @@
+# Configuration IA Générative
+nom: a_i
+plugins:
+  - ml
+  - nlp
+  - analytics
+dependances:
+  - scikit-learn
+  - pandas
+rgpd: True

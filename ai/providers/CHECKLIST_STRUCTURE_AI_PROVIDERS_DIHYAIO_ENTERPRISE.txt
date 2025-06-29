@@ -1,0 +1,19 @@
+CHECKLIST_STRUCTURE_AI_PROVIDERS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/providers (Providers IA)
+
+1. openai_provider.py – Provider OpenAI (API, prompts)
+2. huggingface_provider.py – Provider HuggingFace
+3. azure_provider.py – Provider Azure AI
+4. provider_config.json – Config globale des providers IA
+5. README.md – Présentation, conventions, index des providers IA
+6. index.js – (export JS des providers)
+7. __init__.py – (outils Python pour les providers)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque provider listé.
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux providers.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

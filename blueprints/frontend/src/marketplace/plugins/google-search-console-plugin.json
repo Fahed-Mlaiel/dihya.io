@@ -1,0 +1,21 @@
+{
+  "name": "Google Search Console",
+  "type": "seo",
+  "description": "Plugin d’intégration Google Search Console (SEO, audit, reporting, logs, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Audit SEO avancé",
+    "Reporting SEO",
+    "Logs et analytics",
+    "Intégration CI/CD",
+    "Support multilingue",
+    "Alertes personnalisées"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

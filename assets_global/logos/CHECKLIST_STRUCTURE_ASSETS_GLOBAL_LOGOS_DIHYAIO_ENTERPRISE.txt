@@ -1,0 +1,26 @@
+CHECKLIST_STRUCTURE_ASSETS_GLOBAL_LOGOS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /assets_global/logos (Logos globaux)
+
+1. logos_list.json – Index/description de tous les logos
+2. logo_main.svg – Logo principal (SVG)
+3. logo_main.png – Logo principal (PNG)
+4. logo_white.svg – Logo blanc (SVG)
+5. logo_white.png – Logo blanc (PNG)
+6. logo_dark.svg – Logo dark (SVG)
+7. logo_dark.png – Logo dark (PNG)
+8. logo_icon.svg – Icône logo (SVG)
+9. logo_icon.png – Icône logo (PNG)
+10. logo_partner1.svg – Logo partenaire 1 (SVG)
+11. logo_partner2.svg – Logo partenaire 2 (SVG)
+12. README.md – Présentation, conventions, index des logos
+13. index.js – (export JS des logos)
+14. __init__.py – (outils Python pour les logos)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type de logo (SVG, PNG, JSON)
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux logos.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

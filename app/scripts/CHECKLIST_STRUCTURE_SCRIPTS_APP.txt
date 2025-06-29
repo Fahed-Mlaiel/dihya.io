@@ -1,0 +1,13 @@
+CHECKLIST STRUCTURE /app/scripts (2025)
+
+1. README.md — Présentation du dossier, conventions d’écriture des scripts, usages (automatisation, génération, intégration, maintenance, etc.)
+2. generate_app_structure.js — Script JS pour générer la structure de l’application à partir d’une checklist
+3. generate_app_structure.py — Script Python pour générer la structure de l’application à partir d’une checklist
+4. sync_assets.js — Script pour synchroniser les assets entre dossiers
+5. sync_i18n.py — Script Python pour synchroniser les fichiers de langue
+6. index.js — Point d’entrée JS pour exécuter ou regrouper les scripts du dossier
+7. __init__.py — Point d’entrée Python pour exécuter ou regrouper les scripts Python du dossier
+
+Chaque script doit être documenté, prêt à l’emploi et conforme aux standards d’industrialisation.
+
+# Checklist validée pour une gestion de scripts d’application professionnelle, industrialisable et maintenable.

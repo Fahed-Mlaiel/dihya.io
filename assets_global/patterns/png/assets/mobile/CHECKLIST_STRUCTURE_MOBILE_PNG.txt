@@ -1,0 +1,17 @@
+CHECKLIST_STRUCTURE_MOBILE_PNG.txt
+
+# Checklist professionnelle – Dossier mobile/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour les applications mobiles du projet patterns.
+
+## 1. Exemples d’usages
+- mobile_ui.png : UI mobile
+- mobile_icon.png : Icône mobile
+- mobile_splash.png : Splash screen mobile
+- mobile_background.png : Background mobile
+- mobile_custom_v1.png : Asset personnalisé mobile
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : mobile_ui_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux applications mobiles

@@ -1,0 +1,5 @@
+- README.md
+- index.js
+- Placeholders SVG pour chaque usage divers
+- Guides utilisateurs multilingues
+- .gitkeep

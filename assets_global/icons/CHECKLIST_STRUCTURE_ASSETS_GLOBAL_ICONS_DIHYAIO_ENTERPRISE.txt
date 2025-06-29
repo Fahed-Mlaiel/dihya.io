@@ -1,0 +1,34 @@
+CHECKLIST_STRUCTURE_ASSETS_GLOBAL_ICONS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /assets_global/icons (Icônes globales)
+
+1. icons_list.json – Index/description de toutes les icônes
+2. icon_app.svg – Icône principale de l’application (SVG)
+3. icon_user.svg – Icône utilisateur (SVG)
+4. icon_admin.svg – Icône admin (SVG)
+5. icon_plugin.svg – Icône plugin (SVG)
+6. icon_notification.svg – Icône notification (SVG)
+7. icon_success.svg – Icône succès (SVG)
+8. icon_error.svg – Icône erreur (SVG)
+9. icon_warning.svg – Icône avertissement (SVG)
+10. icon_info.svg – Icône information (SVG)
+11. icon_download.svg – Icône téléchargement (SVG)
+12. icon_upload.svg – Icône upload (SVG)
+13. icon_settings.svg – Icône paramètres (SVG)
+14. icon_search.svg – Icône recherche (SVG)
+15. icon_language.svg – Icône langue (SVG)
+16. icon_theme.svg – Icône thème (SVG)
+17. icon_logout.svg – Icône déconnexion (SVG)
+18. icon_home.svg – Icône accueil (SVG)
+19. icon_marketplace.svg – Icône marketplace (SVG)
+20. README.md – Présentation, conventions, index des icônes
+21. index.js – (export JS des icônes)
+22. __init__.py – (outils Python pour les icônes)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type d’icône (SVG)
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux icônes.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

@@ -1,0 +1,50 @@
+CHECKLIST STRUCTURE RACINE /workspaces/dihya.io (2025)
+
+1. README.md — Présentation globale du projet, liens, conventions, contacts
+2. .env, .env.example — Variables d’environnement (exemple et réel)
+3. .gitignore, .editorconfig, .prettierrc, .eslintrc.js — Fichiers de configuration outils
+4. CHECKLIST_RACINE_DIHYAIO_PRO.txt — Checklist professionnelle racine
+5. CHECKLIST_STRUCTURE_DIHYAIO.txt — Checklist structure détaillée
+6. CHECKLIST_STRUCTURE_DIHYAIO_COMPLETION.txt — Checklist structure complète
+7. CHECKLIST_STRUCTURE_DIHYAIO_FINAL.txt — Checklist structure finale exhaustive
+8. analytics/ — Module analytics (frontend, backend, scripts, docs)
+9. app/ — Application principale (frontend, assets, context, plugins, etc.)
+10. assets/ — Assets globaux (images, icônes, logos, svg, etc.)
+11. assets_global/ — Assets partagés multi-stack
+12. audit/ — Module d’audit (logs, scripts, rapports, checklists)
+13. backend/ — Backend principal (API, services, plugins, docs)
+14. backup/ — Scripts et docs de backup/restore
+15. blockchain/ — Module blockchain (contrats, scripts, docs)
+16. blueprints/ — Blueprints métiers (génération de code, templates)
+17. branding/ — Branding global (charte, logos, palettes)
+18. charte_graphique.md — Charte graphique globale
+19. dev_guide.md — Guide développeur global
+20. devops/ — Scripts et configs DevOps (Docker, K8s, Terraform, CI/CD)
+21. docker-compose.yml — Orchestration Docker multi-service
+22. docs/ — Documentation globale (guides, API, architecture)
+23. enrich_analytics_with_openai.py — Script IA analytics
+24. generate_app_structure_from_checklist.py — Générateur de structure app
+25. generate_app_structure_from_checklist_pro.py — Générateur pro
+26. generate_root_structure_from_checklist.py — Générateur racine
+27. generate_structure_from_checklist.py — Générateur générique
+28. i18n/ — Internationalisation globale
+29. incident_handler/ — Gestion des incidents
+30. linting/ — Configs et scripts de linting
+31. marketplace/ — Marketplace de plugins/templates
+32. migrations/ — Migrations globales
+33. mobile/ — Application mobile (Flutter, React Native)
+34. monitoring/ — Monitoring global
+35. notification/ — Notifications globales
+36. openapi.yaml — Documentation API globale
+37. plugins/ — Plugins globaux
+38. rgpd/ — RGPD, conformité, scripts
+39. roles_permissions/ — Gestion des rôles et permissions
+40. scheduler/ — Tâches planifiées globales
+41. scripts/ — Scripts utilitaires globaux
+42. security/ — Sécurité globale (middleware, scripts, docs)
+43. seo/ — SEO global (balises, sitemap, robots.txt)
+44. templates/ — Templates métiers globaux
+45. test_write_app.py — Script de test
+46. user_guide.md — Guide utilisateur global
+
+# Checklist exhaustive validée pour une racine de projet industrialisable, sans oubli, sans optionnel.

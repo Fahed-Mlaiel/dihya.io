@@ -1,0 +1,17 @@
+CHECKLIST_STRUCTURE_ANALYTICS_DASHBOARDS_PNG.txt
+
+# Checklist professionnelle – Dossier dashboards/ (analytics PNG)
+
+Ce dossier accueille tous les fichiers PNG de dashboards, graphiques et visualisations pour l’analytics du projet patterns.
+
+## 1. Exemples d’usages
+- dashboard_overview.png : Vue d’ensemble analytics
+- dashboard_kpi.png : Dashboard KPI
+- dashboard_traffic.png : Dashboard trafic
+- dashboard_conversion.png : Dashboard conversion
+- dashboard_custom_v1.png : Dashboard personnalisé
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : dashboard_kpi_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG de dashboards analytics

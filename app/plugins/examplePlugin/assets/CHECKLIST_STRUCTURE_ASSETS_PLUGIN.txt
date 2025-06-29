@@ -1,0 +1,11 @@
+CHECKLIST STRUCTURE /app/plugins/examplePlugin/assets (2025)
+
+1. README.md — Présentation du dossier, conventions d’usage, types d’assets acceptés (icônes, images, SVG, etc.)
+2. icon_plugin.svg — Icône principale du plugin (exemple réel)
+3. logo_plugin.png — Logo du plugin (exemple réel)
+4. illustration_plugin.jpg — Illustration métier (exemple réel)
+5. (optionnel) autres assets spécifiques (ex: animation.json, sprite.svg, etc.)
+
+Chaque asset doit être clairement nommé, documenté et utilisable dans le plugin ou l’UI du projet.
+
+# Checklist validée pour une gestion d’assets de plugin professionnelle, industrialisable et maintenable.

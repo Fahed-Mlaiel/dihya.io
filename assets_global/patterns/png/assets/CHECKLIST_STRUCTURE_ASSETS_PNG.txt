@@ -1,0 +1,36 @@
+CHECKLIST_STRUCTURE_ASSETS_PNG.txt
+
+# Checklist professionnelle – Structure du dossier assets/ (PNG patterns)
+
+Ce dossier doit contenir tous les fichiers PNG métiers nécessaires à l’industrialisation, la configuration et l’extension du projet patterns, classés par secteur, usage ou thème.
+
+## 1. Organisation par secteur/usage/thème
+- web/ : Assets PNG pour applications web (UI, icônes, illustrations, backgrounds, etc.)
+- backend/ : Assets PNG pour backend/API (diagrammes, schémas, icônes techniques)
+- mobile/ : Assets PNG pour applications mobiles (UI, icônes, splash, backgrounds)
+- plugins/ : Assets PNG pour plugins (logos, badges, icônes)
+- analytics/ : Assets PNG pour analytics (graphiques, icônes, dashboards)
+- seo/ : Assets PNG pour SEO (balises, icônes, illustrations)
+- auth/ : Assets PNG pour authentification (icônes, illustrations, badges)
+- roles_permissions/ : Assets PNG pour rôles et permissions (icônes, schémas)
+- notifications/ : Assets PNG pour notifications (icônes, badges)
+- middleware/ : Assets PNG pour middlewares (icônes, schémas)
+- validators/ : Assets PNG pour validation (icônes, badges)
+- crypto/ : Assets PNG pour chiffrement (icônes, schémas)
+- rgpd/ : Assets PNG pour RGPD (icônes, schémas, badges)
+- audit/ : Assets PNG pour audit/logs (icônes, schémas)
+- monitoring/ : Assets PNG pour monitoring (icônes, dashboards)
+- scheduler/ : Assets PNG pour tâches planifiées (icônes, schémas)
+- migration/ : Assets PNG pour migrations (icônes, schémas)
+- autres/ : Pour tout autre usage métier spécifique
+
+## 2. Fichiers d’indexation et documentation
+- README.md : Présentation, structure, conventions de classement des assets PNG
+- index.js : Point d’entrée JS pour import/export dynamique des assets PNG du dossier
+- .gitkeep : Pour forcer la présence du dossier si vide
+
+## 3. Bonnes pratiques
+- Chaque sous-dossier doit contenir un README.md expliquant son usage et ses conventions
+- Les fichiers PNG doivent être nommés de façon explicite et versionnés si besoin (ex: logo_v1.png)
+- Ne pas stocker d’autres types de fichiers (SVG, JPG, etc.) dans ce dossier (réserver à PNG)
+- Les assets non utilisés ou obsolètes doivent être archivés ou supprimés régulièrement

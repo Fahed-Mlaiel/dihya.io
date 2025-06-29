@@ -1,0 +1,46 @@
+{
+  "Button": [
+    "form",
+    "action",
+    "validation"
+  ],
+  "Input": [
+    "form",
+    "saisie",
+    "utilisateur"
+  ],
+  "Icon": [
+    "ui",
+    "décoration",
+    "navigation"
+  ],
+  "Loader": [
+    "feedback",
+    "chargement"
+  ],
+  "Tooltip": [
+    "aide",
+    "accessibilité",
+    "ui"
+  ],
+  "Checkbox": [
+    "form",
+    "validation",
+    "rgpd"
+  ],
+  "Avatar": [
+    "utilisateur",
+    "profil",
+    "identité"
+  ],
+  "Badge": [
+    "statut",
+    "notification",
+    "validation"
+  ],
+  "Switch": [
+    "option",
+    "toggle",
+    "mode sombre"
+  ]
+}

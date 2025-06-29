@@ -1,0 +1,8 @@
+npm error code ENOENT
+npm error syscall open
+npm error path /workspaces/dihya.io/backend/components/metiers/hotellerie/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/workspaces/dihya.io/backend/components/metiers/hotellerie/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /home/vscode/.npm/_logs/2025-06-13T15_37_42_120Z-debug-0.log

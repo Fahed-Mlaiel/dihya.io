@@ -1,0 +1,10 @@
+{
+  "modules": [
+    "webApp.js", "backendApi.js", "mobileApp.js", "plugin.js", "analytics.js", "seoService.js", "authService.js", "roles.js", "permissions.js", "notificationService.js", "middleware.js", "validators.js", "crypto.js", "rgpd.js", "audit.js", "monitoring.js", "scheduler.js", "migration.js", "autoGenerate.js", "module_utils.js"
+  ],
+  "meta": {
+    "project": "patterns",
+    "type": "js-modules",
+    "description": "Manifestes des modules, blueprints, conventions et métadonnées JS pour patterns."
+  }
+}

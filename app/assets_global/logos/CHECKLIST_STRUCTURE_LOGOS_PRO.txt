@@ -1,0 +1,30 @@
+# CHECKLIST_STRUCTURE_LOGOS_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global/logos pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+logos/
+
+# Fichiers recommandés à la racine de logos
+README.md               # Documentation sur la gestion des logos, conventions, droits d'utilisation, usages
+index.js                # (optionnel) Export centralisé des logos pour import facilité dans le code (React, Node.js)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Exemples de fichiers métiers à placer dans logos/
+logo_principal.svg          # Logo principal du projet (SVG vectoriel)
+logo_principal.png          # Logo principal (fallback PNG)
+logo_favicon.svg            # Favicon vectoriel
+logo_favicon.png            # Favicon bitmap
+logo_partenaire1.svg        # Logo d’un partenaire
+logo_partenaire2.svg        # Logo d’un autre partenaire
+logo_branding_light.svg     # Variante light du logo
+logo_branding_dark.svg      # Variante dark du logo
+logo_mobile.svg             # Logo version mobile
+logo_print.svg              # Logo version print
+
+# Bonnes pratiques :
+# - Toujours documenter la provenance et l'usage de chaque logo
+# - Préférer les formats optimisés (SVG, PNG compressé)
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)

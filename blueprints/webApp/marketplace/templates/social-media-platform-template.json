@@ -1,0 +1,23 @@
+{
+  "name": "Social Media Platform",
+  "sector": "Réseaux Sociaux",
+  "description": "Template clé en main pour plateforme sociale (profils, posts, likes, followers, messagerie, modération, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "social",
+      "media",
+      "réseau social",
+      "messagerie",
+      "modération",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

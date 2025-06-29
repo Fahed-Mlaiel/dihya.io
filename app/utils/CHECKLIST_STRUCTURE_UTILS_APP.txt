@@ -1,0 +1,18 @@
+CHECKLIST STRUCTURE /app/utils (2025)
+
+1. README.md — Présentation du dossier, conventions d’écriture des utilitaires, usages (frontend, backend, scripts, etc.)
+2. index.js — Point d’entrée pour exporter tous les utilitaires JS du dossier
+3. __init__.py — Point d’entrée Python pour automatisations ou génération d’utilitaires (optionnel)
+4. structured_logger.py — Logger structuré Python (audit, logs, monitoring)
+5. security.js — Fonctions de sécurité JS (chiffrement, validation, headers)
+6. rgpd.js — Fonctions RGPD JS (suppression, anonymisation, export)
+7. purge_rgpd.py — Script Python RGPD (suppression/anonymisation)
+8. validators.js — Fonctions de validation JS (inputs, API, uploads)
+9. trackEvent.js — Tracking d’événements (analytics, logs)
+10. roles.js — Gestion des rôles utilisateurs (Admin, User, Invité)
+11. permissions.js — Gestion des permissions (actions, ressources)
+12. (optionnel) autres utilitaires métiers (ex: dateUtils.js, stringUtils.js, etc.)
+
+Chaque utilitaire doit être réutilisable, documenté et conforme aux standards du projet.
+
+# Checklist validée pour une gestion d’utilitaires d’application professionnelle, industrialisable et maintenable.

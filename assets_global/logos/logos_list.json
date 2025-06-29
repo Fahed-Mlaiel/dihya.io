@@ -1,0 +1,14 @@
+{
+  "logos": [
+    {"name": "main_svg", "file": "logo_main.svg", "description": "Logo principal SVG"},
+    {"name": "main_png", "file": "logo_main.png", "description": "Logo principal PNG"},
+    {"name": "white_svg", "file": "logo_white.svg", "description": "Logo blanc SVG"},
+    {"name": "white_png", "file": "logo_white.png", "description": "Logo blanc PNG"},
+    {"name": "dark_svg", "file": "logo_dark.svg", "description": "Logo dark SVG"},
+    {"name": "dark_png", "file": "logo_dark.png", "description": "Logo dark PNG"},
+    {"name": "icon_svg", "file": "logo_icon.svg", "description": "Icône logo SVG"},
+    {"name": "icon_png", "file": "logo_icon.png", "description": "Icône logo PNG"},
+    {"name": "partner1_svg", "file": "logo_partner1.svg", "description": "Logo partenaire 1 SVG"},
+    {"name": "partner2_svg", "file": "logo_partner2.svg", "description": "Logo partenaire 2 SVG"}
+  ]
+}

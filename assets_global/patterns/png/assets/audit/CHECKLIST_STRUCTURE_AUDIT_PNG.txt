@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_AUDIT_PNG.txt
+
+# Checklist professionnelle – Dossier audit/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour l’audit et les logs du projet patterns.
+
+## 1. Exemples d’usages
+- audit_log.png : Schéma ou icône pour logs
+- audit_report.png : Illustration pour rapport d’audit
+- audit_alert.png : Icône d’alerte audit
+- audit_custom_v1.png : Asset personnalisé audit
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : audit_log_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés à l’audit et aux logs

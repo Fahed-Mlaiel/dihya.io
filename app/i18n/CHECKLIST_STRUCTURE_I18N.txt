@@ -1,0 +1,20 @@
+CHECKLIST STRUCTURE /app/i18n (2025)
+
+1. README.md — Présentation du dossier, conventions d’internationalisation, structure des fichiers de langue, bonnes pratiques
+2. i18n.js — Point d’entrée JS pour la gestion de l’internationalisation (chargement, détection, fallback, etc.)
+3. autoTranslate.js — Script d’auto-traduction (ex : via API IA ou Google Translate)
+4. dialectSupport.js — Gestion dynamique des dialectes et variantes linguistiques
+5. index.js — Point d’entrée pour regrouper et exporter les modules i18n
+6. __init__.py — Point d’entrée Python pour automatisations i18n (ex : génération, validation, conversion de fichiers de langue)
+7. fr.json — Fichier de traduction français (exemple réel)
+8. en.json — Fichier de traduction anglais (exemple réel)
+9. ar.json — Fichier de traduction arabe (exemple réel)
+10. ber.json — Fichier de traduction berbère (exemple réel)
+11. de.json — Fichier de traduction allemand (exemple réel)
+12. (optionnel) autres fichiers de langue/dialecte (es.json, it.json, zh.json, etc.)
+13. (optionnel) export_i18n.py — Script Python d’export/import de fichiers de langue
+14. (optionnel) import_i18n.js — Script JS d’import/export de fichiers de langue
+
+Chaque fichier doit être présent, bien nommé, et contenir un exemple métier réel ou un template prêt à l’emploi. Les fichiers de langue doivent être structurés et utilisables dans l’application.
+
+# Checklist validée pour une gestion i18n professionnelle, industrialisable et maintenable.

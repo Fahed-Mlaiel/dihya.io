@@ -1,0 +1,15 @@
+CHECKLIST_STRUCTURE_SCHEDULER_PNG.txt
+
+# Checklist professionnelle – Dossier scheduler/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour les tâches planifiées du projet patterns.
+
+## 1. Exemples d’usages
+- scheduler_icon.png : Icône scheduler
+- scheduler_schema.png : Schéma scheduler
+- scheduler_custom_v1.png : Asset personnalisé scheduler
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : scheduler_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux tâches planifiées

@@ -1,0 +1,23 @@
+{
+  "name": "Gestion immobilier commercial",
+  "sector": "Immobilier",
+  "description": "Template immobilier commercial (biens, baux, locataires, paiements, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des biens commerciaux",
+    "Gestion des baux",
+    "Gestion des locataires",
+    "Paiements",
+    "Advanced reporting",
+    "Support plugins (export, IA, paiement)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gestion école de commerce international",
+  "sector": "Education",
+  "description": "Template école de commerce international (étudiants, enseignants, stages, concours, projets, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des étudiants",
+    "Gestion des enseignants",
+    "Gestion des stages",
+    "Contest management",
+    "Gestion des projets",
+    "Advanced reporting",
+    "Plugin support (export, AI, compliance)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

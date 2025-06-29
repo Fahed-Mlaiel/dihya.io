@@ -1,0 +1,8 @@
+{
+  "secteur": "santé",
+  "template": [
+    {"champ": "nom_patient", "type": "string"},
+    {"champ": "date_naissance", "type": "date"},
+    {"champ": "diagnostic", "type": "string"}
+  ]
+}

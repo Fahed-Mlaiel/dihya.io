@@ -1,0 +1,10 @@
+# Configuration Assurance
+nom: assurance
+plugins:
+  - analytics
+  - paiement
+  - contract
+dependances:
+  - flask
+  - numpy
+rgpd: True

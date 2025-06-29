@@ -1,0 +1,27 @@
+# CHECKLIST_STRUCTURE_VIDEOS_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global/videos pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+videos/
+
+# Fichiers recommandés à la racine de videos
+README.md               # Documentation sur la gestion des vidéos, conventions, droits d'utilisation, usages
+index.js                # (optionnel) Export centralisé des vidéos pour import facilité dans le code (React, Node.js)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Exemples de fichiers métiers à placer dans videos/
+video_onboarding.mp4         # Vidéo d’onboarding utilisateur
+video_demo_app.mp4           # Démo de l’application
+video_presentation_fr.mp4    # Présentation institutionnelle (FR)
+video_presentation_en.mp4    # Présentation institutionnelle (EN)
+video_tuto_fr.mp4            # Tutoriel utilisateur (FR)
+video_tuto_en.mp4            # Tutoriel utilisateur (EN)
+video_branding.mp4           # Vidéo branding/charte graphique
+
+# Bonnes pratiques :
+# - Toujours documenter la provenance et l'usage de chaque vidéo
+# - Préférer les formats optimisés (mp4, webm)
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)

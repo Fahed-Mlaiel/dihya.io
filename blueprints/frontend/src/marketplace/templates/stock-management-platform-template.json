@@ -1,0 +1,22 @@
+{
+  "name": "Gestion de stock",
+  "sector": "Logistique",
+  "description": "Template gestion de stock (articles, mouvements, inventaires, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des articles",
+    "Gestion des mouvements de stock",
+    "Gestion des inventaires",
+    "Advanced reporting",
+    "Support plugins (export, IA, IoT)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

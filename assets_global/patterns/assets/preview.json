@@ -1,0 +1,14 @@
+{
+  "pattern1": {
+    "thumbnail": "thumbnails/pattern1_thumb.svg",
+    "preview": "previews/pattern1_preview.png",
+    "description": "Pattern géométrique moderne en SVG.",
+    "usage": "background, illustration, UI"
+  },
+  "pattern2": {
+    "thumbnail": "thumbnails/pattern2_thumb.png",
+    "preview": "previews/pattern2_preview.svg",
+    "description": "Pattern organique coloré en PNG.",
+    "usage": "header, section, card"
+  }
+}

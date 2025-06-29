@@ -1,0 +1,12 @@
+{
+  "token": {
+    "name": "ExempleToken",
+    "symbol": "EXT",
+    "description": "Un token ERC20 de démonstration pour la blockchain."
+  },
+  "nft": {
+    "name": "NFTExemple",
+    "symbol": "NFTX",
+    "description": "Un NFT de démonstration."
+  }
+}

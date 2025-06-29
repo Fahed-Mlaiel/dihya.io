@@ -1,0 +1,24 @@
+{
+  "name": "Marketplace C2C Platform",
+  "sector": "E-commerce/C2C",
+  "description": "Template pour marketplace C2C (particuliers, annonces, paiement, livraison, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "C2C",
+      "marketplace",
+      "particuliers",
+      "annonces",
+      "paiement",
+      "livraison",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

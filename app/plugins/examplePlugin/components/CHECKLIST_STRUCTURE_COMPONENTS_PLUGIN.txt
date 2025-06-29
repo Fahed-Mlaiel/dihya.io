@@ -1,0 +1,10 @@
+CHECKLIST STRUCTURE /app/plugins/examplePlugin/components (2025)
+
+1. README.md — Présentation du dossier, conventions de nommage, usage des composants
+2. ExampleComponent.jsx — Exemple de composant React fonctionnel prêt à l’emploi
+3. index.js — Point d’entrée pour exporter tous les composants du plugin
+4. __init__.py — Point d’entrée Python (optionnel, pour automatisations ou génération de composants)
+
+Chaque composant doit être réutilisable, documenté et conforme aux standards du projet.
+
+# Checklist validée pour une gestion de composants de plugin professionnelle, industrialisable et maintenable.

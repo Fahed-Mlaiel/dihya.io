@@ -1,0 +1,22 @@
+{
+  "routes": [
+    "navigation",
+    "route",
+    "url"
+  ],
+  "regex": [
+    "validation",
+    "regex",
+    "champ"
+  ],
+  "actions": [
+    "redux",
+    "action",
+    "event"
+  ],
+  "messages": [
+    "erreur",
+    "validation",
+    "texte"
+  ]
+}

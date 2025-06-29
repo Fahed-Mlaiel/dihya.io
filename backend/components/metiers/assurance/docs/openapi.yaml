@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Assurance
+  version: 1.0.0
+paths:
+  /assurance/:
+    get:
+      summary: Liste des ressources Assurance
+      responses:
+        '200':
+          description: Succès

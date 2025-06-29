@@ -1,0 +1,19 @@
+{
+  "hooks": [
+    "useAuth.js",
+    "useTheme.js",
+    "useTranslation.js",
+    "useVoiceInput.js",
+    "useMarketplace.js",
+    "useNotification.js",
+    "useAnalytics.js",
+    "useModal.js",
+    "useMonitoring.js",
+    "useCollaborativeEdit.js",
+    "usePluginManager.js",
+    "useRGPD.js",
+    "useLogs.js",
+    "useOnboarding.js"
+  ],
+  "index": "index.js"
+}

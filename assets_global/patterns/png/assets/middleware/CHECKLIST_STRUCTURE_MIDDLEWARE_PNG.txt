@@ -1,0 +1,15 @@
+CHECKLIST_STRUCTURE_MIDDLEWARE_PNG.txt
+
+# Checklist professionnelle – Dossier middleware/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour les middlewares du projet patterns.
+
+## 1. Exemples d’usages
+- middleware_icon.png : Icône middleware
+- middleware_schema.png : Schéma middleware
+- middleware_custom_v1.png : Asset personnalisé middleware
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : middleware_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux middlewares

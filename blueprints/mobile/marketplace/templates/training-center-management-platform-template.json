@@ -1,0 +1,24 @@
+{
+  "name": "Gestion centre de formation",
+  "sector": "Formation",
+  "description": "Template centre de formation (apprenants, formateurs, sessions, contenus, certifications, reporting, plugins)",
+  "version": "1.0.0",
+  "author": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des apprenants",
+    "Gestion des formateurs",
+    "Gestion des sessions",
+    "Gestion des contenus",
+    "Gestion des certifications",
+    "Advanced reporting",
+    "Support plugins (export, IA, certification)",
+    "Multilingual, accessibility, GDPR"
+  ],
+  "audit_ready": true,
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  },
+  "ci_cd_ready": true
+}

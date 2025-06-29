@@ -1,0 +1,19 @@
+# CHECKLIST_STRUCTURE_BACKGROUNDS_PHOTOS_JPG_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global/backgrounds/photos/jpg pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+jpg/
+
+# Fichiers recommandés à la racine de jpg
+README.md               # Documentation sur la gestion des photos JPG, conventions, droits d'utilisation, usages
+index.js                # (optionnel) Export centralisé des JPG pour import facilité dans le code (React, Node.js)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Bonnes pratiques :
+# - Ne jamais stocker de photos inutiles, non utilisées ou non libres de droits
+# - Toujours documenter la provenance et l'usage de chaque photo
+# - Préférer les formats optimisés (JPG compressé, WebP)
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)

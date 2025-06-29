@@ -1,0 +1,13 @@
+CHECKLIST STRUCTURE /app/plugins/examplePlugin/docs (2025)
+
+1. README.md — Présentation du dossier, conventions de documentation du plugin
+2. user_guide.md — Guide utilisateur du plugin (fonctionnalités, configuration, FAQ)
+3. dev_guide.md — Guide développeur du plugin (architecture, intégration, hooks, API)
+4. api_reference.md — Documentation API du plugin (endpoints, schémas, exemples)
+5. changelog.md — Journal des modifications du plugin
+6. index.js — Point d’entrée JS pour automatisations ou génération de docs
+7. __init__.py — Point d’entrée Python pour automatisations docs (optionnel)
+
+Chaque fichier doit contenir un contenu métier réel ou un exemple prêt à l’emploi, et être maintenu à jour.
+
+# Checklist validée pour une documentation de plugin professionnelle, industrialisable et maintenable.

@@ -1,0 +1,30 @@
+# CHECKLIST_STRUCTURE_JSON_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global/json pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+json/
+
+# Fichiers recommandés à la racine de json
+README.md               # Documentation sur la gestion des fichiers JSON globaux, conventions, droits d'utilisation, usages
+index.js                # (optionnel) Export centralisé des JSON pour import facilité dans le code (Node.js, Python)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Exemples de fichiers métiers à placer dans json/
+templates_metiers.json      # Templates métiers multi-secteurs (structure, champs, etc.)
+config_global.json          # Configuration globale du projet (branding, thèmes, options UI)
+locales_fr.json             # Traductions globales FR
+locales_en.json             # Traductions globales EN
+locales_ar.json             # Traductions globales AR
+locales_ber.json            # Traductions globales Berbère
+locales_de.json             # Traductions globales Allemand
+locales_es.json             # Traductions globales Espagnol
+locales_it.json             # Traductions globales Italien
+locales_zh.json             # Traductions globales Chinois
+
+# Bonnes pratiques :
+# - Toujours documenter la provenance et l'usage de chaque fichier JSON
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)
+# - Ne jamais stocker de données sensibles ou privées dans les JSON globaux

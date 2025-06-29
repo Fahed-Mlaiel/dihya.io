@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Automobile
+  version: 1.0.0
+paths:
+  /automobile/:
+    get:
+      summary: Liste des ressources Automobile
+      responses:
+        '200':
+          description: Succès

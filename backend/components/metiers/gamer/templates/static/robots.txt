@@ -1,0 +1,49 @@
+# robots.txt für das Gamer-Modul (Dihya)
+#
+# Ultra-robust, mehrsprachig, SEO-optimiert, sicherheitsbewusst
+# Hinweise:
+# - Dynamische Generierung empfohlen (Mandanten, Sprachen, Subdomains)
+# - Blockiere sensible Endpunkte, Admin- und API-Routen
+# - Erlaube nur relevante, öffentliche Inhalte
+# - Cross-Link zu Sitemap(s)
+
+# Standard User-Agent Regeln
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /internal/
+Disallow: /private/
+Disallow: /tests/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /*.env$
+Disallow: /*.log$
+Disallow: /*?*
+
+# Sprachspezifische Regeln (Beispiel)
+#User-agent: Googlebot
+#Disallow: /fr/admin/
+#Disallow: /en/admin/
+#Disallow: /de/admin/
+
+# Crawl-Delay für aggressive Bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Erlaube statische, öffentliche Ressourcen
+Allow: /static/
+Allow: /public/
+
+# Sitemap(s) für alle Sprachen und Mandanten
+Sitemap: https://example.com/sitemap.xml
+Sitemap: https://example.com/fr/sitemap.xml
+Sitemap: https://example.com/en/sitemap.xml
+Sitemap: https://example.com/de/sitemap.xml
+
+# Hinweise für Entwickler:innen
+# - Bei Multimandantenfähigkeit: robots.txt pro Mandant generieren
+# - Bei Staging/Dev: Disallow: /
+# - Bei Launch: Review durch SEO- und Security-Team
+# - Siehe guides/policy.md und RGPD_GUIDE.md für Compliance

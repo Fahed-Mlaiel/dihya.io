@@ -1,0 +1,9 @@
+{
+  "backgrounds": [
+    {"name": "default", "file": "bg_default.jpg", "description": "Fond d’écran par défaut"},
+    {"name": "dark", "file": "bg_dark.jpg", "description": "Fond d’écran mode sombre"},
+    {"name": "light", "file": "bg_light.jpg", "description": "Fond d’écran mode clair"},
+    {"name": "pattern", "file": "bg_pattern.svg", "description": "Motif SVG réutilisable"},
+    {"name": "gradient", "file": "bg_gradient.png", "description": "Dégradé PNG"}
+  ]
+}

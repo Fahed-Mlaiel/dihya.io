@@ -1,0 +1,13 @@
+<!--
+  lock.svg – Authentification, permissions
+  Usage : Affichage d’un cadenas pour signaler une zone sécurisée, un formulaire de connexion, ou une fonctionnalité protégée.
+  Accessibilité : alt="Lock icon – secure access"
+  Charte graphique : Couleurs principales du projet, style épuré, compatible dark/light mode.
+  Origine : Créé en interne, libre de droits.
+  Historique : v1 – 2025-06-20 – Création initiale
+-->
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="5" y="11" width="14" height="8" rx="2" fill="#4A90E2"/>
+  <rect x="9" y="7" width="6" height="4" rx="3" fill="#B0C4DE"/>
+  <rect x="11" y="15" width="2" height="3" rx="1" fill="#fff"/>
+</svg>

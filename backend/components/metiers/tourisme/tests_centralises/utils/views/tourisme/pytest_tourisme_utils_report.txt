@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.4.0, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /workspaces/dihya.io
+configfile: pytest.ini
+plugins: anyio-4.9.0
+collecting ... collected 4 items
+
+backend/components/metiers/tourisme/tests_centralises/utils/views/tourisme/test_tourisme_utils.py::test_utils_views_tourisme PASSED [ 25%]
+backend/components/metiers/tourisme/tests_centralises/utils/views/tourisme/test_tourisme_utils.py::test_render_tourisme_nominal PASSED [ 50%]
+backend/components/metiers/tourisme/tests_centralises/utils/views/tourisme/test_tourisme_utils.py::test_render_tourisme_empty PASSED [ 75%]
+backend/components/metiers/tourisme/tests_centralises/utils/views/tourisme/test_tourisme_utils.py::test_render_tourisme_special PASSED [100%]
+
+============================== 4 passed in 0.06s ===============================

@@ -1,0 +1,24 @@
+{
+  "name": "Marketplace Wholesale Platform",
+  "sector": "E-commerce/Grossiste",
+  "description": "Template pour marketplace grossiste (fournisseurs, commandes, paiement, livraison, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "grossiste",
+      "marketplace",
+      "fournisseurs",
+      "commandes",
+      "paiement",
+      "livraison",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

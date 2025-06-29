@@ -1,0 +1,12 @@
+{
+  "images": [
+    {"name": "cover", "file": "img_cover.jpg", "description": "Image de couverture principale"},
+    {"name": "avatar", "file": "img_avatar.png", "description": "Avatar utilisateur par défaut"},
+    {"name": "banner", "file": "img_banner.jpg", "description": "Bannière globale"},
+    {"name": "placeholder", "file": "img_placeholder.png", "description": "Image de remplacement"},
+    {"name": "logo", "file": "img_logo.png", "description": "Logo global"},
+    {"name": "feature1", "file": "img_feature1.jpg", "description": "Image fonctionnalité 1"},
+    {"name": "feature2", "file": "img_feature2.jpg", "description": "Image fonctionnalité 2"},
+    {"name": "feature3", "file": "img_feature3.jpg", "description": "Image fonctionnalité 3"}
+  ]
+}

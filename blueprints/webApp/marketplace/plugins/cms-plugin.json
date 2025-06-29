@@ -1,0 +1,21 @@
+{
+  "name": "CMS Pro",
+  "type": "cms",
+  "description": "Plugin CMS professionnel (gestion de contenu, SEO, multilingue, audit, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion de contenu avancée",
+    "SEO automatique",
+    "Support multilingue",
+    "Audit RGPD",
+    "Intégration CI/CD",
+    "Reporting et logs"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

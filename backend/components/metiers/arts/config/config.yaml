@@ -1,0 +1,10 @@
+# Configuration Arts
+nom: arts
+plugins:
+  - marketplace
+  - gallery
+  - analytics
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

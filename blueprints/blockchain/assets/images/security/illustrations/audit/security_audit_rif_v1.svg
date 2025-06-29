@@ -1,0 +1,11 @@
+<!--
+  security_audit_rif_v1.svg
+  Tugna n usenqel n tɣellist blockchain (rif)
+-->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#e8f7e8"/>
+  <g>
+    <circle cx="100" cy="100" r="80" fill="#7ee2b9"/>
+    <text x="100" y="110" font-size="28" text-anchor="middle" fill="#222">ⵜⵓⴳⵏⴰ</text>
+  </g>
+</svg>

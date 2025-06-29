@@ -1,0 +1,21 @@
+{
+  "name": "HubSpot Marketing",
+  "type": "marketing",
+  "description": "Plugin d’intégration HubSpot Marketing (campagnes, reporting, automation, audit, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Gestion des campagnes marketing",
+    "Automatisation",
+    "Reporting avancé",
+    "Intégration CI/CD",
+    "Audit RGPD",
+    "Logs et analytics"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

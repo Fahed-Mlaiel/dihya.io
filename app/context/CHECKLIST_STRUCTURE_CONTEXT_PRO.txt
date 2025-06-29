@@ -1,0 +1,23 @@
+# CHECKLIST_STRUCTURE_CONTEXT_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /app/context pour un projet React/Next.js multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+context/
+
+# Fichiers recommandés à la racine de context
+README.md               # Documentation sur la gestion des contextes React, conventions, usages
+index.js                # Point d'entrée JS/React pour exporter tous les context providers
+__init__.py             # (optionnel) Permet l'import Python
+ThemeContext.js         # Contexte pour la gestion des thèmes UI
+UserContext.js          # Contexte utilisateur (auth, rôles, préférences)
+I18nContext.js          # Contexte internationalisation (langues, traductions)
+NotificationContext.js  # Contexte notifications UI
+AnalyticsContext.js     # Contexte analytics (trackers, events)
+
+# Bonnes pratiques :
+# - Centraliser tous les context providers dans index.js
+# - Documenter chaque contexte (usage, props, valeurs, hooks)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)
+# - Ne jamais stocker de données sensibles dans le contexte côté client

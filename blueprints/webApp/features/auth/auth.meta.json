@@ -1,0 +1,42 @@
+[
+  {
+    "name": "README.md",
+    "type": "doc",
+    "usage": "Documentation de la feature Auth"
+  },
+  {
+    "name": "README_EXEMPLES.md",
+    "type": "doc",
+    "usage": "Exemples d’intégration Auth"
+  },
+  {
+    "name": "README_INTEGRATION.md",
+    "type": "doc",
+    "usage": "Exemples d’intégration Auth"
+  },
+  {
+    "name": "README_ARCHITECTURE.md",
+    "type": "doc",
+    "usage": "Schéma et conventions d’architecture Auth"
+  },
+  {
+    "name": "AuthProvider.js",
+    "type": "provider",
+    "usage": "Provider du contexte d’authentification"
+  },
+  {
+    "name": "LoginForm.jsx",
+    "type": "composant",
+    "usage": "Formulaire de connexion utilisateur"
+  },
+  {
+    "name": "RegisterForm.jsx",
+    "type": "composant",
+    "usage": "Formulaire d’inscription utilisateur"
+  },
+  {
+    "name": "ForgotPassword.jsx",
+    "type": "composant",
+    "usage": "Formulaire de récupération de mot de passe"
+  }
+]

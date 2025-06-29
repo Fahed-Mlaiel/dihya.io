@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_BACKEND_PNG.txt
+
+# Checklist professionnelle – Dossier backend/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour le backend/API du projet patterns.
+
+## 1. Exemples d’usages
+- backend_diagram.png : Diagramme d’architecture backend
+- backend_schema.png : Schéma technique backend
+- backend_icon.png : Icône technique backend
+- backend_custom_v1.png : Asset personnalisé backend
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : backend_diagram_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés au backend/API

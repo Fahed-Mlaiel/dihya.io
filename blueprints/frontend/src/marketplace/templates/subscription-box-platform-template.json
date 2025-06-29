@@ -1,0 +1,24 @@
+{
+  "name": "Subscription Box Platform",
+  "sector": "E-commerce/Abonnement",
+  "description": "Template pour box par abonnement (catalogue, gestion abonnés, paiement, livraison, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "abonnement",
+      "box",
+      "catalogue",
+      "abonnés",
+      "paiement",
+      "livraison",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

@@ -1,0 +1,10 @@
+# Configuration Transport
+nom: transport
+plugins:
+  - analytics
+  - tracking
+  - fleet
+dependances:
+  - flask
+  - geopy
+rgpd: True

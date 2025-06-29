@@ -1,0 +1,14 @@
+CHECKLIST STRUCTURE /app/docs/assets (2025)
+
+1. README.md — Présentation du dossier, conventions d’usage, types d’assets documentaires acceptés (diagrammes, captures, logos, etc.)
+2. diagram_architecture.svg — Diagramme d’architecture technique (exemple réel)
+3. screenshot_ui.png — Capture d’écran illustrative (exemple réel)
+4. logo_docs.svg — Logo/documentation branding (exemple réel)
+5. index.js — Point d’entrée JS pour automatisations ou gestion d’assets
+6. __init__.py — Point d’entrée Python pour scripts de gestion d’assets
+7. (optionnel) diagramme_sequence.svg — Exemple de diagramme de séquence
+8. (optionnel) doc_sample.pdf — Exemple de document PDF généré
+
+Chaque fichier doit être présent, bien nommé, et contenir un exemple métier réel ou un template prêt à l’emploi. Les assets doivent être utilisables dans la documentation ou les guides du projet.
+
+# Checklist validée pour une gestion documentaire professionnelle, industrialisable et maintenable.

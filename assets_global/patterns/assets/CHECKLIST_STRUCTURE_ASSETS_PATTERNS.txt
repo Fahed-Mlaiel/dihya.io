@@ -1,0 +1,30 @@
+CHECKLIST PROFESSIONNELLE – /assets_global/patterns/assets
+
+1. README.md – Documentation d’usage, conventions, structure, exemples d’intégration.
+2. index.js – Point d’entrée JS pour l’accès aux assets (export, mapping, preview, etc.).
+3. __init__.py – Point d’entrée Python pour l’accès aux assets (import, mapping, preview, etc.).
+4. assets_manifest.json – Manifest complet listant tous les assets, métadonnées, tags, previews, formats disponibles.
+5. preview.json – Exemples de previews pour chaque asset (miniature, description, usage, formats).
+6. thumbnails/
+   ├── pattern1_thumb.svg – Miniature SVG d’un pattern.
+   ├── pattern2_thumb.png – Miniature PNG d’un autre pattern.
+   └── ...
+7. previews/
+   ├── pattern1_preview.png – Preview visuelle d’un pattern.
+   ├── pattern2_preview.svg – Preview SVG d’un autre pattern.
+   └── ...
+8. assets/
+   ├── pattern1.svg – Asset pattern principal (SVG).
+   ├── pattern2.png – Asset pattern principal (PNG).
+   └── ...
+9. doc/
+   ├── usage.md – Guide d’utilisation des assets, intégration JS/Python, bonnes pratiques.
+   └── conventions.md – Conventions de nommage, formats, organisation.
+10. access_module.js – Module JS d’accès programmatique aux assets (import, getPreview, getAsset, etc.).
+11. access_module.py – Module Python d’accès programmatique aux assets (import, get_preview, get_asset, etc.).
+12. i18n/
+   ├── assets_fr.json – Traductions FR des assets, descriptions, tags.
+   ├── assets_en.json – Traductions EN des assets, descriptions, tags.
+   └── ...
+
+Chaque fichier/dossier doit être effectivement créé et contenir un exemple métier réel (ex : miniatures SVG/PNG, manifest JSON, modules d’accès JS/Python, doc, etc.).

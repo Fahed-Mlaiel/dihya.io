@@ -1,0 +1,24 @@
+CHECKLIST_STRUCTURE_ASSETS_GLOBAL_IMAGES_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /assets_global/images (Images globales)
+
+1. images_list.json – Index/description de toutes les images
+2. img_cover.jpg – Image de couverture principale (JPG)
+3. img_avatar.png – Avatar utilisateur par défaut (PNG)
+4. img_banner.jpg – Bannière globale (JPG)
+5. img_placeholder.png – Image de remplacement (PNG)
+6. img_logo.png – Logo global (PNG)
+7. img_feature1.jpg – Image fonctionnalité 1 (JPG)
+8. img_feature2.jpg – Image fonctionnalité 2 (JPG)
+9. img_feature3.jpg – Image fonctionnalité 3 (JPG)
+10. README.md – Présentation, conventions, index des images
+11. index.js – (export JS des images)
+12. __init__.py – (outils Python pour les images)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type d’image (JPG, PNG, JSON)
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux images.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

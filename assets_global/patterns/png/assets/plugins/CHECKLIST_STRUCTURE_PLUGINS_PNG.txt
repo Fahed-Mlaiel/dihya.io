@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_PLUGINS_PNG.txt
+
+# Checklist professionnelle – Dossier plugins/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour les plugins du projet patterns.
+
+## 1. Exemples d’usages
+- plugin_logo.png : Logo plugin
+- plugin_badge.png : Badge plugin
+- plugin_icon.png : Icône plugin
+- plugin_custom_v1.png : Asset personnalisé plugin
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : plugin_logo_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux plugins

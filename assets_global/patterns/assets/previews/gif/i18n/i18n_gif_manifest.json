@@ -1,0 +1,8 @@
+{
+  "name": "i18n_gif_manifest",
+  "description": "Manifeste des fichiers i18n pour les GIFs de preview.",
+  "languages": [
+    "fr", "en", "ar", "ber", "es", "de", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl",
+    "ar_dz", "ar_ma", "ar_tn", "ar_eg", "ber_kab", "ber_rif", "ber_tzm", "ber_cha", "ber_tou", "ber_tac", "fr_ca", "en_gb", "en_us"
+  ]
+}

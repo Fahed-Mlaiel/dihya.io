@@ -1,0 +1,10 @@
+# Configuration Voyage
+nom: voyage
+plugins:
+  - booking
+  - analytics
+  - itinerary
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

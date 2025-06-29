@@ -1,0 +1,17 @@
+CHECKLIST_STRUCTURE_ANALYTICS_REPORTS_PNG.txt
+
+# Checklist professionnelle – Dossier reports/ (analytics PNG)
+
+Ce dossier accueille tous les fichiers PNG pour les rapports analytics du projet patterns.
+
+## 1. Exemples d’usages
+- report_monthly.png : Rapport mensuel
+- report_kpi.png : Rapport KPI
+- report_traffic.png : Rapport trafic
+- report_conversion.png : Rapport conversion
+- report_custom_v1.png : Rapport personnalisé
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : report_kpi_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG de rapports analytics

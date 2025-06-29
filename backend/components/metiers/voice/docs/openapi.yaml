@@ -1,0 +1,11 @@
+openapi: 3.0.0
+info:
+  title: API Voix
+  version: 1.0.0
+paths:
+  /voice/:
+    get:
+      summary: Liste des ressources Voix
+      responses:
+        '200':
+          description: Succès

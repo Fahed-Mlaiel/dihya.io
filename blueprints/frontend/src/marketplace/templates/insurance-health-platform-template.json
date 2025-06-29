@@ -1,0 +1,24 @@
+{
+  "name": "Insurance Health Platform",
+  "sector": "Assurance/Santé",
+  "description": "Template pour assurance santé (contrats, remboursements, gestion assurés, paiement, plugins, reporting)",
+  "version": "1.0.0",
+  "date": "2025-06-19",
+  "audit_ready": true,
+  "ci_cd_ready": true,
+  "meta": {
+    "auteur": "Lead Dev",
+    "tags": [
+      "assurance",
+      "santé",
+      "contrats",
+      "remboursements",
+      "assurés",
+      "paiement",
+      "plugins",
+      "reporting"
+    ],
+    "last_update": "2025-06-19"
+  },
+  "author": "Lead Dev"
+}

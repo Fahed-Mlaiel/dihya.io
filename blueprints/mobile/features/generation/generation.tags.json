@@ -1,0 +1,37 @@
+{
+  "README.md": [
+    "doc",
+    "generation",
+    "feature"
+  ],
+  "README_EXEMPLES.md": [
+    "doc",
+    "exemples",
+    "generation"
+  ],
+  "README_INTEGRATION.md": [
+    "doc",
+    "exemples",
+    "generation"
+  ],
+  "README_ARCHITECTURE.md": [
+    "doc",
+    "architecture",
+    "generation"
+  ],
+  "Generator.jsx": [
+    "composant",
+    "generation",
+    "generator"
+  ],
+  "TemplateSelector.jsx": [
+    "composant",
+    "generation",
+    "template"
+  ],
+  "GenerationHistory.jsx": [
+    "composant",
+    "generation",
+    "historique"
+  ]
+}

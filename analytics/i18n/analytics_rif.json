@@ -1,0 +1,54 @@
+{
+  "en": {
+    "analytics": {
+      "page_views": "Page Views",
+      "unique_visitors": "Unique Visitors",
+      "time_on_page": "Time on Page",
+      "bounce_rate": "Bounce Rate",
+      "conversion_rate": "Conversion Rate",
+      "user_behavior": "User Behavior",
+      "traffic_sources": "Traffic Sources",
+      "device_usage": "Device Usage",
+      "geographic_distribution": "Geographic Distribution",
+      "real_time_data": "Real-Time Data",
+      "custom_reports": "Custom Reports",
+      "export_data": "Export Data",
+      "settings": "Settings"
+    }
+  },
+  "fr": {
+    "analytics": {
+      "page_views": "Vues de page",
+      "unique_visitors": "Visiteurs uniques",
+      "time_on_page": "Temps sur la page",
+      "bounce_rate": "Taux de rebond",
+      "conversion_rate": "Taux de conversion",
+      "user_behavior": "Comportement des utilisateurs",
+      "traffic_sources": "Sources de trafic",
+      "device_usage": "Utilisation des appareils",
+      "geographic_distribution": "Distribution géographique",
+      "real_time_data": "Données en temps réel",
+      "custom_reports": "Rapports personnalisés",
+      "export_data": "Exporter les données",
+      "settings": "Paramètres"
+    }
+  },
+  "es": {
+    "analytics": {
+      "page_views": "Vistas de página",
+      "unique_visitors": "Visitantes únicos",
+      "time_on_page": "Tiempo en la página",
+      "bounce_rate": "Tasa de rebote",
+      "conversion_rate": "Tasa de conversión",
+      "user_behavior": "Comportamiento del usuario",
+      "traffic_sources": "Fuentes de tráfico",
+      "device_usage": "Uso de dispositivos",
+      "geographic_distribution": "Distribución geográfica",
+      "real_time_data": "Datos en tiempo real",
+      "custom_reports": "Informes personalizados",
+      "export_data": "Exportar datos",
+      "settings": "Configuraciones"
+    }
+  }
+  // Other languages can be added here following the same structure
+}

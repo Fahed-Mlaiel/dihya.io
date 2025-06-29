@@ -1,0 +1,56 @@
+CHECKLIST_STRUCTURE_JS_PATTERNS.txt
+
+# Checklist professionnelle – Structure exhaustive du dossier js (patterns)
+
+Ce dossier doit contenir tous les fichiers et points d’entrée nécessaires à la gestion, l’industrialisation et l’extension des modules, utilitaires et blueprints JavaScript pour le projet patterns, selon les standards Lead Dev/Architecte.
+
+## 1. Points d’entrée et documentation
+- README.md : Présentation, usage, structure, conventions, contacts
+- index.js : Point d’entrée principal pour l’import/export des modules JS
+- js_manifest.json : Manifestes des modules, blueprints, conventions, métadonnées
+- conventions_js.md : Conventions de nommage, structure, bonnes pratiques JS
+- changelog.md : Historique des évolutions du dossier js
+- integration_guide.md : Guide d’intégration multi-stack (React, Node.js, plugins, etc.)
+
+## 2. Modules et blueprints métiers (exemples réels)
+- webApp.js : Blueprint de génération d’applications web (React)
+- backendApi.js : Blueprint de génération d’API backend (Node.js, Flask)
+- mobileApp.js : Blueprint de génération d’applications mobiles (React Native, Flutter)
+- plugin.js : Blueprint de génération de plugins (analytics, CMS, Stripe, etc.)
+- analytics.js : Module d’intégration analytics (trackEvent, analyticsService)
+- seoService.js : Module SEO automatique (balises, sitemap, robots.txt)
+- authService.js : Authentification JWT/OAuth
+- roles.js : Gestion des rôles utilisateurs
+- permissions.js : Gestion des permissions
+- notificationService.js : Notifications (UI, mail, webhook)
+- middleware.js : Middlewares sécurité, CORS, rate limiting
+- validators.js : Validation des entrées, sécurité uploads
+- crypto.js : Chiffrement des données sensibles
+- rgpd.js : RGPD, anonymisation, suppression/export
+- audit.js : Audit, logs structurés
+- monitoring.js : Monitoring, healthcheck
+- scheduler.js : Tâches planifiées
+- migration.js : Gestion des migrations
+
+## 3. Scripts et utilitaires avancés
+- autoGenerate.js : Génération automatique de modules/templates
+- module_utils.js : Fonctions utilitaires JS pour modules patterns
+
+## 4. Accessibilité & DevOps
+- accessibility_guide.md : Guide accessibilité JS (focus, navigation, ARIA)
+- devops_guide.md : Intégration CI/CD, linting, conventions JS
+
+## 5. Guides utilisateurs et développeurs
+- user_guide_fr.md, user_guide_en.md, user_guide_ar.md, user_guide_ber.md, user_guide_de.md, user_guide_es.md, user_guide_it.md, user_guide_pt.md, user_guide_ru.md, user_guide_pl.md, user_guide_tr.md, user_guide_zh.md, user_guide_ja.md, user_guide_ko.md, user_guide_hi.md, user_guide_sw.md, user_guide_uk.md, user_guide_nl.md
+- user_guide_fr_ca.md, user_guide_en_gb.md, user_guide_en_us.md, user_guide_ar_ma.md, user_guide_ar_tn.md, user_guide_ar_dz.md, user_guide_ar_eg.md, user_guide_ber_kab.md, user_guide_ber_rif.md, user_guide_ber_tzm.md, user_guide_ber_cha.md, user_guide_ber_tou.md, user_guide_ber_tac.md, etc.
+- dev_guide.md : Guide développeur JS patterns
+
+## 6. Autres fichiers métiers
+- LICENSE
+- .gitkeep (si besoin pour forcer la présence du dossier)
+
+# Règles
+- Aucun fichier optionnel : tout doit exister, même vide ou avec un exemple métier.
+- Respecter la structure, la nomenclature et les conventions métiers.
+- Ignorer les tests (centralisés ailleurs).
+- Adapter la structure si de nouveaux besoins métiers apparaissent.

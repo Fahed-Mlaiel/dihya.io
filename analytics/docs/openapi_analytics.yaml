@@ -1,0 +1,69 @@
+openapi: 3.0.3
+info:
+  title: Analytics API
+  description: API for analytics module generation including backend, frontend, plugins, and documentation.
+  version: 1.0.0
+  contact:
+    name: Analytics Team
+    email: analytics-team@example.com
+servers:
+  - url: https://api.example.com/v1
+    description: Production server (uses live data)
+
+paths:
+  /events:
+    post:
+      summary: Track an analytics event
+      tags:
+        - Analytics
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AnalyticsEvent'
+      responses:
+        '202':
+          description: Event tracked successfully, processing asynchronously.
+        '400':
+          description: Invalid input provided.
+        '500':
+          description: Internal server error.
+
+components:
+  schemas:
+    AnalyticsEvent:
+      type: object
+      required:
+        - eventType
+        - eventData
+      properties:
+        eventType:
+          type: string
+          description: The type of event to track.
+        eventData:
+          type: object
+          additionalProperties: true
+          description: Arbitrary data associated with the event.
+      example:
+        eventType: "user_signup"
+        eventData:
+          userId: "12345"
+          plan: "pro"
+
+security:
+  - ApiKeyAuth: []
+
+securitySchemes:
+  ApiKeyAuth:
+    type: apiKey
+    in: header
+    name: X-API-KEY
+
+tags:
+  - name: Analytics
+    description: Operations related to analytics events tracking.
+
+externalDocs:
+  description: Find out more about our analytics
+  url: https://example.com/analytics-docs

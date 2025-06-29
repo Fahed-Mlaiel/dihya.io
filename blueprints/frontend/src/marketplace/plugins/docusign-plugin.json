@@ -1,0 +1,21 @@
+{
+  "name": "DocuSign",
+  "type": "signature",
+  "description": "Plugin d’intégration DocuSign (signature électronique, audit, reporting, CI/CD)",
+  "version": "1.0.0",
+  "auteur": "Lead Dev",
+  "date": "2025-06-19",
+  "features": [
+    "Signature électronique",
+    "Audit RGPD",
+    "Reporting avancé",
+    "Intégration CI/CD",
+    "Logs et analytics",
+    "Support multilingue"
+  ],
+  "audit": "100% conforme",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

@@ -1,0 +1,11 @@
+/contracts
+/interfaces
+/libraries
+/scripts
+/tests
+/docs
+hardhat.config.js
+foundry.toml
+truffle-config.js
+README.md
+Dockerfile

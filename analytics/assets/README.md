@@ -1,0 +1,1 @@
+git clone https://github.com/your-repo/analytics-module.git

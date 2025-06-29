@@ -1,0 +1,20 @@
+CHECKLIST STRUCTURE /app/docs (2025)
+
+1. README.md — Présentation du dossier, conventions, liens utiles
+2. architecture.md — Documentation d’architecture technique et fonctionnelle
+3. user_guide.md — Guide utilisateur final (fonctionnalités, navigation, FAQ)
+4. dev_guide.md — Guide développeur (setup, workflow, bonnes pratiques, conventions)
+5. contribution_guide.md — Guide de contribution (PR, code review, conventions commit, etc.)
+6. changelog.md — Journal des modifications (format standardisé)
+7. api_reference.md — Documentation API (exemples d’appels, endpoints, schémas)
+8. templates/
+   └── doc_template.md — Modèle de documentation réutilisable
+9. assets/
+   ├── diagram_architecture.svg — Exemple de diagramme d’architecture
+   └── screenshot_ui.png — Capture d’écran illustrative
+10. index.js — Point d’entrée JS pour automatisations docs (ex: génération, validation)
+11. __init__.py — Point d’entrée Python pour automatisations docs (ex: scripts de génération)
+
+Chaque fichier doit contenir un contenu métier réel ou un exemple prêt à l’emploi. Les sous-dossiers doivent inclure un README.md explicatif.
+
+# Checklist validée pour une documentation professionnelle, industrialisable et maintenable.

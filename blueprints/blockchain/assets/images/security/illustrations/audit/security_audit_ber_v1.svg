@@ -1,0 +1,11 @@
+<!--
+  security_audit_ber_v1.svg
+  Tugna n usenqel n tɣellist blockchain (berbère)
+-->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#e8f7f3"/>
+  <g>
+    <circle cx="100" cy="100" r="80" fill="#7ed957"/>
+    <text x="100" y="110" font-size="28" text-anchor="middle" fill="#222">ⴰⵙⵉⴼⴰⵏ</text>
+  </g>
+</svg>

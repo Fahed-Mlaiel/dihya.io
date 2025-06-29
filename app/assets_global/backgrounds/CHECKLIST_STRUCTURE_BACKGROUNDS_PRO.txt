@@ -1,0 +1,38 @@
+# CHECKLIST_STRUCTURE_BACKGROUNDS_PRO.txt
+
+# Structure professionnelle et exhaustive du dossier /assets_global/backgrounds pour un projet multi-stack, industrialisable, clé en main
+# (Hors tests, selon cahier des charges, état réel et bonnes pratiques)
+
+# Dossier principal
+backgrounds/
+
+# Fichiers recommandés à la racine de backgrounds
+README.md               # Documentation sur la gestion des backgrounds, conventions, droits d'utilisation, usages
+index.js                # (optionnel) Export centralisé des backgrounds pour import facilité dans le code (React, Node.js)
+__init__.py             # (optionnel, si usage Python : permet l'import en tant que module)
+
+# Sous-dossiers types (à adapter selon besoins réels du projet)
+patterns/               # Motifs, textures, patterns réutilisables
+photos/                 # Photos de fond, images réalistes
+illustrations/          # Illustrations vectorielles de fond
+
+# Détail par sous-dossier
+
+patterns/
+    README.md           # Documentation sur les patterns, droits, usages
+    (patterns, textures, fichiers .svg, .png, .webp)
+
+photos/
+    README.md           # Documentation sur les photos de fond, droits, usages
+    (photos, images réalistes, fichiers .jpg, .png, .webp)
+
+illustrations/
+    README.md           # Documentation sur les illustrations de fond, droits, usages
+    (illustrations vectorielles, fichiers .svg, .png)
+
+# Bonnes pratiques :
+# - Ne jamais stocker d'assets inutiles, non utilisés ou non libres de droits
+# - Toujours documenter la provenance et l'usage de chaque asset
+# - Préférer les formats optimisés (webp, SVG, PNG compressé)
+# - Centraliser les exports pour faciliter l'import côté code (index.js)
+# - Respecter la structure pour l'industrialisation (CI/CD, scripts, plugins)

@@ -1,0 +1,20 @@
+{
+  "appConfig": [
+    "global",
+    "langue",
+    "thème",
+    "options"
+  ],
+  "envConfig": [
+    "environnement",
+    "api",
+    "clé",
+    "sécurité"
+  ],
+  "branding": [
+    "logo",
+    "couleur",
+    "police",
+    "identité"
+  ]
+}

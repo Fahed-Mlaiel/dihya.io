@@ -1,0 +1,17 @@
+CHECKLIST_STRUCTURE_ROLES_PERMISSIONS_PNG.txt
+
+# Checklist professionnelle – Dossier roles_permissions/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour la gestion des rôles et permissions du projet patterns.
+
+## 1. Exemples d’usages
+- roles_icon.png : Icône rôles
+- permissions_icon.png : Icône permissions
+- roles_schema.png : Schéma rôles
+- permissions_schema.png : Schéma permissions
+- roles_permissions_custom_v1.png : Asset personnalisé rôles/permissions
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : roles_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux rôles et permissions

@@ -1,0 +1,7 @@
+{
+  "defaultPattern": "pattern_example_1",
+  "availablePatterns": [
+    "pattern_example_1",
+    "pattern_example_2"
+  ]
+}

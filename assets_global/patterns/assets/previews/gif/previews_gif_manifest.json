@@ -1,0 +1,18 @@
+{
+  "name": "previews_gif_manifest",
+  "description": "Manifeste des GIFs de preview pour les assets de patterns.",
+  "gifs": [
+    {
+      "file": "preview1.gif",
+      "usage": "Aperçu d’un composant UI animé.",
+      "accessibility": "Alternatives textuelles multilingues.",
+      "languages": ["fr", "en", "ar", "ber", "es", "de", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl"]
+    },
+    {
+      "file": "preview2.gif",
+      "usage": "Aperçu d’un branding animé.",
+      "accessibility": "Alternatives textuelles multilingues.",
+      "languages": ["fr", "en", "ar", "ber", "es", "de", "it", "pt", "ru", "pl", "tr", "zh", "ja", "ko", "hi", "sw", "uk", "nl"]
+    }
+  ]
+}

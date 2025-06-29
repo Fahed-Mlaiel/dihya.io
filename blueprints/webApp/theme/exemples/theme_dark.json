@@ -1,0 +1,25 @@
+{
+  "palette": {
+    "primary": "#222",
+    "secondary": "#FFD700",
+    "background": "#111",
+    "text": "#f5f5f5",
+    "accent": "#00B8D4",
+    "success": "#43A047",
+    "warning": "#FFA000",
+    "error": "#D32F2F",
+    "info": "#0288D1"
+  },
+  "branding": {
+    "logo": "/assets/logo-dark.svg",
+    "fontFamily": "'Fira Sans', Arial, sans-serif",
+    "borderRadius": "10px",
+    "favicon": "/assets/favicon-dark.ico"
+  },
+  "meta": {
+    "author": "Lead Dev",
+    "version": "1.0.0",
+    "wcag": "AA",
+    "description": "Thème sombre, confort visuel, accessibilité maximale, branding customisable."
+  }
+}

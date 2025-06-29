@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    {"name": "analytics", "file": "analytics_plugin.py", "description": "Plugin analytics IA"},
+    {"name": "cms", "file": "cms_plugin.py", "description": "Plugin CMS IA"},
+    {"name": "stripe", "file": "stripe_plugin.py", "description": "Plugin Stripe IA"}
+  ]
+}

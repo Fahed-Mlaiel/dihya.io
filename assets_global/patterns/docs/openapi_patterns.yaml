@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: API Patterns
+  version: 1.0.0
+description: |
+  Spécification OpenAPI pour l’API de gestion des patterns (exemple, à adapter selon le backend réel).
+paths:
+  /patterns:
+    get:
+      summary: Liste tous les patterns disponibles
+      responses:
+        '200':
+          description: Liste des patterns

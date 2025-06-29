@@ -1,0 +1,22 @@
+{
+  "DashboardTemplate": [
+    "dashboard",
+    "layout",
+    "admin"
+  ],
+  "MarketplaceTemplate": [
+    "marketplace",
+    "plugins",
+    "ecommerce"
+  ],
+  "ProfileTemplate": [
+    "profil",
+    "utilisateur",
+    "settings"
+  ],
+  "AuthTemplate": [
+    "auth",
+    "login",
+    "register"
+  ]
+}

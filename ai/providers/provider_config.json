@@ -1,0 +1,7 @@
+{
+  "providers": [
+    {"name": "openai", "file": "openai_provider.py", "description": "Provider OpenAI"},
+    {"name": "huggingface", "file": "huggingface_provider.py", "description": "Provider HuggingFace"},
+    {"name": "azure", "file": "azure_provider.py", "description": "Provider Azure AI"}
+  ]
+}

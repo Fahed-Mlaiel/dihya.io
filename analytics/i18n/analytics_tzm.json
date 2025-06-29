@@ -1,0 +1,26 @@
+{
+  "analytics": {
+    "dashboard": "ⴰⵙⵎⴰⵏ ⵏ ⵜⵉⵎⵉⵣⵔⵉ",
+    "realtime_users": "ⵉⵎⴰⵍⴰⵙⵏ ⴰⵙⴰⵏⴰⴷ",
+    "visits": "ⵜⵉⵣⵣⵉⵔⵉⵏ",
+    "page_views": "ⵜⵉⵍⴰⵡⵉⵏ ⵜⵉⵎⵣⵔⵉⵏ",
+    "new_users": "ⵉⵎⴰⵍⴰⵙⵏ ⴰⵎⴰⵢⵏⵓ",
+    "bounce_rate": "ⴰⵙⵏⴰⴼⵓ ⵏ ⵜⵉⵣⵣⵉⵔⵉⵏ",
+    "traffic_sources": "ⵉⵎⴰⵍⴰⵙⵏ ⵏ ⵜⵉⵍⴰⵡⵜ",
+    "sessions": "ⵜⵉⵎⵣⵔⵉⵏ",
+    "session_duration": "ⵜⴰⵡⵉⵍⵜ ⵏ ⵜⵉⵎⵣⵔⵉ",
+    "goal_conversion_rate": "ⴰⵙⵏⴰⴼⵓ ⵏ ⵜⴰⵎⵏⴰⵔⵜ ⵏ ⵜⴰⵏⴰⵎⵜ",
+    "campaign_performance": "ⴰⵙⵏⴰⴼⵓ ⵏ ⵜⴰⵙⵙⴰⵎⵜ",
+    "top_referrers": "ⵜⴰⵎⵏⴰⵔⵜ ⵏ ⵜⴰⵙⵙⴰⵎⵜ",
+    "keywords": "ⵜⴰⵙⴽⴰⵢⵜⵉⵏ",
+    "click_through_rate": "ⴰⵙⵏⴰⴼⵓ ⵏ ⵜⵉⵙⵙⵉⵏⵜ",
+    "search_queries": "ⵜⴰⵙⵏⴰⴼⵜ ⵏ ⵜⵉⵍⴰⵡⵉⵏ",
+    "error_rate": "ⴰⵙⵏⴰⴼⵓ ⵏ ⵜⵉⵍⴰⵍⵉⵜ",
+    "response_times": "ⴰⵙⴰⵏⴰⴷ ⵏ ⵜⵉⵍⴰⵍⵉⵜ",
+    "custom_metrics": "ⵜⵉⵎⵣⵔⵉⵏ ⵜⵉⵙⵙⵉⵏⵜ",
+    "user_behavior": "ⴰⵙⵙⴰⵏⴰⴷ ⵏ ⵉⵎⴰⵍⴰⵙⵏ",
+    "conversion_paths": "ⵉⵣⵣⵉⵖⵏ ⵏ ⵜⴰⵎⵏⴰⵔⵜ",
+    "load_performance": "ⴰⵙⵏⴰⴼⵓ ⵏ ⵜⴰⵙⵙⴰⵎⵜ",
+    "custom_reports": "ⵜⴰⵙⵙⴰⵎⵜ ⵜⵉⵙⵙⵉⵏⵜ"
+  }
+}

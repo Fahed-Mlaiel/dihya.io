@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_VALIDATORS_PNG.txt
+
+# Checklist professionnelle – Dossier validators/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour la validation du projet patterns.
+
+## 1. Exemples d’usages
+- validator_icon.png : Icône validation
+- validator_badge.png : Badge validation
+- validator_schema.png : Schéma validation
+- validator_custom_v1.png : Asset personnalisé validation
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : validator_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés à la validation

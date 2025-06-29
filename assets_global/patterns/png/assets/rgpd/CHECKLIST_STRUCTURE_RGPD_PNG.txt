@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_RGPD_PNG.txt
+
+# Checklist professionnelle – Dossier rgpd/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour la conformité RGPD du projet patterns.
+
+## 1. Exemples d’usages
+- rgpd_icon.png : Icône RGPD
+- rgpd_schema.png : Schéma RGPD
+- rgpd_badge.png : Badge RGPD
+- rgpd_custom_v1.png : Asset personnalisé RGPD
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : rgpd_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés à la conformité RGPD

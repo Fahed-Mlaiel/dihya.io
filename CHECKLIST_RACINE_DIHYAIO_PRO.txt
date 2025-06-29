@@ -1,0 +1,428 @@
+# CHECKLIST_RACINE_DIHYAIO_PRO.txt
+
+# Checklist racine professionnelle (Lead Dev)
+# Modules/fichiers/dossiers à la racine pour répondre à 100% au cahier des charges
+# (tests ignorés, langues européennes + principales langues mondiales + dialectes inclus)
+
+# Dossiers principaux (multi-stack, industrialisation, extensibilité)
+analytics/
+app/
+assets/
+audit/
+backend/
+backup/
+blueprints/
+branding/
+devops/                # Scripts, configs, CI/CD, Docker, K8s, Terraform centralisés
+blockchain/            # Génération blockchain Solidity
+mobile/                # Génération mobile Flutter/React Native
+marketplace/           # UI + API pour plugins/templates
+security/              # Sécurité globale, firewall, WAF, centralisation
+monitoring/            # Monitoring global, alertes, healthchecks
+scheduler/             # Tâches planifiées globales
+notification/          # Services de notification globaux
+roles_permissions/     # Gestion centralisée des rôles/permissions
+rgpd/                  # Scripts, docs, configs RGPD globaux
+i18n/                  # Fichiers de traduction globaux, autoTranslate, dialectes
+plugins/               # Plugins globaux, gestion centralisée
+migrations/            # Migrations globales (si besoin)
+assets_global/         # Assets partagés multi-stack
+seo/                   # SEO global, sitemap, robots.txt, balises
+scripts/
+templates/
+docs/
+incident_handler/
+linting/
+
+# Fichiers racine essentiels
+README.md
+README_fr.md
+README_en.md
+README_ar.md
+.gitignore
+.env.example
+docker-compose.yml
+.prettierrc
+.eslintrc.js
+.editorconfig
+openapi.yaml           # Doc API globale
+architecture.md        # Doc architecture globale
+user_guide.md          # Doc utilisateur globale
+dev_guide.md           # Doc développeur globale
+charte_graphique.md    # Branding global
+
+# i18n/ (langues européennes, mondiales, dialectes)
+i18n/ar.json
+ i18n/ar.js
+ i18n/ar.yaml
+ i18n/ar.txt
+ i18n/en.json
+ i18n/en.js
+ i18n/en.yaml
+ i18n/en.txt
+ i18n/fr.json
+ i18n/fr.js
+ i18n/fr.yaml
+ i18n/fr.txt
+ i18n/de.json
+ i18n/de.js
+ i18n/de.yaml
+ i18n/de.txt
+ i18n/es.json
+ i18n/es.js
+ i18n/es.yaml
+ i18n/es.txt
+ i18n/it.json
+ i18n/it.js
+ i18n/it.yaml
+ i18n/it.txt
+ i18n/pt.json
+ i18n/pt.js
+ i18n/pt.yaml
+ i18n/pt.txt
+ i18n/nl.json
+ i18n/nl.js
+ i18n/nl.yaml
+ i18n/nl.txt
+ i18n/ru.json
+ i18n/ru.js
+ i18n/ru.yaml
+ i18n/ru.txt
+ i18n/zh.json
+ i18n/zh.js
+ i18n/zh.yaml
+ i18n/zh.txt
+ i18n/ja.json
+ i18n/ja.js
+ i18n/ja.yaml
+ i18n/ja.txt
+ i18n/hi.json
+ i18n/hi.js
+ i18n/hi.yaml
+ i18n/hi.txt
+ i18n/ber.json
+ i18n/ber.js
+ i18n/ber.yaml
+ i18n/ber.txt
+ i18n/kab.json
+ i18n/kab.js
+ i18n/kab.yaml
+ i18n/kab.txt
+ i18n/rif.json
+ i18n/rif.js
+ i18n/rif.yaml
+ i18n/rif.txt
+ i18n/tac.json
+ i18n/tac.js
+ i18n/tac.yaml
+ i18n/tac.txt
+ i18n/tzm.json
+ i18n/tzm.js
+ i18n/tzm.yaml
+ i18n/tzm.txt
+ i18n/sv.json
+ i18n/sv.js
+ i18n/sv.yaml
+ i18n/sv.txt
+ i18n/no.json
+ i18n/no.js
+ i18n/no.yaml
+ i18n/no.txt
+ i18n/fi.json
+ i18n/fi.js
+ i18n/fi.yaml
+ i18n/fi.txt
+ i18n/pl.json
+ i18n/pl.js
+ i18n/pl.yaml
+ i18n/pl.txt
+ i18n/tr.json
+ i18n/tr.js
+ i18n/tr.yaml
+ i18n/tr.txt
+ i18n/uk.json
+ i18n/uk.js
+ i18n/uk.yaml
+ i18n/uk.txt
+ i18n/el.json
+ i18n/el.js
+ i18n/el.yaml
+ i18n/el.txt
+ i18n/ko.json
+ i18n/ko.js
+ i18n/ko.yaml
+ i18n/ko.txt
+ i18n/ur.json
+ i18n/ur.js
+ i18n/ur.yaml
+ i18n/ur.txt
+ i18n/fa.json
+ i18n/fa.js
+ i18n/fa.yaml
+ i18n/fa.txt
+ i18n/id.json
+ i18n/id.js
+ i18n/id.yaml
+ i18n/id.txt
+ i18n/ms.json
+ i18n/ms.js
+ i18n/ms.yaml
+ i18n/ms.txt
+ i18n/vi.json
+ i18n/vi.js
+ i18n/vi.yaml
+ i18n/vi.txt
+ i18n/th.json
+ i18n/th.js
+ i18n/th.yaml
+ i18n/th.txt
+ i18n/ro.json
+ i18n/ro.js
+ i18n/ro.yaml
+ i18n/ro.txt
+ i18n/bg.json
+ i18n/bg.js
+ i18n/bg.yaml
+ i18n/bg.txt
+ i18n/cs.json
+ i18n/cs.js
+ i18n/cs.yaml
+ i18n/cs.txt
+ i18n/hu.json
+ i18n/hu.js
+ i18n/hu.yaml
+ i18n/hu.txt
+ i18n/sk.json
+ i18n/sk.js
+ i18n/sk.yaml
+ i18n/sk.txt
+ i18n/da.json
+ i18n/da.js
+ i18n/da.yaml
+ i18n/da.txt
+ i18n/sr.json
+ i18n/sr.js
+ i18n/sr.yaml
+ i18n/sr.txt
+ i18n/hr.json
+ i18n/hr.js
+ i18n/hr.yaml
+ i18n/hr.txt
+ i18n/sl.json
+ i18n/sl.js
+ i18n/sl.yaml
+ i18n/sl.txt
+ i18n/et.json
+ i18n/et.js
+ i18n/et.yaml
+ i18n/et.txt
+ i18n/lt.json
+ i18n/lt.js
+ i18n/lt.yaml
+ i18n/lt.txt
+ i18n/lv.json
+ i18n/lv.js
+ i18n/lv.yaml
+ i18n/lv.txt
+ i18n/mt.json
+ i18n/mt.js
+ i18n/mt.yaml
+ i18n/mt.txt
+ i18n/ga.json
+ i18n/ga.js
+ i18n/ga.yaml
+ i18n/ga.txt
+ i18n/cy.json
+ i18n/cy.js
+ i18n/cy.yaml
+ i18n/cy.txt
+ i18n/is.json
+ i18n/is.js
+ i18n/is.yaml
+ i18n/is.txt
+ i18n/mk.json
+ i18n/mk.js
+ i18n/mk.yaml
+ i18n/mk.txt
+ i18n/bs.json
+ i18n/bs.js
+ i18n/bs.yaml
+ i18n/bs.txt
+ i18n/af.json
+ i18n/af.js
+ i18n/af.yaml
+ i18n/af.txt
+ i18n/zu.json
+ i18n/zu.js
+ i18n/zu.yaml
+ i18n/zu.txt
+ i18n/sw.json
+ i18n/sw.js
+ i18n/sw.yaml
+ i18n/sw.txt
+ i18n/ha.json
+ i18n/ha.js
+ i18n/ha.yaml
+ i18n/ha.txt
+ i18n/yo.json
+ i18n/yo.js
+ i18n/yo.yaml
+ i18n/yo.txt
+ i18n/ig.json
+ i18n/ig.js
+ i18n/ig.yaml
+ i18n/ig.txt
+ i18n/am.json
+ i18n/am.js
+ i18n/am.yaml
+ i18n/am.txt
+ i18n/om.json
+ i18n/om.js
+ i18n/om.yaml
+ i18n/om.txt
+ i18n/so.json
+ i18n/so.js
+ i18n/so.yaml
+ i18n/so.txt
+ i18n/pa.json
+ i18n/pa.js
+ i18n/pa.yaml
+ i18n/pa.txt
+ i18n/bn.json
+ i18n/bn.js
+ i18n/bn.yaml
+ i18n/bn.txt
+ i18n/ta.json
+ i18n/ta.js
+ i18n/ta.yaml
+ i18n/ta.txt
+ i18n/te.json
+ i18n/te.js
+ i18n/te.yaml
+ i18n/te.txt
+ i18n/ml.json
+ i18n/ml.js
+ i18n/ml.yaml
+ i18n/ml.txt
+ i18n/kn.json
+ i18n/kn.js
+ i18n/kn.yaml
+ i18n/kn.txt
+ i18n/mr.json
+ i18n/mr.js
+ i18n/mr.yaml
+ i18n/mr.txt
+ i18n/gu.json
+ i18n/gu.js
+ i18n/gu.yaml
+ i18n/gu.txt
+ i18n/ur.json
+ i18n/ur.js
+ i18n/ur.yaml
+ i18n/ur.txt
+ i18n/ps.json
+ i18n/ps.js
+ i18n/ps.yaml
+ i18n/ps.txt
+ i18n/ne.json
+ i18n/ne.js
+ i18n/ne.yaml
+ i18n/ne.txt
+ i18n/si.json
+ i18n/si.js
+ i18n/si.yaml
+ i18n/si.txt
+ i18n/my.json
+ i18n/my.js
+ i18n/my.yaml
+ i18n/my.txt
+ i18n/km.json
+ i18n/km.js
+ i18n/km.yaml
+ i18n/km.txt
+ i18n/lo.json
+ i18n/lo.js
+ i18n/lo.yaml
+ i18n/lo.txt
+ i18n/th.json
+ i18n/th.js
+ i18n/th.yaml
+ i18n/th.txt
+ i18n/vi.json
+ i18n/vi.js
+ i18n/vi.yaml
+ i18n/vi.txt
+ i18n/id.json
+ i18n/id.js
+ i18n/id.yaml
+ i18n/id.txt
+ i18n/ms.json
+ i18n/ms.js
+ i18n/ms.yaml
+ i18n/ms.txt
+ i18n/fil.json
+ i18n/fil.js
+ i18n/fil.yaml
+ i18n/fil.txt
+ i18n/jv.json
+ i18n/jv.js
+ i18n/jv.yaml
+ i18n/jv.txt
+ i18n/su.json
+ i18n/su.js
+ i18n/su.yaml
+ i18n/su.txt
+ i18n/bug.json
+ i18n/bug.js
+ i18n/bug.yaml
+ i18n/bug.txt
+ i18n/min.json
+ i18n/min.js
+ i18n/min.yaml
+ i18n/min.txt
+ i18n/ace.json
+ i18n/ace.js
+ i18n/ace.yaml
+ i18n/ace.txt
+ i18n/betawi.json
+ i18n/betawi.js
+ i18n/betawi.yaml
+ i18n/betawi.txt
+ i18n/mad.json
+ i18n/mad.js
+ i18n/mad.yaml
+ i18n/mad.txt
+ i18n/bal.json
+ i18n/bal.js
+ i18n/bal.yaml
+ i18n/bal.txt
+ i18n/sasak.json
+ i18n/sasak.js
+ i18n/sasak.yaml
+ i18n/sasak.txt
+ i18n/bima.json
+ i18n/bima.js
+ i18n/bima.yaml
+ i18n/bima.txt
+ i18n/banjar.json
+ i18n/banjar.js
+ i18n/banjar.yaml
+ i18n/banjar.txt
+ i18n/dayak.json
+ i18n/dayak.js
+ i18n/dayak.yaml
+ i18n/dayak.txt
+ i18n/toraja.json
+ i18n/toraja.js
+ i18n/toraja.yaml
+ i18n/toraja.txt
+ i18n/ambonese.json
+ i18n/ambonese.js
+ i18n/ambonese.yaml
+ i18n/ambonese.txt
+ i18n/papuan.json
+ i18n/papuan.js
+ i18n/papuan.yaml
+ i18n/papuan.txt
+
+# FIN DE LA CHECKLIST

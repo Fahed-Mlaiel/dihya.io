@@ -1,0 +1,10 @@
+# Configuration Ressources Humaines
+nom: ressources_humaines
+plugins:
+  - paie
+  - analytics
+  - recrutement
+dependances:
+  - flask
+  - sqlalchemy
+rgpd: True

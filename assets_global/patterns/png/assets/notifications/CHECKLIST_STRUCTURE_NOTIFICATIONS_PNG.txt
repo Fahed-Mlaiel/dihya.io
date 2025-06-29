@@ -1,0 +1,16 @@
+CHECKLIST_STRUCTURE_NOTIFICATIONS_PNG.txt
+
+# Checklist professionnelle – Dossier notifications/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour les notifications du projet patterns.
+
+## 1. Exemples d’usages
+- notification_icon.png : Icône notification
+- notification_badge.png : Badge notification
+- notification_alert.png : Icône d’alerte notification
+- notification_custom_v1.png : Asset personnalisé notification
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : notification_icon_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux notifications

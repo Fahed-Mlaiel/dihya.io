@@ -1,0 +1,21 @@
+CHECKLIST_STRUCTURE_AI_ASSETS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/assets (Assets IA)
+
+1. ai_logo.svg – Logo IA vectoriel (SVG)
+2. ai_icon.png – Icône IA (PNG)
+3. ai_banner.jpg – Bannière IA (JPG)
+4. ai_avatar.webp – Avatar IA (WEBP)
+5. ai_screenshot1.png – Capture d’écran IA (PNG)
+6. ai_screenshot2.png – Capture d’écran IA (PNG)
+7. README.md – Présentation, conventions, index des assets IA
+8. index.js – (si besoin d’exporter des assets JS)
+9. __init__.py – (si besoin d’outils Python pour les assets)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type d’asset (SVG, PNG, JPG, WEBP…)
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux assets.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

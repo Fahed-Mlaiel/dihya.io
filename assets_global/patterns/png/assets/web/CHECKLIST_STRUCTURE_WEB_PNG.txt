@@ -1,0 +1,17 @@
+CHECKLIST_STRUCTURE_WEB_PNG.txt
+
+# Checklist professionnelle – Dossier web/ (PNG patterns)
+
+Ce dossier accueille tous les fichiers PNG pour les applications web du projet patterns.
+
+## 1. Exemples d’usages
+- web_ui.png : UI web
+- web_icon.png : Icône web
+- web_illustration.png : Illustration web
+- web_background.png : Background web
+- web_custom_v1.png : Asset personnalisé web
+
+## 2. Bonnes pratiques
+- Nommer explicitement chaque fichier PNG (ex : web_ui_v2.png)
+- Ajouter un README.md pour décrire chaque usage ou sous-dossier créé
+- Ne stocker ici que des PNG liés aux applications web

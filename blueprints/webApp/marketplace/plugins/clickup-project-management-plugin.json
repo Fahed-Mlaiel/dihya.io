@@ -1,0 +1,23 @@
+{
+  "name": "ClickUp Project Management",
+  "type": "project-management",
+  "description": "ClickUp-Integration: Aufgaben, Boards, Automatisierung, Webhooks, Reporting, Audit- und CI/CD-ready.",
+  "version": "1.0.0",
+  "author": "LeadDev",
+  "date": "2025-06-19",
+  "features": [
+    "Aufgaben- und Board-Management",
+    "Automatisierte Workflows",
+    "Benutzer- und Rechteverwaltung",
+    "Webhooks und Integrationen",
+    "Reporting und Analytics",
+    "Audit-Logging",
+    "CI/CD-Deployment",
+    "DSGVO/GDPR-konform"
+  ],
+  "audit_status": "audited",
+  "meta": {
+    "ci_cd": true,
+    "last_update": "2025-06-19"
+  }
+}

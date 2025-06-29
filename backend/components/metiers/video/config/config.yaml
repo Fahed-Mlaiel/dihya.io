@@ -1,0 +1,10 @@
+# Configuration Vidéo
+nom: video
+plugins:
+  - streaming
+  - analytics
+  - video
+dependances:
+  - flask
+  - ffmpeg
+rgpd: True

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap für das Culture-Modul (Dihya)
+  - Dynamisch generierbar, mehrsprachig, SEO-optimiert
+  - Beispiel-URLs, Hinweise zu Plugins/Mandantenfähigkeit
+  - Siehe guides/policy.md und RGPD_GUIDE.md für Compliance
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Beispiel für eine mehrsprachige URL -->
+  <url>
+    <loc>https://example.com/de/culture/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/culture/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/en/culture/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/culture/" />
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Beispiel für eine dynamisch generierte URL (Mandant/Plugin) -->
+  <url>
+    <loc>https://example.com/mandant-a/culture/</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Beispiel für eine API-Dokumentation (optional, wenn öffentlich) -->
+  <url>
+    <loc>https://example.com/api/docs/</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <!-- Hinweise für Entwickler:innen:
+    - URLs dynamisch generieren (z.B. per CI/CD, Plugin, Mandant)
+    - lastmod automatisiert setzen
+    - hreflang für alle unterstützten Sprachen
+    - Bei Multimandantenfähigkeit: eigene Sitemaps pro Mandant
+    - Siehe guides/policy.md und RGPD_GUIDE.md für Compliance
+  -->
+</urlset>

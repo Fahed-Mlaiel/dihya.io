@@ -1,0 +1,149 @@
+Créer un fichier `deployment.yaml` complet et prêt à l'emploi pour un système d'analytique modulaire implique de définir une configuration pour orchestrer les différents composants (backend, frontend, plugins, documentation, internationalisation, etc.) dans un environnement de production. Cependant, il est important de noter que le fichier `deployment.yaml` seul ne peut pas contenir tout le code métier pour les technologies mentionnées (Python, JS, React, Node.js, etc.). Le fichier `deployment.yaml` est généralement utilisé avec Kubernetes pour décrire comment déployer et gérer des applications.
+
+Voici un exemple de fichier `deployment.yaml` qui définit les déploiements pour un backend en Python (Flask), un frontend en React, et un service Node.js pour les plugins. Ce fichier suppose que les images Docker pour chaque service ont déjà été créées et sont prêtes à être déployées.
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: analytics-backend
+  labels:
+    app: analytics
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: analytics
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: analytics
+        tier: backend
+    spec:
+      containers:
+      - name: analytics-backend
+        image: myregistry/analytics-backend:latest
+        ports:
+        - containerPort: 5000
+        env:
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        - name: FLASK_ENV
+          value: "production"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 5000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: analytics-frontend
+  labels:
+    app: analytics
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: analytics
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        app: analytics
+        tier: frontend
+    spec:
+      containers:
+      - name: analytics-frontend
+        image: myregistry/analytics-frontend:latest
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 30
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 3000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: analytics-plugins
+  labels:
+    app: analytics
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: analytics
+      tier: plugins
+  template:
+    metadata:
+      labels:
+        app: analytics
+        tier: plugins
+    spec:
+      containers:
+      - name: analytics-plugins
+        image: myregistry/analytics-plugins:latest
+        ports:
+        - containerPort: 4000
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 4000
+          initialDelaySeconds: 30
+          periodSeconds: 30
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 4000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+```
+
+Ce fichier `deployment.yaml` est un exemple de configuration pour Kubernetes qui définit trois déploiements distincts pour le backend, le frontend et les plugins. Chaque déploiement spécifie le nombre de réplicas, les étiquettes pour le sélecteur, le conteneur à exécuter, l'image Docker à utiliser, les ports à exposer, les ressources (CPU et mémoire) à allouer et les sondes de vivacité et de disponibilité.
+
+Pour que ce fichier soit réellement "production ready", vous devrez remplacer `myregistry/analytics-backend:latest`, `myregistry/analytics-frontend:latest`, et `myregistry/analytics-plugins:latest` avec les chemins de vos images Docker réelles, et ajuster les ressources et les sondes selon les besoins de votre application.
+
+En outre, pour une solution complète, vous auriez besoin de fichiers supplémentaires pour configurer les services, les ingress, les volumes persistants, les secrets (pour les données sensibles), et d'autres aspects de l'infrastructure. Vous devriez également avoir un pipeline CI/CD pour construire et déployer automatiquement ces images Docker, ainsi que des tests automatisés pour s'assurer que le code est sûr et conforme aux normes avant le déploiement.

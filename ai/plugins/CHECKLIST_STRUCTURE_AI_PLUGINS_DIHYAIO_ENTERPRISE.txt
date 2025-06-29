@@ -1,0 +1,19 @@
+CHECKLIST_STRUCTURE_AI_PLUGINS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /ai/plugins (Plugins IA)
+
+1. analytics_plugin.py – Plugin analytics IA
+2. cms_plugin.py – Plugin CMS IA
+3. stripe_plugin.py – Plugin Stripe IA
+4. plugin_config.json – Config globale des plugins IA
+5. README.md – Présentation, conventions, index des plugins IA
+6. index.js – (export JS des plugins)
+7. __init__.py – (outils Python pour les plugins)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type de plugin listé.
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux plugins.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

@@ -1,0 +1,34 @@
+CHECKLIST STRUCTURE /assets_global/patterns (PRO)
+
+1. README.md — Documentation complète du dossier patterns, conventions, usages, exemples d’intégration.
+2. index.js — Point d’entrée JS pour l’import/export de tous les patterns.
+3. __init__.py — Point d’entrée Python pour l’import de patterns côté backend.
+4. patterns_list.json — Liste structurée de tous les patterns disponibles (nom, type, format, tags, preview, description, chemin).
+5. patterns.config.js — Fichier de configuration JS pour la gestion/chargement dynamique des patterns côté frontend.
+6. patterns.config.json — Fichier de configuration JSON pour la gestion côté backend ou outils externes.
+7. patterns.module.js — Module JS d’export/import de patterns, fonctions utilitaires (getPattern, listPatterns, etc.).
+8. patterns.module.py — Module Python d’accès aux patterns, fonctions utilitaires (get_pattern, list_patterns, etc.).
+9. patterns_examples.md — Documentation illustrée d’exemples d’utilisation des patterns (code, screenshots, intégration UI).
+10. svg/ — Dossier contenant tous les patterns au format SVG.
+    - pattern_example_1.svg
+    - pattern_example_2.svg
+11. png/ — Dossier contenant tous les patterns au format PNG.
+    - pattern_example_1.png
+    - pattern_example_2.png
+12. json/ — Dossier contenant des patterns ou presets au format JSON.
+    - pattern_preset_1.json
+    - pattern_preset_2.json
+13. js/ — Dossier contenant des patterns dynamiques ou générés en JS.
+    - pattern_dynamic_1.js
+    - pattern_dynamic_2.js
+14. docs/ — Documentation technique et guides d’intégration des patterns.
+    - integration_guide.md
+    - patterns_reference.md
+15. assets/ — Dossier pour assets complémentaires (miniatures, previews, etc.).
+    - preview_pattern_1.png
+    - preview_pattern_2.svg
+16. i18n/ — Fichiers de traduction pour les patterns (fr, en, ar, ber).
+    - patterns_fr.json
+    - patterns_en.json
+    - patterns_ar.json
+    - patterns_ber.json

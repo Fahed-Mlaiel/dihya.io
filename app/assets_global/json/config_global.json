@@ -1,0 +1,11 @@
+{
+  "theme": "amazigh",
+  "branding": {
+    "logo": "logo.svg",
+    "couleurs": ["#FFDD00", "#0057B7"]
+  },
+  "options_ui": {
+    "dark_mode": true,
+    "langues": ["fr", "en", "ar", "ber", "de", "es", "it", "zh"]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "pattern_example_1",
+    "type": "svg",
+    "format": "svg",
+    "tags": ["abstract", "background"],
+    "preview": "assets/preview_pattern_1.png",
+    "description": "Motif abstrait pour arrière-plan clair.",
+    "path": "svg/pattern_example_1.svg"
+  },
+  {
+    "name": "pattern_example_2",
+    "type": "png",
+    "format": "png",
+    "tags": ["geometric", "tile"],
+    "preview": "assets/preview_pattern_2.svg",
+    "description": "Motif géométrique répétable.",
+    "path": "png/pattern_example_2.png"
+  }
+]

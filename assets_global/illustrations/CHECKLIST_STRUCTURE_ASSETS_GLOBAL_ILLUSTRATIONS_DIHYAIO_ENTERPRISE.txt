@@ -1,0 +1,28 @@
+CHECKLIST_STRUCTURE_ASSETS_GLOBAL_ILLUSTRATIONS_DIHYAIO_ENTERPRISE.txt
+
+# Checklist professionnelle – Structure du dossier /assets_global/illustrations (Illustrations globales)
+
+1. illustrations_list.json – Index/description de toutes les illustrations
+2. illustration_welcome.svg – Illustration page d’accueil (SVG)
+3. illustration_error.svg – Illustration page d’erreur (SVG)
+4. illustration_empty.svg – Illustration état vide (SVG)
+5. illustration_success.svg – Illustration succès (SVG)
+6. illustration_maintenance.svg – Illustration maintenance (SVG)
+7. illustration_ai.svg – Illustration intelligence artificielle (SVG)
+8. illustration_security.svg – Illustration sécurité (SVG)
+9. illustration_marketplace.svg – Illustration marketplace (SVG)
+10. illustration_backup.svg – Illustration backup (SVG)
+11. illustration_notification.svg – Illustration notification (SVG)
+12. illustration_upload.svg – Illustration upload (SVG)
+13. illustration_download.svg – Illustration download (SVG)
+14. README.md – Présentation, conventions, index des illustrations
+15. index.js – (export JS des illustrations)
+16. __init__.py – (outils Python pour les illustrations)
+
+# Règles Lead Dev
+- Aucun fichier « optionnel » : tout ce qui est listé doit exister.
+- README.md obligatoire pour chaque dossier métier.
+- Exemples métiers réels pour chaque type d’illustration (SVG)
+- Points d’entrée (index.js, __init__.py) si besoin d’outils/scripts liés aux illustrations.
+- Structure prête à l’industrialisation, clé en main, sans rien d’inutile ni de manquant.
+- Tests ignorés ici (centralisation ultérieure).

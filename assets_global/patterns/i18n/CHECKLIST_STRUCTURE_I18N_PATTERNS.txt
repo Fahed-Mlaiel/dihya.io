@@ -1,0 +1,43 @@
+CHECKLIST_STRUCTURE_I18N_PATTERNS.txt
+
+# Checklist professionnelle – Structure exhaustive du dossier i18n (patterns)
+
+Ce dossier doit contenir tous les fichiers et points d’entrée nécessaires à l’internationalisation avancée, multi-stack, multi-plateforme et multi-dialectale du projet, selon les standards Lead Dev/Architecte.
+
+## 1. Points d’entrée et documentation
+- README.md : Présentation, usage, structure, conventions, contacts
+- index.js : Point d’entrée JS pour import/export dynamique des fichiers i18n
+- __init__.py : Point d’entrée Python pour import dynamique des fichiers i18n
+- i18n_manifest.json : Manifestes des langues, dialectes, métadonnées, conventions
+- conventions_i18n.md : Conventions de nommage, structure, bonnes pratiques
+- changelog.md : Historique des évolutions du dossier i18n
+- integration_guide.md : Guide d’intégration multi-stack (React, Flask, Node.js, etc.)
+
+## 2. Fichiers de traduction (exhaustif, un par langue/dialecte)
+- i18n_fr.json, i18n_en.json, i18n_ar.json, i18n_de.json, i18n_ber.json, i18n_es.json, i18n_it.json, i18n_pt.json, i18n_ru.json, i18n_pl.json, i18n_tr.json, i18n_zh.json, i18n_ja.json, i18n_ko.json, i18n_hi.json, i18n_sw.json, i18n_uk.json, i18n_nl.json
+- Variantes/dialectes : i18n_fr_ca.json, i18n_en_gb.json, i18n_en_us.json, i18n_ar_ma.json, i18n_ar_tn.json, i18n_ar_dz.json, i18n_ar_eg.json, i18n_ber_kab.json, i18n_ber_rif.json, i18n_ber_tzm.json, i18n_ber_cha.json, i18n_ber_tou.json, i18n_ber_tac.json, etc.
+
+## 3. Scripts et modules avancés
+- autoTranslate.js : Script de traduction automatique IA
+- dialectSupport.js : Gestion dynamique des variantes et dialectes
+- i18n.js : Module d’accès centralisé aux traductions
+- i18n_utils.py : Utilitaires Python pour chargement, validation, fallback
+
+## 4. Accessibilité & DevOps
+- accessibility_guide.md : Guide accessibilité i18n (contrastes, ARIA, navigation)
+- devops_guide.md : Intégration CI/CD, validation, linting, conventions
+
+## 5. Guides utilisateurs et développeurs
+- user_guide_fr.md, user_guide_en.md, user_guide_ar.md, user_guide_ber.md, user_guide_de.md, user_guide_es.md, user_guide_it.md, user_guide_pt.md, user_guide_ru.md, user_guide_pl.md, user_guide_tr.md, user_guide_zh.md, user_guide_ja.md, user_guide_ko.md, user_guide_hi.md, user_guide_sw.md, user_guide_uk.md, user_guide_nl.md
+- user_guide_fr_ca.md, user_guide_en_gb.md, user_guide_en_us.md, user_guide_ar_ma.md, user_guide_ar_tn.md, user_guide_ar_dz.md, user_guide_ar_eg.md, user_guide_ber_kab.md, user_guide_ber_rif.md, user_guide_ber_tzm.md, user_guide_ber_cha.md, user_guide_ber_tou.md, user_guide_ber_tac.md, etc.
+- dev_guide.md : Guide développeur i18n patterns
+
+## 6. Autres fichiers métiers
+- LICENSE
+- .gitkeep (si besoin pour forcer la présence du dossier)
+
+# Règles
+- Aucun fichier optionnel : tout doit exister, même vide ou avec un exemple métier.
+- Respecter la structure, la nomenclature et les conventions métiers.
+- Ignorer les tests (centralisés ailleurs).
+- Adapter la structure si de nouveaux besoins métiers apparaissent.
